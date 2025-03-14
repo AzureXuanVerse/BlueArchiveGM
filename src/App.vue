@@ -34,20 +34,38 @@ export default {
   min-height: 100vh;
 }
 
-/* 完全移除所有遮罩相关样式 */
 .container {
   display: flex;
   min-height: 100vh;
-  background: transparent !important; /* 强制透明 */
+  background: transparent !important;
 }
 
 .content {
   flex: 1;
   background: transparent !important;
   padding: 0;
+  margin-left: 220px;
+  transition: margin-left 0.3s ease;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-content {
+  flex: 1;
   padding: 24px;
+}
+
+/* 移动端适配 */
+@media screen and (max-width: 768px) {
+  .content {
+    margin-left: 64px;
+    width: calc(100% - 64px);
+  }
+
+  .main-content {
+    padding: 16px;
+    margin-top: 30px; /* 为固定定位的顶部导航栏留出空间 */
+  }
 }
 </style>
