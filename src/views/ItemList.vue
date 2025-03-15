@@ -36,6 +36,7 @@
       :current-page="currentPage"
       @current-change="handlePageChange"
       class="pagination"
+      :force-small-pager="true"
     />
   </el-card>
 </template>
@@ -49,7 +50,7 @@ export default {
     return {
       items: Array.isArray(items) ? items : [], // 确保 items 是数组
       currentPage: 1, // 当前页
-      pageSize: 10, // 每页显示的物品数量
+      pageSize: 12, // 每页显示的物品数量
       searchQuery: '', // 搜索框输入的内容
       filteredItems: Array.isArray(items) ? items : [], // 过滤后的物品列表
     }
@@ -126,6 +127,11 @@ export default {
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
 }
 
 .item {
@@ -133,21 +139,26 @@ export default {
   flex-direction: column;
   align-items: center;
   width: 150px;
+  height: 220px;
   text-align: center;
   background: #f8f9fa;
   padding: 10px;
   border-radius: 8px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .item:hover {
   background-color: #f1f1f1;
+  transform: translateY(-2px);
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .item-icon {
   width: 100%;
-  height: auto;
+  height: 120px;
+  object-fit: contain;
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
@@ -156,29 +167,136 @@ export default {
 
 .item-info {
   margin-top: 10px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .item-name {
   font-size: 16px;
   font-weight: bold;
   color: #1e90ff;
+  height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .item-desc {
   font-size: 14px;
   color: #666;
-  margin-top: 5px;
+  height: 40px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.4;
 }
 
 .item-id {
   font-size: 12px;
   color: #aaa;
-  margin-top: 5px;
+  height: 12px;
 }
 
 .pagination {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .function-card {
+    max-width: 100%;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px;
+    margin: 12px 0;
+    justify-content: center;
+  }
+
+  /* 分页器样式 */
+  .pagination {
+    margin-top: 16px;
+    width: 100%;
+  }
+
+  :deep(.el-pagination) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0 16px;
+  }
+
+  :deep(.el-pagination .el-pager) {
+    display: flex !important;
+    margin: 0;
+    gap: 8px;
+  }
+
+  /* 修改页码显示逻辑 */
+  :deep(.el-pagination .el-pager li) {
+    display: none !important;
+  }
+
+  :deep(.el-pagination .el-pager li.is-active),
+  :deep(.el-pagination .el-pager li.more),
+  :deep(.el-pagination .el-pager li:last-child) {
+    display: inline-flex !important;
+  }
+
+  :deep(.el-pagination .el-pager li),
+  :deep(.el-pagination button.btn-prev),
+  :deep(.el-pagination button.btn-next) {
+    display: inline-flex !important;
+    justify-content: center;
+    align-items: center;
+    min-width: 32px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+
+  :deep(.el-pagination__jump) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0 0 0;
+    font-size: 14px;
+  }
+
+  :deep(.el-pagination .el-input) {
+    width: 50px;
+    margin: 0 8px;
+  }
+
+  :deep(.el-pagination .el-input__inner) {
+    height: 32px;
+    padding: 0 4px;
+    text-align: center;
+    border-radius: 4px;
+  }
+}
+
+/* 超小屏幕适配 */
+@media (max-width: 480px) {
+  .item-list {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+  }
 }
 </style>

@@ -272,6 +272,12 @@ export default {
     border-radius: 12px;
   }
 
+  :deep(.el-form-item__label) {
+    display: flex !important;
+    justify-content: space-around !important;
+    padding: 0 0 8px !important;
+  }
+
   :deep(h2) {
     font-size: 1.4rem;
     margin: 0 16px 20px;
@@ -279,7 +285,70 @@ export default {
 
   :deep(.el-input__inner) {
     height: 44px;
-    padding-left: 38px;
+  }
+}
+/* 移动端适配 */
+@media (max-width: 768px) {
+  /* 提交按钮优化 */
+  :deep(.el-form-item__content) {
+    display: flex;
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+
+  :deep(.el-button) {
+    width: 90% !important;
+    height: 44px;
+    font-size: 1rem !important;
+    border-radius: 12px !important;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%) !important;
+    border: none !important;
+    padding: 12px 32px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* 折叠面板优化 */
+  :deep(.el-collapse) {
+    margin-top: 0;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  :deep(.el-collapse-item__header) {
+    font-size: 0.95rem !important;
+    padding: 12px 16px !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 12px !important;
+    margin-bottom: 8px;
+  }
+
+  :deep(.el-collapse-item__content) {
+    padding: 16px 12px !important;
+    background: rgba(255, 255, 255, 0.6) !important;
+    border-radius: 12px !important;
+  }
+
+  /* 使用说明列表优化 */
+  .guide-list {
+    padding-left: 12px;
+    margin: 0;
+  }
+
+  .guide-list li {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  .guide-list code {
+    font-size: 0.9rem;
+    padding: 4px 8px;
+    background: rgba(64, 169, 255, 0.1);
+    color: #40a9ff;
+    border-radius: 6px;
+    margin: 2px 0;
   }
 }
 </style>

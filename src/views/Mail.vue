@@ -457,4 +457,71 @@ export default {
     font-size: 1.5rem;
   }
 }
+/* 移动端适配 */
+@media (max-width: 768px) {
+  /* 提交按钮优化 */
+  :deep(.el-form-item__content) {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0 !important;
+  }
+  :deep(.el-form-item) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  :deep(.el-form-item__label) {
+    text-align: left !important;
+    width: auto !important;
+    margin-bottom: 8px;
+    justify-content: space-around;
+  }
+
+  :deep(.el-form-item__content) {
+    margin-left: 0 !important;
+  }
+  .attachment-content {
+    display: grid;
+    grid-template-columns: 1fr !important; /* 改为单列布局 */
+    gap: 16px !important;
+  }
+
+  .field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .field-label {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+
+  /* 删除按钮调整 */
+  .delete-btn {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  /* 输入框和选择框占满宽度 */
+  .type-select,
+  .id-input,
+  .num-input {
+    width: 100% !important;
+  }
+  .delete-btn {
+    width: 44px !important; /* 设置固定宽度 */
+    height: 44px !important; /* 设置固定高度 */
+    padding: 0 !important; /* 移除内边距 */
+    margin: 8px auto !important; /* 上下间距8px，左右自动居中 */
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .delete-btn .el-icon {
+    font-size: 20px !important; /* 调整图标大小 */
+    margin: 0 !important; /* 移除图标的margin */
+  }
+}
 </style>

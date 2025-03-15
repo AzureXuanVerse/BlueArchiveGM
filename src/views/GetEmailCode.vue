@@ -172,4 +172,102 @@ export default {
     font-size: 1.5rem;
   }
 }
+/* 移动端样式适配 */
+@media screen and (max-width: 768px) {
+  .function-card {
+    margin: 16px;
+    padding: 16px !important; /* 覆盖 Element Plus 默认内边距 */
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.9) !important;
+  }
+
+
+  /* 标题样式调整 */
+  :deep(h2) {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+  }
+
+  :deep(h2::after) {
+    width: 40px;
+    height: 2px;
+  }
+
+  /* 表单布局调整 */
+  :deep(.el-form) {
+    margin-top: 16px;
+  }
+
+  :deep(.el-form-item) {
+    margin-bottom: 16px;
+  }
+
+  /* 邮箱账户 */
+  :deep(.el-form-item__label) {
+    float: none !important;
+    display: block;
+    text-align: left !important;
+    width: 70px !important;
+    padding: 0 0 8px 0 !important;
+    line-height: 40px !important;
+    font-size: 1.0rem !important;
+  }
+
+  :deep(.el-form-item__content) {
+    margin-left: 0 !important;
+  }
+
+  /* 输入框样式优化 */
+  :deep(.el-input__wrapper) {
+    padding: 0 12px;
+  }
+
+  :deep(.el-input__inner) {
+    height: 40px;
+    font-size: 0.95rem;
+  }
+
+  /* 提交按钮样式调整 */
+  .submit-btn {
+    width: 100%;
+    margin-top: 8px;
+    padding: 10px 24px !important;
+    font-size: 0.95rem;
+    height: 40px;
+  }
+
+  /* 响应提示框样式调整 */
+  .response-alert {
+    margin-top: 16px;
+    font-size: 0.9rem;
+  }
+
+  :deep(.el-alert__title) {
+    font-size: 0.95rem;
+  }
+
+  :deep(.el-alert__description) {
+    margin: 8px 0 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    word-break: break-word;
+  }
+
+  :deep(.el-alert__icon) {
+    font-size: 16px;
+  }
+
+  /* 优化动画效果 */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(12px) scale(0.98);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+}
 </style>

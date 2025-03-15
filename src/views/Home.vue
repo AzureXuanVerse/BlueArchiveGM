@@ -36,7 +36,7 @@
           :disabled="!isFormValid"
         >
           <el-icon class="icon"><Upload /></el-icon>
-          {{ hasSaved ? '更新配置' : '保存配置' }}
+          <span class="button-text">{{ hasSaved ? '更新配置' : '保存配置' }}</span>
         </el-button>
 
         <el-button
@@ -47,7 +47,7 @@
           :disabled="!isFormValid || !hasSaved"
         >
           <el-icon class="icon"><Refresh /></el-icon>
-          {{ updating ? '更新中...' : '更新服务器状态' }}
+          <span class="button-text">{{ updating ? '更新中...' : '更新服务器状态' }}</span>
         </el-button>
       </div>
     </div>
@@ -365,6 +365,17 @@ export default {
     inset 0 0 16px rgba(255, 255, 255, 0.5);
 }
 
+h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin: 1rem 0;
+  font-weight: 600;
+  white-space: nowrap; /* 防止文字换行 */
+  overflow: hidden; /* 隐藏溢出部分 */
+  text-overflow: ellipsis; /* 溢出显示省略号 */
+  width: 100%; /* 确保宽度填满容器 */
+}
+
 .logo-container {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -376,6 +387,7 @@ export default {
   margin-bottom: 1rem;
   object-fit: contain;
   transition: opacity 0.3s;
+  max-width: 100%;
 }
 
 .description {
@@ -391,19 +403,41 @@ export default {
   margin: 1.2rem 0;
 }
 
+/* 使用我们自己的间距控制 */
 .action-group {
-  margin-top: 2rem;
   display: flex;
   gap: 12px;
   align-items: center;
 }
 
+/* 统一按钮样式 */
 .save-button,
 .update-button {
   min-width: 120px;
-  padding: 0 20px;
-  flex-shrink: 0;
-  transition: transform 0.3s;
+  padding: 12px 24px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  border-radius: 8px !important; /* 统一圆角 */
+}
+
+.save-button:hover,
+.update-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.button-text {
+  font-size: 14px;
+  line-height: 1;
 }
 
 .update-button {
@@ -525,6 +559,136 @@ export default {
   .update-button {
     width: 100%;
     min-width: unset;
+  }
+}
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .home-card {
+    margin: 20px;
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 0.8rem 0;
+  }
+
+  .logo {
+    width: 100%; /* 改为100%宽度 */
+    height: auto; /* 高度自适应 */
+    max-width: 280px; /* 设置最大宽度 */
+    margin-bottom: 0.8rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    margin: 0.8rem 0;
+  }
+
+  .form-container {
+    margin-bottom: 1.5rem;
+  }
+
+  .input-container {
+    margin: 1rem 0;
+  }
+
+  .action-group {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .save-button,
+  .update-button {
+    width: 100%;
+    padding: 10px 20px;
+    height: 36px;
+  }
+  .icon {
+    font-size: 14px;
+  }
+
+  .button-text {
+    font-size: 13px;
+  }
+
+
+  .server-status-card {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  .server-title {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 8px;
+  }
+
+  /* 覆盖 Element Plus 的默认按钮间距 */
+  :deep(.el-button + .el-button) {
+    margin-left: 0;
+  }
+
+  :deep(.el-descriptions__cell) {
+    padding: 8px !important;
+  }
+
+  :deep(.el-descriptions__label) {
+    font-size: 0.9rem !important;
+  }
+
+  :deep(.el-descriptions__content) {
+    font-size: 0.9rem !important;
+  }
+
+  .timer-bar-container {
+    width: 90%;
+    margin: 8px auto 12px;
+  }
+
+  .timer-text {
+    font-size: 0.75em;
+    top: -20px;
+  }
+
+  .update-time {
+    margin-top: 1rem;
+    font-size: 0.8em;
+  }
+
+  .empty-placeholder {
+    padding: 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* 优化动画效果在移动端的表现 */
+@media (prefers-reduced-motion: reduce) {
+  .home-card,
+  .server-status-card {
+    transition: none;
+  }
+
+  .home-card:hover,
+  .server-status-card:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .fade-slide-enter-active,
+  .fade-slide-leave-active {
+    transition: opacity 0.2s ease;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 </style>

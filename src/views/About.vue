@@ -9,7 +9,7 @@
         <h2>关于 BlueArchiveGM</h2>
       </div>
       <div class="about-content">
-        <p><strong>版本：</strong> 1.0.1</p>
+        <p><strong>版本：</strong> 1.0.2</p>
         <p><strong>开发者：</strong> KitanoSakura</p>
         <p>
           <strong>项目基于：</strong>
@@ -41,6 +41,14 @@
     <el-card class="timeline-card" shadow="hover">
       <h3>Update log</h3>
       <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-icon"></div>
+          <div class="timeline-content">
+            <h4>2025-03-15</h4>
+            <p>1.0.2 移动端适配</p>
+          </div>
+        </div>
         <div class="timeline-item">
           <div class="timeline-icon"></div>
           <div class="timeline-content">
@@ -240,6 +248,134 @@ export default {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+/* 移动端样式适配 */
+@media screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 12px;
+    align-items: stretch;
+  }
+
+  /* 左侧卡片移动端适配 */
+  .about-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  .about-logo {
+    max-width: 80px;
+  }
+
+  .about-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-header h2::after {
+    width: 40px;
+    height: 3px;
+    margin: 8px auto 0;
+  }
+
+  .about-content {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .about-content p {
+    margin: 8px 0;
+  }
+
+  .sns-container {
+    gap: 15px;
+    margin-top: 1.5rem;
+    padding-top: 1.2rem;
+    flex-wrap: wrap; /* 允许在空间不足时换行 */
+    justify-content: space-around;
+  }
+
+  .sns-item {
+    padding: 8px;
+    min-width: 90px;
+    justify-content: center;
+  }
+
+  .sns-item i {
+    margin-right: 6px;
+    font-size: 20px !important; /* 覆盖内联样式 */
+  }
+
+  .sns-item span {
+    font-size: 0.9rem;
+  }
+
+  /* 右侧时间轴卡片移动端适配 */
+  .timeline-card {
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  .timeline-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .timeline {
+    gap: 1.2rem;
+    padding-left: 2px; /* 为时间轴留出空间 */
+  }
+
+  .timeline-item {
+    position: relative;
+  }
+
+  .timeline-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+
+  /* 添加时间轴连接线 */
+  .timeline-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    left: 5px; /* (图标宽度 - 线宽) / 2 */
+    top: 16px;
+    width: 1px;
+    height: calc(100% + 1.2rem);
+    background: rgba(0, 242, 254, 0.3);
+  }
+
+  .timeline-content {
+    flex: 1;
+  }
+
+  .timeline-content h4 {
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+
+  .timeline-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin: 0;
+  }
+
+  /* 优化动画效果 */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 }
 </style>
