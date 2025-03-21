@@ -1,14 +1,30 @@
 name: Build Tauri App
 
+permissions:
+  contents: write
+  actions: write
+
 on:
   push:
     branches:
-      - master  # 触发构建的分支
-  workflow_dispatch:  # 允许手动触发
+      - master
+  workflow_dispatch:
+    inputs:
+      create_release:
+        description: '是否创建发布版本'
+        required: true
+        default: 'false'
+        type: boolean
+      release_note:
+        description: '发布说明'
+        required: false
+        type: string
+        default: '常规更新'
 
 jobs:
   build:
-    runs-on: windows-latest  # 使用 Windows 服务器
+    runs-on: windows-latest
+
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -24,13 +40,13 @@ jobs:
       - name: 安装 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20  # 你可以改成你项目的 Node 版本
+          node-version: 20
           cache: 'npm'
 
       - name: 安装 Rust (MSVC)
         uses: dtolnay/rust-toolchain@stable
         with:
-          targets: x86_64-pc-windows-msvc  # 使用 MSVC 工具链
+          targets: x86_64-pc-windows-msvc
 
       - name: 安装依赖
         run: npm install
@@ -45,20 +61,35 @@ jobs:
         run: npx tauri build
 
       - name: 重命名 EXE
-        run: mv src-tauri/target/release/*.exe src-tauri/target/release/BlueArchiveGM.exe
+        shell: cmd
+        run: ren "src-tauri\target\release\*.exe" "BlueArchiveGM.exe"
 
-      - name: 上传 EXE 作为构建产物
+      - name: 上传构建产物
         uses: actions/upload-artifact@v4
         with:
           name: tauri-app
           path: src-tauri/target/release/BlueArchiveGM.exe
 
-      - name: 创建 GitHub Release
+      - name: 自动创建发布（推送到 master 时）
+        if: github.ref == 'refs/heads/master' && github.event_name == 'push'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: "v${{ env.VERSION }}"
           name: "BaGMTool v${{ env.VERSION }}"
           body: "${{ env.MESSAGE }}"
+          draft: false
+          prerelease: false
+          files: src-tauri/target/release/BlueArchiveGM.exe
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 手动创建发布（手动触发时）
+        if: github.event_name == 'workflow_dispatch' && inputs.create_release == true
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "v${{ env.VERSION }}"
+          name: "BaGMTool v${{ env.VERSION }}"
+          body: "${{ inputs.release_note }}"
           draft: false
           prerelease: false
           files: src-tauri/target/release/BlueArchiveGM.exe
