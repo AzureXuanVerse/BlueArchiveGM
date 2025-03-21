@@ -1,0 +1,58 @@
+name: Build Tauri App
+
+on:
+  push:
+    branches:
+      - master  # 触发构建的分支
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  build:
+    runs-on: windows-latest  # 使用 Windows 服务器
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20  # 你可以改成你项目的 Node 版本
+          cache: 'npm'
+
+      - name: 安装 Rust (MSVC)
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: x86_64-pc-windows-msvc  # 使用 MSVC 工具链
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 构建前端
+        run: npm run build
+
+      - name: 安装 Tauri
+        run: npm install tauri
+
+      - name: 构建 Tauri
+        run: npx tauri build
+
+      - name: 重命名 EXE
+        run: mv src-tauri/target/release/*.exe src-tauri/target/release/BlueArchiveGM.exe
+
+      - name: 上传 EXE 作为构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: tauri-app
+          path: src-tauri/target/release/BlueArchiveGM.exe
+
+      - name: 创建 GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: "v1.0.3"  # 你可以根据需要指定发布版本号
+          name: "BlueArchiveGM Release v1.0.3"  # 发布名称
+          body: "修复某些情况出现在线版无法进行 GM 情况，修复某些样式不统一，剩下的可以查看新版源代码。"  # 发布说明
+          draft: false  # 不作为草稿版本
+          prerelease: false  # 这不是预发布版本
+          files: src-tauri/target/release/BlueArchiveGM.exe  # 指定要上传的文件路径
+        env:
+          GITHUB_TOKEN: ${{ secrets.KITANO_GM_TOKEN }}  # GitHub API 访问令牌
