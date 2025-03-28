@@ -2,9 +2,13 @@
   <el-card class="function-card" shadow="hover">
     <h2>给予玩家全部物品</h2>
     <el-form :model="form" label-width="100px">
-      <!-- 玩家ID输入 -->
-      <el-form-item label="玩家ID">
-        <el-input v-model="form.uid" placeholder="请输入玩家ID">
+      <!-- 老师UID输入 -->
+      <el-form-item label="老师UID">
+        <el-input
+          v-model="form.uid"
+          placeholder="请输入老师的UID"
+          @input="form.uid = form.uid.replace(/\D/g, '')"
+        >
           <template #prefix>
             <el-icon><User /></el-icon>
           </template>
@@ -38,38 +42,28 @@
       </el-form-item>
     </el-form>
 
-    <!-- 响应提示 -->
-    <el-alert
-      v-if="response"
-      title="响应"
-      :type="responseType"
-      :description="response"
-      show-icon
-      class="response-alert"
-    ></el-alert>
-
-    <!-- 帮助文档 -->
-    <el-collapse class="documentation">
-      <el-collapse-item title="使用方法（必看！）">
-        <ul class="guide-list">
-          <li>提示：玩家不在线或未注册</li>
-          <li><code>解决方法：注册或登录当前用户</code></li>
-          <li>物品类别列表：</li>
-          <li><code>"Material": // 材料</code></li>
-          <li><code>"Character": // 学生</code></li>
-          <li><code>"Equipment": // 装备</code></li>
-          <li><code>"Furniture": // 家具</code></li>
-          <li><code>"Favor": // 礼物</code></li>
-          <li><code>"Emblem": // 称号</code></li>
-        </ul>
-      </el-collapse-item>
-    </el-collapse>
+    <!-- 响应处理卡片 -->
+    <div v-if="response" class="respond-card">
+      <div class="respond-card-container">
+        <div class="header">
+          <img class="header-image" :src="banner1" alt="操作结果" />
+        </div>
+        <div class="body">
+          <div class="message-box">
+            <p class="message-text">老师！这是您的操作结果：</p>
+            <p class="code">{{ response }}</p>
+            <p class="message-text">请检查是否生效</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </el-card>
 </template>
 
 <script>
 import axios from 'axios'
 import { User, CollectionTag, Coin } from '@element-plus/icons-vue'
+import banner1 from '@/assets/bg1.ccb168ef.jpg'
 
 export default {
   name: 'GiveAll',
@@ -85,46 +79,50 @@ export default {
         t: '',
         num: 1,
       },
-      response: '',
-      responseType: '', // 成功时为 'success'，错误时为 'error'
+      response: '', // 只保存接口返回的 msg 字段
       typeOptions: [
-        { value: 'None', label: '无' },
+        // { value: 'None', label: '无' },
+        // { value: 'Character', label: '学生' },
+        // { value: 'Currency', label: '货币' },
+        // { value: 'Equipment', label: '装备' },
+        // { value: 'Item', label: '物品' },
+        // { value: 'GachaGroup', label: '卡池' },
+        // { value: 'Product', label: '商品' },
+        // { value: 'Shop', label: '商店' },
+        // { value: 'MemoryLobby', label: '记忆大厅' },
+        // { value: 'AccountExp', label: '账号经验' },
+        // { value: 'CharacterExp', label: '学生经验' },
+        // { value: 'FavorExp', label: '好感经验' },
+        // { value: 'TSS', label: 'TSS' },
+        // { value: 'Furniture', label: '家具' },
+        // { value: 'ShopRefresh', label: '商店刷新' },
+        // { value: 'LocationExp', label: '地点经验' },
+        // { value: 'Recipe', label: '配方' },
+        // { value: 'CharacterWeapon', label: '学生武器' },
+        // { value: 'ProductMonthly', label: '月度商品' },
+        // { value: 'CharacterGear', label: '学生装备' },
+        // { value: 'IdCardBackground', label: '资料背景' },
+        // { value: 'Emblem', label: '徽章' },
+        // { value: 'Sticker', label: '贴纸' },
+        // { value: 'Costume', label: '服饰' },
+        { value: 'Material', label: '材料' },
         { value: 'Character', label: '学生' },
-        { value: 'Currency', label: '货币' },
         { value: 'Equipment', label: '装备' },
-        { value: 'Item', label: '物品' },
-        { value: 'GachaGroup', label: '卡池' },
-        { value: 'Product', label: '商品' },
-        { value: 'Shop', label: '商店' },
-        { value: 'MemoryLobby', label: '记忆大厅' },
-        { value: 'AccountExp', label: '账号经验' },
-        { value: 'CharacterExp', label: '学生经验' },
-        { value: 'FavorExp', label: '好感经验' },
-        { value: 'TSS', label: 'TSS' },
         { value: 'Furniture', label: '家具' },
-        { value: 'ShopRefresh', label: '商店刷新' },
-        { value: 'LocationExp', label: '地点经验' },
-        { value: 'Recipe', label: '配方' },
-        { value: 'CharacterWeapon', label: '学生武器' },
-        { value: 'ProductMonthly', label: '月度商品' },
-        { value: 'CharacterGear', label: '学生装备' },
-        { value: 'IdCardBackground', label: '资料背景' },
-        { value: 'Emblem', label: '徽章' },
-        { value: 'Sticker', label: '贴纸' },
-        { value: 'Costume', label: '服饰' },
+        { value: 'Favor', label: '礼物' },
+        { value: 'Emblem', label: '称号' },
       ],
+      banner1: banner1,
     }
   },
   methods: {
     async handleGiveAll() {
       const baseURL = localStorage.getItem('serverAddress')
       const authKey = localStorage.getItem('serverAuthKey')
-
       if (!baseURL) {
         this.$message.error('请先在首页保存服务器地址')
         return
       }
-
       try {
         const params = new URLSearchParams({
           ...this.form,
@@ -136,19 +134,16 @@ export default {
         })
 
         if (res.data.code === 0) {
-          this.responseType = 'success'
           this.$message.success('物品授予成功！')
         } else {
-          this.responseType = 'error'
           this.$message.error('操作失败：' + (res.data.message || '请查看响应获取具体错误'))
         }
-
-        this.response = JSON.stringify(res.data, null, 2)
+        // 仅获取返回的 msg 字段
+        this.response = res.data.msg
       } catch (error) {
-        this.responseType = 'error'
         const errorMsg = error.response?.data?.message || error.message
-        this.response = '请求错误：' + errorMsg
         this.$message.error('操作失败，请检查配置')
+        this.response = errorMsg
       }
     },
   },
@@ -219,7 +214,6 @@ export default {
   box-shadow: 0 0 0 2px rgba(79, 172, 254, 0.2);
 }
 
-/* 按钮样式 */
 :deep(.el-button) {
   width: 60%;
   height: 40px;
@@ -239,50 +233,60 @@ export default {
   box-shadow: 0 6px 16px -4px rgba(79, 172, 254, 0.4);
 }
 
-/* 响应提示 */
-.response-alert {
-  margin-top: 24px;
-  border-radius: 8px;
+/* 响应卡片样式 */
+.respond-card {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  color: #666;
+  font-size: 14px;
+  margin-top: 1rem; /* 调整响应卡片与表单间距 */
 }
 
-/* 帮助文档 */
-.documentation {
-  margin-top: 24px;
-  border-radius: 8px;
-  overflow: hidden;
+.respond-card-container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ee9ea8;
+  box-shadow: 0 0 20px #ccc;
+  border-radius: 5px;
+  background: #fff;
 }
 
-:deep(.el-collapse-item__header) {
-  padding: 14px 20px;
-  color: #4a5568;
-  font-weight: 500;
-  background: rgba(245, 247, 250, 0.8);
+.header-image {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
-:deep(.el-collapse-item__arrow) {
-  margin-right: 8px;
-  color: #718096;
+.body {
+  padding: 30px 20px;
 }
 
-.guide-list {
-  padding-left: 24px;
-  line-height: 1.8;
+.message-box {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
 }
 
-.guide-list li {
+.message-text {
+  font-size: 16px;
+  color: #333;
   margin: 10px 0;
 }
 
-.guide-list code {
+.code {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ee9ea8;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 5px;
   display: inline-block;
-  padding: 4px 8px;
-  background: rgba(79, 172, 254, 0.1);
-  color: #4facfe;
-  border-radius: 4px;
-  font-family: 'JetBrains Mono', monospace;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
-/* 动画效果 */
 @keyframes fadeIn {
   from {
     opacity: 0;

@@ -9,7 +9,7 @@
         <h2>关于 BlueArchiveGM</h2>
       </div>
       <div class="about-content">
-        <p><strong>版本：</strong> 1.0.3</p>
+        <p><strong>版本：</strong> 1.0.5</p>
         <p><strong>开发者：</strong> KitanoSakura（北野桜奈）</p>
         <p>
           <strong>项目基于：</strong>
@@ -54,6 +54,20 @@
         <div class="timeline-item">
           <div class="timeline-icon"></div>
           <div class="timeline-content">
+            <h4>2025-03-23</h4>
+            <p>1.0.5 新增响应处理，修复某些UI问题，修复在某些情况出现本地无法连接问题，优化文案</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"></div>
+          <div class="timeline-content">
+            <h4>2025-03-22</h4>
+            <p>1.0.4 新增游戏设置，优化游戏设置，获取验证码UI，着手准备做多语言版本</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon"></div>
+          <div class="timeline-content">
             <h4>2025-03-20</h4>
             <p>1.0.3 修复图片问题，优化图片显示，修复给予物品无类型问题，优化ID列表美观度</p>
           </div>
@@ -73,20 +87,6 @@
           <div class="timeline-content">
             <h4>2025-03-14</h4>
             <p>1.0.1 优化KEY读取，实现无key情况下也能使用GM，修复部分问题</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-icon"></div>
-          <div class="timeline-content">
-            <h4>2025-03-12</h4>
-            <p>1.0.0正式发布，美化UI，优化功能（还没做手机端）</p>
-          </div>
-        </div>
-        <div class="timeline-item">
-          <div class="timeline-icon"></div>
-          <div class="timeline-content">
-            <h4>2025-03-11</h4>
-            <p>进行了全面的性能优化，提升了加载速度并修复了界面兼容问题。</p>
           </div>
         </div>
       </div>

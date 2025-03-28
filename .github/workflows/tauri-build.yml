@@ -48,9 +48,9 @@ jobs:
       - name: 创建 GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "v1.0.3"  # 你可以根据需要指定发布版本号
-          name: "BlueArchiveGM Release v1.0.3"  # 发布名称
-          body: "修复某些情况出现在线版无法进行 GM 情况，修复某些样式不统一，剩下的可以查看新版源代码。"  # 发布说明
+          tag_name: "v1.0.5-AR"  # 你可以根据需要指定发布版本号
+          name: "BlueArchiveGM Release v1.0.5-AR 紧急修复"  # 发布名称
+          body: "修复在设置学生属性时，首页填入了key但是提示无Key"  # 发布说明
           draft: false  # 不作为草稿版本
           prerelease: false  # 这不是预发布版本
           files: src-tauri/target/release/BlueArchiveGM.exe  # 指定要上传的文件路径

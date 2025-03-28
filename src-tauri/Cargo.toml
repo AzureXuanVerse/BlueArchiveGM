@@ -1,6 +1,6 @@
 [package]
 name = "BlueArchiveGM"
-version = "1.0.3"
+version = "1.0.5"
 description = "A BlueArchiveGM tool based on Baps API"
 authors = ["KitanoSakura"]
 license = "MIT"

@@ -142,21 +142,28 @@
       </el-form-item>
     </el-form>
 
-    <!-- 响应提示 -->
-    <el-alert
-      v-if="response"
-      :title="responseSuccess ? '发送成功' : '发送失败'"
-      :type="responseSuccess ? 'success' : 'error'"
-      :description="responseData"
-      show-icon
-      class="response-alert"
-    ></el-alert>
+    <!-- 响应处理卡片 -->
+    <div v-if="response" class="respond-card">
+      <div class="respond-card-container">
+        <div class="header">
+          <img class="header-image" :src="banner1" alt="操作结果" />
+        </div>
+        <div class="body">
+          <div class="message-box">
+            <p class="message-text">老师！这是您的操作结果：</p>
+            <p class="code">{{ response }}</p>
+            <p class="message-text">请检查是否生效</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </el-card>
 </template>
 
 <script>
 import axios from 'axios'
 import { User, Message, Delete, Plus, QuestionFilled } from '@element-plus/icons-vue'
+import banner1 from '@/assets/bg1.ccb168ef.jpg'
 
 export default {
   name: 'MailSender',
@@ -172,7 +179,6 @@ export default {
         parcel_info_list: [],
       },
       typeOptions: [
-        { value: 0, label: '无' },
         { value: 1, label: '学生' },
         { value: 2, label: '货币' },
         { value: 3, label: '装备' },
@@ -198,9 +204,8 @@ export default {
         { value: 23, label: '服饰' },
       ],
       isSubmitting: false,
-      response: false,
-      responseSuccess: false,
-      responseData: '',
+      response: '', // 保存接口返回的 msg 信息
+      banner1: banner1,
     }
   },
   methods: {
@@ -239,6 +244,10 @@ export default {
       this.isSubmitting = true
       const baseURL = localStorage.getItem('serverAddress')
       const authKey = localStorage.getItem('serverAuthKey')
+      let headers = {}
+      if (authKey) {
+        headers.Authorization = authKey
+      }
 
       try {
         const params = {
@@ -257,12 +266,8 @@ export default {
           ),
         }
 
-        if (this.form.player_type === 1) params.uid = this.form.uid
-
-        // 仅在 authKey 存在时添加 Authorization 请求头
-        let headers = {}
-        if (authKey) {
-          headers.Authorization = authKey
+        if (this.form.player_type === 1) {
+          params.uid = this.form.uid
         }
 
         const res = await axios.get(`${baseURL}/cdq/api`, {
@@ -270,13 +275,17 @@ export default {
           headers,
         })
 
-        this.response = true
-        this.responseSuccess = res.data.code === 0
-        this.responseData = JSON.stringify(res.data, null, 2)
+        if (res.data.code === 0) {
+          this.$message.success('发送成功')
+        } else {
+          this.$message.error('发送失败')
+        }
+        // 仅获取返回的 msg 字段
+        this.response = res.data.msg
       } catch (error) {
-        this.response = true
-        this.responseSuccess = false
-        this.responseData = error.response?.data?.message || error.message
+        const errorMsg = error.response?.data?.message || error.message
+        this.$message.error(`${errorMsg}`)
+        this.response = `${errorMsg}`
       } finally {
         this.isSubmitting = false
       }
@@ -347,7 +356,61 @@ export default {
   color: #3b82f6;
 }
 
-/* 以下为新增的美化部分（不涉及附件列表） */
+/* 新增响应卡片样式 */
+.respond-card {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  color: #666;
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.respond-card-container {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ee9ea8;
+  box-shadow: 0 0 20px #ccc;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.header-image {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.body {
+  padding: 30px 20px;
+}
+
+.message-box {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.message-text {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.code {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ee9ea8;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+/* 以下为原有美化部分 */
 .function-card {
   max-width: 780px;
   margin: 40px auto;
@@ -396,7 +459,6 @@ export default {
   letter-spacing: 0.5px;
 }
 
-/* 修改前缀图标样式，去掉默认的小框框 */
 :deep(.el-input__prefix) {
   background: transparent !important;
   border: none !important;
@@ -428,12 +490,6 @@ export default {
 .submit-btn:hover {
   transform: translateY(-1px);
   box-shadow: 0 6px 16px -4px rgba(79, 172, 254, 0.4) !important;
-}
-
-/* 修改响应提示框样式，使背景颜色与其他组件一致 */
-.response-alert {
-  margin-top: 24px;
-  border-radius: 8px;
 }
 
 @keyframes fadeIn {

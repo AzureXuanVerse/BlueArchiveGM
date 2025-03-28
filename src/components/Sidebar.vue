@@ -13,7 +13,7 @@
         active-text-color="#1E90FF"
       >
         <el-menu-item index="/" class="menu-item">
-          <i class="bi bi-house-door"></i> 首页
+          <i class="bi bi-house-door"></i> S.C.H.A.L.E 首页
         </el-menu-item>
         <el-menu-item index="/give" class="menu-item">
           <i class="bi bi-gift"></i> 给予物品
@@ -22,7 +22,7 @@
           <i class="bi bi-gift-fill"></i> 给予全部物品
         </el-menu-item>
         <el-menu-item index="/get-player" class="menu-item">
-          <i class="bi bi-person"></i> 获取玩家信息
+          <i class="bi bi-person"></i> 获取老师信息
         </el-menu-item>
         <el-menu-item index="/mail" class="menu-item">
           <i class="bi bi-envelope"></i> 发送邮件
@@ -32,6 +32,9 @@
         </el-menu-item>
         <el-menu-item index="/character" class="menu-item">
           <i class="bi bi-person-gear"></i> 设置学生数值
+        </el-menu-item>
+        <el-menu-item index="/setting" class="menu-item">
+          <i class="bi bi-person-gear"></i> S.C.H.A.L.E 设置
         </el-menu-item>
         <el-menu-item index="/id-list" class="menu-item">
           <i class="bi bi-list-nested"></i> 获取物品列表

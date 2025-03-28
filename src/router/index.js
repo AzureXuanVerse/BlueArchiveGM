@@ -8,6 +8,7 @@ import GetEmailCode from '../views/GetEmailCode.vue'
 import IdList from '../views/IdList.vue'
 import Character from '../views/Character.vue'
 import About from '../views/About.vue'
+import GameSetting from '../views/GameSetting.vue' // 新增：游戏设置组件
 
 const routes = [
   { path: '/', name: 'Home', component: Home },
@@ -19,6 +20,7 @@ const routes = [
   { path: '/id-list', name: 'IdList', component: IdList },
   { path: '/character', name: 'Character', component: Character },
   { path: '/about', name: 'About', component: About },
+  { path: '/setting', name: 'GameSetting', component: GameSetting }, // 新增路由
 ]
 
 const router = createRouter({

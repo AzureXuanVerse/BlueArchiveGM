@@ -93,3 +93,6 @@ body,
 .save-button:hover {
   background-color: #005b99; /* 悬浮时变色 */
 }
+.el-message__content {
+  white-space: pre-line;
+}

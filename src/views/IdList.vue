@@ -7,7 +7,7 @@
       <!-- 侧边栏 -->
       <div class="idlist-sidebar">
         <el-menu class="idlist-menu" :default-active="selectedSource" @select="handleSourceSelect">
-          <el-menu-item v-for="option in sourceOptions" :key="option.key" :index="option.key">
+          <el-menu-item v-for="option in sourceOptions" :key="option.value" :index="option.value">
             {{ option.label }}
           </el-menu-item>
         </el-menu>
@@ -39,10 +39,7 @@
               <div class="idlist-item-name">{{ item.Name }}</div>
               <div class="idlist-item-desc">{{ item.Desc }}</div>
               <div class="idlist-item-id">ID: {{ item.Id }}</div>
-              <!-- 综合视图中显示来源 -->
-              <div class="idlist-item-source" v-if="selectedSource === 'combined'">
-                来源：{{ getSourceLabel(item.source) }}
-              </div>
+              <div class="idlist-item-source">分类：{{ item.Category }}</div>
             </div>
           </div>
         </div>
@@ -74,18 +71,22 @@ export default {
   data() {
     return {
       searchQuery: '',
-      selectedSource: 'combined', // 'combined', 'items', 'students', 'furniture', 'equipment', 'currency'
+      // 默认选择综合
+      selectedSource: 'combined',
       pageSize: 10,
       currentPage: 1,
+      // 侧边栏选项：注意家具的选项 value 为 "Furniture"，JSON 中实际读取到的是 "Furnitures"
       sourceOptions: [
-        { label: '综合', key: 'combined' },
-        { label: '物品', key: 'items' },
-        { label: '学生', key: 'students' },
-        { label: '家具', key: 'furniture' },
-        { label: '装备', key: 'equipment' },
-        { label: '货币', key: 'currency' },
+        { value: 'combined', label: '综合' },
+        { value: 'Material', label: '材料' },
+        { value: 'Character', label: '学生' },
+        { value: 'Equipment', label: '装备' },
+        { value: 'Furniture', label: '家具' },
+        { value: 'Favor', label: '礼物' },
+        { value: 'Emblem', label: '称号' },
+        { value: 'Other', label: '其他' },
       ],
-      // 各数据源数组
+      // 各数据源存放数组
       itemsList: [],
       studentsList: [],
       furnitureList: [],
@@ -104,26 +105,20 @@ export default {
         ...this.currencyList,
       ]
     },
-    // 当前选中数据源的列表
+    // 根据选中分类过滤数据：
+    // 当选中 "combined" 时，返回所有数据按 ID 升序排序；
+    // 当选中 "Furniture" 时，匹配 JSON 中的 "Furnitures"；
+    // 其它则直接按照 item.Category 匹配
     currentSourceItems() {
-      switch (this.selectedSource) {
-        case 'combined':
-          return this.combinedItems
-        case 'items':
-          return this.itemsList
-        case 'students':
-          return this.studentsList
-        case 'furniture':
-          return this.furnitureList
-        case 'equipment':
-          return this.equipmentList
-        case 'currency':
-          return this.currencyList
-        default:
-          return []
+      if (this.selectedSource === 'combined') {
+        return this.combinedItems.slice().sort((a, b) => a.Id - b.Id)
+      } else if (this.selectedSource === 'Furniture') {
+        return this.combinedItems.filter((item) => item.Category === 'Furnitures')
+      } else {
+        return this.combinedItems.filter((item) => item.Category === this.selectedSource)
       }
     },
-    // 根据搜索过滤当前数据
+    // 搜索过滤
     filteredItems() {
       const query = this.searchQuery.toLowerCase()
       return this.currentSourceItems.filter((item) => {
@@ -134,7 +129,7 @@ export default {
         )
       })
     },
-    // 分页显示数据
+    // 分页数据
     paginatedItems() {
       const start = (this.currentPage - 1) * this.pageSize
       return this.filteredItems.slice(start, start + this.pageSize)
@@ -159,16 +154,6 @@ export default {
       this.selectedSource = key
       this.currentPage = 1
     },
-    getSourceLabel(source) {
-      const mapping = {
-        items: '物品',
-        students: '学生',
-        furniture: '家具',
-        equipment: '装备',
-        currency: '货币',
-      }
-      return mapping[source] || source
-    },
   },
   watch: {
     searchQuery() {
@@ -178,7 +163,7 @@ export default {
   async created() {
     // 动态加载图标
     const icons = import.meta.glob('@/assets/icon/*.png', { eager: true })
-    // 指定需要读取的键列表
+    // 指定需要读取的键
     const keys = [
       'Id',
       'Rarity',
@@ -204,8 +189,16 @@ export default {
       'CharHeightMetric',
       'CharHeightImperial',
     ]
-    // 通用处理函数：只读取存在的键，设置默认分类，并添加数据源标识
-    // 对于学生，忽略 Icon 字段，采用 id 构建图片 URL
+    // 允许的分类：注意家具 JSON 中分类为 "Furnitures"，学生默认分类改为 "Character"
+    const allowedCategories = [
+      'Material',
+      'Character',
+      'Equipment',
+      'Furnitures',
+      'Favor',
+      'Emblem',
+    ]
+    // 通用处理函数
     const processData = (data, defaultCategory = null, sourceKey) => {
       return data.map((item) => {
         const newItem = {}
@@ -214,12 +207,13 @@ export default {
             newItem[key] = item[key]
           }
         })
-        if (!newItem.Category && defaultCategory) {
-          newItem.Category = defaultCategory
-        }
+        // 如果没有 Category，则使用 SubCategory 或默认值
+        let cat = newItem.Category || newItem.SubCategory || defaultCategory
+        // 如果不在允许的分类内，则归并到 "Other"
+        newItem.Category = allowedCategories.includes(cat) ? cat : 'Other'
         newItem.source = sourceKey
+        // 对于学生数据，使用默认构造 Icon
         if (sourceKey === 'students') {
-          // 使用相对路径并通过 icons 对象获取
           const iconPath = `/src/assets/icon/${newItem.Id}.png`
           newItem.Icon = icons[iconPath]?.default || ''
         } else {
@@ -230,10 +224,12 @@ export default {
         return newItem
       })
     }
-    // 分别处理各个 JSON 文件
+    // 分别处理 JSON 文件
     this.itemsList = processData(itemsData, null, 'items')
-    this.studentsList = processData(studentsData, '学生', 'students')
-    this.furnitureList = processData(furnitureData, '家具', 'furniture')
+    // 学生数据默认分类修改为 "Character"
+    this.studentsList = processData(studentsData, 'Character', 'students')
+    // 家具数据保持 sourceKey 为 "Furnitures"
+    this.furnitureList = processData(furnitureData, '家具', 'Furnitures')
     this.equipmentList = processData(equipmentData, '装备', 'equipment')
     this.currencyList = processData(currencyData, '货币', 'currency')
   },
