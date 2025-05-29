@@ -1,145 +1,183 @@
 <template>
   <el-card class="function-card" shadow="hover">
-    <h2>发送邮件</h2>
-    <el-form :model="form" label-width="120px">
-      <!-- 邮件选项 -->
-      <el-form-item label="邮件选项">
-        <el-radio-group v-model="form.player_type">
-          <el-radio :label="0">全局</el-radio>
-          <el-radio :label="1">私人</el-radio>
-        </el-radio-group>
-      </el-form-item>
+    <div class="card-header">
+      <h2>邮件管理</h2>
+      <p class="description">向指定玩家或全局发送带有附件的邮件</p>
+    </div>
 
-      <!-- UID输入 -->
-      <el-form-item v-if="form.player_type === 1" label="UID">
-        <el-input v-model="form.uid" placeholder="请输入玩家UID">
-          <template #prefix>
-            <el-icon><User /></el-icon>
-          </template>
-        </el-input>
-      </el-form-item>
+    <el-form :model="form" :rules="rules" ref="mailForm" label-width="120px" class="mail-form">
+      <!-- 基础信息 -->
+      <div class="form-section">
+        <h3 class="section-title">
+          <el-icon><Message /></el-icon>
+          基础信息
+        </h3>
+        
+        <!-- 邮件选项 -->
+        <el-form-item label="邮件类型" prop="player_type">
+          <el-radio-group v-model="form.player_type" class="mail-type-group">
+            <el-radio-button :label="0">全局邮件</el-radio-button>
+            <el-radio-button :label="1">私人邮件</el-radio-button>
+          </el-radio-group>
+        </el-form-item>
 
-      <!-- 发件人 -->
-      <el-form-item label="发件人">
-        <el-input v-model="form.sender" placeholder="请输入发件人名称">
-          <template #prefix>
-            <el-icon><Message /></el-icon>
-          </template>
-        </el-input>
-      </el-form-item>
+        <!-- UID输入 -->
+        <el-form-item v-if="form.player_type === 1" label="玩家UID" prop="uid">
+          <el-input 
+            v-model="form.uid" 
+            placeholder="请输入玩家UID"
+            @input="form.uid = form.uid.replace(/\D/g, '')"
+          >
+            <template #prefix>
+              <el-icon><User /></el-icon>
+            </template>
+          </el-input>
+        </el-form-item>
 
-      <!-- 邮件内容 -->
-      <el-form-item label="邮件内容">
-        <el-input
-          type="textarea"
-          v-model="form.comment"
-          placeholder="请输入邮件内容"
-          :rows="4"
-        ></el-input>
-      </el-form-item>
+        <!-- 发件人 -->
+        <el-form-item label="发件人" prop="sender">
+          <el-input v-model="form.sender" placeholder="请输入发件人名称">
+            <template #prefix>
+              <el-icon><Message /></el-icon>
+            </template>
+          </el-input>
+        </el-form-item>
 
-      <!-- 时间设置 -->
-      <el-form-item label="发送时间">
-        <el-input-number
-          v-model="form.send_date"
-          :min="0"
-          placeholder="发送时间"
-          controls-position="right"
-          class="time-input"
-        ></el-input-number>
-      </el-form-item>
-      <el-form-item label="过期时间">
-        <el-input-number
-          v-model="form.expire_date"
-          :min="0"
-          placeholder="过期时间"
-          controls-position="right"
-          class="time-input"
-        ></el-input-number>
-      </el-form-item>
+        <!-- 邮件内容 -->
+        <el-form-item label="邮件内容" prop="comment">
+          <el-input
+            type="textarea"
+            v-model="form.comment"
+            placeholder="请输入邮件内容"
+            :rows="4"
+          ></el-input>
+        </el-form-item>
 
-      <!-- 新版附件列表 -->
-      <el-form-item label="附件列表">
-        <div class="attachment-list">
-          <div v-for="(item, index) in form.parcel_info_list" :key="index" class="attachment-card">
-            <div class="attachment-content">
-              <!-- 类型选择 -->
-              <div class="field-group">
-                <div class="field-label">
-                  附件类型
-                  <el-tooltip content="选择附件类型（0表示无类型附件）" placement="top">
-                    <el-icon class="tip-icon"><QuestionFilled /></el-icon>
-                  </el-tooltip>
+        <!-- 附件设置 -->
+        <div class="form-section">
+          <h3 class="section-title">
+            <el-icon><Box /></el-icon>
+            附件设置
+          </h3>
+          
+          <el-form-item label="附件列表">
+            <div class="attachment-list">
+              <div v-for="(item, index) in form.parcel_info_list" :key="index" class="attachment-card">
+                <div class="attachment-content">
+                  <!-- 类型选择 -->
+                  <div class="field-group">
+                    <div class="field-label">
+                      附件类型
+                      <el-tooltip content="选择附件类型（0表示无类型附件）" placement="top">
+                        <el-icon class="tip-icon"><QuestionFilled /></el-icon>
+                      </el-tooltip>
+                    </div>
+                    <el-select v-model="item.type" placeholder="必填" size="small" class="type-select">
+                      <el-option
+                        v-for="option in typeOptions"
+                        :key="option.value"
+                        :label="option.label"
+                        :value="option.value"
+                      />
+                    </el-select>
+                  </div>
+
+                  <div class="field-group">
+                    <div class="field-label">
+                      物品ID
+                      <el-tooltip content="输入游戏内物品ID（0表示无特定物品）" placement="top">
+                        <el-icon class="tip-icon"><QuestionFilled /></el-icon>
+                      </el-tooltip>
+                    </div>
+                    <el-input
+                      v-model.number="item.id"
+                      type="number"
+                      placeholder="输入数字ID"
+                      :min="0"
+                      class="id-input"
+                      size="small"
+                    />
+                  </div>
+
+                  <!-- 数量 -->
+                  <div class="field-group">
+                    <div class="field-label">
+                      数量
+                      <el-tooltip content="必须大于等于0的整数" placement="top">
+                        <el-icon class="tip-icon"><QuestionFilled /></el-icon>
+                      </el-tooltip>
+                    </div>
+                    <el-input
+                      v-model.number="item.num"
+                      type="number"
+                      placeholder="输入数量"
+                      :min="0"
+                      class="num-input"
+                      size="small"
+                    />
+                  </div>
+
+                  <el-button
+                    type="danger"
+                    size="small"
+                    circle
+                    class="delete-btn"
+                    @click="removeAttachment(index)"
+                  >
+                    <el-icon><Delete /></el-icon>
+                  </el-button>
                 </div>
-                <el-select v-model="item.type" placeholder="必填" size="small" class="type-select">
-                  <el-option
-                    v-for="option in typeOptions"
-                    :key="option.value"
-                    :label="option.label"
-                    :value="option.value"
-                  />
-                </el-select>
               </div>
 
-              <div class="field-group">
-                <div class="field-label">
-                  物品ID
-                  <el-tooltip content="输入游戏内物品ID（0表示无特定物品）" placement="top">
-                    <el-icon class="tip-icon"><QuestionFilled /></el-icon>
-                  </el-tooltip>
-                </div>
-                <el-input
-                  v-model.number="item.id"
-                  type="number"
-                  placeholder="输入数字ID"
-                  :min="0"
-                  class="id-input"
-                  size="small"
-                />
-              </div>
-
-              <!-- 数量 -->
-              <div class="field-group">
-                <div class="field-label">
-                  数量
-                  <el-tooltip content="必须大于等于0的整数" placement="top">
-                    <el-icon class="tip-icon"><QuestionFilled /></el-icon>
-                  </el-tooltip>
-                </div>
-                <el-input
-                  v-model.number="item.num"
-                  type="number"
-                  placeholder="输入数量"
-                  :min="0"
-                  class="num-input"
-                  size="small"
-                />
-              </div>
-
-              <el-button
-                type="danger"
-                size="small"
-                circle
-                class="delete-btn"
-                @click="removeAttachment(index)"
-              >
-                <el-icon><Delete /></el-icon>
+              <el-button type="primary" size="small" class="add-btn" @click="addAttachment">
+                <el-icon><Plus /></el-icon> 添加附件
               </el-button>
             </div>
-          </div>
-
-          <el-button type="primary" size="small" class="add-btn" @click="addAttachment">
-            <el-icon><Plus /></el-icon> 添加附件
-          </el-button>
+          </el-form-item>
         </div>
-      </el-form-item>
 
-      <!-- 提交按钮 -->
-      <el-form-item>
-        <el-button class="submit-btn" type="primary" @click="handleSubmit" :loading="isSubmitting">
-          {{ isSubmitting ? '提交中...' : '发送邮件' }}
-        </el-button>
-      </el-form-item>
+        <!-- 时间设置 -->
+        <div class="form-section">
+          <h3 class="section-title">
+            <el-icon><Clock /></el-icon>
+            时间设置
+          </h3>
+          
+          <el-form-item label="发送时间">
+            <el-input-number
+              v-model="form.send_date"
+              :min="0"
+              placeholder="发送时间"
+              controls-position="right"
+              class="time-input"
+            ></el-input-number>
+          </el-form-item>
+          <el-form-item label="过期时间">
+            <el-input-number
+              v-model="form.expire_date"
+              :min="0"
+              placeholder="过期时间"
+              controls-position="right"
+              class="time-input"
+            ></el-input-number>
+          </el-form-item>
+        </div>
+
+        <!-- 操作按钮 -->
+        <el-form-item>
+          <div class="action-buttons">
+            <el-button 
+              class="submit-btn" 
+              type="primary" 
+              @click="handleSubmit" 
+              :loading="isSubmitting"
+            >
+              <el-icon><Promotion /></el-icon>
+              {{ isSubmitting ? '发送中...' : '发送邮件' }}
+            </el-button>
+          </div>
+        </el-form-item>
+      </div>
     </el-form>
 
     <!-- 响应处理卡片 -->
@@ -162,7 +200,7 @@
 
 <script>
 import axios from 'axios'
-import { User, Message, Delete, Plus, QuestionFilled } from '@element-plus/icons-vue'
+import { User, Message, Delete, Plus, QuestionFilled, Clock, Box, Promotion } from '@element-plus/icons-vue'
 import banner1 from '@/assets/bg1.ccb168ef.jpg'
 
 export default {
@@ -206,6 +244,21 @@ export default {
       isSubmitting: false,
       response: '', // 保存接口返回的 msg 信息
       banner1: banner1,
+      rules: {
+        player_type: [
+          { required: true, message: '请选择邮件类型', trigger: 'change' }
+        ],
+        uid: [
+          { required: true, message: '请输入玩家UID', trigger: 'blur' },
+          { pattern: /^\d+$/, message: 'UID只能包含数字', trigger: 'blur' }
+        ],
+        sender: [
+          { required: true, message: '请输入发件人名称', trigger: 'blur' }
+        ],
+        comment: [
+          { required: true, message: '请输入邮件内容', trigger: 'blur' }
+        ]
+      },
     }
   },
   methods: {
@@ -239,9 +292,14 @@ export default {
       return true
     },
     async handleSubmit() {
-      if (!this.validateForm()) return
+      // 表单验证
+      try {
+        await this.$refs.mailForm.validate()
+      } catch {
+        this.$message.error('请检查表单输入')
+        return
+      }
 
-      this.isSubmitting = true
       const baseURL = localStorage.getItem('serverAddress')
       const authKey = localStorage.getItem('serverAuthKey')
       let headers = {}
@@ -251,13 +309,13 @@ export default {
 
       try {
         const params = {
-          cmd: 'm',
+          cmd: 'gameMail',
           player: this.form.player_type,
           sender: this.form.sender,
           comment: this.form.comment,
-          send_date: this.form.send_date,
-          expire_date: this.form.expire_date,
-          parcel_info_list: JSON.stringify(
+          sendDate: this.form.send_date,
+          expireDate: this.form.expire_date,
+          parcelInfoList: JSON.stringify(
             this.form.parcel_info_list.map((item) => ({
               type: item.type,
               id: Number(item.id),
@@ -297,6 +355,9 @@ export default {
     Delete,
     Plus,
     QuestionFilled,
+    Clock,
+    Box,
+    Promotion,
   },
 }
 </script>
@@ -451,31 +512,6 @@ export default {
   height: 3px;
   background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
   border-radius: 2px;
-}
-
-:deep(.el-form-item__label) {
-  color: #4a5568 !important;
-  font-weight: 500 !important;
-  letter-spacing: 0.5px;
-}
-
-:deep(.el-input__prefix) {
-  background: transparent !important;
-  border: none !important;
-  box-shadow: none !important;
-  padding: 0 !important;
-}
-
-:deep(.el-input__inner),
-:deep(.el-textarea__inner) {
-  transition: all 0.3s ease;
-  border-radius: 8px !important;
-}
-
-:deep(.el-input__inner:focus),
-:deep(.el-textarea__inner:focus) {
-  border-color: #4facfe !important;
-  box-shadow: 0 0 0 2px rgba(79, 172, 254, 0.2) !important;
 }
 
 .submit-btn {

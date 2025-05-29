@@ -15,44 +15,33 @@
         <el-menu-item index="/" class="menu-item">
           <i class="bi bi-house-door"></i> S.C.H.A.L.E 首页
         </el-menu-item>
+        <el-menu-item index="/account" class="menu-item">
+          <i class="bi bi-person-circle"></i> 账户管理
+        </el-menu-item>
         <el-menu-item index="/give" class="menu-item">
           <i class="bi bi-gift"></i> 给予物品
         </el-menu-item>
         <el-menu-item index="/give-all" class="menu-item">
           <i class="bi bi-gift-fill"></i> 给予全部物品
         </el-menu-item>
-        <el-menu-item index="/get-player" class="menu-item">
-          <i class="bi bi-person"></i> 获取老师信息
-        </el-menu-item>
-        <el-menu-item index="/mail" class="menu-item">
-          <i class="bi bi-envelope"></i> 发送邮件
-        </el-menu-item>
-        <el-menu-item index="/get-email-code" class="menu-item">
-          <i class="bi bi-envelope-open"></i> 获取邮箱验证码
-        </el-menu-item>
         <el-menu-item index="/character" class="menu-item">
           <i class="bi bi-person-gear"></i> 设置学生数值
         </el-menu-item>
+        <el-menu-item index="/mail-manager" class="menu-item">
+          <i class="bi bi-envelope"></i> 邮件管理
+        </el-menu-item>
+        <el-menu-item index="/email-code-manager" class="menu-item">
+          <i class="bi bi-shield-lock"></i> 验证码管理
+        </el-menu-item>
+        <el-menu-item index="/get-player" class="menu-item">
+          <i class="bi bi-person"></i> 获取老师信息
+        </el-menu-item>
         <el-menu-item index="/setting" class="menu-item">
-          <i class="bi bi-person-gear"></i> S.C.H.A.L.E 设置
+          <i class="bi bi-gear"></i> S.C.H.A.L.E 设置
         </el-menu-item>
         <el-menu-item index="/id-list" class="menu-item">
           <i class="bi bi-list-nested"></i> 获取物品列表
         </el-menu-item>
-        <!-- <el-sub-menu index="1" popper-class="custom-submenu">
-          <template #title>
-            <i class="bi bi-columns-gap"></i>
-            <span class="menu-text">ID列表</span>
-          </template>
-          <el-menu-item index="/item-list">
-            <i class="bi bi-list-nested"></i>
-            <span class="menu-text">物品列表</span>
-          </el-menu-item>
-          <el-menu-item index="/submenu1-2">
-            <i class="bi bi-file-earmark"></i>
-            <span class="menu-text">暂未开发</span>
-          </el-menu-item>
-        </el-sub-menu> -->
         <el-menu-item index="/about" class="menu-item">
           <i class="bi bi-info-circle"></i> 关于
         </el-menu-item>

@@ -60,54 +60,194 @@
     <transition name="fade-slide" mode="out-in">
       <!-- 当存在错误时，显示服务离线状态及错误原因 -->
       <div v-if="serverError" key="error">
-        <el-card class="server-status-card">
-          <h3 class="server-title">服务器状态</h3>
-          <div class="offline-status">
-            <p>服务离线</p>
-            <p>错误原因：{{ serverError }}</p>
+        <el-card class="server-status-card offline-card">
+          <div class="status-header">
+            <div class="status-icon offline-icon">
+              <el-icon><Warning /></el-icon>
+            </div>
+            <h3 class="server-title">服务器状态</h3>
           </div>
-          <div class="update-time">最后更新：{{ lastUpdate || '--:--:--' }}</div>
+          <div class="status-content">
+            <div class="status-badge offline-badge">
+              <el-icon><CircleCloseFilled /></el-icon>
+              <span>服务离线</span>
+            </div>
+            <div class="error-info">
+              <el-icon><InfoFilled /></el-icon>
+              <span>{{ serverError }}</span>
+            </div>
+          </div>
+          <div class="update-time">
+            <el-icon><Clock /></el-icon>
+            最后更新：{{ lastUpdate || '--:--:--' }}
+          </div>
         </el-card>
       </div>
       <!-- 正常情况下显示数据 -->
       <div v-else-if="hasData" key="content">
-        <el-card class="server-status-card">
-          <h3 class="server-title">服务器状态（{{ autoUpdateStatus }}）</h3>
-          <!-- 计时器区域 -->
-          <div class="timer-bar-container">
-            <div class="timer-bar" :key="progressKey"></div>
-            <span class="timer-text">{{ countdown }}s</span>
+        <el-card class="server-status-card online-card">
+          <div class="status-header">
+            <div class="status-icon online-icon">
+              <el-icon><Monitor /></el-icon>
+            </div>
+            <h3 class="server-title">办公室状态</h3>
+            <div class="auto-update-badge">
+              <el-icon><Refresh /></el-icon>
+              <span>{{ autoUpdateStatus }}</span>
+            </div>
           </div>
+
+          <!-- 计时器区域 -->
+          <div class="timer-section">
+            <div class="timer-icon">
+              <el-icon><Timer /></el-icon>
+            </div>
+            <div class="timer-bar-container">
+              <div class="timer-bar" :style="{ width: ((30 - countdown) / 30) * 100 + '%' }"></div>
+            </div>
+            <div class="timer-text">{{ countdown }}s</div>
+          </div>
+
           <el-skeleton :loading="loading" animated :rows="5">
-            <el-descriptions :column="2" border>
-              <el-descriptions-item label="在线的老师数量">
-                {{ serverData.playerNum }}
-              </el-descriptions-item>
-              <el-descriptions-item label="TPS">
-                {{ serverData.tps }}
-              </el-descriptions-item>
-              <el-descriptions-item label="RT">
-                {{ serverData.rt }}
-              </el-descriptions-item>
-              <el-descriptions-item label="客户端版本">
-                {{ serverData.clientVersion }}
-              </el-descriptions-item>
-              <el-descriptions-item label="服务器版本">
-                {{ serverData.serverVersion }}
-              </el-descriptions-item>
-              <el-descriptions-item label="CPU 状态">
-                {{ serverData.cpuOc }}
-              </el-descriptions-item>
-              <el-descriptions-item label="内存状态">
-                {{ serverData.memoryOc }}
-              </el-descriptions-item>
-            </el-descriptions>
-            <div class="update-time">最后更新：{{ lastUpdate || '--:--:--' }}</div>
+            <div class="status-grid">
+              <div class="status-item">
+                <div class="status-item-icon teachers-icon">
+                  <el-icon><User /></el-icon>
+                </div>
+                <div class="status-item-content">
+                  <div class="status-value">{{ serverData.playerNum }}</div>
+                  <div class="status-label">在线老师</div>
+                </div>
+              </div>
+
+              <div class="status-item">
+                <div class="status-item-icon performance-icon">
+                  <el-icon><Odometer /></el-icon>
+                </div>
+                <div class="status-item-content">
+                  <div class="status-value">{{ serverData.tps }}</div>
+                  <div class="status-label">服务器性能</div>
+                </div>
+              </div>
+
+              <div class="status-item">
+                <div class="status-item-icon response-icon">
+                  <el-icon><Stopwatch /></el-icon>
+                </div>
+                <div class="status-item-content">
+                  <div class="status-value">{{ serverData.rt }}</div>
+                  <div class="status-label">响应时间</div>
+                </div>
+              </div>
+
+              <div class="status-item">
+                <div class="status-item-icon version-icon">
+                  <el-icon><Document /></el-icon>
+                </div>
+                <div class="status-item-content">
+                  <div class="status-value">{{ serverData.clientVersion }}</div>
+                  <div class="status-label">客户端版本</div>
+                </div>
+              </div>
+
+              <div class="status-item">
+                <div class="status-item-icon server-icon">
+                  <el-icon><Setting /></el-icon>
+                </div>
+                <div class="status-item-content">
+                  <div class="status-value">{{ serverData.serverVersion }}</div>
+                  <div class="status-label">服务器版本</div>
+                </div>
+              </div>
+
+              <div class="status-item gauge-item">
+                <div class="gauge-container">
+                  <div class="gauge-circle">
+                    <svg class="gauge-svg" width="90" height="90" viewBox="0 0 90 90">
+                      <circle
+                        cx="45"
+                        cy="45"
+                        r="35"
+                        fill="none"
+                        stroke="rgba(168, 237, 234, 0.2)"
+                        stroke-width="8"
+                      />
+                      <circle
+                        cx="45"
+                        cy="45"
+                        r="35"
+                        fill="none"
+                        stroke="#a8edea"
+                        stroke-width="8"
+                        stroke-linecap="round"
+                        :stroke-dasharray="`${getCpuPercent() * 2.199} 219.9`"
+                        transform="rotate(-90 45 45)"
+                        class="progress-ring"
+                      />
+                    </svg>
+                    <div class="gauge-center">
+                      <div class="gauge-icon cpu-icon">
+                        <el-icon><Cpu /></el-icon>
+                      </div>
+                      <div class="gauge-value">{{ serverData.cpuOc }}</div>
+                      <div class="gauge-title">CPU</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="status-item gauge-item">
+                <div class="gauge-container">
+                  <div class="gauge-circle">
+                    <svg class="gauge-svg" width="90" height="90" viewBox="0 0 90 90">
+                      <circle
+                        cx="45"
+                        cy="45"
+                        r="35"
+                        fill="none"
+                        stroke="rgba(252, 182, 159, 0.2)"
+                        stroke-width="8"
+                      />
+                      <circle
+                        cx="45"
+                        cy="45"
+                        r="35"
+                        fill="none"
+                        stroke="#fcb69f"
+                        stroke-width="8"
+                        stroke-linecap="round"
+                        :stroke-dasharray="`${getMemoryPercent() * 2.199} 219.9`"
+                        transform="rotate(-90 45 45)"
+                        class="progress-ring"
+                      />
+                    </svg>
+                    <div class="gauge-center">
+                      <div class="gauge-icon memory-icon">
+                        <el-icon><Memo /></el-icon>
+                      </div>
+                      <div class="gauge-value">{{ getMemoryPercent().toFixed(2) }}%</div>
+                      <div class="gauge-title">内存</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="update-time">
+              <el-icon><Clock /></el-icon>
+              最后更新：{{ lastUpdate || '--:--:--' }}
+            </div>
           </el-skeleton>
         </el-card>
       </div>
-      <el-card v-else key="empty" class="server-status-card empty-placeholder">
-        <div class="empty-text">暂无服务器状态数据</div>
+      <el-card v-else key="empty" class="server-status-card empty-card">
+        <div class="empty-content">
+          <div class="empty-icon">
+            <el-icon><WarnTriangleFilled /></el-icon>
+          </div>
+          <div class="empty-text">暂无服务器状态数据</div>
+          <div class="empty-hint">请先保存配置并更新状态</div>
+        </div>
       </el-card>
     </transition>
   </el-card>
@@ -115,11 +255,49 @@
 
 <script>
 import axios from 'axios'
-import { Key, Link, Refresh, Upload } from '@element-plus/icons-vue'
+import {
+  CircleCloseFilled,
+  Clock,
+  Cpu,
+  Document,
+  InfoFilled,
+  Key,
+  Link,
+  Memo,
+  Monitor,
+  Odometer,
+  Refresh,
+  Setting,
+  Stopwatch,
+  Timer,
+  Upload,
+  User,
+  Warning,
+  WarnTriangleFilled,
+} from '@element-plus/icons-vue'
 
 export default {
   name: 'Home',
-  components: { Key, Link, Refresh, Upload },
+  components: {
+    Key,
+    Link,
+    Refresh,
+    Upload,
+    Warning,
+    CircleCloseFilled,
+    InfoFilled,
+    Clock,
+    Monitor,
+    Timer,
+    User,
+    Odometer,
+    Stopwatch,
+    Document,
+    Setting,
+    Cpu,
+    Memo,
+    WarnTriangleFilled,
+  },
   data() {
     return {
       serverAddress: localStorage.getItem('serverAddress') || '',
@@ -356,6 +534,36 @@ export default {
         this.clearAutoUpdate()
       }
     },
+
+    getCpuPercent() {
+      if (this.serverData && this.serverData.cpuOc) {
+        const percent = parseFloat(this.serverData.cpuOc.replace('%', ''))
+        return Math.round(percent)
+      }
+      return 0
+    },
+
+    getMemoryPercent() {
+      if (this.serverData && this.serverData.memoryOc) {
+        const memoryStr = this.serverData.memoryOc.toString()
+
+        // 如果已经是百分比格式
+        if (memoryStr.includes('%')) {
+          return parseFloat(memoryStr.replace('%', ''))
+        }
+
+        // 处理 "736.83/15776.36MB" 格式
+        const match = memoryStr.match(/(\d+(?:\.\d+)?)\/(\d+(?:\.\d+)?)/)
+        if (match) {
+          const used = parseFloat(match[1])
+          const total = parseFloat(match[2])
+          if (total > 0) {
+            return (used / total) * 100
+          }
+        }
+      }
+      return 0
+    },
   },
 
   beforeUnmount() {
@@ -470,68 +678,350 @@ export default {
     inset 0 0 16px rgba(255, 255, 255, 0.5);
 }
 
+/* 在线状态样式 */
+.online-card {
+  border-left: 4px solid #4facfe;
+}
+
+.online-card .status-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgba(79, 172, 254, 0.1);
+}
+
+.online-card .status-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  box-shadow: 0 4px 12px rgba(79, 172, 254, 0.3);
+}
+
+.auto-update-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background: rgba(79, 172, 254, 0.1);
+  border: 1px solid rgba(79, 172, 254, 0.2);
+  border-radius: 20px;
+  color: #4facfe;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* 离线状态样式 */
+.offline-card {
+  border-left: 4px solid #f56c6c;
+}
+
+.offline-card .status-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.offline-card .status-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f56c6c 0%, #ff8a80 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+  box-shadow: 0 4px 12px rgba(245, 108, 108, 0.3);
+}
+
+.status-content {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.offline-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: rgba(245, 108, 108, 0.1);
+  border: 1px solid rgba(245, 108, 108, 0.3);
+  border-radius: 20px;
+  color: #f56c6c;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.error-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+/* 空状态样式 */
+.empty-card {
+  border-left: 4px solid #909399;
+}
+
+.empty-content {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.empty-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #909399 0%, #c0c4cc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 32px;
+}
+
+.empty-text {
+  font-size: 18px;
+  color: #909399;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.empty-hint {
+  font-size: 14px;
+  color: #c0c4cc;
+}
+
 .server-title {
-  margin: 0 0 1.2rem;
-  font-size: 1.1rem;
+  margin: 0;
+  font-size: 1.3rem;
   font-weight: 600;
   color: #2c3e50;
-  text-align: center;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #e2e8f0;
+  flex: 1;
+  text-align: left;
+}
+
+/* 计时器区域样式 */
+.timer-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 1rem 0 2rem;
+  padding: 1rem;
+  background: rgba(79, 172, 254, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(79, 172, 254, 0.1);
+}
+
+.timer-icon {
+  width: 32px;
+  height: 32px;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
 }
 
 .timer-bar-container {
-  position: relative;
-  height: 4px;
-  background: #e2e8f0;
-  border-radius: 2px;
+  flex: 1;
+  height: 6px;
+  background: rgba(79, 172, 254, 0.2);
+  border-radius: 3px;
   overflow: hidden;
-  margin: 8px auto 16px;
-  width: 80%;
+  position: relative;
 }
 
 .timer-bar {
   height: 100%;
   background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
-  animation: progressAnimation 30s linear forwards;
-}
-
-@keyframes progressAnimation {
-  from {
-    width: 0%;
-  }
-  to {
-    width: 100%;
-  }
+  width: 0;
+  transition: width 1s linear;
+  box-shadow: 0 0 8px rgba(79, 172, 254, 0.4);
 }
 
 .timer-text {
+  font-size: 14px;
+  color: #4facfe;
+  font-weight: 600;
+  min-width: 32px;
+  text-align: right;
+}
+
+/* 状态网格样式 */
+.status-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0.8rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  border: 1px solid rgba(79, 172, 254, 0.1);
+  transition: all 0.3s ease;
+}
+
+.status-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(79, 172, 254, 0.15);
+  border-color: rgba(79, 172, 254, 0.3);
+}
+
+.status-item-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 16px;
+  flex-shrink: 0;
+}
+
+.teachers-icon {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.performance-icon {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.response-icon {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.version-icon {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.server-icon {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+/* 仪表盘样式 */
+.gauge-item {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  min-height: 120px;
+  background: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(79, 172, 254, 0.15) !important;
+}
+
+.gauge-container {
+  position: relative;
+  width: 90px;
+  height: 90px;
+}
+
+.gauge-circle {
   position: absolute;
-  top: -24px;
-  right: 0;
-  font-size: 0.8em;
-  color: #4a5568;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+}
+
+.gauge-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.progress-ring {
+  transition: stroke-dasharray 1s ease-in-out;
+}
+
+.gauge-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gauge-icon {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.gauge-icon.cpu-icon {
+  color: #a8edea;
+}
+
+.gauge-icon.memory-icon {
+  color: #fcb69f;
+}
+
+.gauge-value {
+  font-size: 11px;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1;
+  margin-bottom: 1px;
+}
+
+.gauge-title {
+  font-size: 9px;
+  color: #666;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.status-item-content {
+  flex: 1;
 }
 
 .update-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
   margin-top: 1.5rem;
-  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(79, 172, 254, 0.1);
   color: #666;
   font-size: 0.9em;
 }
 
-.empty-placeholder {
-  text-align: center;
-  color: #999;
-  padding: 2rem;
-}
-
-/* 离线状态样式 */
-.offline-status {
-  text-align: center;
-  color: #f56c6c;
-  font-size: 1rem;
-  padding: 1rem 0;
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 .fade-slide-enter-active,
@@ -556,6 +1046,27 @@ export default {
   }
 }
 
+@media (max-width: 768px) {
+  .status-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .online-card .status-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .timer-section {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .timer-bar-container {
+    width: 100%;
+  }
+}
+
 @media (max-width: 480px) {
   .home-card {
     margin: 1rem;
@@ -568,6 +1079,12 @@ export default {
   .update-button {
     width: 100%;
     min-width: unset;
+  }
+
+  .status-item {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
   }
 }
 </style>
