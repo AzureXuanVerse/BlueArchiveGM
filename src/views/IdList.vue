@@ -131,6 +131,8 @@ import studentsData from '@/assets/students.json'
 import furnitureData from '@/assets/furniture.json'
 import equipmentData from '@/assets/equipment.json'
 import currencyData from '@/assets/currency.json'
+import stickersData from '@/assets/stickers.json'
+import memoryLobbyData from '@/assets/memorylobby.json'
 
 export default {
   name: 'IdList',
@@ -156,6 +158,8 @@ export default {
         { value: 'Furniture', label: '家具', icon: 'House' },
         { value: 'Favor', label: '礼物', icon: 'Gift' },
         { value: 'Emblem', label: '称号', icon: 'Medal' },
+        { value: 'Sticker', label: '贴纸', icon: 'Picture' },
+        { value: 'MemoryLobby', label: '记忆大厅', icon: 'Monitor' },
         { value: 'Other', label: '其他', icon: 'More' },
       ],
       itemsList: [],
@@ -163,6 +167,8 @@ export default {
       furnitureList: [],
       equipmentList: [],
       currencyList: [],
+      stickerList: [],
+      memoryLobbyList: [],
     }
   },
   computed: {
@@ -173,6 +179,8 @@ export default {
         ...this.furnitureList,
         ...this.equipmentList,
         ...this.currencyList,
+        ...this.stickerList,
+        ...this.memoryLobbyList,
       ]
     },
     
@@ -268,6 +276,8 @@ export default {
         'Furnitures': 'info',
         'Favor': 'danger',
         'Emblem': 'success',
+        'Sticker': 'warning',
+        'MemoryLobby': 'info',
         'Other': 'info'
       }
       return typeMap[category] || ''
@@ -304,7 +314,7 @@ export default {
         ]
 
         const allowedCategories = [
-          'Material', 'Character', 'Equipment', 'Furnitures', 'Favor', 'Emblem'
+          'Material', 'Character', 'Equipment', 'Furnitures', 'Favor', 'Emblem', 'Sticker', 'MemoryLobby'
         ]
 
         const processData = (data, defaultCategory = null, sourceKey) => {
@@ -342,6 +352,10 @@ export default {
         this.furnitureList = processData(furnitureData, 'Furnitures', 'furniture')
         this.equipmentList = processData(equipmentData, 'Equipment', 'equipment')
         this.currencyList = processData(currencyData, 'Other', 'currency')
+        
+        // 使用专门的JSON文件数据
+        this.stickerList = processData(stickersData, 'Sticker', 'stickers')
+        this.memoryLobbyList = processData(memoryLobbyData, 'MemoryLobby', 'memorylobby')
 
         console.log('Data loaded successfully:', {
           items: this.itemsList.length,
@@ -349,6 +363,8 @@ export default {
           furniture: this.furnitureList.length,
           equipment: this.equipmentList.length,
           currency: this.currencyList.length,
+          stickers: this.stickerList.length,
+          memoryLobby: this.memoryLobbyList.length,
           total: this.combinedItems.length
         })
 

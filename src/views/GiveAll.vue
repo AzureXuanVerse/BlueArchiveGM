@@ -111,6 +111,9 @@ export default {
         { value: 'Furniture', label: '家具' },
         { value: 'Favor', label: '礼物' },
         { value: 'Emblem', label: '称号' },
+        { value: 'Sticker', label: '贴纸' },
+        { value: 'MemoryLobby', label: '记忆大厅' },
+        { value: 'All', label: '全部类型' },
       ],
       banner1: banner1,
     }

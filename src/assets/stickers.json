@@ -1,0 +1,11 @@
+[
+  {
+    "Id": 1,
+    "Name": "开心贴纸",
+    "Desc": "测试数据（等北野更新）",
+    "Category": "Sticker",
+    "SubCategory": "Emotion",
+    "Rarity": "Common",
+    "Icon": "sticker_happy"
+  }
+]

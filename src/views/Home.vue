@@ -160,6 +160,26 @@
                 </div>
               </div>
 
+              <div class="status-item">
+                <div class="status-item-icon commit-icon">
+                  <el-icon><Connection /></el-icon>
+                </div>
+                <div class="status-item-content">
+                  <div class="status-value">{{ serverData.commit && serverData.commit !== '未知' ? serverData.commit.substring(0, 8) : serverData.commit || '未知' }}</div>
+                  <div class="status-label">提交哈希</div>
+                </div>
+              </div>
+
+              <div class="status-item">
+                <div class="status-item-icon baps-memory-icon">
+                  <el-icon><Files /></el-icon>
+                </div>
+                <div class="status-item-content">
+                  <div class="status-value">{{ serverData.baPsMemoryOc || '未知' }}</div>
+                  <div class="status-label">BaPs内存</div>
+                </div>
+              </div>
+
               <div class="status-item gauge-item">
                 <div class="gauge-container">
                   <div class="gauge-circle">
@@ -274,6 +294,8 @@ import {
   User,
   Warning,
   WarnTriangleFilled,
+  Connection,
+  Files,
 } from '@element-plus/icons-vue'
 
 export default {
@@ -297,6 +319,8 @@ export default {
     Cpu,
     Memo,
     WarnTriangleFilled,
+    Connection,
+    Files,
   },
   data() {
     return {
@@ -437,10 +461,12 @@ export default {
       tempData.rt = parsedData.rt || 0
       tempData.clientVersion = parsedData.clientVersion || '未知'
       tempData.serverVersion = parsedData.serverVersion || '未知'
+      tempData.commit = parsedData.commit || '未知'
       this.serverData = { ...tempData }
       await this.$nextTick()
       tempData.cpuOc = parsedData.cpuOc ? parsedData.cpuOc.toFixed(2) + '%' : '未知'
       tempData.memoryOc = parsedData.memoryOc || '未知'
+      tempData.baPsMemoryOc = parsedData.baPsMemoryOc || '未知'
       this.serverData = { ...tempData }
       this.lastUpdate = this.getCurrentTime()
       // 每次成功更新后重置并启动倒计时
@@ -676,11 +702,6 @@ export default {
     0 16px 48px -12px rgba(0, 0, 0, 0.16),
     0 6px 32px -4px rgba(0, 0, 0, 0.12),
     inset 0 0 16px rgba(255, 255, 255, 0.5);
-}
-
-/* 在线状态样式 */
-.online-card {
-  border-left: 4px solid #4facfe;
 }
 
 .online-card .status-header {
@@ -921,6 +942,14 @@ export default {
   background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
 }
 
+.commit-icon {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.baps-memory-icon {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+}
+
 /* 仪表盘样式 */
 .gauge-item {
   flex-direction: column;
@@ -1001,6 +1030,23 @@ export default {
 
 .status-item-content {
   flex: 1;
+}
+
+.status-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #2c3e50;
+  line-height: 1.2;
+  margin-bottom: 2px;
+  word-break: break-all;
+}
+
+.status-label {
+  font-size: 12px;
+  color: #666;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .update-time {

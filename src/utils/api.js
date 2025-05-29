@@ -52,6 +52,12 @@ export const accountAPI = {
   
   // 获取账户详情
   get: (name) => callAPI('account', { name, type: 'get' }),
+  
+  // 简写命令版本
+  loginShort: (name) => callAPI('ac', { name, type: 'login' }),
+  banShort: (name, banMsg) => callAPI('ac', { name, type: 'ban', banMsg }),
+  unbanShort: (name) => callAPI('ac', { name, type: 'unban' }),
+  getShort: (name) => callAPI('ac', { name, type: 'get' }),
 }
 
 /**
@@ -66,6 +72,16 @@ export const characterAPI = {
     if (options.favorRank !== undefined) params.favorRank = options.favorRank
     if (options.max !== undefined) params.max = options.max
     return callAPI('character', params)
+  },
+  
+  // 设置角色属性 (使用简写命令)
+  setShort: (uid, id, options = {}) => {
+    const params = { uid, id }
+    if (options.starGrade !== undefined) params.starGrade = options.starGrade
+    if (options.level !== undefined) params.level = options.level
+    if (options.favorRank !== undefined) params.favorRank = options.favorRank
+    if (options.max !== undefined) params.max = options.max
+    return callAPI('c', params)
   },
 }
 
@@ -87,8 +103,14 @@ export const mailAPI = {
   // 发送游戏邮件
   sendGameMail: (params) => callAPI('gameMail', params),
   
+  // 发送游戏邮件 (使用简写命令)
+  sendGameMailShort: (params) => callAPI('gm', params),
+  
   // 发送系统邮件
   sendSystemMail: (header, body, usernames) => callAPI('mail', { header, body, usernames }),
+  
+  // 发送系统邮件 (使用简写命令)
+  sendSystemMailShort: (header, body, usernames) => callAPI('m', { header, body, usernames }),
 }
 
 /**
@@ -103,6 +125,11 @@ export const emailCodeAPI = {
   
   // 删除验证码
   delete: (account) => callAPI('emailCode', { account, type: 'del' }),
+  
+  // 简写命令版本
+  setShort: (account, code) => callAPI('ec', { account, type: 'set', code }),
+  getShort: (account) => callAPI('ec', { account, type: 'get' }),
+  deleteShort: (account) => callAPI('ec', { account, type: 'del' }),
 }
 
 /**
@@ -110,7 +137,10 @@ export const emailCodeAPI = {
  */
 export const playerAPI = {
   // 获取玩家数据
-  getPlayer: (uid, json = 0, basis = 0) => callAPI('gp', { uid, json, basis }),
+  getPlayer: (uid, json = 0, basis = 0) => callAPI('getPlayer', { uid, json, basis }),
+  
+  // 获取玩家数据 (使用简写命令)
+  getPlayerShort: (uid, json = 0, basis = 0) => callAPI('gp', { uid, json, basis }),
   
   // 设置玩家属性
   setSetting: (uid, type, sub1) => callAPI('set', { uid, type, sub1 }),
