@@ -15,33 +15,19 @@
         <el-menu-item index="/" class="menu-item">
           <i class="bi bi-house-door"></i> 首页
         </el-menu-item>
-        <!-- <el-menu-item index="/give" class="menu-item">
-          <i class="bi bi-gift"></i> 给予物品
-        </el-menu-item> -->
         <el-menu-item index="/GiveAll" class="menu-item">
           <i class="bi bi-gift"></i> 给予全部物品
         </el-menu-item>
         <el-menu-item index="/GetPlayer" class="menu-item">
           <i class="bi bi-person"></i> 获取老师信息
         </el-menu-item>
-        <el-menu-item index="/GameMail" class="menu-item">
-          <i class="bi bi-envelope"></i> 发送游戏邮件
-        </el-menu-item>
-        <!-- <el-menu-item index="/get-email-code" class="menu-item">
-          <i class="bi bi-envelope-open"></i> 获取邮箱验证码
-        </el-menu-item> -->
         <el-menu-item index="/Character" class="menu-item">
           <i class="bi bi-person-gear"></i> 设置学生数值
         </el-menu-item>
         <el-menu-item index="/Mail" class="menu-item">
-          <i class="bi bi-envelope-at"></i> 发送用户邮件
+          <i class="bi bi-envelope-at"></i> 邮件管理
         </el-menu-item>
-        <!-- <el-menu-item index="/MailCode" class="menu-item">
-          <i class="bi bi-123"></i> 验证码设置
-        </el-menu-item> -->
-        <!-- <el-menu-item index="/command" class="menu-item">
-          <i class="bi bi-terminal"></i> 命令生成器
-        </el-menu-item> -->
+
         <el-menu-item index="/ConfigMaker" class="menu-item">
           <i class="bi bi-sliders2"></i> 配置生成器
         </el-menu-item>
@@ -52,25 +38,8 @@
           <i class="bi bi-person-gear"></i> 玩家设置
         </el-menu-item>
         <el-menu-item index="/Account" class="menu-item">
-          <i class="bi bi-person"></i> 账户设置
+          <i class="bi bi-person"></i> 账户操作
         </el-menu-item>
-        <!-- <el-sub-menu index="1" popper-class="custom-submenu">
-          <template #title>
-            <i class="bi bi-columns-gap"></i>
-            <span class="menu-text">ID列表</span>
-          </template>
-          <el-menu-item index="/item-list">
-            <i class="bi bi-list-nested"></i>
-            <span class="menu-text">物品列表</span>
-          </el-menu-item>
-          <el-menu-item index="/submenu1-2">
-            <i class="bi bi-file-earmark"></i>
-            <span class="menu-text">暂未开发</span>
-          </el-menu-item>
-        </el-sub-menu> -->
-        <!-- <el-menu-item index="/chat" class="menu-item">
-          <i class="bi bi-chat-heart"></i> 基沃托斯聊天室
-        </el-menu-item> -->
         <el-menu-item index="/About" class="menu-item">
           <i class="bi bi-info-circle"></i> 关于
         </el-menu-item>

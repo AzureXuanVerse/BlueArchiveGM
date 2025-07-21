@@ -1,0 +1,1132 @@
+[
+  {
+    "Id": 10000,
+    "Name": "爱露",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10001,
+    "Name": "艾米",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10002,
+    "Name": "晴奈",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10003,
+    "Name": "日富美",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10004,
+    "Name": "日奈",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10005,
+    "Name": "星野",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10006,
+    "Name": "伊织",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10007,
+    "Name": "真纪",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10008,
+    "Name": "妮露",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10009,
+    "Name": "泉",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10010,
+    "Name": "白子",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10011,
+    "Name": "瞬",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10012,
+    "Name": "堇",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10013,
+    "Name": "鹤城",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10014,
+    "Name": "泉奈",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10015,
+    "Name": "爱丽丝",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10016,
+    "Name": "绿",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10017,
+    "Name": "切里诺",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10018,
+    "Name": "柚子",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10019,
+    "Name": "梓",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10020,
+    "Name": "小春",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10021,
+    "Name": "梓（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10022,
+    "Name": "日奈（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10023,
+    "Name": "伊织（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10024,
+    "Name": "白子（骑行）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10025,
+    "Name": "瞬（小）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10026,
+    "Name": "妮露（兔女郎）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10027,
+    "Name": "花凛（兔女郎）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10028,
+    "Name": "明日奈（兔女郎）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10029,
+    "Name": "夏",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10030,
+    "Name": "千夏（温泉）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10031,
+    "Name": "爱露（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10032,
+    "Name": "睦月（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10033,
+    "Name": "若藻",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10034,
+    "Name": "三森",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10035,
+    "Name": "忧",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10036,
+    "Name": "日向",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10037,
+    "Name": "真里奈",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10038,
+    "Name": "宫子",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10039,
+    "Name": "美游",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10040,
+    "Name": "月咏",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10041,
+    "Name": "美咲",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10042,
+    "Name": "亚津子",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10043,
+    "Name": "若藻（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10044,
+    "Name": "野宫（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10045,
+    "Name": "星野（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10046,
+    "Name": "泉奈（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10047,
+    "Name": "千世（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10048,
+    "Name": "纱织",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10049,
+    "Name": "和纱",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10050,
+    "Name": "心奈",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10051,
+    "Name": "歌原（应援团）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10052,
+    "Name": "诺亚",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10053,
+    "Name": "优香（体操服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10054,
+    "Name": "玛丽（体操服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10055,
+    "Name": "时雨",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10056,
+    "Name": "芹娜（圣诞）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10057,
+    "Name": "晴奈（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10058,
+    "Name": "美祢",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10059,
+    "Name": "未花",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10060,
+    "Name": "惠",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10061,
+    "Name": "樱子",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10062,
+    "Name": "时",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10063,
+    "Name": "小雪",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10064,
+    "Name": "佳代子（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10065,
+    "Name": "果穗",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10066,
+    "Name": "爱丽丝（女仆）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10067,
+    "Name": "时（兔女郎）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10068,
+    "Name": "玲纱",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10069,
+    "Name": "瑠海",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10070,
+    "Name": "南",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10071,
+    "Name": "宫子（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10072,
+    "Name": "咲（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10073,
+    "Name": "忧（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10074,
+    "Name": "花子（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10075,
+    "Name": "芽瑠",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10076,
+    "Name": "琴里（应援团）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10077,
+    "Name": "一花",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10078,
+    "Name": "霞",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10079,
+    "Name": "御坂美琴",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10080,
+    "Name": "食蜂操祈",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10081,
+    "Name": "紫",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10082,
+    "Name": "莲华",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10083,
+    "Name": "桔梗",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10084,
+    "Name": "小玉（露营）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10085,
+    "Name": "晴（露营）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10086,
+    "Name": "日奈（礼服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10087,
+    "Name": "亚子（礼服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10088,
+    "Name": "佳代子（礼服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10089,
+    "Name": "爱露（礼服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10090,
+    "Name": "海夏",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10091,
+    "Name": "和纱（乐队）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10092,
+    "Name": "好美（乐队）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10093,
+    "Name": "绮罗罗",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10094,
+    "Name": "桃井（女仆）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10095,
+    "Name": "绿（女仆）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10096,
+    "Name": "康娜（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10097,
+    "Name": "萌（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10098,
+    "Name": "星野（武装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10100,
+    "Name": "白子＊恐怖",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10101,
+    "Name": "沙织（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10102,
+    "Name": "日和（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10103,
+    "Name": "真里奈（旗袍）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10104,
+    "Name": "丽情",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10105,
+    "Name": "玛丽（偶像）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10106,
+    "Name": "樱子（偶像）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10107,
+    "Name": "千秋",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10108,
+    "Name": "优香（睡衣）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10109,
+    "Name": "诺亚（睡衣）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10110,
+    "Name": "圣娅",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10111,
+    "Name": "妮露（制服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10112,
+    "Name": "明日奈（制服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10113,
+    "Name": "濑名（私服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10114,
+    "Name": "朱莉（打工）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10115,
+    "Name": "丽",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10116,
+    "Name": "纱织（礼服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10117,
+    "Name": "光",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10118,
+    "Name": "望",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10119,
+    "Name": "名草",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10120,
+    "Name": "夏（乐队）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 10121,
+    "Name": "ユカリ（水着）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 13000,
+    "Name": "茜",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13001,
+    "Name": "千世",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13002,
+    "Name": "明里",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13003,
+    "Name": "莲见",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13004,
+    "Name": "野宫",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13005,
+    "Name": "佳代子",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13006,
+    "Name": "睦月",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13007,
+    "Name": "纯子",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13008,
+    "Name": "芹香",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13009,
+    "Name": "椿",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13010,
+    "Name": "优香",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13011,
+    "Name": "桃",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13012,
+    "Name": "桐乃",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13013,
+    "Name": "红叶",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 13014,
+    "Name": "レンゲ（水着）",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 16000,
+    "Name": "春香",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16001,
+    "Name": "明日奈",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16002,
+    "Name": "琴里",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16003,
+    "Name": "铃美",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16004,
+    "Name": "菲娜",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16005,
+    "Name": "鹤城（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16006,
+    "Name": "泉（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16007,
+    "Name": "巴",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16008,
+    "Name": "吹雪",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16009,
+    "Name": "满",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16010,
+    "Name": "响（应援团）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16011,
+    "Name": "莲见（体操服）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16012,
+    "Name": "纯子（新年）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16013,
+    "Name": "小春（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16014,
+    "Name": "伊吹",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16015,
+    "Name": "爱莉（乐队）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16016,
+    "Name": "美祢（偶像）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 16017,
+    "Name": "青叶",
+    "Rarity": "R"
+  },
+  {
+    "Id": 20000,
+    "Name": "响",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20001,
+    "Name": "花凛",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20002,
+    "Name": "纱绫",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20003,
+    "Name": "真白",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20004,
+    "Name": "真白（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20005,
+    "Name": "日富美（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20006,
+    "Name": "纱绫（便服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20007,
+    "Name": "初音未来",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20008,
+    "Name": "亚子",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20009,
+    "Name": "切里诺（温泉）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20010,
+    "Name": "和香（温泉）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20011,
+    "Name": "芹香（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20012,
+    "Name": "濑名",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20013,
+    "Name": "千寻",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20014,
+    "Name": "咲",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20015,
+    "Name": "枫",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20016,
+    "Name": "伊吕波",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20017,
+    "Name": "日和",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20018,
+    "Name": "萌绘",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20019,
+    "Name": "茜（兔女郎）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20020,
+    "Name": "日鞠",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20021,
+    "Name": "花江（圣诞）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20022,
+    "Name": "枫香（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20023,
+    "Name": "康娜",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20024,
+    "Name": "渚",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20025,
+    "Name": "春香（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20026,
+    "Name": "实梨",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20027,
+    "Name": "白子（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20028,
+    "Name": "日向（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20029,
+    "Name": "三森（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20030,
+    "Name": "晴奈（体操服）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20031,
+    "Name": "时雨（温泉）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20032,
+    "Name": "艾米（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20033,
+    "Name": "真琴",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20034,
+    "Name": "明里（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20035,
+    "Name": "椿（导览员）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20036,
+    "Name": "芹香（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20037,
+    "Name": "吹雪（泳装）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20038,
+    "Name": "巴（旗袍）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20039,
+    "Name": "妃咲",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20040,
+    "Name": "皋月",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20041,
+    "Name": "莉音",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20042,
+    "Name": "真纪（露营）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20043,
+    "Name": "泉（新年）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20044,
+    "Name": "董（打工）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20045,
+    "Name": "菲娜（导游）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20046,
+    "Name": "妮娅",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 20047,
+    "Name": "キキョウ（水着）",
+    "Rarity": "SSR"
+  },
+  {
+    "Id": 23000,
+    "Name": "爱理",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23001,
+    "Name": "枫香",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23002,
+    "Name": "花江",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23003,
+    "Name": "晴",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23004,
+    "Name": "歌原",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23005,
+    "Name": "绫音",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23006,
+    "Name": "静子",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23007,
+    "Name": "花子",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 23008,
+    "Name": "玛丽",
+    "Rarity": "SR"
+  },
+  {
+    "Id": 26000,
+    "Name": "千夏",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26001,
+    "Name": "小玉",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26002,
+    "Name": "朱莉",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26003,
+    "Name": "芹娜",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26004,
+    "Name": "志美子",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26005,
+    "Name": "好美",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26006,
+    "Name": "和香",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26007,
+    "Name": "绫音（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26008,
+    "Name": "静子（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26009,
+    "Name": "柚子（女仆）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26010,
+    "Name": "美游（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26011,
+    "Name": "佐天泪子",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26012,
+    "Name": "桐乃（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26013,
+    "Name": "亚津子（泳装）",
+    "Rarity": "R"
+  },
+  {
+    "Id": 26014,
+    "Name": "花凛（制服）",
+    "Rarity": "R"
+  }
+]

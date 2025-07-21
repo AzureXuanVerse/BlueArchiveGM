@@ -1,0 +1,191 @@
+[
+  {
+    "ID": 1,
+    "Name": "信用积分",
+    "Desc": "老师持有的信用卡的积分。在特定情况下，信用积分可以当作现金自由使用。",
+    "Icon": "Currency_Icon_Gold",
+    "Rarity": "N"
+  },
+  {
+    "ID": 2,
+    "Name": "青辉石",
+    "Desc": "能用大人的卡购买的神秘宝石。可以用来交易各种商品。",
+    "Icon": "Currency_Icon_Gem",
+    "Rarity": "N"
+  },
+  {
+    "ID": 3,
+    "Name": "青辉石",
+    "Desc": "能用大人的卡购买的神秘宝石。可以用来交易各种商品。",
+    "Icon": "Currency_Icon_Gem",
+    "Rarity": "N"
+  },
+  {
+    "ID": 4,
+    "Name": "青辉石",
+    "Desc": "能用大人的卡购买的神秘宝石。可以用来交易各种商品。",
+    "Icon": "Currency_Icon_Gem",
+    "Rarity": "N"
+  },
+  {
+    "ID": 5,
+    "Name": "行动点",
+    "Desc": "老师的活力值。进行各种活动时都会消耗活力值。",
+    "Icon": "Currency_Icon_AP",
+    "Rarity": "N"
+  },
+  {
+    "ID": 6,
+    "Name": "日程券",
+    "Desc": "可以访问各个地区的日程券。",
+    "Icon": "Currency_Icon_AcademyTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 7,
+    "Name": "战术对抗赛挑战券",
+    "Desc": "可以参加战术对抗赛的挑战券。",
+    "Icon": "Currency_Icon_ArenaTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 8,
+    "Name": "总力战挑战券",
+    "Desc": "可以参加总力战的挑战券。",
+    "Icon": "Currency_Icon_RaidTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 9,
+    "Name": "悬赏通缉\n（街区战）挑战券",
+    "Desc": "可以挑战悬赏通缉的挑战券。",
+    "Icon": "Currency_Icon_ChaserATicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 10,
+    "Name": "信用回收挑战券",
+    "Desc": "可以进行特别委托的挑战券。",
+    "Icon": "",
+    "Rarity": "N"
+  },
+  {
+    "ID": 11,
+    "Name": "据点防御挑战券",
+    "Desc": "可以进行特别委托的挑战券。",
+    "Icon": "",
+    "Rarity": "N"
+  },
+  {
+    "ID": 12,
+    "Name": "悬赏通缉\n（野外战）挑战券",
+    "Desc": "可以挑战悬赏通缉的挑战券。",
+    "Icon": "Currency_Icon_ChaserBTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 13,
+    "Name": "悬赏通缉\n（室内战）挑战券",
+    "Desc": "可以挑战悬赏通缉的挑战券。",
+    "Icon": "Currency_Icon_ChaserCTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 14,
+    "Name": "学院交流会\n（圣三一）挑战券",
+    "Desc": "可以参加学院交流会的挑战券。",
+    "Icon": "Currency_Icon_SchoolATicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 15,
+    "Name": "学院交流会\n（格黑娜）挑战券",
+    "Desc": "可以参加学院交流会的挑战券。",
+    "Icon": "Currency_Icon_SchoolBTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 16,
+    "Name": "学院交流会\n（千禧年）挑战券",
+    "Desc": "可以参加学院交流会的挑战券。",
+    "Icon": "Currency_Icon_SchoolCTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 17,
+    "Name": "战术测试挑战券",
+    "Desc": "可以进行综合战术测试的挑战券。",
+    "Icon": "Currency_Icon_TimeAttackTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 18,
+    "Name": "熟练证书",
+    "Desc": "在累积充分的经验后可以取得的证书。可以交换多种道具。",
+    "Icon": "Currency_Icon_MasterCoin",
+    "Rarity": "N"
+  },
+  {
+    "ID": 19,
+    "Name": "联合行动挑战券",
+    "Desc": "可以进行联合行动的挑战券。",
+    "Icon": "Currency_Icon_WorldRaidCommonTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 20,
+    "Name": "联合行动挑战券 ω",
+    "Desc": "可以进行特定联合行动的挑战券。",
+    "Icon": "Currency_Icon_WorldRaidCommonTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 21,
+    "Name": "联合行动挑战券 ψ",
+    "Desc": "可以进行特定联合行动的挑战券。",
+    "Icon": "Currency_Icon_WorldRaidCommonTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 22,
+    "Name": "悬赏通缉挑战券",
+    "Desc": "可挑战悬赏通缉的挑战券。",
+    "Icon": "Currency_Icon_ChaserTotalTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 23,
+    "Name": "学院交流会挑战券",
+    "Desc": "可挑战学院交流会的挑战券。",
+    "Icon": "Currency_Icon_SchoolTotalTicket",
+    "Rarity": "N"
+  },
+  {
+    "ID": 24,
+    "Name": "大决战（轻装甲）挑战券",
+    "Desc": "可挑战大决战（轻装甲）的挑战券。",
+    "Icon": "Currency_Icon_EliminateRaidTicketA",
+    "Rarity": "N"
+  },
+  {
+    "ID": 25,
+    "Name": "大决战（重装甲）挑战券",
+    "Desc": "可挑战大决战（重装甲）的挑战券。",
+    "Icon": "Currency_Icon_EliminateRaidTicketB",
+    "Rarity": "N"
+  },
+  {
+    "ID": 26,
+    "Name": "大决战（特殊装甲）挑战券",
+    "Desc": "可挑战大决战（特殊装甲）的挑战券。",
+    "Icon": "Currency_Icon_EliminateRaidTicketC",
+    "Rarity": "N"
+  },
+  {
+    "ID": 27,
+    "Name": "大决战（弹力装甲）入场券",
+    "Desc": "可挑战大决战（弹力装甲）的票券",
+    "Icon": "Currency_Icon_EliminateRaidTicketD",
+    "Rarity": "N"
+  }
+]

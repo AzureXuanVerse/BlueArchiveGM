@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "Rarity": "N",
+    "Name": "中庭",
+    "Icon": "IdCardBg_Icon_1"
+  },
+  {
+    "Id": 2,
+    "Rarity": "N",
+    "Name": "旧校舍的走廊",
+    "Icon": "IdCardBg_Icon_2"
+  },
+  {
+    "Id": 3,
+    "Rarity": "N",
+    "Name": "走廊",
+    "Icon": "IdCardBg_Icon_3"
+  },
+  {
+    "Id": 4,
+    "Rarity": "N",
+    "Name": "旧校舍的讲堂",
+    "Icon": "IdCardBg_Icon_4"
+  },
+  {
+    "Id": 5,
+    "Rarity": "N",
+    "Name": "讲堂",
+    "Icon": "IdCardBg_Icon_5"
+  },
+  {
+    "Id": 6,
+    "Rarity": "N",
+    "Name": "学院楼梯",
+    "Icon": "IdCardBg_Icon_6"
+  },
+  {
+    "Id": 9000,
+    "Rarity": "N",
+    "Name": "乌特纳比斯汀主舰",
+    "Icon": "IdCardBg_Icon_9000"
+  }
+]

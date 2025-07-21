@@ -12,6 +12,7 @@
         <el-select v-model="form.type" placeholder="请选择类型" @change="handleTypeChange">
           <el-option label="设置玩家等级" value="AccountLevel"></el-option>
           <el-option label="设置玩家通知" value="Toast"></el-option>
+          <el-option label="获取玩家配置" value="GetConfig"></el-option>
         </el-select>
       </el-form-item>
 
@@ -21,7 +22,7 @@
           v-model="form.sub1"
           :placeholder="sub1Placeholder"
           :type="form.type === 'AccountLevel' ? 'number' : 'text'"
-          :disabled="!form.type"
+          :disabled="!form.type || form.type === 'GetConfig'"
         ></el-input>
       </el-form-item>
 
@@ -34,26 +35,52 @@
     </el-form>
 
     <!-- 响应信息 -->
-    <div v-if="response" class="respond-card">
-      <div class="respond-card-container">
-        <div class="header">
-          <img class="header-image" :src="banner1" alt="Header Image" />
+    <div v-if="responseData" class="response-container">
+      <div class="response-header">
+        <h3>
+          <el-icon><Document /></el-icon>
+          操作结果
+        </h3>
+        <div class="response-actions">
+          <el-button size="small" type="primary" @click="copyResponse" :icon="DocumentCopy">
+            复制数据
+          </el-button>
+          <el-button size="small" type="success" @click="downloadResponse" :icon="Download">
+            下载结果
+          </el-button>
         </div>
-        <div class="body">
-          <div class="message-box">
-            <p class="message-text">老师！这是您的操作结果：</p>
-            <p class="code">{{ response }}</p>
-            <p class="message-text">请检查是否生效</p>
-          </div>
-          <!-- <div class="footer">
-            <div class="copyright">
-              Copyright © {{ currentYear }}<br />
-              <a>KitanoSakura</a>. All Rights Reserved
+      </div>
+      
+      <div class="status-info">
+        <el-tag :type="responseData.code === 0 ? 'success' : 'danger'" size="large">
+          {{ responseData.code === 0 ? '成功' : '失败' }}
+        </el-tag>
+      </div>
+
+      <div class="data-content">
+        <template v-if="responseData.code === 0">
+          <div class="data-viewer">
+            <div class="section-header">
+              <el-icon><DataAnalysis /></el-icon>
+              <span>响应数据</span>
             </div>
-            <p class="description">如有问题请重新提交</p>
-            <p class="more">有任何问题可前往 [关于] 进行反馈</p>
-          </div> -->
-        </div>
+            <el-scrollbar class="data-container">
+              <pre class="data-content-text">{{ displayData }}</pre>
+            </el-scrollbar>
+          </div>
+        </template>
+
+        <template v-else>
+          <div class="error-viewer">
+            <div class="section-header">
+              <el-icon><WarningFilled /></el-icon>
+              <span>错误信息</span>
+            </div>
+            <div class="error-content">
+              <p>{{ responseData.msg || '未知错误' }}</p>
+            </div>
+          </div>
+        </template>
       </div>
     </div>
   </el-card>
@@ -61,10 +88,17 @@
 
 <script>
 import axios from 'axios'
-import banner1 from '@/assets/images/bg1.ccb168ef.jpg' // 引入图片
+import { 
+  Document, DocumentCopy, Download, DataAnalysis, 
+  WarningFilled 
+} from '@element-plus/icons-vue'
 
 export default {
   name: 'SetGame',
+  components: { 
+    Document, DocumentCopy, Download, DataAnalysis, 
+    WarningFilled 
+  },
   data() {
     return {
       form: {
@@ -72,34 +106,55 @@ export default {
         type: '',
         sub1: '',
       },
-      response: '',
+      responseData: null,
       isSubmitting: false,
     }
   },
   computed: {
-    // 获取当前年份
-    currentYear() {
-      return new Date().getFullYear()
-    },
     // sub1 的标签
     sub1Label() {
       if (!this.form.type) return '无' // 未选择类型时显示 "无"
-      return this.form.type === 'AccountLevel' ? '等级' : '通知'
+      const labelMap = {
+        'AccountLevel': '等级',
+        'Toast': '通知',
+        'GetConfig': '参数'
+      }
+      return labelMap[this.form.type] || '参数'
     },
     // sub1 的占位符
     sub1Placeholder() {
       if (!this.form.type) {
         return '请选择类型'
       }
-      return this.form.type === 'AccountLevel' ? '请输入玩家等级（数字）' : '请输入通知内容'
+      const placeholderMap = {
+        'AccountLevel': '请输入玩家等级（数字）',
+        'Toast': '请输入通知内容',
+        'GetConfig': '无需参数，将获取所有配置信息'
+      }
+      return placeholderMap[this.form.type] || '请输入参数'
     },
-    banner1() {
-      return banner1
-    },
+    displayData() {
+      if (!this.responseData || this.responseData.code !== 0) return ''
+      
+      try {
+        if (typeof this.responseData.msg === 'string') {
+          // 尝试解析JSON
+          const parsed = JSON.parse(this.responseData.msg)
+          return JSON.stringify(parsed, null, 2)
+        }
+        return JSON.stringify(this.responseData.msg, null, 2)
+      } catch (error) {
+        return this.responseData.msg
+      }
+    }
   },
   methods: {
     handleTypeChange() {
-      this.form.sub1 = '' // 切换类型时清空 sub1
+      if (this.form.type === 'GetConfig') {
+        this.form.sub1 = 'config' // GetConfig类型设置默认值
+      } else {
+        this.form.sub1 = '' // 其他类型清空 sub1
+      }
     },
     async handleSetGame() {
       const baseURL = localStorage.getItem('serverAddress')
@@ -108,33 +163,84 @@ export default {
         this.$message.error('请先在首页保存服务器地址')
         return
       }
-      if (!this.form.uid || !this.form.type || !this.form.sub1) {
+      if (!this.form.uid || !this.form.type) {
+        this.$message.error('请填写UID和类型')
+        return
+      }
+      if (this.form.type !== 'GetConfig' && !this.form.sub1) {
         this.$message.error('请填写完整信息')
         return
       }
       this.isSubmitting = true
-      this.response = ''
+      this.responseData = null
       try {
-        const url = `${baseURL}/cdq/api?cmd=set&uid=${this.form.uid}&type=${this.form.type}&sub1=${encodeURIComponent(this.form.sub1)}`
-        let headers = {}
-        if (authKey) {
-          headers.Authorization = authKey
+        const params = {
+          cmd: 'set',
+          uid: this.form.uid,
+          type: this.form.type,
+          sub1: this.form.sub1
         }
-        const res = await axios.get(url, { headers })
+        
+        const config = { params }
+        if (authKey) config.headers = { Authorization: authKey }
+        
+        const res = await axios.get(`${baseURL}/cdq/api`, config)
+        
+        this.responseData = res.data
+        
         if (res.data.code === 0) {
           this.$message.success('操作成功')
-          this.response = res.data.msg
         } else {
-          this.$message.error('操作失败')
-          this.response = res.data.msg
+          this.$message.error('操作失败：' + (res.data.msg || '未知错误'))
         }
       } catch (error) {
-        const errMsg = error.response?.data?.message || error.message
-        this.response = errMsg
-        this.$message.error(this.response)
+        this.responseData = {
+          code: -1,
+          msg: error.response?.data?.message || error.message
+        }
+        this.$message.error('请求失败：' + this.responseData.msg)
       } finally {
         this.isSubmitting = false
       }
+    },
+
+    async copyResponse() {
+      try {
+        await navigator.clipboard.writeText(this.displayData)
+        this.$message.success('复制成功')
+      } catch (error) {
+        this.$message.error('复制失败')
+      }
+    },
+
+    downloadResponse() {
+      let downloadData
+      let fileName
+      
+      try {
+        if (typeof this.responseData.msg === 'string') {
+          const parsed = JSON.parse(this.responseData.msg)
+          downloadData = JSON.stringify(parsed, null, 2)
+          fileName = `game_setting_${this.form.uid}_${Date.now()}.json`
+        } else {
+          downloadData = JSON.stringify(this.responseData.msg, null, 2)
+          fileName = `game_setting_${this.form.uid}_${Date.now()}.json`
+        }
+      } catch (error) {
+        downloadData = this.responseData.msg
+        fileName = `game_setting_${this.form.uid}_${Date.now()}.txt`
+      }
+      
+      const blob = new Blob([downloadData], { type: 'text/plain;charset=utf-8' })
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = fileName
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      URL.revokeObjectURL(url)
+      this.$message.success('下载成功')
     },
   },
 }
@@ -164,59 +270,92 @@ export default {
 .submit-btn:hover {
   transform: translateY(-1px);
 }
-.respond-card {
+
+.response-container {
+  margin-top: 2rem;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1.5rem;
+}
+
+.response-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.response-header h3 {
   display: flex;
   align-items: center;
-  padding: 8px;
-  color: #666;
-  font-size: 14px;
+  gap: 8px;
+  margin: 0;
+  color: #2c3e50;
+  font-weight: 600;
 }
-.respond-card-container {
-  width: 500px;
-  margin: 0 auto;
-  border: 1px solid #ee9ea8;
-  box-shadow: 0 0 20px #ccc;
-  border-radius: 5px;
-  background: #fff;
-}
-.header-image {
-  width: 100%;
-}
-.body {
-  padding: 30px 20px;
-}
-.message-box {
-  text-align: center;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
-  margin: 20px auto;
-}
-.message-text {
-  font-size: 16px;
-  color: #333;
-}
-.code {
-  font-size: 18px;
-  font-weight: bold;
-  color: #ee9ea8;
-  background: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-}
-.footer {
+
+.response-actions {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 8px;
 }
-.description,
-.more {
+
+.status-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+  padding: 12px;
+  background: rgba(79, 172, 254, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(79, 172, 254, 0.1);
+}
+
+.data-content {
+  margin-bottom: 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.data-container {
+  max-height: 500px;
+  min-height: 200px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #f8fafc;
+  overflow: auto;
+}
+
+.data-content-text {
+  padding: 16px;
+  font-family: 'Courier New', monospace;
   font-size: 13px;
-  color: #999;
-  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+  color: #2c3e50;
+  min-height: 100%;
+}
+
+.error-viewer {
+  background: rgba(231, 76, 60, 0.05);
+  border: 1px solid rgba(231, 76, 60, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.error-content {
+  color: #e74c3c;
+}
+
+.error-content p {
+  margin: 8px 0;
 }
 /* 标题样式 */
 :deep(h2) {

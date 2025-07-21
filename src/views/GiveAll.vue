@@ -97,12 +97,7 @@ export default {
         // { value: 'ShopRefresh', label: '商店刷新' },
         // { value: 'LocationExp', label: '地点经验' },
         // { value: 'Recipe', label: '配方' },
-        // { value: 'CharacterWeapon', label: '学生武器' },
-        // { value: 'ProductMonthly', label: '月度商品' },
-        // { value: 'CharacterGear', label: '学生装备' },
-        // { value: 'IdCardBackground', label: '资料背景' },
-        // { value: 'Emblem', label: '徽章' },
-        // { value: 'Costume', label: '服饰' },
+        { value: 'All', label: '全部物品' },
         { value: 'Material', label: '材料' },
         { value: 'Character', label: '学生' },
         { value: 'Equipment', label: '装备' },
@@ -124,14 +119,17 @@ export default {
         return
       }
       try {
-        const params = new URLSearchParams({
-          ...this.form,
-          cmd: 'ga',
-        }).toString()
+        const params = {
+          cmd: 'giveAll',
+          uid: this.form.uid,
+          type: this.form.t,
+          num: this.form.num,
+        }
 
-        const res = await axios.get(`${baseURL}/cdq/api?${params}`, {
-          headers: { Authorization: authKey },
-        })
+        const config = { params }
+        if (authKey) config.headers = { Authorization: authKey }
+        
+        const res = await axios.get(`${baseURL}/cdq/api`, config)
 
         if (res.data.code === 0) {
           this.$message.success('物品授予成功！')
