@@ -76,6 +76,13 @@ jobs:
             librsvg2-dev \
             squashfs-tools
 
+      - name: AppImage
+        run: |
+          mkdir -p ~/.cache/tauri/AppImage
+          wget -q https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage -O ~/.cache/tauri/AppImage/appimagetool-x86_64.AppImage
+          chmod +x ~/.cache/tauri/AppImage/appimagetool-x86_64.AppImage
+          ln -sf ~/.cache/tauri/AppImage/appimagetool-x86_64.AppImage ~/.cache/tauri/AppImage/runtime-x86_64
+
       - name: 安装依赖
         run: npm install
 
