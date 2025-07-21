@@ -67,7 +67,7 @@ export default {
       this.selectedNotice = notice
     },
     fetchAnnouncements() {
-      fetch('https://api.bluearchive.cc/api/noticeindex/api.php')
+      fetch('/Announcements.json')
         .then((res) => res.json())
         .then((data) => {
           if (Array.isArray(data.Notices)) {
