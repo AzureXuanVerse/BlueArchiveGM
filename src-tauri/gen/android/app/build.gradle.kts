@@ -17,7 +17,7 @@ android {
     compileSdk = 34
     namespace = "com.sakura.bluearchivegm"
     defaultConfig {
-        manifestPlaceholders["usesCleartextTraffic"] = "false"
+        manifestPlaceholders["usesCleartextTraffic"] = "true"
         applicationId = "com.sakura.bluearchivegm"
         minSdk = 24
         targetSdk = 34
