@@ -76,18 +76,17 @@ jobs:
             librsvg2-dev \
             squashfs-tools
 
-      - name: AppImage
-        run: |
-          mkdir -p ~/.cache/tauri/AppImage
-          wget -q https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-x86_64.AppImage -O ~/.cache/tauri/AppImage/appimagetool-x86_64.AppImage
-          chmod +x ~/.cache/tauri/AppImage/appimagetool-x86_64.AppImage
-          ln -sf ~/.cache/tauri/AppImage/appimagetool-x86_64.AppImage ~/.cache/tauri/AppImage/runtime-x86_64
-
       - name: 安装依赖
         run: npm install
 
       - name: 构建前端
         run: npm run build
+        
+      - name: Upload static files as artifact
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
 
       - name: 安装 Tauri CLI
         run: npm install --save-dev @tauri-apps/cli
@@ -102,11 +101,91 @@ jobs:
           path: |
             src-tauri/target/release/bundle/appimage/*.AppImage
             src-tauri/target/release/bundle/deb/*.deb
+            
+  build-android:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: 安装 Rust
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: |
+            aarch64-linux-android
+            armv7-linux-androideabi
+            i686-linux-android
+            x86_64-linux-android
+
+      - name: 安装系统依赖（Linux）
+        run: |
+          sudo apt update
+          sudo apt install -y \
+            build-essential \
+            curl \
+            wget \
+            libgtk-3-dev \
+            libwebkit2gtk-4.1-dev \
+            libayatana-appindicator3-dev \
+            librsvg2-dev \
+            squashfs-tools
+
+      - uses: android-actions/setup-android@v3
+        with:
+          packages: 'ndk;28.2.13676358 tools platform-tools'
+
+      - name: 安装依赖
+        run: npm install
+        
+      - name: 构建前端
+        run: npm run build
+
+      - name: 安装 Tauri CLI
+        run: npm install --save-dev @tauri-apps/cli
+
+      - name: 构建 Tauri（Android）
+        env:
+          NDK_HOME: ${{ env.ANDROID_HOME }}/ndk/28.2.13676358
+        run: |
+            npm run tauri android build -- --apk
+            mv src-tauri/gen/android/app/build/outputs/apk/universal/release/*.apk BlueArchiveGM.apk
+            java -jar uber-apk-signer.jar --overwrite -a BlueArchiveGM.apk
+        
+      - name: 上传 Android 构建产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: tauri-app-android
+          path: |
+            BlueArchiveGM.apk
+  deploy:
+    name: 部署在线版本
+    needs: build-linux
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 
   release:
     name: 创建 GitHub Release
-    needs: [build-windows, build-linux]
+    needs: [build-windows, build-linux, build-android]
     runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
     steps:
       - name: 下载 Windows 构建产物
         uses: actions/download-artifact@v4
@@ -120,17 +199,22 @@ jobs:
           name: tauri-app-linux
           path: ./artifacts/linux
 
+      - name: 下载 Android 构建产物
+        uses: actions/download-artifact@v4
+        with:
+          name: tauri-app-android
+          path: ./artifacts/android
+
       - name: 创建 GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "v2.0.4"
-          name: "v2.0.4"
-          body: "支持Lite版，标准版互相切换，修复部分BUG"
+          tag_name: "v1.0.8"
+          name: "v1.0.8"
+          body: "支持 Linux & Android"
           draft: false
           prerelease: false
           files: |
             ./artifacts/windows/BlueArchiveGM.exe
             ./artifacts/linux/*.AppImage
             ./artifacts/linux/*.deb
-        env:
-          GITHUB_TOKEN: ${{ secrets.KITANO_GM_TOKEN }}
+            ./artifacts/android/BlueArchiveGM.apk

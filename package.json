@@ -8,6 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "tauri": "tauri",
     "tauri:build": "tauri build",
     "format": "prettier --write src/"
   },
