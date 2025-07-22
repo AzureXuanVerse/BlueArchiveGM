@@ -97,6 +97,8 @@
             :key="index"
             class="idlist-item"
             :class="{ 'emblem-item': selectedSource === 'emblem' }"
+            :data-category="item.Category"
+            :data-source="item.source"
             @click="copyToClipboard(item.Id)"
           >
             <div class="item-icon-wrapper">
@@ -768,8 +770,8 @@ export default {
 }
 
 .idlist-item-icon {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   object-fit: cover;
   border-radius: 8px;
   background: transparent;
@@ -1037,4 +1039,31 @@ export default {
   transform: scale(1.2);
   transition: transform 0.2s ease;
 }
+
+/* 贴纸特殊样式 */
+.idlist-item[data-category="Sticker"] .idlist-item-icon,
+.idlist-item[data-source="sticker"] .idlist-item-icon {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  background: linear-gradient(135deg, #f0f7fc 0%, #e6f2fa 100%);
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.idlist-item[data-category="Sticker"],
+.idlist-item[data-source="sticker"] {
+  background: linear-gradient(135deg, #f0f7fc 0%, #e6f2fa 100%);
+}
+
+/* 称号特殊样式 */
+.idlist-item[data-category="Emblem"] .idlist-item-icon,
+.idlist-item[data-category="FavorEmblem"] .idlist-item-icon,
+.idlist-item[data-source="emblem"] .idlist-item-icon {
+  width: 300px;
+  height: 127px;
+  padding: 4px;
+  object-fit: contain;
+}
+
 </style>

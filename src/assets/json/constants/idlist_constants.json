@@ -47,8 +47,7 @@
     "CharacterExpGrowth": "角色经验", 
     "FavorItem": "好感物品",
     "Consumable": "消耗品", 
-    "Collectible": "收藏品", 
-    "InvisibleToken": "隐藏代币", 
+    "Collectible": "收藏品",
     "RecruitCoin": "招募币", 
     "SecretStone": "神名文字",
     "Character": "学生",
@@ -116,7 +115,6 @@
       { "value": "FavorItem", "label": "好感物品" },
       { "value": "Consumable", "label": "消耗品" }, 
       { "value": "Collectible", "label": "收藏品" },
-      { "value": "InvisibleToken", "label": "隐藏代币" }, 
       { "value": "RecruitCoin", "label": "招募币" },
       { "value": "SecretStone", "label": "神名文字" }
     ],

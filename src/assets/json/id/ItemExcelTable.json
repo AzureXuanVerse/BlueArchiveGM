@@ -11536,22 +11536,6 @@
     "Icon": "Item_Icon_Consumable_AP_3"
   },
   {
-    "Id": 11000000,
-    "Rarity": "N",
-    "Name": "LocalizeError",
-    "Category": "InvisibleToken",
-    "Desc": "LocalizeError",
-    "Icon": ""
-  },
-  {
-    "Id": 11000001,
-    "Rarity": "N",
-    "Name": "LocalizeError",
-    "Category": "InvisibleToken",
-    "Desc": "LocalizeError",
-    "Icon": ""
-  },
-  {
     "Id": 12000000,
     "Rarity": "N",
     "Name": "3★成员自选券",
