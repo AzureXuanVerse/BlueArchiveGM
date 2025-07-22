@@ -3,33 +3,50 @@
     <!-- 引入公告弹窗组件 -->
     <AnnouncementModal ref="announcementModal" />
     <div class="container">
-      <Sidebar />
-      <div class="content">
-        <TopNavBar />
+      <Sidebar v-show="!isMobile" />
+      <div class="content" :class="{ 'mobile-content': isMobile }">
         <div class="main-content">
           <router-view />
         </div>
       </div>
     </div>
+    <BottomNavBar />
   </div>
 </template>
 
 <script>
 import Sidebar from './components/Sidebar.vue'
-import TopNavBar from './components/TopNavBar.vue'
 import AnnouncementModal from './components/Announcement.vue'
+import BottomNavBar from './components/BottomNavBar.vue'
 
 export default {
   name: 'App',
   components: {
     Sidebar,
-    TopNavBar,
     AnnouncementModal,
+    BottomNavBar
+  },
+  data() {
+    return {
+      isMobile: false
+    }
   },
   mounted() {
     // 挂载后自动打开公告弹窗（可根据需求调整调用时机）
     this.$refs.announcementModal.open()
+    
+    // 检测设备类型
+    this.checkMobile()
+    window.addEventListener('resize', this.checkMobile)
   },
+  unmounted() {
+    window.removeEventListener('resize', this.checkMobile)
+  },
+  methods: {
+    checkMobile() {
+      this.isMobile = window.innerWidth <= 768
+    }
+  }
 }
 </script>
 
@@ -57,5 +74,16 @@ export default {
 
 .main-content {
   padding: 24px;
+}
+
+/* 移动端样式 */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .main-content {
+    padding: 1px;
+  }
 }
 </style>

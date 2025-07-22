@@ -64,6 +64,7 @@ export default {
   backdrop-filter: blur(10px); /* 模糊效果 */
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
   overflow: visible !important;
+  transition: transform 0.3s ease;
 }
 
 /* LOGO区域 */

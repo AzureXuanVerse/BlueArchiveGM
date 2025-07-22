@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import GithubButton from './GithubButton.vue'
 export default {
   name: 'TopNavBar',
   components: {
