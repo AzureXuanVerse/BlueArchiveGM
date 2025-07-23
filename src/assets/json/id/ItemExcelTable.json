@@ -900,7 +900,7 @@
     "Rarity": "SR",
     "Name": "体育培育 WB",
     "Category": "Material",
-    "Desc": "为了解放学生能力而发行的教育用 WB",
+    "Desc": "为了解放学员能力而发行的教育用 WB",
     "Icon": "Item_Icon_WorkBook_PotentialMaxHP"
   },
   {
@@ -908,7 +908,7 @@
     "Rarity": "SR",
     "Name": "射击培育 WB",
     "Category": "Material",
-    "Desc": "为了解放学生能力而发行的教育用 WB",
+    "Desc": "为了解放学员能力而发行的教育用 WB",
     "Icon": "Item_Icon_WorkBook_PotentialAttack"
   },
   {
@@ -916,7 +916,7 @@
     "Rarity": "SR",
     "Name": "卫生培育 WB",
     "Category": "Material",
-    "Desc": "为了解放学生能力而发行的教育用 WB",
+    "Desc": "为了解放学员能力而发行的教育用 WB",
     "Icon": "Item_Icon_WorkBook_PotentialHealPower"
   },
   {
@@ -986,65 +986,65 @@
   {
     "Id": 3020,
     "Rarity": "N",
-    "Name": "初级战术教育光盘\n（圣三一）",
+    "Name": "初级战术教育光盘\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "将圣三一女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将崔尼蒂女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Trinity_0"
   },
   {
     "Id": 3021,
     "Rarity": "R",
-    "Name": "中级战术教育光盘\n（圣三一）",
+    "Name": "中级战术教育光盘\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "将圣三一女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将崔尼蒂女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Trinity_1"
   },
   {
     "Id": 3022,
     "Rarity": "SR",
-    "Name": "高级战术教育光盘\n（圣三一）",
+    "Name": "高级战术教育光盘\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "将圣三一女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将崔尼蒂女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Trinity_2"
   },
   {
     "Id": 3023,
     "Rarity": "SSR",
-    "Name": "特级战术教育光盘\n（圣三一）",
+    "Name": "特级战术教育光盘\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "将圣三一女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将崔尼蒂女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Trinity_3"
   },
   {
     "Id": 3030,
     "Rarity": "N",
-    "Name": "初级战术教育光盘\n（格黑娜）",
+    "Name": "初级战术教育光盘\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "将格黑娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将歌赫娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Gehenna_0"
   },
   {
     "Id": 3031,
     "Rarity": "R",
-    "Name": "中级战术教育光盘\n（格黑娜）",
+    "Name": "中级战术教育光盘\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "将格黑娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将歌赫娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Gehenna_1"
   },
   {
     "Id": 3032,
     "Rarity": "SR",
-    "Name": "高级战术教育光盘\n（格黑娜）",
+    "Name": "高级战术教育光盘\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "将格黑娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将歌赫娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Gehenna_2"
   },
   {
     "Id": 3033,
     "Rarity": "SSR",
-    "Name": "特级战术教育光盘\n（格黑娜）",
+    "Name": "特级战术教育光盘\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "将格黑娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将歌赫娜女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Gehenna_3"
   },
   {
@@ -1210,33 +1210,33 @@
   {
     "Id": 3090,
     "Rarity": "N",
-    "Name": "初級战术教育光盘\n（海兰德）",
+    "Name": "初级战术教育光盘\n（狂猎）",
     "Category": "Material",
-    "Desc": "将海兰德女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将狂猎女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Highlander_0"
   },
   {
     "Id": 3091,
     "Rarity": "R",
-    "Name": "中級战术教育光盘\n（海兰德）",
+    "Name": "中级战术教育光盘\n（狂猎）",
     "Category": "Material",
-    "Desc": "将海兰德女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将狂猎女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Highlander_1"
   },
   {
     "Id": 3092,
     "Rarity": "SR",
-    "Name": "上級战术教育光盘\n（海兰德）",
+    "Name": "高级战术教育光盘\n（狂猎）",
     "Category": "Material",
-    "Desc": "将海兰德女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将狂猎女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Highlander_2"
   },
   {
     "Id": 3093,
     "Rarity": "SSR",
-    "Name": "最上級战术教育光盘\n（海兰德）",
+    "Name": "特级战术教育光盘\n（狂猎）",
     "Category": "Material",
-    "Desc": "将海兰德女生们进行的战术活动以视频形式记录下来的教育用光盘。",
+    "Desc": "将狂猎女生们进行的战术活动以视频形式记录下来的教育用光盘。",
     "Icon": "Item_Icon_Material_ExSkill_Highlander_3"
   },
   {
@@ -1306,65 +1306,65 @@
   {
     "Id": 4020,
     "Rarity": "N",
-    "Name": "初级技术笔记\n（圣三一）",
+    "Name": "初级技术笔记\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "总结了圣三一核心战术的秘密笔记。",
+    "Desc": "总结了崔尼蒂核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Trinity_0"
   },
   {
     "Id": 4021,
     "Rarity": "R",
-    "Name": "中级技术笔记\n（圣三一）",
+    "Name": "中级技术笔记\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "总结了圣三一核心战术的秘密笔记。",
+    "Desc": "总结了崔尼蒂核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Trinity_1"
   },
   {
     "Id": 4022,
     "Rarity": "SR",
-    "Name": "高级技术笔记\n（圣三一）",
+    "Name": "高级技术笔记\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "总结了圣三一核心战术的秘密笔记。",
+    "Desc": "总结了崔尼蒂核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Trinity_2"
   },
   {
     "Id": 4023,
     "Rarity": "SSR",
-    "Name": "特级技术笔记\n（圣三一）",
+    "Name": "特级技术笔记\n（崔尼蒂）",
     "Category": "Material",
-    "Desc": "总结了圣三一核心战术的秘密笔记。",
+    "Desc": "总结了崔尼蒂核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Trinity_3"
   },
   {
     "Id": 4030,
     "Rarity": "N",
-    "Name": "初级技术笔记\n（格黑娜）",
+    "Name": "初级技术笔记\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "总结了格黑娜核心战术的秘密笔记。",
+    "Desc": "总结了歌赫娜核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Gehenna_0"
   },
   {
     "Id": 4031,
     "Rarity": "R",
-    "Name": "中级技术笔记\n（格黑娜）",
+    "Name": "中级技术笔记\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "总结了格黑娜核心战术的秘密笔记。",
+    "Desc": "总结了歌赫娜核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Gehenna_1"
   },
   {
     "Id": 4032,
     "Rarity": "SR",
-    "Name": "高级技术笔记\n（格黑娜）",
+    "Name": "高级技术笔记\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "总结了格黑娜核心战术的秘密笔记。",
+    "Desc": "总结了歌赫娜核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Gehenna_2"
   },
   {
     "Id": 4033,
     "Rarity": "SSR",
-    "Name": "特级技术笔记\n（格黑娜）",
+    "Name": "特级技术笔记\n（歌赫娜）",
     "Category": "Material",
-    "Desc": "总结了格黑娜核心战术的秘密笔记。",
+    "Desc": "总结了歌赫娜核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Gehenna_3"
   },
   {
@@ -1530,33 +1530,33 @@
   {
     "Id": 4090,
     "Rarity": "N",
-    "Name": "初级技术笔记\n（海兰德）",
+    "Name": "初级技术笔记\n（狂猎）",
     "Category": "Material",
-    "Desc": "总结了海兰德铁道学院核心战术的秘密笔记。",
+    "Desc": "总结了狂猎核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Highlander_0"
   },
   {
     "Id": 4091,
     "Rarity": "R",
-    "Name": "中级技术笔记\n（海兰德）",
+    "Name": "中级技术笔记\n（狂猎）",
     "Category": "Material",
-    "Desc": "总结了海兰德铁道学院核心战术的秘密笔记。",
+    "Desc": "总结了狂猎核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Highlander_1"
   },
   {
     "Id": 4092,
     "Rarity": "SR",
-    "Name": "高级技术笔记\n（海兰德）",
+    "Name": "高级技术笔记\n（狂猎）",
     "Category": "Material",
-    "Desc": "总结了海兰德铁道学院核心战术的秘密笔记。",
+    "Desc": "总结了狂猎核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Highlander_2"
   },
   {
     "Id": 4093,
     "Rarity": "SSR",
-    "Name": "最高级技术笔记\n（海兰德）",
+    "Name": "特级技术笔记\n（狂猎）",
     "Category": "Material",
-    "Desc": "总结了海兰德铁道学院核心战术的秘密笔记。",
+    "Desc": "总结了狂猎核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Highlander_3"
   },
   {
@@ -1594,7 +1594,7 @@
   {
     "Id": 5004,
     "Rarity": "SR",
-    "Name": "游戏杂志《HIT GI火箭筒S》",
+    "Name": "游戏杂志《HIT GIRLS》",
     "Category": "Favor",
     "Desc": "绝不错过任何一个情报。\n杂志里不仅有基沃托斯最新游戏发售消息，还有经典游戏攻略和游戏周边发售等消息。",
     "Icon": "Item_Icon_Favor_4"
@@ -1860,7 +1860,7 @@
     "Rarity": "SSR",
     "Name": "莎姆艾菈【Beyond】",
     "Category": "Favor",
-    "Desc": "高级化妆品公司莎姆艾菈贩卖的最高级香水。\n以“试着喷一次就能变得可爱！”的广告语而着名的超级无敌人气商品，为旷世天才调香师【Beyond】制作的莎姆艾菈12杰作之一。",
+    "Desc": "高级化妆品公司莎姆艾菈贩卖的最高级香水。\n以“试着喷一次就能变得可爱！”的广告语而著名的超级无敌人气商品，为旷世天才调香师【Beyond】制作的莎姆艾菈12杰作之一。",
     "Icon": "Item_Icon_Favor_Lv2_2"
   },
   {
@@ -1876,7 +1876,7 @@
     "Rarity": "SSR",
     "Name": "千层酥咖啡厅的正宗芭菲",
     "Category": "Favor",
-    "Desc": "圣三一的有名甜品店千层酥咖啡厅出售的芭菲圣代。在柔软的冰淇淋上层层叠上饼干、糖浆、鲜奶油还有水果，这才是正宗的芭菲圣代！",
+    "Desc": "崔尼蒂的有名甜品店千层酥咖啡厅出售的芭菲圣代。在柔软的冰淇淋上层层叠上饼干、糖浆、鲜奶油还有水果，这才是正宗的芭菲圣代！",
     "Icon": "Item_Icon_Favor_Lv2_4"
   },
   {
@@ -1908,7 +1908,7 @@
     "Rarity": "SSR",
     "Name": "最高级枫树盆栽",
     "Category": "Favor",
-    "Desc": "观赏一下就能让心情平静下来的最高级枫树盆栽。就像随着四时更替衣装一般不断变化的树叶，有着一种幽静的韵味。",
+    "Desc": "观赏一下就能让心情平静下来的最高级枫树盆栽。就像随着四季更替衣装一般不断变化的树叶，有着一种幽静的韵味。",
     "Icon": "Item_Icon_Favor_Lv2_8"
   },
   {
@@ -1988,7 +1988,7 @@
     "Rarity": "SSR",
     "Name": "3★成员必得招募券",
     "Category": "Material",
-    "Desc": "可以进行10次招募，且必定能招募到1名以上3★成员的招募券。※如未在2023年8月31日维护前使用，此券将会消失。",
+    "Desc": "保证可以招募到1名以上3★成员的10次招募票券。※如未于有效期间前使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
@@ -2028,7 +2028,7 @@
     "Rarity": "SSR",
     "Name": "3★成员必得招募券",
     "Category": "Material",
-    "Desc": "可以进行10次招募，且必定能招募到1名以上3★成员的招募券。※如未在2024年9月05日维护前使用，此券将会消失。",
+    "Desc": "保证可以招募到1名以上3★成员的10次招募票券。※如未于有效期间前使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
@@ -2066,33 +2066,41 @@
   {
     "Id": 6105,
     "Rarity": "SSR",
-    "Name": "★3学生保证10次票券 ",
+    "Name": "★3学员保证10次票券 ",
     "Category": "Material",
-    "Desc": "保证可以招募到1名以上★3学生的10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
+    "Desc": "保证可以招募到1名以上★3学员的10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
     "Id": 6106,
     "Rarity": "SSR",
-    "Name": "★3学生保证10次票券 ",
+    "Name": "★3学员保证10次票券 ",
     "Category": "Material",
-    "Desc": "保证可以招募到1名以上★3学生的10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
+    "Desc": "保证可以招募到1名以上★3学员的10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
     "Id": 6107,
     "Rarity": "SSR",
-    "Name": "★3学生必出招募门票",
+    "Name": "★3学员保证10次票券",
     "Category": "Material",
-    "Desc": "可进行10次招募，且其中必定会有至少1名★3学生应募的门票。※若在2025年1月20日维护开始前未使用，此门票将会消失。",
+    "Desc": "保证可以招募到1名以上★3学员的10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
     "Id": 6108,
     "Rarity": "SSR",
-    "Name": "★3学生必得招募券",
+    "Name": "★3学员必得招募券",
     "Category": "Material",
-    "Desc": "进行10次招募，其中必定有至少1名★3学生应募的票券。※若未在2025年5月21日维护开始前使用，该券将消失",
+    "Desc": "进行10次招募，其中必定有至少1名★3学员应募的票券。※若未在2025年5月21日维护开始前使用，该券将消失",
+    "Icon": "Item_Icon_RecruitTicket_3Star_10"
+  },
+  {
+    "Id": 6109,
+    "Rarity": "SSR",
+    "Name": "★3学员必得招募券",
+    "Category": "Material",
+    "Desc": "可进行10次招募，且其中必有至少1名★3学员应募的票券。※若未在2025年8月20日维护开始时前使用，该票券将会消失",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
@@ -2100,7 +2108,7 @@
     "Rarity": "SSR",
     "Name": "3★成员必得招募券",
     "Category": "Material",
-    "Desc": "可以进行10次招募，且必定能招募到1名以上3★成员的招募券。※如未在2023年8月31日维护前使用，此券将会消失。",
+    "Desc": "保证可以招募到1名以上3★成员的10次招募票券。※如未于有效期间前使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
@@ -2108,7 +2116,7 @@
     "Rarity": "SSR",
     "Name": "3★成员必得招募券",
     "Category": "Material",
-    "Desc": "可以进行10次招募，且必定能招募到1名以上3★成员的招募券。※如未在2023年8月31日维护前使用，此券将会消失。",
+    "Desc": "保证可以招募到1名以上3★成员的10次招募票券。※如未于有效期间前使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_3Star_10"
   },
   {
@@ -2132,7 +2140,7 @@
     "Rarity": "SSR",
     "Name": "1次招募券",
     "Category": "Material",
-    "Desc": "使用本道具可进行1次招募。※如未在2023年8月31日维护前使用，此券将会消失。",
+    "Desc": "1次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_1"
   },
   {
@@ -2140,7 +2148,7 @@
     "Rarity": "SSR",
     "Name": "1次招募券",
     "Category": "Material",
-    "Desc": "使用本道具可进行1次招募。※如未在2023年8月31日维护前使用，此券将会消失。",
+    "Desc": "1次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_1"
   },
   {
@@ -2148,7 +2156,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "使用本道具可进行10次招募。※如未在2025年3月27日13点59分前使用，此券将会消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2172,7 +2180,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "能进行10次招募的票券。※若未在有效期间内使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2180,7 +2188,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "能进行10次招募的票券。※若未在有效期间内使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2188,7 +2196,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "能进行10次招募的票券。※若未在有效期间内使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2196,7 +2204,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "能进行10次招募的票券。※若未在有效期间内使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2204,7 +2212,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "10次招募票券。※若未于2023年12月31日23点59分前使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2212,7 +2220,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "10次招募票券。※若未于2024年1月31日23点59分前使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2220,7 +2228,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "10次招募票券。※若未于2024年2月29日23点59分前使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2228,7 +2236,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "10次招募票券。※若未于2024年3月31日23点59分前使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2236,7 +2244,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "10次招募票券。※若未于2024年4月30日23点59分前使用，本票券将自动消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2306,25 +2314,25 @@
   {
     "Id": 6520,
     "Rarity": "SSR",
-    "Name": "十连招募门票",
+    "Name": "10次招募票券",
     "Category": "Material",
-    "Desc": "这是可进行十次招募的门票。※若在2025年1月31日23时59分前未使用，此门票将会消失。",
+    "Desc": "10次招募票券。※若未于2025年1月31日23点59分前使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
     "Id": 6521,
     "Rarity": "SSR",
-    "Name": "十连招募门票",
+    "Name": "10次招募票券",
     "Category": "Material",
-    "Desc": "这是可进行十次招募的门票。※若在2025年2月28日23时59分前未使用，此门票将会消失。",
+    "Desc": "10次招募票券。※若未于2025年2月28日23点59分前使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
     "Id": 6522,
     "Rarity": "SSR",
-    "Name": "十连招募门票",
+    "Name": "10次招募票券",
     "Category": "Material",
-    "Desc": "这是可进行十次招募的门票。※若在2025年3月31日23时59分前未使用，此门票将会消失。",
+    "Desc": "10次招募票券。※若未于2025年3月31日23点59分前使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2362,9 +2370,17 @@
   {
     "Id": 6527,
     "Rarity": "SSR",
-    "Name": "10回募集チケット",
+    "Name": "10连招募券",
     "Category": "Material",
-    "Desc": "10回募集を行うチケットです。※2025年8月31日23時59分までに使用しない場合、このチケットは消失してしまいます",
+    "Desc": "可进行10次招募的票券。※若在2025年8月31日23时59分前未使用，该票券将会消失",
+    "Icon": "Item_Icon_RecruitTicket_Normal_10"
+  },
+  {
+    "Id": 6528,
+    "Rarity": "SSR",
+    "Name": "十连招募券",
+    "Category": "Material",
+    "Desc": "可进行10次招募的券。※若未在2025年9月30日23:59前使用，该券将失效",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2442,17 +2458,41 @@
   {
     "Id": 6801,
     "Rarity": "SSR",
-    "Name": "十连招募券",
+    "Name": "10次招募票券",
     "Category": "Material",
-    "Desc": "这是可进行十次招募的招募券。※若在2025年2月26日10时59分前未使用，此招募券将会消失。",
+    "Desc": "10次招募票券。※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
+  },
+  {
+    "Id": 6802,
+    "Rarity": "SSR",
+    "Name": "10连招募券",
+    "Category": "Material",
+    "Desc": "可进行10次招募的票券。※若未在2026年7月1日10:59前使用，该票券将会消失",
+    "Icon": "Item_Icon_RecruitTicket_Normal_10"
+  },
+  {
+    "Id": 6996,
+    "Rarity": "SSR",
+    "Name": "单次档案招募券",
+    "Category": "Material",
+    "Desc": "可进行1次档案招募的券。",
+    "Icon": "Item_Icon_RecruitTicket_SelectPickup_1"
+  },
+  {
+    "Id": 6997,
+    "Rarity": "SSR",
+    "Name": "十次档案招募券",
+    "Category": "Material",
+    "Desc": "可进行10次档案招募的券。",
+    "Icon": "Item_Icon_RecruitTicket_SelectPickup_10"
   },
   {
     "Id": 6998,
     "Rarity": "SSR",
     "Name": "1次招募券",
     "Category": "Material",
-    "Desc": "使用本道具可进行1次招募。",
+    "Desc": "1次招募票券。",
     "Icon": "Item_Icon_RecruitTicket_Normal_1"
   },
   {
@@ -2460,7 +2500,7 @@
     "Rarity": "SSR",
     "Name": "10次招募券",
     "Category": "Material",
-    "Desc": "使用本道具可进行10次招募。",
+    "Desc": "10次招募票券。",
     "Icon": "Item_Icon_RecruitTicket_Normal_10"
   },
   {
@@ -2468,7 +2508,7 @@
     "Rarity": "N",
     "Name": "作战数据1：D型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_0"
   },
   {
@@ -2476,16 +2516,24 @@
     "Rarity": "N",
     "Name": "作战数据1：D型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_0"
   },
   {
     "Id": 8100,
     "Rarity": "N",
-    "Name": "★3学生必出单次招募券（按攻击类型区分）",
+    "Name": "★3学员保证1次招募票券（攻击类型）",
     "Category": "Material",
-    "Desc": "这是可在★3学生必出招募（按攻击类型区分）中使用的单次招募券。\n※若在2025年2月26日维护开始前未使用，此招募券将会消失。",
+    "Desc": "可用于保证招募★3学员（攻击类型）的1次招募票券。\n※若未在有效期间内使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Property_3Star_1"
+  },
+  {
+    "Id": 8200,
+    "Rarity": "N",
+    "Name": "限定★3学员必得1次招募券",
+    "Category": "Material",
+    "Desc": "可在限定★3学员必得招募中使用的1次招募票券。\n※若未在2025年8月20日维护开始时前使用，该票券将会消失",
+    "Icon": "Item_Icon_RecruitTicket_LimitedThreeStar_1"
   },
   {
     "Id": 9998,
@@ -2714,25 +2762,25 @@
   {
     "Id": 10026,
     "Rarity": "N",
-    "Name": "妮露（兔女郎）的神名文字",
+    "Name": "妮露（邦妮）的神名文字",
     "Category": "SecretStone",
-    "Desc": "妮露（兔女郎）的神名文字，蕴含着妮露（兔女郎）的神秘。",
+    "Desc": "妮露（邦妮）的神名文字，蕴含着妮露（邦妮）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0101"
   },
   {
     "Id": 10027,
     "Rarity": "N",
-    "Name": "花凛（兔女郎）的神名文字",
+    "Name": "花凛（邦妮）的神名文字",
     "Category": "SecretStone",
-    "Desc": "花凛（兔女郎）的神名文字，蕴含着花凛（兔女郎）的神秘。",
+    "Desc": "花凛（邦妮）的神名文字，蕴含着花凛（邦妮）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0100"
   },
   {
     "Id": 10028,
     "Rarity": "N",
-    "Name": "明日奈（兔女郎）的神名文字",
+    "Name": "明日奈（邦妮）的神名文字",
     "Category": "SecretStone",
-    "Desc": "明日奈（兔女郎）的神名文字，蕴含着明日奈（兔女郎）的神秘。",
+    "Desc": "明日奈（邦妮）的神名文字，蕴含着明日奈（邦妮）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0098"
   },
   {
@@ -3042,9 +3090,9 @@
   {
     "Id": 10067,
     "Rarity": "N",
-    "Name": "时（兔女郎）的神名文字",
+    "Name": "时（邦妮）的神名文字",
     "Category": "SecretStone",
-    "Desc": "时（兔女郎）的神名文字，蕴含着时（兔女郎）的神秘。",
+    "Desc": "时（邦妮）的神名文字，蕴含着时（邦妮）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0211"
   },
   {
@@ -3258,9 +3306,9 @@
   {
     "Id": 10094,
     "Rarity": "N",
-    "Name": "桃井（女仆）的神名文字",
+    "Name": "桃（女仆）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着桃井（女仆）的神秘的神名文字。",
+    "Desc": "蕴含着桃（女仆）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0201"
   },
   {
@@ -3306,9 +3354,9 @@
   {
     "Id": 10101,
     "Rarity": "N",
-    "Name": "沙织（泳装）的神名文字",
+    "Name": "纱织（泳装）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含沙织（泳装）的神秘的神名文字。",
+    "Desc": "蕴含纱织（泳装）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0266"
   },
   {
@@ -3356,7 +3404,7 @@
     "Rarity": "N",
     "Name": "千秋的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着千秋神秘力量的神名文字。",
+    "Desc": "蕴含着千秋的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0238"
   },
   {
@@ -3364,7 +3412,7 @@
     "Rarity": "N",
     "Name": "优香（睡衣）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着优香（睡衣）神秘力量的神名文字。",
+    "Desc": "蕴含着优香（睡衣）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0284"
   },
   {
@@ -3372,7 +3420,7 @@
     "Rarity": "N",
     "Name": "诺亚（睡衣）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着诺亚（睡衣）神秘力量的神名文字。",
+    "Desc": "蕴含着诺亚（睡衣）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0285"
   },
   {
@@ -3380,7 +3428,7 @@
     "Rarity": "N",
     "Name": "圣娅的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着圣娅神秘力量的神名文字。",
+    "Desc": "蕴含着圣娅的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0070"
   },
   {
@@ -3388,7 +3436,7 @@
     "Rarity": "N",
     "Name": "妮露（制服）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着妮露（制服）神秘力量的神名文字。",
+    "Desc": "蕴含着妮露（制服）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0280"
   },
   {
@@ -3396,7 +3444,7 @@
     "Rarity": "N",
     "Name": "明日奈（制服）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着明日奈（制服）神秘力量的神名文字。",
+    "Desc": "蕴含着明日奈（制服）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0281"
   },
   {
@@ -3466,10 +3514,34 @@
   {
     "Id": 10121,
     "Rarity": "N",
-    "Name": "ユカリ（水着）の神名文字",
+    "Name": "紫（泳装）的神名文字",
     "Category": "SecretStone",
-    "Desc": "ユカリ（水着）の神秘が詰まった神名文字。",
+    "Desc": "紫（泳装）的神名文字，蕴含着紫（泳装）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0301"
+  },
+  {
+    "Id": 10122,
+    "Rarity": "N",
+    "Name": "未花（泳装）的神名文字",
+    "Category": "SecretStone",
+    "Desc": "未花（泳装）的神名文字，蕴含着未花的神秘。",
+    "Icon": "Item_Icon_SecretStone_CH0294"
+  },
+  {
+    "Id": 10123,
+    "Rarity": "N",
+    "Name": "圣娅（泳装）的神名文字",
+    "Category": "SecretStone",
+    "Desc": "圣娅（泳装）的神名文字，蕴含着圣娅的神秘。",
+    "Icon": "Item_Icon_SecretStone_CH0295"
+  },
+  {
+    "Id": 10124,
+    "Rarity": "N",
+    "Name": "莲见（泳装）的神名文字",
+    "Category": "SecretStone",
+    "Desc": "莲见（泳装）的神名文字，蕴含着莲见的神秘。",
+    "Icon": "Item_Icon_SecretStone_CH0291"
   },
   {
     "Id": 13000,
@@ -3586,9 +3658,9 @@
   {
     "Id": 13014,
     "Rarity": "N",
-    "Name": "レンゲ（水着）の神名文字",
+    "Name": "莲华（泳装）的神名文字",
     "Category": "SecretStone",
-    "Desc": "レンゲ（水着）の神秘が詰まった神名文字。",
+    "Desc": "莲华（泳装）的神名文字，蕴含着莲华（泳装）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0302"
   },
   {
@@ -3714,9 +3786,9 @@
   {
     "Id": 16015,
     "Rarity": "N",
-    "Name": "爱莉（乐队）的神名文字",
+    "Name": "爱理（乐队）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着爱莉（乐队）的神秘的神名文字。",
+    "Desc": "蕴含着爱理（乐队）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0251"
   },
   {
@@ -3890,9 +3962,9 @@
   {
     "Id": 20019,
     "Rarity": "N",
-    "Name": "茜（兔女郎）的神名文字",
+    "Name": "茜（邦妮）的神名文字",
     "Category": "SecretStone",
-    "Desc": "茜（兔女郎）的神名文字，蕴含着茜（兔女郎）的神秘。",
+    "Desc": "茜（邦妮）的神名文字，蕴含着茜（邦妮）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0099"
   },
   {
@@ -3914,9 +3986,9 @@
   {
     "Id": 20022,
     "Rarity": "N",
-    "Name": "枫香（新年）的神名文字",
+    "Name": "风香（新年）的神名文字",
     "Category": "SecretStone",
-    "Desc": "枫香（新年）的神名文字，蕴含着枫香（新年）的神秘。",
+    "Desc": "风香（新年）的神名文字，蕴含着风香（新年）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0177"
   },
   {
@@ -4060,7 +4132,7 @@
     "Rarity": "N",
     "Name": "皋月的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着皋月神秘力量的神名文字。",
+    "Desc": "蕴含着皋月的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0080"
   },
   {
@@ -4068,7 +4140,7 @@
     "Rarity": "N",
     "Name": "莉音的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着莉音神秘力量的神名文字。",
+    "Desc": "蕴含着莉音的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0158"
   },
   {
@@ -4076,7 +4148,7 @@
     "Rarity": "N",
     "Name": "真纪（露营）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着真纪（露营）神秘力量的神名文字。",
+    "Desc": "蕴含着真纪（露营）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0235"
   },
   {
@@ -4114,10 +4186,18 @@
   {
     "Id": 20047,
     "Rarity": "N",
-    "Name": "キキョウ（水着）の神名文字",
+    "Name": "桔梗（泳装）的神名文字",
     "Category": "SecretStone",
-    "Desc": "キキョウ（水着）の神秘が詰まった神名文字。",
+    "Desc": "桔梗（泳装）的神名文字，蕴含着桔梗（泳装）的神秘。",
     "Icon": "Item_Icon_SecretStone_CH0300"
+  },
+  {
+    "Id": 20048,
+    "Rarity": "N",
+    "Name": "渚（泳装）的神名文字",
+    "Category": "SecretStone",
+    "Desc": "渚（泳装）的神名文字，蕴含着渚的神秘。",
+    "Icon": "Item_Icon_SecretStone_CH0293"
   },
   {
     "Id": 23000,
@@ -4130,9 +4210,9 @@
   {
     "Id": 23001,
     "Rarity": "N",
-    "Name": "枫香的神名文字",
+    "Name": "风香的神名文字",
     "Category": "SecretStone",
-    "Desc": "枫香的神名文字，蕴含着枫香的神秘。",
+    "Desc": "风香的神名文字，蕴含着风香的神秘。",
     "Icon": "Item_Icon_SecretStone_Fuuka"
   },
   {
@@ -4308,8 +4388,16 @@
     "Rarity": "N",
     "Name": "花凛（制服）的神名文字",
     "Category": "SecretStone",
-    "Desc": "蕴含着花凛（制服）神秘力量的神名文字。",
+    "Desc": "蕴含着花凛（制服）的神秘的神名文字。",
     "Icon": "Item_Icon_SecretStone_CH0282"
+  },
+  {
+    "Id": 26015,
+    "Rarity": "N",
+    "Name": "一花（泳装）的神名文字",
+    "Category": "SecretStone",
+    "Desc": "一花（泳装）的神名文字，蕴含着一花的神秘。",
+    "Icon": "Item_Icon_SecretStone_CH0292"
   },
   {
     "Id": 30000,
@@ -4444,7 +4532,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -4452,7 +4540,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -4460,7 +4548,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -4468,7 +4556,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_3"
   },
   {
@@ -4476,7 +4564,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -4484,7 +4572,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -4492,7 +4580,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -4500,7 +4588,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_3"
   },
   {
@@ -4508,7 +4596,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -4516,7 +4604,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -4524,7 +4612,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -4532,7 +4620,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_3"
   },
   {
@@ -4540,7 +4628,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -4548,7 +4636,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -4556,7 +4644,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -4564,7 +4652,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_3"
   },
   {
@@ -4620,7 +4708,7 @@
     "Rarity": "N",
     "Name": "初级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_0"
   },
   {
@@ -4628,7 +4716,7 @@
     "Rarity": "R",
     "Name": "中级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_1"
   },
   {
@@ -4636,7 +4724,7 @@
     "Rarity": "SR",
     "Name": "高级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_2"
   },
   {
@@ -4644,7 +4732,7 @@
     "Rarity": "SSR",
     "Name": "特级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_3"
   },
   {
@@ -4652,7 +4740,7 @@
     "Rarity": "N",
     "Name": "初级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可从阿拜多斯、千禧年、百鬼夜行、红冬的光盘中随机获得一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_0"
   },
   {
@@ -4660,7 +4748,7 @@
     "Rarity": "R",
     "Name": "中级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可从阿拜多斯、千禧年、百鬼夜行、红冬的光盘中随机获得一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_1"
   },
   {
@@ -4668,7 +4756,7 @@
     "Rarity": "SR",
     "Name": "高级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可从阿拜多斯、千禧年、百鬼夜行、红冬的光盘中随机获得一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_2"
   },
   {
@@ -4676,7 +4764,7 @@
     "Rarity": "SSR",
     "Name": "特级战术教育光盘箱",
     "Category": "Consumable",
-    "Desc": "装有提升必杀技能所需的战术教育光盘。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有提升必杀技能所需的战术教育光盘。可从阿拜多斯、千禧年、百鬼夜行、红冬的光盘中随机获得一个。",
     "Icon": "Item_Icon_ExSkillCD_Random_3"
   },
   {
@@ -4684,7 +4772,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -4692,7 +4780,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -4700,7 +4788,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -4708,7 +4796,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_3"
   },
   {
@@ -4716,7 +4804,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红冬中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -4724,7 +4812,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红冬中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -4732,7 +4820,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红冬中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -4740,23 +4828,23 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红东、海兰德中的一个。",
+    "Desc": "装有强化技能所需的技术笔记。可获得阿拜多斯、千禧年、百鬼夜行、红冬中的一个。",
     "Icon": "Item_Icon_SkillBook_Random_3"
   },
   {
     "Id": 60008,
     "Rarity": "N",
-    "Name": "初级技术笔记\n（格黑娜）",
+    "Name": "初级技术笔记\n（歌赫娜）",
     "Category": "Consumable",
-    "Desc": "总结了格黑娜核心战术的秘密笔记。",
+    "Desc": "总结了歌赫娜核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Gehenna_0"
   },
   {
     "Id": 60009,
     "Rarity": "N",
-    "Name": "初级技术笔记\n（格黑娜）",
+    "Name": "初级技术笔记\n（歌赫娜）",
     "Category": "Consumable",
-    "Desc": "总结了格黑娜核心战术的秘密笔记。",
+    "Desc": "总结了歌赫娜核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Gehenna_0"
   },
   {
@@ -4794,17 +4882,17 @@
   {
     "Id": 60014,
     "Rarity": "N",
-    "Name": "初级技术笔记\n（圣三一）",
+    "Name": "初级技术笔记\n（崔尼蒂）",
     "Category": "Consumable",
-    "Desc": "总结了圣三一核心战术的秘密笔记。",
+    "Desc": "总结了崔尼蒂核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Trinity_0"
   },
   {
     "Id": 60015,
     "Rarity": "N",
-    "Name": "初级技术笔记\n（圣三一）",
+    "Name": "初级技术笔记\n（崔尼蒂）",
     "Category": "Consumable",
-    "Desc": "总结了圣三一核心战术的秘密笔记。",
+    "Desc": "总结了崔尼蒂核心战术的秘密笔记。",
     "Icon": "Item_Icon_SkillBook_Trinity_0"
   },
   {
@@ -4828,7 +4916,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有被动技能的技术笔记的箱子。",
+    "Desc": "装有强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -4836,7 +4924,7 @@
     "Rarity": "N",
     "Name": "欧帕兹抽奖箱 1",
     "Category": "Consumable",
-    "Desc": "能够以同等机率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
+    "Desc": "能够以同等几率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
     "Icon": "Item_Icon_Material_Random_0"
   },
   {
@@ -4844,7 +4932,7 @@
     "Rarity": "R",
     "Name": "欧帕兹抽奖箱 2",
     "Category": "Consumable",
-    "Desc": "能够以同等机率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
+    "Desc": "能够以同等几率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
     "Icon": "Item_Icon_Material_Random_1"
   },
   {
@@ -4852,7 +4940,7 @@
     "Rarity": "SR",
     "Name": "欧帕兹抽奖箱 3",
     "Category": "Consumable",
-    "Desc": "能够以同等机率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
+    "Desc": "能够以同等几率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
     "Icon": "Item_Icon_Material_Random_2"
   },
   {
@@ -4860,8 +4948,48 @@
     "Rarity": "SSR",
     "Name": "欧帕兹抽奖箱 4",
     "Category": "Consumable",
-    "Desc": "能够以同等机率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
+    "Desc": "能够以同等几率抽到1个欧帕兹的抽奖箱，获得抽奖箱时可立即得到内容物。",
     "Icon": "Item_Icon_Material_Random_3"
+  },
+  {
+    "Id": 61100,
+    "Rarity": "N",
+    "Name": "T2装备设计图抽选箱",
+    "Category": "Consumable",
+    "Desc": "使用时可从T2装备设计图中随机获取一件的抽选箱。使用后立即获得设计图。",
+    "Icon": "Item_Icon_Equipment_Random_Tier2"
+  },
+  {
+    "Id": 61101,
+    "Rarity": "N",
+    "Name": "T3装备设计图抽选箱",
+    "Category": "Consumable",
+    "Desc": "使用时，可从T3装备设计图中以相同概率随机获得一个的抽奖箱。使用后立即获得设计图。",
+    "Icon": "Item_Icon_Equipment_Random_Tier3"
+  },
+  {
+    "Id": 61102,
+    "Rarity": "N",
+    "Name": "T4装备设计图抽选箱",
+    "Category": "Consumable",
+    "Desc": "使用时，可从T4装备设计图中以相同概率随机获得一个的抽奖箱。使用后立即获得设计图。",
+    "Icon": "Item_Icon_Equipment_Random_Tier4"
+  },
+  {
+    "Id": 61103,
+    "Rarity": "N",
+    "Name": "T5装备设计图抽选箱",
+    "Category": "Consumable",
+    "Desc": "使用时，可从T5装备设计图中以相同概率随机获得一个的抽奖箱。使用后立即获得设计图。",
+    "Icon": "Item_Icon_Equipment_Random_Tier5"
+  },
+  {
+    "Id": 61104,
+    "Rarity": "N",
+    "Name": "T6装备设计图抽选箱",
+    "Category": "Consumable",
+    "Desc": "使用时，可从T6装备设计图中以相同概率随机获得一个的抽奖箱。使用后立即获得设计图。",
+    "Icon": "Item_Icon_Equipment_Random_Tier6"
   },
   {
     "Id": 70000,
@@ -6200,6 +6328,14 @@
     "Icon": "Item_Icon_RecruitCoin_0"
   },
   {
+    "Id": 79000,
+    "Rarity": "N",
+    "Name": "档案点数",
+    "Category": "RecruitCoin",
+    "Desc": "每次招募可获得\"档案点数\"。积攒点数可直接招募阵容内的学员。",
+    "Icon": "Item_Icon_RecruitCoin_1"
+  },
+  {
     "Id": 79999,
     "Rarity": "N",
     "Name": "招募点数",
@@ -6354,7 +6490,7 @@
   {
     "Id": 80030,
     "Rarity": "N",
-    "Name": "印有格黑娜印章的补给箱",
+    "Name": "印有歌赫娜印章的补给箱",
     "Category": "Coin",
     "Desc": "风纪委员会为了夏日集训而亲自准备的补给箱。\n里面装着有助于训练的物品。放心吧，没有谢谢惠顾。",
     "Icon": "Item_Icon_Event_Token_3_S7"
@@ -6570,25 +6706,25 @@
   {
     "Id": 80101,
     "Rarity": "N",
-    "Name": "修女会头巾",
+    "Name": "姐妹会头巾",
     "Category": "Coin",
-    "Desc": "修女会使用的头巾。使用得当的话，就算在祈祷中打瞌睡也不会被发现，但恐怕是没有学员敢这么做。",
+    "Desc": "姐妹会使用的头巾。使用得当的话，就算在祈祷中打瞌睡也不会被发现，但恐怕是没有学员敢这么做。",
     "Icon": "Item_Icon_Event_Token_0_S14"
   },
   {
     "Id": 80102,
     "Rarity": "N",
-    "Name": "圣三一圣歌集",
+    "Name": "崔尼蒂圣歌集",
     "Category": "Coin",
-    "Desc": "将圣三一的圣歌以书的形式整理成册。因为经常在各种情况下被引用而广为人知，但主要原因还是它广受好评的美丽辞藻。",
+    "Desc": "将崔尼蒂的圣歌以书的形式整理成册。因为经常在各种情况下被引用而广为人知，但主要原因还是它广受好评的美丽辞藻。",
     "Icon": "Item_Icon_Event_Token_1_S14"
   },
   {
     "Id": 80103,
     "Rarity": "N",
-    "Name": "圣三一烛台",
+    "Name": "崔尼蒂烛台",
     "Category": "Coin",
-    "Desc": "圣三一的教堂等地方会使用的烛台。构造相当重又结实，掉到地板上的话会砸出个洞来。",
+    "Desc": "崔尼蒂的教堂等地方会使用的烛台。构造相当重又结实，掉到地板上的话会砸出个洞来。",
     "Icon": "Item_Icon_Event_Token_2_S14"
   },
   {
@@ -6604,7 +6740,7 @@
     "Rarity": "N",
     "Name": "学院交流会传单",
     "Category": "Coin",
-    "Desc": "公告百鬼夜行和格黑娜学院间的交流会将要举办的传单。上面除了有主办者的问候，也写下了这次交流会的主要行程。",
+    "Desc": "公告百鬼夜行和歌赫娜学院间的交流会将要举办的传单。上面除了有主办者的问候，也写下了这次交流会的主要行程。",
     "Icon": "Item_Icon_Event_Token_1_S15"
   },
   {
@@ -6692,7 +6828,7 @@
     "Rarity": "N",
     "Name": "甜点优惠券",
     "Category": "Coin",
-    "Desc": "着名甜点店发放的甜点优惠券。根据收集的数量，可以兑换的甜点皆不同。",
+    "Desc": "著名甜点店发放的甜点优惠券。根据收集的数量，可以兑换的甜点皆不同。",
     "Icon": "Item_Icon_Event_Token_0_S18"
   },
   {
@@ -6906,9 +7042,9 @@
   {
     "Id": 80221,
     "Rarity": "N",
-    "Name": "联邦学生会的安全帽",
+    "Name": "联邦理事会的安全帽",
     "Category": "Coin",
-    "Desc": "印有联邦学生会标志的安全帽。是为了本次的修复工程特别制作的。",
+    "Desc": "印有联邦理事会标志的安全帽。是为了本次的修复工程特别制作的。",
     "Icon": "Item_Icon_Event_Token_0_S26"
   },
   {
@@ -6916,7 +7052,7 @@
     "Rarity": "N",
     "Name": "财务报告书",
     "Category": "Coin",
-    "Desc": "联邦学生会行政委员会下辖的财务室使用的财务报告书。详细整理了基沃托斯的财务状态相关内容。",
+    "Desc": "联邦理事会行政委员会下辖的财务室使用的财务报告书。详细整理了基沃托斯的财务状态相关内容。",
     "Icon": "Item_Icon_Event_Token_1_S26"
   },
   {
@@ -6988,7 +7124,7 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
@@ -7028,7 +7164,7 @@
     "Rarity": "N",
     "Name": "骰子确定券",
     "Category": "Consumable",
-    "Desc": "可查看骰子赛跑结果的优惠券。没有人知道究竟会出现什么数字的优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。没有人知道究竟会出现什么数字的票券。",
     "Icon": "Item_Icon_Event_Object_0_S29"
   },
   {
@@ -7036,7 +7172,7 @@
     "Rarity": "N",
     "Name": "骰子1确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择1之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择1的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_1_S29"
   },
   {
@@ -7044,7 +7180,7 @@
     "Rarity": "N",
     "Name": "骰子2确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择2之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择2的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_2_S29"
   },
   {
@@ -7052,7 +7188,7 @@
     "Rarity": "N",
     "Name": "骰子3确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择3之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择3的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_3_S29"
   },
   {
@@ -7060,7 +7196,7 @@
     "Rarity": "N",
     "Name": "骰子4确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择4之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择4的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_4_S29"
   },
   {
@@ -7068,7 +7204,7 @@
     "Rarity": "N",
     "Name": "骰子5确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择5之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择5的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_5_S29"
   },
   {
@@ -7076,7 +7212,7 @@
     "Rarity": "N",
     "Name": "骰子6确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择6之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择6的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_6_S29"
   },
   {
@@ -7084,7 +7220,7 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
@@ -7100,7 +7236,7 @@
     "Rarity": "N",
     "Name": "羊皮纸碎片",
     "Category": "Coin",
-    "Desc": "老旧的羊皮纸碎片。集齐全部的话，似乎能拼凑出一个完整的形状。",
+    "Desc": "老旧的羊皮纸碎片。全部集齐的话，似乎能拼凑出一个完整的形状。",
     "Icon": "Item_Icon_Event_Token_0_S30"
   },
   {
@@ -7114,15 +7250,15 @@
   {
     "Id": 80293,
     "Rarity": "N",
-    "Name": "老旧钥匙",
+    "Name": "古老钥匙",
     "Category": "Coin",
-    "Desc": "在各个地方发现的老旧钥匙。好像可以打开箱子或柜子之类的东西。",
+    "Desc": "在各个地方发现的古老钥匙。好像可以打开箱子或柜子之类的东西。",
     "Icon": "Item_Icon_Event_Token_2_S30"
   },
   {
     "Id": 80300,
     "Rarity": "N",
-    "Name": "月神塔罗牌",
+    "Name": "LUNA塔罗牌",
     "Category": "Coin",
     "Desc": "喜欢特定题材的粉丝群体之间当作周边商品制作的塔罗牌。听说收集很多的话可以玩某款游戏。",
     "Icon": "Item_Icon_Event_Token_0_S31"
@@ -7148,7 +7284,7 @@
     "Rarity": "N",
     "Name": "Only展入场券",
     "Category": "Coin",
-    "Desc": "进入展场时须出示的票券。要小心遗失或伪造品。",
+    "Desc": "进入会场时须出示的票券。请小心保管，谨防假冒。",
     "Icon": "Item_Icon_Event_Token_3_S31"
   },
   {
@@ -7156,7 +7292,7 @@
     "Rarity": "N",
     "Name": "活动积分",
     "Category": "Coin",
-    "Desc": "每当进行活动时可获得的点数。获得越多即可得到多样奖励。",
+    "Desc": "完成关卡时获取的积分。积分越多，就可以获得更多的奖励。",
     "Icon": "Item_Icon_Event_Item_0"
   },
   {
@@ -7164,15 +7300,15 @@
     "Rarity": "N",
     "Name": "车票",
     "Category": "Coin",
-    "Desc": "搭乘火车必备的票券。但即使如此，也没有多带的必要。",
+    "Desc": "搭乘火车必须的票券。但也没有多带的必要。",
     "Icon": "Item_Icon_Event_Token_0_S32"
   },
   {
     "Id": 80312,
     "Rarity": "N",
-    "Name": "公文包",
+    "Name": "手提箱",
     "Category": "Coin",
-    "Desc": "牢牢守护着内容物的公文包。无法保证里面装的一定是文件。",
+    "Desc": "牢牢保护着内部的手提箱。里面装的不一定是文件。",
     "Icon": "Item_Icon_Event_Token_1_S32"
   },
   {
@@ -7188,7 +7324,7 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
@@ -7228,7 +7364,7 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
@@ -7236,7 +7372,7 @@
     "Rarity": "N",
     "Name": "财务计算器",
     "Category": "Coin",
-    "Desc": "联邦学生会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
+    "Desc": "联邦理事会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
     "Icon": "Item_Icon_Event_Token_0_60000_2"
   },
   {
@@ -7276,7 +7412,7 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
@@ -7364,7 +7500,7 @@
     "Rarity": "N",
     "Name": "领队旗",
     "Category": "Coin",
-    "Desc": "引导游客的领队旗。对引导路痴的学生有很大的帮助。",
+    "Desc": "引导游客的领队旗。对引导路痴的学员有很大的帮助。",
     "Icon": "Item_Icon_Event_Token_2_S37"
   },
   {
@@ -7380,7 +7516,7 @@
     "Rarity": "N",
     "Name": "财务计算器",
     "Category": "Coin",
-    "Desc": "联邦学生会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
+    "Desc": "联邦理事会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
     "Icon": "Item_Icon_Event_Token_0_60000_2"
   },
   {
@@ -7420,7 +7556,7 @@
     "Rarity": "N",
     "Name": "财务计算器",
     "Category": "Coin",
-    "Desc": "联邦学生会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
+    "Desc": "联邦理事会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
     "Icon": "Item_Icon_Event_Token_0_60000_2"
   },
   {
@@ -7436,7 +7572,7 @@
     "Rarity": "N",
     "Name": "安全哨子",
     "Category": "Coin",
-    "Desc": "告知紧急状况时使用的哨子。用力吹时会发出尖锐的声音。",
+    "Desc": "告知紧急状况时使用的哨子。用力吹时会发出刺耳的声音。",
     "Icon": "Item_Icon_Event_Token_1_S39"
   },
   {
@@ -7492,7 +7628,7 @@
     "Rarity": "N",
     "Name": "纪念品玩偶",
     "Category": "Coin",
-    "Desc": "模仿某位高人……的外貌打造而成的交流会限定玩偶。因为想要收藏的学生太多，回收率似乎相当低……",
+    "Desc": "模仿某位高人……的外貌打造而成的交流会限定玩偶。因为想要收藏的学员太多，回收率似乎相当低……",
     "Icon": "Item_Icon_Event_Token_0_S41"
   },
   {
@@ -7514,7 +7650,7 @@
   {
     "Id": 80463,
     "Rarity": "N",
-    "Name": "幸运的钥匙圈",
+    "Name": "幸运钥匙圈",
     "Category": "Coin",
     "Desc": "灯笼造型的钥匙圈。用以祈求好运常在。",
     "Icon": "Item_Icon_Event_Token_3_S41"
@@ -7524,7 +7660,7 @@
     "Rarity": "N",
     "Name": "月影祭商品券",
     "Category": "Coin",
-    "Desc": "仅在月影祭贩售的期间限定商品券。据说只要收集足够的商品券，即可挑战月影祭才有的「那个游戏」。",
+    "Desc": "仅在月影祭期间流通的限定商品券。据说只要收集足够的商品券，便能挑战月影祭才有的“那个游戏”。",
     "Icon": "Item_Icon_Event_Token_0_S42"
   },
   {
@@ -7532,15 +7668,15 @@
     "Rarity": "N",
     "Name": "月影祭月饼",
     "Category": "Coin",
-    "Desc": "祈求丰饶和庆典圆满顺利的月影祭月饼。一般月饼稍小一点，让人可以一口吞下肚是它的最大特征。",
+    "Desc": "祈求丰饶和庆典圆满顺利的月影祭月饼。较一般月饼略小故能一口吃下是它最大的特征。",
     "Icon": "Item_Icon_Event_Token_1_S42"
   },
   {
     "Id": 80472,
     "Rarity": "N",
-    "Name": "炼丹术研究会特制精力丸",
+    "Name": "炼丹研究会特制精力丸",
     "Category": "Coin",
-    "Desc": "为祈求庆典圆满顺利，炼丹术研究会特别炼制的精力丸。据说吃了它就能补充体力，并恢复精神。",
+    "Desc": "为祈求庆典圆满顺利，炼丹研究会特别炼制的精力丸。据说吃了它就能补充体力，并恢复精神。",
     "Icon": "Item_Icon_Event_Token_2_S42"
   },
   {
@@ -7548,7 +7684,7 @@
     "Rarity": "N",
     "Name": "月影祭鞭炮",
     "Category": "Coin",
-    "Desc": "庆典上绝对少不了的鞭炮。虽然经过妥善处理，因此安全无疑，但使用时仍要记得留意意外发生。",
+    "Desc": "庆典上绝对少不了的鞭炮。虽然经过妥善处理而安全无虞，但使用时仍要记得留意意外发生。",
     "Icon": "Item_Icon_Event_Token_3_S42"
   },
   {
@@ -7556,7 +7692,7 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
@@ -7596,7 +7732,7 @@
     "Rarity": "N",
     "Name": "神秘物质",
     "Category": "Coin",
-    "Desc": "可在现场收集到的神秘物质。只要透过特定的「重新分析」手续，即可获得截然不同的物品。",
+    "Desc": "可在现场收集到的神秘物质。只要透过特定的“重新分析”手续，即可获得截然不同的物品。",
     "Icon": "Item_Icon_Event_Token_0_70000"
   },
   {
@@ -7604,39 +7740,39 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
     "Id": 80520,
     "Rarity": "N",
-    "Name": "妖怪MAX咸梅干口味",
+    "Name": "妖怪MAX梅子口味",
     "Category": "Coin",
-    "Desc": "难以用笔墨形容的“妖怪MAX”。据狂热粉丝说，口中残留的咸梅干香气简直让人欲罢不能。",
+    "Desc": "从各种意义来说，都相当“厉害”的妖怪MAX。对某些人来说，这是最好的选择。",
     "Icon": "Item_Icon_Event_Token_0_S44"
   },
   {
     "Id": 80521,
     "Rarity": "N",
-    "Name": "蓬松枕头",
+    "Name": "蓬松的枕头",
     "Category": "Coin",
-    "Desc": "柔软度与弹性达到绝妙平衡的枕头。据说头一靠上去，瞬间就到天亮了，广受好评。",
+    "Desc": "雪白柔软的枕头。极佳的舒适感让人光是把头靠上去，就仿佛会立刻被送进梦乡。",
     "Icon": "Item_Icon_Event_Token_1_S44"
   },
   {
     "Id": 80522,
     "Rarity": "N",
-    "Name": "新弹卡牌包",
+    "Name": "新一弹卡包",
     "Category": "Coin",
-    "Desc": "小雪为了和老师一起玩而准备的卡牌包。若想抽到稀有卡牌，整箱购买是必不可少的。",
+    "Desc": "小雪为了引诱老师而准备的卡牌包。里面装满了新卡。",
     "Icon": "Item_Icon_Event_Token_2_S44"
   },
   {
     "Id": 80523,
     "Rarity": "N",
-    "Name": "BOOM：经典收藏版",
+    "Name": "《毁灭狂战士》经典版",
     "Category": "Coin",
-    "Desc": "这是真纪为了和大家一起玩而带来的，能在各种设备上安装的经典游戏。\n打倒一次又一次，都是BOOM的精彩体验！",
+    "Desc": "真纪为大家带来的游戏。只要有CPU和显示器，就能在任何地方享受游戏。",
     "Icon": "Item_Icon_Event_Token_3_S44"
   },
   {
@@ -7644,7 +7780,7 @@
     "Rarity": "N",
     "Name": "财务计算器",
     "Category": "Coin",
-    "Desc": "联邦学生会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
+    "Desc": "联邦理事会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
     "Icon": "Item_Icon_Event_Token_0_60000_2"
   },
   {
@@ -7652,15 +7788,15 @@
     "Rarity": "N",
     "Name": "活动点数",
     "Category": "Coin",
-    "Desc": "这是在活动中可以获得的点数。获得大量点数，就能获取各种奖励。",
+    "Desc": "每当进行活动时可获得的点数。获得越多即可得到多样奖励。",
     "Icon": "Item_Icon_Event_Item_0"
   },
   {
     "Id": 80541,
     "Rarity": "N",
-    "Name": "EXPO 纪念品",
+    "Name": "博览会纪念品",
     "Category": "Coin",
-    "Desc": "在会场各处可以获得的千禧年学院 EXPO 纪念品。当然，这是会场限定的。",
+    "Desc": "在博览会场各处都能找到的千禧年博览会纪念品。虽然在活动期间很常见，但最终也会成为限量版！",
     "Icon": "Item_Icon_Event_Token_0_S45"
   },
   {
@@ -7668,7 +7804,7 @@
     "Rarity": "N",
     "Name": "某人的遗失物",
     "Category": "Coin",
-    "Desc": "在会场捡到的遗失物。为了失主，把它归还吧。",
+    "Desc": "学员们在来往时遗失的物品。只要好好收集起来交给主办方，就能让失主重获幸福。",
     "Icon": "Item_Icon_Event_Token_1_S45"
   },
   {
@@ -7676,23 +7812,23 @@
     "Rarity": "N",
     "Name": "神秘物质",
     "Category": "Coin",
-    "Desc": "可在现场收集到的神秘物质。只要透过特定的「重新分析」手续，即可获得截然不同的物品。",
+    "Desc": "可在现场收集到的神秘物质。只要透过特定的“重新分析”手续，即可获得截然不同的物品。",
     "Icon": "Item_Icon_Event_Token_0_70000"
   },
   {
     "Id": 80560,
     "Rarity": "N",
-    "Name": "情人节印章",
+    "Name": "情人节图章",
     "Category": "Coin",
-    "Desc": "可用来兑换情人节邀约的印章，它是积极参与活动的证明。",
+    "Desc": "可以兑换情人节外出券的图章。能证明您曾有过活跃的行动。",
     "Icon": "Item_Icon_Event_Token_0_80000"
   },
   {
     "Id": 80561,
     "Rarity": "N",
-    "Name": "情人节的邀约",
+    "Name": "情人节外出券",
     "Category": "Coin",
-    "Desc": "这是情人节有人在等你的证明。在这个特别的日子，一定会有特别的相遇。※活动结束后，若“情人节的邀约”未使用，将被转换为400,000信用点。",
+    "Desc": "情人节之际，忙于巡逻工作的老师和学员见面时需要的外出券。\n※未使用的外出券在活动结束后会转换成400,000信用货币。",
     "Icon": "Item_Icon_Event_Token_3_S12"
   },
   {
@@ -7732,7 +7868,7 @@
     "Rarity": "N",
     "Name": "财务计算器",
     "Category": "Coin",
-    "Desc": "联邦学生会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
+    "Desc": "联邦理事会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
     "Icon": "Item_Icon_Event_Token_0_60000_2"
   },
   {
@@ -7780,7 +7916,7 @@
     "Rarity": "N",
     "Name": "货运列车路线图",
     "Category": "Coin",
-    "Desc": "标注货运列车路线的地图。「正常情况下」会按此图运行。",
+    "Desc": "标注货运列车路线的地图。“正常情况下”会按此图运行。",
     "Icon": "Item_Icon_Event_Token_1_S48"
   },
   {
@@ -7804,7 +7940,7 @@
     "Rarity": "N",
     "Name": "神秘物质",
     "Category": "Coin",
-    "Desc": "可在现场收集到的神秘物质。只要透过特定的「重新分析」手续，即可获得截然不同的物品。",
+    "Desc": "可在现场收集到的神秘物质。只要透过特定的“重新分析”手续，即可获得截然不同的物品。",
     "Icon": "Item_Icon_Event_Token_0_70000"
   },
   {
@@ -7812,39 +7948,39 @@
     "Rarity": "N",
     "Name": "高级钢笔",
     "Category": "Coin",
-    "Desc": "联邦学生会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
+    "Desc": "联邦理事会审批用的高级钢笔。笔尖出墨很顺畅，不容易使手部疲劳。",
     "Icon": "Item_Icon_Event_Token_0_60000"
   },
   {
     "Id": 80630,
     "Rarity": "N",
-    "Name": "木彫り人形（ユカリ）",
+    "Name": "木雕人偶（紫）",
     "Category": "Coin",
-    "Desc": "キキョウが作ったユカリの木彫り人形。自由奔放な雰囲気が感じられる。",
+    "Desc": "桔梗制作的紫的木雕人偶。能感受到自由奔放的氛围。",
     "Icon": "Item_Icon_Event_Token_0_S50"
   },
   {
     "Id": 80631,
     "Rarity": "N",
-    "Name": "木彫り人形（ナグサ）",
+    "Name": "木雕人偶（名草）",
     "Category": "Coin",
-    "Desc": "キキョウが作ったナグサの木彫り人形。のんびりとした空気が漂っている。",
+    "Desc": "桔梗制作的名草的木雕人偶。飘荡着悠闲的气息。",
     "Icon": "Item_Icon_Event_Token_1_S50"
   },
   {
     "Id": 80632,
     "Rarity": "N",
-    "Name": "木彫り人形（キキョウ）",
+    "Name": "木雕人偶（桔梗）",
     "Category": "Coin",
-    "Desc": "キキョウが作った本人の木彫り人形。水に浮きやすいらしい。",
+    "Desc": "桔梗制作的自己的木雕人偶。据说很容易浮在水面上。",
     "Icon": "Item_Icon_Event_Token_2_S50"
   },
   {
     "Id": 80633,
     "Rarity": "N",
-    "Name": "木彫り人形（レンゲ）",
+    "Name": "木雕人偶（莲华）",
     "Category": "Coin",
-    "Desc": "キキョウが作ったレンゲの木彫り人形。熱い情熱が込められている。",
+    "Desc": "桔梗制作的莲华的木雕人偶。倾注了炽热的感情。",
     "Icon": "Item_Icon_Event_Token_3_S50"
   },
   {
@@ -7852,8 +7988,48 @@
     "Rarity": "N",
     "Name": "财务计算器",
     "Category": "Coin",
-    "Desc": "联邦学生会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
+    "Desc": "联邦理事会专供财务室使用的财务计算器。搭载了能计算复杂公式的各种功能及函数。",
     "Icon": "Item_Icon_Event_Token_0_60000_2"
+  },
+  {
+    "Id": 80650,
+    "Rarity": "N",
+    "Name": "正义实现部臂章",
+    "Category": "Coin",
+    "Desc": "委员会成员标配的臂章。虽用轻质布料制作，象征的分量却绝不轻。",
+    "Icon": "Item_Icon_Event_Token_0_S51"
+  },
+  {
+    "Id": 80651,
+    "Rarity": "N",
+    "Name": "特上角砂糖",
+    "Category": "Coin",
+    "Desc": "中和红茶苦涩的方糖。请根据喜好随意取用。",
+    "Icon": "Item_Icon_Event_Token_1_S51"
+  },
+  {
+    "Id": 80652,
+    "Rarity": "N",
+    "Name": "三一学院特制蛋糕",
+    "Category": "Coin",
+    "Desc": "尽显高级感的甜品。美妙的下午茶时光少不了甜蜜点缀。",
+    "Icon": "Item_Icon_Event_Token_2_S51"
+  },
+  {
+    "Id": 80653,
+    "Rarity": "N",
+    "Name": "山海经茶园名茶",
+    "Category": "Coin",
+    "Desc": "《山海经》采购的顶级红茶茶叶。需避光防潮保存。",
+    "Icon": "Item_Icon_Event_Token_3_S51"
+  },
+  {
+    "Id": 80654,
+    "Rarity": "N",
+    "Name": "私人海滩宣传册",
+    "Category": "Coin",
+    "Desc": "私人海滩导览手册。简要标注了周边设施。",
+    "Icon": "Item_Icon_Event_Token_4_S51"
   },
   {
     "Id": 85000,
@@ -8002,7 +8178,7 @@
   {
     "Id": 85030,
     "Rarity": "N",
-    "Name": "印有格黑娜印章的补给箱",
+    "Name": "印有歌赫娜印章的补给箱",
     "Category": "Coin",
     "Desc": "风纪委员会为了夏日集训而亲自准备的补给箱。\n里面装着有助于训练的物品。放心吧，没有谢谢惠顾。",
     "Icon": "Item_Icon_Event_Token_3_S7"
@@ -8218,25 +8394,25 @@
   {
     "Id": 85101,
     "Rarity": "N",
-    "Name": "修女会头巾",
+    "Name": "姐妹会头巾",
     "Category": "Coin",
-    "Desc": "修女会使用的头巾。使用得当的话，就算在祈祷中打瞌睡也不会被发现，但恐怕是没有学员敢这么做。",
+    "Desc": "姐妹会使用的头巾。使用得当的话，就算在祈祷中打瞌睡也不会被发现，但恐怕是没有学员敢这么做。",
     "Icon": "Item_Icon_Event_Token_0_S14"
   },
   {
     "Id": 85102,
     "Rarity": "N",
-    "Name": "圣三一圣歌集",
+    "Name": "崔尼蒂圣歌集",
     "Category": "Coin",
-    "Desc": "将圣三一的圣歌以书的形式整理成册。因为经常在各种情况下被引用而广为人知，但主要原因还是它广受好评的美丽辞藻。",
+    "Desc": "将崔尼蒂的圣歌以书的形式整理成册。因为经常在各种情况下被引用而广为人知，但主要原因还是它广受好评的美丽辞藻。",
     "Icon": "Item_Icon_Event_Token_1_S14"
   },
   {
     "Id": 85103,
     "Rarity": "N",
-    "Name": "圣三一烛台",
+    "Name": "崔尼蒂烛台",
     "Category": "Coin",
-    "Desc": "圣三一的教堂等地方会使用的烛台。构造相当重又结实，掉到地板上的话会砸出个洞来。",
+    "Desc": "崔尼蒂的教堂等地方会使用的烛台。构造相当重又结实，掉到地板上的话会砸出个洞来。",
     "Icon": "Item_Icon_Event_Token_2_S14"
   },
   {
@@ -8252,7 +8428,7 @@
     "Rarity": "N",
     "Name": "学院交流会传单",
     "Category": "Coin",
-    "Desc": "公告百鬼夜行和格黑娜学院间的交流会将要举办的传单。上面除了有主办者的问候，也写下了这次交流会的主要行程。",
+    "Desc": "公告百鬼夜行和歌赫娜学院间的交流会将要举办的传单。上面除了有主办者的问候，也写下了这次交流会的主要行程。",
     "Icon": "Item_Icon_Event_Token_1_S15"
   },
   {
@@ -8340,7 +8516,7 @@
     "Rarity": "N",
     "Name": "甜点优惠券",
     "Category": "Coin",
-    "Desc": "着名甜点店发放的甜点优惠券。根据收集的数量，可以兑换的甜点皆不同。",
+    "Desc": "著名甜点店发放的甜点优惠券。根据收集的数量，可以兑换的甜点皆不同。",
     "Icon": "Item_Icon_Event_Token_0_S18"
   },
   {
@@ -8436,7 +8612,7 @@
     "Rarity": "N",
     "Name": "骰子确定券",
     "Category": "Consumable",
-    "Desc": "可查看骰子赛跑结果的优惠券。没有人知道究竟会出现什么数字的优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。没有人知道究竟会出现什么数字的票券。",
     "Icon": "Item_Icon_Event_Object_0_S29"
   },
   {
@@ -8444,7 +8620,7 @@
     "Rarity": "N",
     "Name": "骰子1确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择1之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择1的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_1_S29"
   },
   {
@@ -8452,7 +8628,7 @@
     "Rarity": "N",
     "Name": "骰子2确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择2之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择2的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_2_S29"
   },
   {
@@ -8460,7 +8636,7 @@
     "Rarity": "N",
     "Name": "骰子3确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择3之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择3的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_3_S29"
   },
   {
@@ -8468,7 +8644,7 @@
     "Rarity": "N",
     "Name": "骰子4确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择4之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择4的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_4_S29"
   },
   {
@@ -8476,7 +8652,7 @@
     "Rarity": "N",
     "Name": "骰子5确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择5之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择5的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_5_S29"
   },
   {
@@ -8484,7 +8660,7 @@
     "Rarity": "N",
     "Name": "骰子6确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择6之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择6的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_6_S29"
   },
   {
@@ -8644,7 +8820,7 @@
     "Rarity": "N",
     "Name": "骰子确定券",
     "Category": "Consumable",
-    "Desc": "可查看骰子赛跑结果的优惠券。没有人知道究竟会出现什么数字的优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。没有人知道究竟会出现什么数字的票券。",
     "Icon": "Item_Icon_Event_Object_0_S29"
   },
   {
@@ -8652,7 +8828,7 @@
     "Rarity": "N",
     "Name": "骰子1确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择1之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择1的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_1_S29"
   },
   {
@@ -8660,7 +8836,7 @@
     "Rarity": "N",
     "Name": "骰子2确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择2之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择2的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_2_S29"
   },
   {
@@ -8668,7 +8844,7 @@
     "Rarity": "N",
     "Name": "骰子3确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择3之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择3的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_3_S29"
   },
   {
@@ -8676,7 +8852,7 @@
     "Rarity": "N",
     "Name": "骰子4确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择4之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择4的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_4_S29"
   },
   {
@@ -8684,7 +8860,7 @@
     "Rarity": "N",
     "Name": "骰子5确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择5之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择5的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_5_S29"
   },
   {
@@ -8692,13 +8868,13 @@
     "Rarity": "N",
     "Name": "骰子6确定券",
     "Category": "Coin",
-    "Desc": "可查看骰子赛跑结果的优惠券。若在查看结果骰子时选择6之面，将消耗优惠券。",
+    "Desc": "可查看掷骰赛跑结果的票券。若在查看结果骰子时选择6的面，将消耗票券。",
     "Icon": "Item_Icon_Event_Object_6_S29"
   },
   {
     "Id": 85240,
     "Rarity": "N",
-    "Name": "月神塔罗牌",
+    "Name": "LUNA塔罗牌",
     "Category": "Coin",
     "Desc": "喜欢特定题材的粉丝群体之间当作周边商品制作的塔罗牌。听说收集很多的话可以玩某款游戏。",
     "Icon": "Item_Icon_Event_Token_0_S31"
@@ -8724,7 +8900,7 @@
     "Rarity": "N",
     "Name": "Only展入场券",
     "Category": "Coin",
-    "Desc": "进入展场时须出示的票券。要小心遗失或伪造品。",
+    "Desc": "进入会场时须出示的票券。请小心保管，谨防假冒。",
     "Icon": "Item_Icon_Event_Token_3_S31"
   },
   {
@@ -8740,7 +8916,7 @@
     "Rarity": "N",
     "Name": "羊皮纸碎片",
     "Category": "Coin",
-    "Desc": "老旧的羊皮纸碎片。集齐全部的话，似乎能拼凑出一个完整的形状。",
+    "Desc": "老旧的羊皮纸碎片。全部集齐的话，似乎能拼凑出一个完整的形状。",
     "Icon": "Item_Icon_Event_Token_0_S30"
   },
   {
@@ -8754,9 +8930,9 @@
   {
     "Id": 85253,
     "Rarity": "N",
-    "Name": "老旧钥匙",
+    "Name": "古老钥匙",
     "Category": "Coin",
-    "Desc": "在各个地方发现的老旧钥匙。好像可以打开箱子或柜子之类的东西。",
+    "Desc": "在各个地方发现的古老钥匙。好像可以打开箱子或柜子之类的东西。",
     "Icon": "Item_Icon_Event_Token_2_S30"
   },
   {
@@ -8788,7 +8964,7 @@
     "Rarity": "N",
     "Name": "活动积分",
     "Category": "Coin",
-    "Desc": "每当进行活动时可获得的点数。获得越多即可得到多样奖励。",
+    "Desc": "完成关卡时获取的积分。积分越多，就可以获得更多的奖励。",
     "Icon": "Item_Icon_Event_Item_0"
   },
   {
@@ -8796,15 +8972,15 @@
     "Rarity": "N",
     "Name": "车票",
     "Category": "Coin",
-    "Desc": "搭乘火车必备的票券。但即使如此，也没有多带的必要。",
+    "Desc": "搭乘火车必须的票券。但也没有多带的必要。",
     "Icon": "Item_Icon_Event_Token_0_S32"
   },
   {
     "Id": 85272,
     "Rarity": "N",
-    "Name": "公文包",
+    "Name": "手提箱",
     "Category": "Coin",
-    "Desc": "牢牢守护着内容物的公文包。无法保证里面装的一定是文件。",
+    "Desc": "牢牢保护着内部的手提箱。里面装的不一定是文件。",
     "Icon": "Item_Icon_Event_Token_1_S32"
   },
   {
@@ -8900,7 +9076,7 @@
     "Rarity": "N",
     "Name": "领队旗",
     "Category": "Coin",
-    "Desc": "引导游客的领队旗。对引导路痴的学生有很大的帮助。",
+    "Desc": "引导游客的领队旗。对引导路痴的学员有很大的帮助。",
     "Icon": "Item_Icon_Event_Token_2_S37"
   },
   {
@@ -8942,6 +9118,38 @@
     "Category": "Coin",
     "Desc": "每当进行活动时可获得的点数。获得越多即可得到多样奖励。",
     "Icon": "Item_Icon_Event_Item_0"
+  },
+  {
+    "Id": 86320,
+    "Rarity": "N",
+    "Name": "水上乐园手环",
+    "Category": "Coin",
+    "Desc": "发给水上乐园顾客的手环。可用于保管箱或购物。",
+    "Icon": "Item_Icon_Event_Token_0_S39"
+  },
+  {
+    "Id": 86321,
+    "Rarity": "N",
+    "Name": "安全哨子",
+    "Category": "Coin",
+    "Desc": "告知紧急状况时使用的哨子。用力吹时会发出刺耳的声音。",
+    "Icon": "Item_Icon_Event_Token_1_S39"
+  },
+  {
+    "Id": 86322,
+    "Rarity": "N",
+    "Name": "抛投式救生圈",
+    "Category": "Coin",
+    "Desc": "用来救掉进水里的人的救生圈。投掷前别忘了接上绳子。",
+    "Icon": "Item_Icon_Event_Token_2_S39"
+  },
+  {
+    "Id": 86323,
+    "Rarity": "N",
+    "Name": "安全救生衣",
+    "Category": "Coin",
+    "Desc": "穿了就能浮在水上的救生衣。记得要穿合身的。",
+    "Icon": "Item_Icon_Event_Token_3_S39"
   },
   {
     "Id": 90000,
@@ -9116,7 +9324,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -9124,7 +9332,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -9132,7 +9340,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -9140,7 +9348,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_3"
   },
   {
@@ -9212,7 +9420,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_0"
   },
   {
@@ -9220,7 +9428,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_1"
   },
   {
@@ -9228,7 +9436,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记箱",
     "Category": "Consumable",
-    "Desc": "装有用于被动技能的技术笔记的箱子。",
+    "Desc": "装有用于强化技能的技术笔记的箱子。",
     "Icon": "Item_Icon_SkillBook_Random_2"
   },
   {
@@ -9289,6 +9497,14 @@
   },
   {
     "Id": 100041,
+    "Rarity": "N",
+    "Name": "装备箱",
+    "Category": "Consumable",
+    "Desc": "装有各种装备和设计图的箱子。",
+    "Icon": "Item_Icon_Equipment_Random"
+  },
+  {
+    "Id": 100042,
     "Rarity": "N",
     "Name": "装备箱",
     "Category": "Consumable",
@@ -9417,6 +9633,14 @@
   },
   {
     "Id": 110015,
+    "Rarity": "N",
+    "Name": "装备箱",
+    "Category": "Consumable",
+    "Desc": "装有各种装备和设计图的箱子。",
+    "Icon": "Item_Icon_Equipment_Random"
+  },
+  {
+    "Id": 110016,
     "Rarity": "N",
     "Name": "装备箱",
     "Category": "Consumable",
@@ -9572,7 +9796,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可选择需要的技术笔记（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯分校）",
+    "Desc": "可选择想要的技术笔记（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_SkillBook_Selection_0"
   },
   {
@@ -9580,7 +9804,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可选择需要的技术笔记（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯分校）",
+    "Desc": "可选择想要的技术笔记（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_SkillBook_Selection_1"
   },
   {
@@ -9588,7 +9812,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可选择需要的技术笔记（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯分校）",
+    "Desc": "可选择想要的技术笔记（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_SkillBook_Selection_2"
   },
   {
@@ -9596,7 +9820,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可选择需要的技术笔记（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯分校）",
+    "Desc": "可选择想要的技术笔记（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_SkillBook_Selection_3"
   },
   {
@@ -9604,7 +9828,7 @@
     "Rarity": "N",
     "Name": "初级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可自选初级技术笔记的选择箱（百鬼夜行、红冬、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的技术笔记（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_SkillBook_Selection_0"
   },
   {
@@ -9612,7 +9836,7 @@
     "Rarity": "R",
     "Name": "中级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可自选中级技术笔记的选择箱（百鬼夜行、红冬、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的技术笔记（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_SkillBook_Selection_1"
   },
   {
@@ -9620,7 +9844,7 @@
     "Rarity": "SR",
     "Name": "高级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可自选高级技术笔记的选择箱（百鬼夜行、红冬、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的技术笔记（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_SkillBook_Selection_2"
   },
   {
@@ -9628,7 +9852,7 @@
     "Rarity": "SSR",
     "Name": "特级技术笔记选择券",
     "Category": "Consumable",
-    "Desc": "可自选特级技术笔记的选择箱（百鬼夜行、红冬、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的技术笔记（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_SkillBook_Selection_3"
   },
   {
@@ -9636,7 +9860,7 @@
     "Rarity": "N",
     "Name": "初级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯）",
+    "Desc": "可选择想要的战术教育光盘（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_ExSkillCD_Selection_0"
   },
   {
@@ -9644,7 +9868,7 @@
     "Rarity": "R",
     "Name": "中级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯）",
+    "Desc": "可选择想要的战术教育光盘（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_ExSkillCD_Selection_1"
   },
   {
@@ -9652,7 +9876,7 @@
     "Rarity": "SR",
     "Name": "高级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯）",
+    "Desc": "可选择想要的战术教育光盘（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_ExSkillCD_Selection_2"
   },
   {
@@ -9660,7 +9884,7 @@
     "Rarity": "SSR",
     "Name": "特级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（格黑娜、山海经、圣三一、瓦尔基丽、阿里乌斯）",
+    "Desc": "可选择想要的战术教育光盘（歌赫娜、山海经、崔尼蒂、瓦尔基丽、阿里乌斯）",
     "Icon": "Item_Icon_ExSkillCD_Selection_3"
   },
   {
@@ -9668,7 +9892,7 @@
     "Rarity": "N",
     "Name": "初级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红东、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_ExSkillCD_Selection_0"
   },
   {
@@ -9676,7 +9900,7 @@
     "Rarity": "R",
     "Name": "中级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红东、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_ExSkillCD_Selection_1"
   },
   {
@@ -9684,7 +9908,7 @@
     "Rarity": "SR",
     "Name": "高级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红东、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_ExSkillCD_Selection_2"
   },
   {
@@ -9692,7 +9916,7 @@
     "Rarity": "SSR",
     "Name": "特级战术教育光盘选择券",
     "Category": "Consumable",
-    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红东、阿拜多斯、千禧年、海兰德）",
+    "Desc": "可选择想要的战术教育光盘（百鬼夜行、红冬、阿拜多斯、千禧年）",
     "Icon": "Item_Icon_ExSkillCD_Selection_3"
   },
   {
@@ -9970,9 +10194,9 @@
   {
     "Id": 151015,
     "Rarity": "SSR",
-    "Name": "格黑娜宴会主题家具选择券",
+    "Name": "歌赫娜宴会主题家具选择券",
     "Category": "Consumable",
-    "Desc": "可选择格黑娜宴会主题家具的选择券",
+    "Desc": "可选择歌赫娜宴会主题家具的选择券",
     "Icon": "Item_Icon_Furniture_Selection_Group114"
   },
   {
@@ -10002,9 +10226,9 @@
   {
     "Id": 151019,
     "Rarity": "SSR",
-    "Name": "千禧年学院塔楼休息室系列选择盒",
+    "Name": "千禧年巨塔交谊厅主题家具选择箱",
     "Category": "Consumable",
-    "Desc": "可从千禧年学院塔楼休息室系列家具中，挑选任意一件进行兑换的选择盒。",
+    "Desc": "可选择千禧年巨塔交谊厅主题家具的选择箱",
     "Icon": "Item_Icon_Furniture_Selection_Group118"
   },
   {
@@ -10014,6 +10238,14 @@
     "Category": "Consumable",
     "Desc": "可从海兰德列车系列中选择任意家具兑换的选择箱。",
     "Icon": "Item_Icon_Furniture_Selection_Group119"
+  },
+  {
+    "Id": 151021,
+    "Rarity": "SSR",
+    "Name": "茶话会系列选择箱",
+    "Category": "Consumable",
+    "Desc": "可从茶话会系列中任选一件家具进行兑换的选择箱。",
+    "Icon": "Item_Icon_Furniture_Selection_Group120"
   },
   {
     "Id": 151991,
@@ -10052,7 +10284,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10060,7 +10292,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10068,7 +10300,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10076,7 +10308,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10084,7 +10316,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10092,7 +10324,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10100,7 +10332,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10108,7 +10340,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10116,7 +10348,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10124,7 +10356,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10132,7 +10364,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10140,7 +10372,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10148,7 +10380,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10156,7 +10388,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10164,7 +10396,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10172,7 +10404,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10180,7 +10412,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10188,7 +10420,7 @@
     "Rarity": "N",
     "Name": "作战数据2：D-X型",
     "Category": "Coin",
-    "Desc": "可以分析十字神名的数据。",
+    "Desc": "可以分析神名十文字的数据。",
     "Icon": "Item_Icon_Event_Token_Special_1"
   },
   {
@@ -10204,7 +10436,7 @@
     "Rarity": "N",
     "Name": "天使巧克力",
     "Category": "Collectible",
-    "Desc": "连锁便利店【天使24】的自营品牌巧克力。空不小心订购了超量的订单，但幸好在老师的帮助下成功卖完了，这是其中的最后一块。",
+    "Desc": "连锁便利店【天使24】的自营品牌巧克力。空不小心订购了超量的订单，但幸好在老师的帮助下成功卖完了。",
     "Icon": "Event_Vallentine_Chocolate_Sora"
   },
   {
@@ -10212,15 +10444,15 @@
     "Rarity": "N",
     "Name": "经济包迷你巧克力",
     "Category": "Collectible",
-    "Desc": "联邦学生会常备的经济包迷你巧克力。凛工作时似乎偶尔会吃。",
+    "Desc": "联邦理事会常备的经济包迷你巧克力。凛工作时似乎偶尔会吃。",
     "Icon": "Event_Vallentine_Chocolate_Rin"
   },
   {
     "Id": 180003,
     "Rarity": "N",
-    "Name": "阿罗娜的巧克力姜饼",
+    "Name": "阿洛娜的巧克力姜饼",
     "Category": "Collectible",
-    "Desc": "阿罗娜用心制作的巧克力姜饼。饼干上用巧克力绘制了老师和阿罗娜的肖像。",
+    "Desc": "阿洛娜用心制作的巧克力姜饼。饼干上用巧克力绘制了老师和阿洛娜的肖像。",
     "Icon": "Event_Vallentine_Chocolate_Arona"
   },
   {
@@ -10250,9 +10482,9 @@
   {
     "Id": 180007,
     "Rarity": "N",
-    "Name": "格黑娜黑巧",
+    "Name": "歌赫娜黑巧",
     "Category": "Collectible",
-    "Desc": "高热量、高咖啡因的格黑娜制黑巧克力。其实伊织也把它跟鞋油搞错过。",
+    "Desc": "高热量、高咖啡因的歌赫娜制黑巧克力。其实伊织也把它跟鞋油搞错过。",
     "Icon": "Event_Vallentine_Chocolate_Iori"
   },
   {
@@ -10380,7 +10612,7 @@
     "Rarity": "N",
     "Name": "巧克力螺丝",
     "Category": "Collectible",
-    "Desc": "以锡纸包装的螺丝造型巧克力。虽然造型完美到连歌原都无法一眼分辨出来，却不能真的当做工具使用。",
+    "Desc": "以银纸包装的螺丝造型巧克力。虽然造型完美到连歌原都无法一眼分辨出来，却不能真的当做工具使用。",
     "Icon": "Event_Vallentine_Chocolate_Utaha"
   },
   {
@@ -10428,7 +10660,7 @@
     "Rarity": "N",
     "Name": "巧克力手铐",
     "Category": "Collectible",
-    "Desc": "手铐造型的巧克力。虽然包了锡箔，形状也和真的手铐一样，但显然不具备手铐的功能。",
+    "Desc": "手铐造型的巧克力。虽然包了银箔，形状也和真的手铐一样，但显然不具备手铐的功能。",
     "Icon": "Event_Vallentine_Chocolate_Kirino"
   },
   {
@@ -10500,7 +10732,7 @@
     "Rarity": "N",
     "Name": "装着热可可的马克杯",
     "Category": "Collectible",
-    "Desc": "枫香为老师泡的热可可。感受到那颗为老师的健康着想的心，味道就会比实际更香甜温暖。",
+    "Desc": "风香为老师泡的热可可。感受到那颗为老师的健康着想的心，味道就会比实际更香甜温暖。",
     "Icon": "Event_Vallentine_Chocolate_Fuuka"
   },
   {
@@ -10628,7 +10860,7 @@
     "Rarity": "N",
     "Name": "圣洁巧克力",
     "Category": "Collectible",
-    "Desc": "玛丽赠送的巧克力。是修女会的名产，或许一开始就不是用来食用而是展示的吧。",
+    "Desc": "玛丽赠送的巧克力。是姐妹会的名产，或许一开始就不是用来食用而是展示的吧。",
     "Icon": "Event_Vallentine_Chocolate_Mari"
   },
   {
@@ -10844,7 +11076,7 @@
     "Rarity": "N",
     "Name": "超天才病弱美少女黑客's巧克力",
     "Category": "Collectible",
-    "Desc": "日鞠以自己的模样为原型制成的手工巧克力。依照突然却合乎逻辑的判断与非常合理的结论，得等回到夏莱后才能品尝。",
+    "Desc": "日鞠以自己的模样为原型制成的手工巧克力。依照突然却合乎逻辑的判断与非常合理的结论，得等回到沙勒后才能品尝。",
     "Icon": "Event_Vallentine_Chocolate_CH0159"
   },
   {
@@ -10940,7 +11172,7 @@
     "Rarity": "N",
     "Name": "手工巧克力棒",
     "Category": "Collectible",
-    "Desc": "一花亲手为老师准备的巧克力。做成方便拿着吃的棒状。虽然是手工制作，但光滑度极佳，不亚于市售的成品。",
+    "Desc": "一花亲手为老师制作的巧克力，为了方便拿着吃做成了棒状。虽然是手工制作，但做得很精致，不亚于市售的成品。",
     "Icon": "Event_Vallentine_Chocolate_CH0071"
   },
   {
@@ -10948,21 +11180,21 @@
     "Rarity": "N",
     "Name": "巧克力拖鞋",
     "Category": "Collectible",
-    "Desc": "尺寸和实际的拖鞋一样大的巨大巧克力。与外观相反，非常结实，甚至可以真的穿着走。",
+    "Desc": "尺寸和真的拖鞋一样大的巨大巧克力。与外观相反，它非常结实，据说真的可以穿着走。",
     "Icon": "Event_Vallentine_Chocolate_CH0089"
   },
   {
     "Id": 180095,
     "Rarity": "N",
-    "Name": "秘密讯息",
+    "Name": "秘密信息",
     "Category": "Collectible",
-    "Desc": "小雪送给老师的手工巧克力。表面上是普通的送礼用巧克力，但其实隐藏着另一层含意，很有小雪的风格。",
+    "Desc": "小雪送给老师的手工巧克力。表面上是普通的送礼用巧克力，但内里隐藏着另一层含义，很有小雪的风格。",
     "Icon": "Event_Vallentine_Chocolate_CH0198"
   },
   {
     "Id": 180096,
     "Rarity": "N",
-    "Name": "自己做的决定",
+    "Name": "自己的决定",
     "Category": "Collectible",
     "Desc": "樱子为老师准备的高级巧克力。和平时不同，是樱子自己深思熟虑后做的决定，是一份难得的珍贵礼物。",
     "Icon": "Event_Vallentine_Chocolate_Sakurako"
@@ -10970,9 +11202,9 @@
   {
     "Id": 180097,
     "Rarity": "N",
-    "Name": "情人节挑战书",
+    "Name": "情人节战书",
     "Category": "Collectible",
-    "Desc": "玲纱的挑战书样式巧克力。其实只是放了一大块巧克力的挑战书信封。里面装有玲纱的信。",
+    "Desc": "玲纱的战书样式巧克力。其实只是在战书信封里放了一大块巧克力。里面装有玲纱的信。",
     "Icon": "Event_Vallentine_Chocolate_CH0167"
   },
   {
@@ -10980,7 +11212,7 @@
     "Rarity": "N",
     "Name": "温泉蛋巧克力",
     "Category": "Collectible",
-    "Desc": "惠手工特制的巧克力。乍看与温泉蛋十分相似，很容易搞混。因为是一次性量产的，所以想拿多少都行。",
+    "Desc": "惠手工特制的巧克力。乍看与温泉蛋十分相似，很容易搞混。因为一次性做了很多，所以想拿多少都行。",
     "Icon": "Event_Vallentine_Chocolate_CH0088"
   },
   {
@@ -10988,7 +11220,7 @@
     "Rarity": "N",
     "Name": "巧克力月饼",
     "Category": "Collectible",
-    "Desc": "瑠海以拜托老师“试吃”为由制作的巧克力月饼。这份巧克力不负厨师之名，运用了多种制作方法，每个都蕴含了希望老师品尝的心意。",
+    "Desc": "瑠海以拜托老师“试吃”为由制作的巧克力月饼。这份巧克力不负厨师之名，运用了多种制作方法，每个都蕴含着希望老师品尝的心意。",
     "Icon": "Event_Vallentine_Chocolate_CH0135"
   },
   {
@@ -11002,17 +11234,17 @@
   {
     "Id": 180101,
     "Rarity": "N",
-    "Name": "巧克力钥匙圈周边",
+    "Name": "巧克力钥匙扣周边",
     "Category": "Collectible",
-    "Desc": "红叶声称是抽奖奖品的钥匙圈和巧克力。或许是巧合，刚好能和红叶配成一对。",
+    "Desc": "红叶声称是抽奖奖品的钥匙扣和巧克力。或许是巧合，刚好能和红叶的配成一对。",
     "Icon": "Event_Vallentine_Chocolate_Momiji"
   },
   {
     "Id": 180102,
     "Rarity": "N",
-    "Name": "渚的普通的巧克力",
+    "Name": "渚的普通巧克力",
     "Category": "Collectible",
-    "Desc": "渚为了答谢老师，亲自制作的巧克力。被刻意装饰得简单朴素，反映出渚不希望它包含任何其他意图或政治解读的愿望。不过，它的味道和质量远远超过一般市售的巧克力成品。",
+    "Desc": "渚为了答谢老师，亲自制作的巧克力。它被刻意装饰得简单朴素，反映出渚不希望它包含任何其他意图和政治解读的愿望。不过，它的味道和质量远远超过一般市售的巧克力成品。",
     "Icon": "Event_Vallentine_Chocolate_Nagisa"
   },
   {
@@ -11020,7 +11252,7 @@
     "Rarity": "N",
     "Name": "高热量巧克力",
     "Category": "Collectible",
-    "Desc": "这是“想享受情人节但办不到”的实梨想出来的对策。尽管实梨嘴里说是顺便送的，但事实上是花了相当多时间在众多制造商中挑选的。",
+    "Desc": "这是“想享受情人节但办不到”的实梨想出来的对策。尽管实梨嘴上说是顺便送的，但事实上是花了相当多时间在众多品牌中挑选的。",
     "Icon": "Event_Vallentine_Chocolate_CH0214"
   },
   {
@@ -11034,9 +11266,9 @@
   {
     "Id": 180105,
     "Rarity": "N",
-    "Name": "普拉娜的「心爱」巧克力。",
+    "Name": "普拉娜的普拉娜含量100%巧克力",
     "Category": "Collectible",
-    "Desc": "普拉娜瞒着阿罗娜精心制作的巧克力。味道完全正中老师的口味。",
+    "Desc": "普拉娜瞒着阿洛娜精心制作的巧克力。味道完美符合老师的喜好。",
     "Icon": "Event_Vallentine_Chocolate_NP0035"
   },
   {
@@ -11044,21 +11276,21 @@
     "Rarity": "N",
     "Name": "自画像巧克力",
     "Category": "Collectible",
-    "Desc": "芽瑠在白巧克力板上绘制了自己的肖像画的巧克力。芽瑠似乎对于完成度不太满意，但真正的问题是该从哪里下口。",
+    "Desc": "芽瑠在白巧克力板上绘制出自己的肖像画的巧克力。芽瑠似乎对完成度不太满意，但真正的问题是该从哪里下口。",
     "Icon": "Event_Vallentine_Chocolate_CH0124"
   },
   {
     "Id": 180107,
     "Rarity": "N",
-    "Name": "最好、最棒、最究极的手工巧克力蛋糕。",
+    "Name": "至高无上的手工巧克力蛋糕",
     "Category": "Collectible",
-    "Desc": "号称可以和基沃托斯知名糕点店媲美的手工巧克力。标语是“最好、最棒、最究极的”。",
+    "Desc": "号称水平可以和基沃托斯知名甜品店媲美的手工巧克力。它的宣传词是“至高无上”。",
     "Icon": "Event_Vallentine_Chocolate_CH0187"
   },
   {
     "Id": 180108,
     "Rarity": "N",
-    "Name": "战略领袖的手工巧克力",
+    "Name": "战略宣传组长的手工巧克力",
     "Category": "Collectible",
     "Desc": "果穗亲自为老师制作的巧克力。乍看之下只是单纯的宣传用品，但每一个细心雕琢的字都饱含着真心。",
     "Icon": "Event_Vallentine_Chocolate_CH0107"
@@ -11066,9 +11298,9 @@
   {
     "Id": 180109,
     "Rarity": "N",
-    "Name": "「平常喝的」咖啡",
+    "Name": "老样子的咖啡",
     "Category": "Collectible",
-    "Desc": "康娜为老师冲泡的普通配方咖啡。不过和平时不同的是，可能是因为掺杂了康娜的“主观情感”，散发着宛如巧克力般的甜美香气。",
+    "Desc": "康娜为老师冲泡的普通咖啡。也许是因为蕴含了康娜的“主观情感”，咖啡和平日不同，散发着宛如巧克力的甜美香气。",
     "Icon": "Event_Vallentine_Chocolate_CH0170"
   },
   {
@@ -11076,7 +11308,7 @@
     "Rarity": "N",
     "Name": "两人一起做的生巧克力",
     "Category": "Collectible",
-    "Desc": "莲华在老师的帮助下顺利完成的手工生巧克力。尽管完成度不高，但融入其中的回忆是任何人都无可否认的。",
+    "Desc": "莲华在老师的帮助下顺利完成的手工生巧克力。尽管完成度不高，但融入其中的回忆是毋庸置疑的。",
     "Icon": "Event_Vallentine_Chocolate_CH0224"
   },
   {
@@ -11084,7 +11316,7 @@
     "Rarity": "N",
     "Name": "作战参谋的巧克力",
     "Category": "Collectible",
-    "Desc": "桔梗为老师准备的巧克力。和它生硬的名字不同，上头绘有可爱的猫咪图案。显然，这名字的真正含意是指为了送出巧克力而制定的一系列秘密大作战吧。",
+    "Desc": "桔梗为老师准备的巧克力。和生硬的名字相反，上面画着可爱的猫咪图案。也许这个名字的真正含义，是指为了送出巧克力而制定的一系列秘密大作战。",
     "Icon": "Event_Vallentine_Chocolate_CH0225"
   },
   {
@@ -11092,7 +11324,7 @@
     "Rarity": "N",
     "Name": "勘解由小路护身符和巧克力零食",
     "Category": "Collectible",
-    "Desc": "紫为老师亲手制作的护身符，以及一大早去商店街闲逛时，好不容易到手的限量版美味棒。紫想将自己身为勘解由小路及百花缭乱一员的种种心意完全传达出来，是一份能温暖人心的礼物。",
+    "Desc": "紫为老师亲手制作的护身符，以及一大早去商店街好不容易买到的限量版美味棒。紫想将自己身为勘解由小路家，和百花缭乱一员的种种心意全都传达出来，因此准备了这份温暖人心的礼物。",
     "Icon": "Event_Vallentine_Chocolate_CH0161"
   },
   {
@@ -11100,7 +11332,7 @@
     "Rarity": "N",
     "Name": "伊吹制作的巧克力布丁",
     "Category": "Collectible",
-    "Desc": "伊吹亲自准备的巧克力布丁。因为想尽善尽美，使得加入的材料越放越多，结果变成了过度甜蜜的模样。一次吃太多的话，舌头可能会麻痹。",
+    "Desc": "伊吹亲自准备的巧克力布丁。因为想尽善尽美，加入了太多的材料，最后甜得过头了。一次吃太多的话，舌头可能会麻痹。",
     "Icon": "Event_Vallentine_Chocolate_Ibuki"
   },
   {
@@ -11108,7 +11340,7 @@
     "Rarity": "N",
     "Name": "未花特制☆巧克力蛋糕卷",
     "Category": "Collectible",
-    "Desc": "未花亲自为老师烤的巧克力蛋糕卷。虽然不够完美，却饱含真心，可以感受到未花的努力及诚意。",
+    "Desc": "未花亲自为老师烤的巧克力蛋糕卷。虽然不够完美，却饱含真心，从中能感受到未花的努力与诚意。",
     "Icon": "Event_Vallentine_Chocolate_CH0069"
   },
   {
@@ -11116,39 +11348,39 @@
     "Rarity": "N",
     "Name": "议长准备的顶级巧克力喷泉机",
     "Category": "Collectible",
-    "Desc": "真琴和派对一起为老师特别准备的顶级巧克力喷泉机。这东西原本已经很酷，但真琴想要更臻完美而加以改造，结果导致马达会间歇性失控，四处喷溅巧克力，使用时要多加注意。",
+    "Desc": "真琴为老师特别准备的，配合派对的顶级巧克力喷泉机。它原本已经很酷，但真琴为了让它更加完美，对它进行了改造，结果导致马达会间歇性失控，四处喷洒巧克力，使用时需要多加注意。",
     "Icon": "Event_Vallentine_Chocolate_CH0079"
   },
   {
     "Id": 180116,
     "Rarity": "N",
-    "Name": "神舆巧克力",
+    "Name": "神轿巧克力",
     "Category": "Collectible",
-    "Desc": "海夏制作的神舆造型巧克力。每一处细节都精心打造，屋顶还设计成可打开的结构。其中饱含着她满满的心意。",
+    "Desc": "海夏精心制作的轿子形状巧克力。听说最里面放入了比什么都还珍贵的东西。",
     "Icon": "Event_Vallentine_Chocolate_CH0110"
   },
   {
     "Id": 180117,
     "Rarity": "N",
-    "Name": "最强☆巧克力可丽饼",
+    "Name": "S+巧克力可丽饼",
     "Category": "Collectible",
-    "Desc": "这是kirakira历经多次失败后完成的手工可丽饼。她的这份真心，无法用分数来衡量。",
+    "Desc": "绮罗罗经历无数次失败后亲手制作的可丽饼。其中蕴含的用心，无法用分数来衡量。",
     "Icon": "Event_Vallentine_Chocolate_Kirara"
   },
   {
     "Id": 180118,
     "Rarity": "N",
-    "Name": "充满回忆的“那款巧克力”",
+    "Name": "“那种巧克力”满满一盒",
     "Category": "Collectible",
-    "Desc": "曾经另一位白子送给老师的巧克力……不过这次是大量的。饱含着对始终如一的老师的感谢。",
+    "Desc": "另一个白子曾经送过的巧克力。但这次数量很多。虽然将许多烦恼笑着带过，却也因此展现出了背后单纯的心意。",
     "Icon": "Event_Vallentine_Chocolate_CH0263"
   },
   {
     "Id": 180119,
     "Rarity": "N",
-    "Name": "可可尼布茶",
+    "Name": "可可豆茶",
     "Category": "Collectible",
-    "Desc": "妃咲发挥自己茶道爱好，冲泡的可可尼布茶。在众多甜巧克力的氛围中，这种苦味与风味会带来特别的体验。",
+    "Desc": "妃咲在对茶道的爱好下，亲手冲泡的可可豆茶。适度的苦味和香气与浓郁的巧克力香形成对比，令人留下深刻印象。",
     "Icon": "Event_Vallentine_Chocolate_CH0139"
   },
   {
@@ -11156,39 +11388,39 @@
     "Rarity": "N",
     "Name": "铁砂掌巧克力",
     "Category": "Collectible",
-    "Desc": "由丽情独特制作方法制成的铁砂掌巧克力。上面深刻的拳印，是她每日修炼的成果。",
+    "Desc": "据说是丽情用某种“特别的方法”制作的铁砂掌巧克力。上面清晰印着的拳头形状正是出自他本人。",
     "Icon": "Event_Vallentine_Chocolate_Reizyo"
   },
   {
     "Id": 180121,
     "Rarity": "N",
-    "Name": "皋月的秘密配方巧克力",
+    "Name": "皋月的秘密巧克力",
     "Category": "Collectible",
-    "Desc": "装在高级盒子里的硬币造型手工巧克力。据说为了与老师关系更亲密，皋月使用了秘密配方制作。",
+    "Desc": "装在高级盒子里的硬币型手工巧克力。据说是皋月为了加深与老师的亲密感，以特殊秘方制作而成。",
     "Icon": "Event_Vallentine_Chocolate_CH0080"
   },
   {
     "Id": 180122,
     "Rarity": "N",
-    "Name": "千秋的周刊万魔殿情人节特刊",
+    "Name": "千秋的周刊万魔殿情人节号外篇",
     "Category": "Collectible",
-    "Desc": "这是一套压扁的巧克力，以及记录其往昔模样的宝丽来照片。一边看着精美的照片一边品尝，美味程度会加倍……？",
+    "Desc": "拍摄了高级华丽巧克力的拍立得相片。但附上的巧克力却不知为何显得干瘪凹陷。",
     "Icon": "Event_Vallentine_Chocolate_CH0238"
   },
   {
     "Id": 180123,
     "Rarity": "N",
-    "Name": "圣娅的刺激巧克力",
+    "Name": "圣娅的陷阱巧克力",
     "Category": "Collectible",
-    "Desc": "圣娅手工制作的巧克力，还一同附上了闪闪发光的金色纸张。设置些小恶作剧，也是她表达亲昵的方式。",
+    "Desc": "圣娅的巧克力。巧克力旁附带着金光闪闪的收据。若不小心签名，无法保证会导致什么后果。",
     "Icon": "Event_Vallentine_Chocolate_CH0070"
   },
   {
     "Id": 180124,
     "Rarity": "N",
-    "Name": "千禧年学院校章巧克力",
+    "Name": "千禧年校徽巧克力",
     "Category": "Collectible",
-    "Desc": "刻有千禧年科学学院校章的莉音巧克力。本人声称，制作过程遵循合理且理性的流程。",
+    "Desc": "印有千禧年科学学院校徽的莉音的巧克力。本人表示这枚巧克力是用最合理且理性的程序制作而成。",
     "Icon": "Event_Vallentine_Chocolate_CH0158"
   },
   {
@@ -11410,9 +11642,9 @@
   {
     "Id": 191015,
     "Rarity": "SSR",
-    "Name": "格黑娜宴会主题家具抽奖券",
+    "Name": "歌赫娜宴会主题家具抽奖券",
     "Category": "Consumable",
-    "Desc": "使用时，即可以相同机率获得1个格黑娜宴会主题家具的抽奖券",
+    "Desc": "使用时，即可以相同机率获得1个歌赫娜宴会主题家具的抽奖券",
     "Icon": "Item_Icon_Furniture_Random_Group114"
   },
   {
@@ -11420,7 +11652,7 @@
     "Rarity": "SSR",
     "Name": "三一教室主题家具抽奖箱",
     "Category": "Consumable",
-    "Desc": "使用此抽奖箱时，可以相同机率获得1个三一教室主题家具。",
+    "Desc": "使用此抽奖箱时，可以相同几率获得1个三一教室主题家具。",
     "Icon": "Item_Icon_Furniture_Random_Group115"
   },
   {
@@ -11428,7 +11660,7 @@
     "Rarity": "SSR",
     "Name": "DJ派对会场主题家具抽奖箱",
     "Category": "Consumable",
-    "Desc": "可获得1个DJ派对会场主题家具的抽奖箱，所有内容物的获得机率相同。",
+    "Desc": "可获得1个DJ派对会场主题家具的抽奖箱，所有内容物的获得几率相同。",
     "Icon": "Item_Icon_Furniture_Random_Group116"
   },
   {
@@ -11436,15 +11668,15 @@
     "Rarity": "SSR",
     "Name": "百鬼夜行主题家具抽奖箱",
     "Category": "Consumable",
-    "Desc": "可获得1个百鬼夜行主题家具的抽奖箱，所有内容物的获得机率相同。",
+    "Desc": "可获得1个百鬼夜行主题家具的抽奖箱，所有内容物的获得几率相同。",
     "Icon": "Item_Icon_Furniture_Random_Group117"
   },
   {
     "Id": 191019,
     "Rarity": "SSR",
-    "Name": "千禧年学院塔楼休息室系列抽奖盒",
+    "Name": "千禧年巨塔交谊厅主题家具抽奖箱",
     "Category": "Consumable",
-    "Desc": "使用时，可从千禧年学院塔楼休息室系列家具中，以相同概率随机抽取一件。",
+    "Desc": "可获得1个千禧年巨塔交谊厅主题家具的抽奖箱，所有内容物的获得几率相同。",
     "Icon": "Item_Icon_Furniture_Random_Group118"
   },
   {
@@ -11454,6 +11686,14 @@
     "Category": "Consumable",
     "Desc": "使用时可从海兰德列车系列家具中随机获得一件（等概率）。",
     "Icon": "Item_Icon_Furniture_Random_Group119"
+  },
+  {
+    "Id": 191021,
+    "Rarity": "SSR",
+    "Name": "茶话会系列抽选箱",
+    "Category": "Consumable",
+    "Desc": "使用时，可从茶话会系列家具中以相同概率随机获得一个的抽奖箱。",
+    "Icon": "Item_Icon_Furniture_Random_Group120"
   },
   {
     "Id": 191991,
@@ -11490,9 +11730,9 @@
   {
     "Id": 200000,
     "Rarity": "SSR",
-    "Name": "普雷纳帕提斯的大人的卡片",
+    "Name": "弗雷纳帕提斯的大人的卡片",
     "Category": "Consumable",
-    "Desc": "普雷纳帕提斯的「大人的卡片」。由于处于几乎无法判断外型、似乎马上就会粉碎的焦黑状态，对待时需要特别小心。使用这张卡片就能获得青辉石，不过卡片将会遭到破坏。",
+    "Desc": "弗雷纳帕提斯的「大人的卡片」。由于处于几乎无法判断外型、似乎马上就会粉碎的焦黑状态，对待时需要特别小心。使用这张卡片就能获得青辉石，不过卡片将会遭到破坏。",
     "Icon": "Item_Icon_Consumable_AdultCard"
   },
   {
@@ -11500,7 +11740,7 @@
     "Rarity": "SSR",
     "Name": "粉碎的大人的卡片",
     "Category": "Material",
-    "Desc": "普雷纳帕提斯的「大人的卡片」的残骸。那张卡片本来的外观，如今仅存在于某些人的记忆之中。",
+    "Desc": "弗雷纳帕提斯的「大人的卡片」的残骸。那张卡片本来的外观，如今仅存在于某些人的记忆之中。",
     "Icon": "Item_Icon_Material_UsedCard"
   },
   {
@@ -11546,25 +11786,33 @@
   {
     "Id": 12000001,
     "Rarity": "N",
-    "Name": "★3学生选择券",
+    "Name": "★3学员选择券",
     "Category": "Consumable",
-    "Desc": "可选择并招募一名★3学生的选择券。\n选择已持有的学生时，将获得100个该学生的神名文字。※若未在2024年7月3日10点59分使用，本票券将自动消失。",
+    "Desc": "可选择并招募一名★3学员的选择券。\n选择已持有的学员时，将获得100个该学员的神名文字。※若未在2024年7月3日10点59分使用，本票券将自动消失。",
     "Icon": "Item_Icon_RecruitTicket_Selection_0"
   },
   {
     "Id": 12000002,
     "Rarity": "N",
-    "Name": "★3学生选择券",
+    "Name": "★3学员选择券",
     "Category": "Consumable",
-    "Desc": "可选择并招募一名★3学生的选择券。\n选择已持有的学生时，将获得100个该学生的神名文字。※若未在2025年7月2日10点59分使用，本票券将自动消失。",
+    "Desc": "可选择并招募一名★3学员的选择券。\n选择已持有的学员时，将获得100个该学员的神名文字。※若未在2025年7月2日10点59分使用，本票券将自动消失。",
+    "Icon": "Item_Icon_RecruitTicket_Selection_0"
+  },
+  {
+    "Id": 12000003,
+    "Rarity": "N",
+    "Name": "★3学员选择券",
+    "Category": "Consumable",
+    "Desc": "可任选一名★3学员进行招募的票券。\n若招募已持有的学员，则可获得该学员的神名文字100个。※若未在2026年7月1日10:59前使用，该票券将会消失",
     "Icon": "Item_Icon_RecruitTicket_Selection_0"
   },
   {
     "Id": 20000000,
     "Rarity": "N",
-    "Name": "阿罗娜的印章",
+    "Name": "阿洛娜的印章",
     "Category": "Collectible",
-    "Desc": "阿罗娜给老师盖的认证印章！",
+    "Desc": "阿洛娜给老师盖的认证印章！",
     "Icon": "Collectible_Icon_GuideMission01"
   },
   {
@@ -11588,7 +11836,7 @@
     "Rarity": "N",
     "Name": "任务报告",
     "Category": "Collectible",
-    "Desc": "详细记录夏莱活动的任务报告。",
+    "Desc": "详细记录沙勒活动的任务报告。",
     "Icon": "Collectible_Icon_GuideMission_S15_1"
   },
   {
@@ -11652,15 +11900,15 @@
     "Rarity": "N",
     "Name": "柴关特制巨无霸拉面",
     "Category": "Collectible",
-    "Desc": "柴关拉面店的秘密菜单，可以从中品尝到柴大将的温柔。",
+    "Desc": "柴关拉面店的秘密菜单，可以从中品尝到柴师傅的温柔。",
     "Icon": "Collectible_Icon_GuideMission_S39"
   },
   {
     "Id": 20000012,
     "Rarity": "N",
-    "Name": "阿拜多斯学生证（1年级）",
+    "Name": "阿拜多斯学员证（1年级）",
     "Category": "Collectible",
-    "Desc": "可证明是阿拜多斯高中1年级学生的学生证。",
+    "Desc": "可证明是阿拜多斯高中1年级学员的学员证。",
     "Icon": "Collectible_Icon_GuideMission_S41"
   },
   {
@@ -11674,9 +11922,9 @@
   {
     "Id": 20001000,
     "Rarity": "N",
-    "Name": "阿罗娜的印章",
+    "Name": "阿洛娜的印章",
     "Category": "Collectible",
-    "Desc": "阿罗娜给老师盖的认证印章！",
+    "Desc": "阿洛娜给老师盖的认证印章！",
     "Icon": "Collectible_Icon_GuideMission01"
   },
   {
@@ -11688,19 +11936,27 @@
     "Icon": "Collectible_Icon_GuideMission_2nd"
   },
   {
+    "Id": 20002000,
+    "Rarity": "N",
+    "Name": "手工卷蛋糕",
+    "Category": "Collectible",
+    "Desc": "知名糕点师亲手制作的瑞士卷。不知为何会让人想一边\"哦呵呵\"地优雅笑着一边享用。",
+    "Icon": "Collectible_Icon_GuideMission_S51"
+  },
+  {
     "Id": 29999998,
     "Rarity": "N",
-    "Name": "阿罗娜的印章",
+    "Name": "阿洛娜的印章",
     "Category": "Collectible",
-    "Desc": "阿罗娜给老师盖的认证印章！",
+    "Desc": "阿洛娜给老师盖的认证印章！",
     "Icon": "Collectible_Icon_GuideMission01"
   },
   {
     "Id": 29999999,
     "Rarity": "N",
-    "Name": "阿罗娜的印章",
+    "Name": "阿洛娜的印章",
     "Category": "Collectible",
-    "Desc": "阿罗娜给老师盖的认证印章！",
+    "Desc": "阿洛娜给老师盖的认证印章！",
     "Icon": "Collectible_Icon_GuideMission01"
   },
   {

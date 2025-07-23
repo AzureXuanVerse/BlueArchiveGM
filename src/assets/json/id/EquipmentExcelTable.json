@@ -188,7 +188,7 @@
     "Category": "Hat",
     "Rarity": "N",
     "Name": "蝴蝶结贝雷帽",
-    "Desc": "白色蝴蝶结贝雷帽是圣三一的女生最喜欢戴的帽子。据戴过这顶帽子的人说，想让这顶贝雷帽呈现出完美的弧度比想象中要难很多。",
+    "Desc": "白色蝴蝶结贝雷帽是崔尼蒂的女生最喜欢戴的帽子。据戴过这顶帽子的人说，想让这顶贝雷帽呈现出完美的弧度比想象中要难很多。",
     "Icon": "Equipment_Icon_Hat_Tier4"
   },
   {
@@ -235,8 +235,8 @@
     "Id": 1009,
     "Category": "Hat",
     "Rarity": "N",
-    "Name": "游戏头盔",
-    "Desc": "这是一款能放置饮品的帽子。借助吸管，即便手持游戏控制器，也能轻松滋润喉咙。",
+    "Name": "电竞头盔",
+    "Desc": "可配戴饮料的帽子。上面插着吸管。即使在游戏中，也可以不用手喝到饮料。",
     "Icon": "Equipment_Icon_Hat_Tier10"
   },
   {
@@ -292,7 +292,7 @@
     "Category": "Gloves",
     "Rarity": "N",
     "Name": "袖套",
-    "Desc": "专为同时追求手臂保护和时尚的学员设计的袖套。在换时时使用特别有效果。",
+    "Desc": "专为同时追求手臂保护和时尚的学员设计的袖套。在换季时使用特别有效果。",
     "Icon": "Equipment_Icon_Gloves_Tier7"
   },
   {
@@ -316,7 +316,7 @@
     "Category": "Gloves",
     "Rarity": "N",
     "Name": "超级手套",
-    "Desc": "这是一款带有动作传感器的游戏手套。虽说称不上易用，但它对全球的游戏开发者们产生了深远影响。",
+    "Desc": "搭载动作感应装置的游戏手套。性能虽然不太好，但为后来的游戏开发者带来了很大的灵感。",
     "Icon": "Equipment_Icon_Gloves_Tier10"
   },
   {
@@ -348,7 +348,7 @@
     "Category": "Shoes",
     "Rarity": "N",
     "Name": "复古漆皮豆豆鞋",
-    "Desc": "圣三一的女生们喜欢穿的高级平底鞋。因涂上了瓷漆，在光线的照射下鞋尖会闪闪发光。",
+    "Desc": "崔尼蒂的女生们喜欢穿的高级平底鞋。因涂上了瓷漆，在光线的照射下鞋尖会闪闪发光。",
     "Icon": "Equipment_Icon_Shoes_Tier4"
   },
   {
@@ -395,8 +395,8 @@
     "Id": 3009,
     "Category": "Shoes",
     "Rarity": "N",
-    "Name": "游戏拖鞋",
-    "Desc": "这款拖鞋能发出红、绿、蓝三种颜色的光。即便在黑暗中也极易被发现，不过它对游戏得分并无帮助。",
+    "Name": "电竞拖鞋",
+    "Desc": "闪烁着红色、绿色和蓝色的拖鞋。即使在黑暗中也不怕找不到。但没人知道它与游戏有什么关联。",
     "Icon": "Equipment_Icon_Shoes_Tier10"
   },
   {
@@ -428,7 +428,7 @@
     "Category": "Bag",
     "Rarity": "N",
     "Name": "藏蓝书包",
-    "Desc": "根据圣三一的规定制作的藏蓝书包。因其简洁且高级的设计，在其他地区人气也很高。",
+    "Desc": "根据崔尼蒂的规定制作的藏蓝书包。因其简洁且高级的设计，在其他地区人气也很高。",
     "Icon": "Equipment_Icon_Bag_Tier4"
   },
   {
@@ -476,7 +476,7 @@
     "Category": "Bag",
     "Rarity": "N",
     "Name": "金属箱",
-    "Desc": "这是一款内置电池的防弹合金制背包。它能够抵御步枪的全自动射击，是保管电子设备的绝佳选择。",
+    "Desc": "内建电池，防弹合金材质的背包。能够轻松抵挡步枪的连发射击，适合用于存放电子设备。",
     "Icon": "Equipment_Icon_Bag_Tier10"
   },
   {
@@ -484,7 +484,7 @@
     "Category": "Badge",
     "Rarity": "N",
     "Name": "薮猫金属徽章",
-    "Desc": "印有着名运动品牌“薮猫”标识的金属徽章。使用结实的金属制成，因此不用担心会被刮花。",
+    "Desc": "印有著名运动品牌“薮猫”标识的金属徽章。使用结实的金属制成，因此不用担心会被刮花。",
     "Icon": "Equipment_Icon_Badge_Tier1"
   },
   {
@@ -555,8 +555,8 @@
     "Id": 5009,
     "Category": "Badge",
     "Rarity": "N",
-    "Name": "硬币徽章",
-    "Desc": "这是一款仿照游戏中心使用的硬币制作的徽章。由于尺寸比实际硬币大，所以无法放入投币口。",
+    "Name": "硬币勋章",
+    "Desc": "以电子游戏厅使用的代币为灵感制作的金属徽章。因为尺寸相当大，所以无法放入游戏机中。",
     "Icon": "Equipment_Icon_Badge_Tier10"
   },
   {
@@ -579,8 +579,8 @@
     "Id": 6002,
     "Category": "Hairpin",
     "Rarity": "N",
-    "Name": "Momotalk发夹",
-    "Desc": "带有Momotalk图标的桃子形状发夹。摸一摸桃子，就会散发出淡淡的桃可。",
+    "Name": "桃信发夹",
+    "Desc": "带有桃信图标的桃子形状发夹。摸一摸桃子，就会散发出淡淡的桃香。",
     "Icon": "Equipment_Icon_Hairpin_Tier3"
   },
   {
@@ -588,7 +588,7 @@
     "Category": "Hairpin",
     "Rarity": "N",
     "Name": "翅膀发夹",
-    "Desc": "奢侈品牌“维罗妮卡”以天使的翅膀为原型制作的发夹。但实际上，并不太受圣三一女生们的欢迎。",
+    "Desc": "奢侈品牌“维罗妮卡”以天使的翅膀为原型制作的发夹。但实际上，并不太受崔尼蒂女生们的欢迎。",
     "Icon": "Equipment_Icon_Hairpin_Tier4"
   },
   {
@@ -635,8 +635,8 @@
     "Id": 6009,
     "Category": "Hairpin",
     "Rarity": "N",
-    "Name": "电磁波切割发夹",
-    "Desc": "据说这款发夹能够切割电磁波并激活大脑，但真实性存疑。",
+    "Name": "电磁波阻断发夹",
+    "Desc": "能够阻挡电磁波，有助于促进头脑健康的发夹。不过没有人知道这项功能是否是真的。",
     "Icon": "Equipment_Icon_Hairpin_Tier10"
   },
   {
@@ -668,7 +668,7 @@
     "Category": "Charm",
     "Rarity": "N",
     "Name": "十字架",
-    "Desc": "圣三一的女生们喜欢的十字架形状护身符。也适合挂在包上当装饰品。",
+    "Desc": "崔尼蒂的女生们喜欢的十字架形状护身符。也适合挂在包上当装饰品。",
     "Icon": "Equipment_Icon_Charm_Tier4"
   },
   {
@@ -710,6 +710,14 @@
     "Name": "鲨鱼牙齿护身符",
     "Desc": "用锋利的鲨鱼牙齿制成的护身符。据说配戴此护身符能避免海上事故发生。",
     "Icon": "Equipment_Icon_Charm_Tier9"
+  },
+  {
+    "Id": 7009,
+    "Category": "Charm",
+    "Rarity": "N",
+    "Name": "键帽玩具",
+    "Desc": "由键盘键帽制成的纾压玩具。虽然按下也不会发生任何事，但发出的喀哒声能让人放松心情。",
+    "Icon": "Equipment_Icon_Charm_Tier10"
   },
   {
     "Id": 8000,
@@ -780,8 +788,16 @@
     "Category": "Watch",
     "Rarity": "N",
     "Name": "潜水表",
-    "Desc": "海洋运动品牌「Harpyia」推出的潜水用智慧手表。除了防水之外，即使在深水中也能确认水下环境，不必担心水压。",
+    "Desc": "海洋运动品牌“Harpyia”推出的潜水用智慧手表。除了防水之外，即使在深水中也能确认水下环境，不必担心水压。",
     "Icon": "Equipment_Icon_Watch_Tier9"
+  },
+  {
+    "Id": 8009,
+    "Category": "Watch",
+    "Rarity": "N",
+    "Name": "触控手表",
+    "Desc": "搭载触控萤幕的手表。虽然可以移植并运行各种游戏，但性能也只能达到勉强运行的水平。",
+    "Icon": "Equipment_Icon_Watch_Tier10"
   },
   {
     "Id": 9000,
@@ -852,8 +868,16 @@
     "Category": "Necklace",
     "Rarity": "N",
     "Name": "调节器保护套",
-    "Desc": "潜水员用来固定呼吸调节器的项链形保护套。「Harpyia」的保护套因其沉稳的色调与设计，也经常用于时尚搭配。",
+    "Desc": "潜水员用来固定呼吸调节器的项链形保护套。“Harpyia”的保护套因其沉稳的色调与设计，也经常用于时尚搭配。",
     "Icon": "Equipment_Icon_Necklace_Tier9"
+  },
+  {
+    "Id": 9009,
+    "Category": "Necklace",
+    "Rarity": "N",
+    "Name": "内存项链",
+    "Desc": "伪装成装饰品的储存装置项链。外表看起来华丽，但内部可能藏有某些机密的东西。",
+    "Icon": "Equipment_Icon_Necklace_Tier10"
   },
   {
     "Id": 101001,
@@ -923,8 +947,8 @@
     "Id": 101009,
     "Category": "Hat",
     "Rarity": "N",
-    "Name": "游戏头盔设计图",
-    "Desc": "这是可以用来制作装备的设计图纸。",
+    "Name": "电竞头盔设计图",
+    "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Hat_Tier10_Piece"
   },
   {
@@ -996,7 +1020,7 @@
     "Category": "Gloves",
     "Rarity": "N",
     "Name": "超级手套设计图",
-    "Desc": "这是可以用来制作装备的设计图纸。",
+    "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Gloves_Tier10_Piece"
   },
   {
@@ -1068,7 +1092,7 @@
     "Category": "Shoes",
     "Rarity": "N",
     "Name": "游戏拖鞋设计图",
-    "Desc": "这是可以用来制作装备的设计图纸。",
+    "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Shoes_Tier10_Piece"
   },
   {
@@ -1140,7 +1164,7 @@
     "Category": "Bag",
     "Rarity": "N",
     "Name": "金属箱设计图",
-    "Desc": "这是可以用来制作装备的设计图纸。",
+    "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Bag_Tier10_Piece"
   },
   {
@@ -1211,8 +1235,8 @@
     "Id": 105009,
     "Category": "Badge",
     "Rarity": "N",
-    "Name": "硬币徽章设计图",
-    "Desc": "这是可以用来制作装备的设计图纸。",
+    "Name": "硬币勋章设计图",
+    "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Badge_Tier10_Piece"
   },
   {
@@ -1227,7 +1251,7 @@
     "Id": 106002,
     "Category": "Hairpin",
     "Rarity": "N",
-    "Name": "Momotalk发夹设计图",
+    "Name": "桃信发夹设计图",
     "Desc": "可制造装备的设计图。",
     "Icon": "Equipment_Icon_Hairpin_Tier3_Piece"
   },
@@ -1283,8 +1307,8 @@
     "Id": 106009,
     "Category": "Hairpin",
     "Rarity": "N",
-    "Name": "电磁波切割发夹设计图",
-    "Desc": "这是可以用来制作装备的设计图纸。",
+    "Name": "电磁波屏蔽发夹设计图",
+    "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Hairpin_Tier10_Piece"
   },
   {
@@ -1352,6 +1376,14 @@
     "Icon": "Equipment_Icon_Charm_Tier9_Piece"
   },
   {
+    "Id": 107009,
+    "Category": "Charm",
+    "Rarity": "N",
+    "Name": "键帽玩具设计图",
+    "Desc": "可制作装备的设计图。",
+    "Icon": "Equipment_Icon_Charm_Tier10_Piece"
+  },
+  {
     "Id": 108001,
     "Category": "Watch",
     "Rarity": "N",
@@ -1416,6 +1448,14 @@
     "Icon": "Equipment_Icon_Watch_Tier9_Piece"
   },
   {
+    "Id": 108009,
+    "Category": "Watch",
+    "Rarity": "N",
+    "Name": "触控手表设计图",
+    "Desc": "可制作装备的设计图。",
+    "Icon": "Equipment_Icon_Watch_Tier10_Piece"
+  },
+  {
     "Id": 109001,
     "Category": "Necklace",
     "Rarity": "N",
@@ -1478,5 +1518,13 @@
     "Name": "调节器保护套设计图",
     "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Necklace_Tier9_Piece"
+  },
+  {
+    "Id": 109009,
+    "Category": "Necklace",
+    "Rarity": "N",
+    "Name": "内存项链设计图",
+    "Desc": "可制作装备的设计图。",
+    "Icon": "Equipment_Icon_Necklace_Tier10_Piece"
   }
 ]

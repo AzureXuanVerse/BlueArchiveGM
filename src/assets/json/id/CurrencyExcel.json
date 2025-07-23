@@ -78,14 +78,14 @@
   },
   {
     "ID": 14,
-    "Name": "学院交流会\n（圣三一）挑战券",
+    "Name": "学院交流会\n（崔尼蒂）挑战券",
     "Desc": "可以参加学院交流会的挑战券。",
     "Icon": "Currency_Icon_SchoolATicket",
     "Rarity": "N"
   },
   {
     "ID": 15,
-    "Name": "学院交流会\n（格黑娜）挑战券",
+    "Name": "学院交流会\n（歌赫娜）挑战券",
     "Desc": "可以参加学院交流会的挑战券。",
     "Icon": "Currency_Icon_SchoolBTicket",
     "Rarity": "N"

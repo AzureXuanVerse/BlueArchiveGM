@@ -97,7 +97,6 @@
             :key="index"
             class="idlist-item"
             :class="{ 'emblem-item': selectedSource === 'emblem' }"
-            :data-category="item.Category"
             :data-source="item.source"
             @click="copyToClipboard(item.Id)"
           >
@@ -1038,22 +1037,6 @@ export default {
 .menu-icon:hover {
   transform: scale(1.2);
   transition: transform 0.2s ease;
-}
-
-/* 贴纸特殊样式 */
-.idlist-item[data-category="Sticker"] .idlist-item-icon,
-.idlist-item[data-source="sticker"] .idlist-item-icon {
-  width: 200px;
-  height: 100px;
-  object-fit: contain;
-  background: linear-gradient(135deg, #f0f7fc 0%, #e6f2fa 100%);
-  border-radius: 8px;
-  padding: 8px;
-}
-
-.idlist-item[data-category="Sticker"],
-.idlist-item[data-source="sticker"] {
-  background: linear-gradient(135deg, #f0f7fc 0%, #e6f2fa 100%);
 }
 
 /* 称号特殊样式 */

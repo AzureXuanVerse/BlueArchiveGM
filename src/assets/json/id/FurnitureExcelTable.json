@@ -185,7 +185,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "桃桃朋友照片柱",
-    "Desc": "展示与桃桃朋友咖啡厅相关照片的柱子。可以看到时节限定的标志性照片。",
+    "Desc": "展示与桃桃朋友咖啡厅相关照片的柱子。可以看到季节限定的标志性照片。",
     "Icon": "My_Cafe_01_B_Wall_03"
   },
   {
@@ -2894,7 +2894,7 @@
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
     "Name": "阳光印花地垫",
-    "Desc": "具有重复均图案的印花踏垫。给人一种微妙的安定感。",
+    "Desc": "具有重复均匀图案的印花踏垫。给人一种微妙的安定感。",
     "Icon": "My_Sunshineresort_01_Carpet_02"
   },
   {
@@ -3101,7 +3101,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "阳光热带泳池",
-    "Desc": "摆放了热带水果托盘的热带泳池。能同时享受凉清爽与甜蜜。",
+    "Desc": "摆放了热带水果托盘的热带泳池。能同时享受凉爽与甜蜜。",
     "Icon": "My_Sunshineresort_01_Pool_02"
   },
   {
@@ -3235,8 +3235,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "MomoFriends立式广告牌",
-    "Desc": "可以看见可爱MomoFriends的立式广告牌。对来光顾购物中心的顾客来说，是绝对不能错过的拍照景点。",
+    "Name": "桃桃朋友立式广告牌",
+    "Desc": "可以看见可爱桃桃朋友的立式广告牌。对来光顾购物中心的顾客们来说，是绝对不能错过的拍照景点。",
     "Icon": "My_Shoppingmall_01_Cutout_01"
   },
   {
@@ -3281,7 +3281,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "购物中心清新自然沙发",
-    "Desc": "能让人好好放松的清新沙发。蓝色调给人带来舒适感。",
+    "Desc": "能让人好好放松的沙发。清新的色调给人带来舒适感。",
     "Icon": "My_Shoppingmall_01_Plantsofa_01"
   },
   {
@@ -3307,8 +3307,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "购物中心MomoFriends霓虹灯壁饰",
-    "Desc": "结合了可爱与简约的MomoFriends霓虹灯壁饰。深受大家欢迎！",
+    "Name": "购物中心桃桃朋友霓虹灯壁饰",
+    "Desc": "结合了可爱与简约的桃桃朋友霓虹灯壁饰。深受大家欢迎！",
     "Icon": "My_Shoppingmall_01_Wallacc_01"
   },
   {
@@ -3343,8 +3343,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "购物中心MomoFriends服饰悬挂衣架",
-    "Desc": "摆放着可爱的MomoFriends帽子、服饰和拖鞋的MomoFriends服饰悬挂衣架。",
+    "Name": "购物中心桃桃朋友悬挂衣架",
+    "Desc": "摆放着可爱的桃桃朋友帽子、服饰和拖鞋的桃桃朋友悬挂衣架。",
     "Icon": "My_Shoppingmall_01_Clothesrack_01"
   },
   {
@@ -3353,7 +3353,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "购物中心高级更衣室",
-    "Desc": "不管要换几套衣服都OK！可以尽情试衣的购物中心高级更衣室。",
+    "Desc": "不管要换几套衣服都没问题！可以尽情试衣的购物中心高级更衣室。",
     "Icon": "My_Shoppingmall_01_Fittingroom_01"
   },
   {
@@ -3362,7 +3362,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "购物中心简约水果展示架",
-    "Desc": "摆放着当时水果的水果展示架。只要靠近就能闻到甜甜的香味。",
+    "Desc": "摆放着当季水果的水果展示架。只要靠近就能闻到甜甜的香味。",
     "Icon": "My_Shoppingmall_01_Fruitstand_01"
   },
   {
@@ -3379,8 +3379,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
-    "Name": "购物中心时髦自助服务机",
-    "Desc": "如果在购物中心里迷了路，就来这里吧！任何地方都能告诉你的时髦自动服务机。",
+    "Name": "购物中心时尚自助服务机",
+    "Desc": "如果在购物中心里迷了路，就来这里吧！任何地方都能告诉你的自动服务机。",
     "Icon": "My_Shoppingmall_01_Kiosk_01"
   },
   {
@@ -3388,8 +3388,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "购物中心MomoFriends隔板",
-    "Desc": "MomoFriends以隔板的形式登场啦！既可爱又能分配空间的独特隔板。",
+    "Name": "购物中心桃桃朋友隔板",
+    "Desc": "桃桃朋友以隔板的形式登场啦！既可爱又能分配空间的独特隔板。",
     "Icon": "My_Shoppingmall_01_Partition_01"
   },
   {
@@ -3442,8 +3442,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "购物中心MomoFriends玩具展示架",
-    "Desc": "瞬间抓住孩子们视线的MomoFriends玩具展示架。小巧的结构相当可爱。",
+    "Name": "购物中心桃桃朋友玩具展示架",
+    "Desc": "瞬间抓住孩子们视线的桃桃朋友玩具展示架。小巧的结构相当可爱。",
     "Icon": "My_Shoppingmall_01_Toyshelf_01"
   },
   {
@@ -3478,8 +3478,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "购物中心MomoFriends球池",
-    "Desc": "对所有来逛购物中心的孩子们来说是永恒的梦想天地，MomoFriends球池。",
+    "Name": "购物中心桃桃朋友球池",
+    "Desc": "对所有来逛购物中心的孩子们来说是永恒的梦想天地，桃桃朋友球池。",
     "Icon": "My_Shoppingmall_01_Ballpool_01"
   },
   {
@@ -3487,8 +3487,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "购物中心MomoFriends柜台",
-    "Desc": "可以购买可爱的MomoFriends商品的MomoFriends柜台。",
+    "Name": "购物中心桃桃朋友柜台",
+    "Desc": "可以购买可爱的桃桃朋友商品的桃桃朋友柜台。",
     "Icon": "My_Shoppingmall_01_Counter_01"
   },
   {
@@ -3496,8 +3496,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "购物中心MomoFriends靠垫展示架",
-    "Desc": "摆满了柔软的MomoFriends们！只能挑一个实在太难了！MomoFriends靠枕展示架。",
+    "Name": "购物中心桃桃朋友靠枕展示架",
+    "Desc": "摆满了柔软的桃桃朋友们！只能挑一个实在太难了！桃桃朋友靠枕展示架。",
     "Icon": "My_Shoppingmall_01_Cushionstand_01"
   },
   {
@@ -3577,7 +3577,7 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "格黑娜式石造围栏",
+    "Name": "歌赫娜式石造围栏",
     "Desc": "展现大胆的美感和细致浮雕的石造围栏。设置的瞬间就能感受到壮丽的气势。",
     "Icon": "My_Gehennaparty_01_Fence_01"
   },
@@ -3586,8 +3586,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "格黑娜式旗帜",
-    "Desc": "令人感受到格黑娜威严的旗帜。能让众人齐聚的场合更添光彩。",
+    "Name": "歌赫娜式旗帜",
+    "Desc": "令人感受到歌赫娜威严的旗帜。能让众人齐聚的场合更添光彩。",
     "Icon": "My_Gehennaparty_01_Flag_01"
   },
   {
@@ -3595,8 +3595,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "格黑娜式豪华旗帜",
-    "Desc": "展现格黑娜壮丽气魄的豪华旗帜。是需要凸显格调的场合不可或缺的物品。",
+    "Name": "歌赫娜式豪华旗帜",
+    "Desc": "展现歌赫娜壮丽气魄的豪华旗帜。是需要凸显格调的场合不可或缺的物品。",
     "Icon": "My_Gehennaparty_01_Flag_02"
   },
   {
@@ -3604,7 +3604,7 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "格黑娜式木造隔板",
+    "Name": "歌赫娜式木造隔板",
     "Desc": "凸显细腻雕刻的木造隔板。是华丽的派对会场用来区隔空间不可或缺的家具！",
     "Icon": "My_Gehennaparty_01_Partition_01"
   },
@@ -3640,7 +3640,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "格黑娜式相框",
+    "Name": "歌赫娜式相框",
     "Desc": "以华丽外框装饰的相框。优雅的派对上不可或缺的重要道具。",
     "Icon": "My_Gehennaparty_01_Wallacc_03"
   },
@@ -3650,7 +3650,7 @@
     "Category": "Furnitures",
     "SubCategory": "Closet",
     "Name": "名作书架",
-    "Desc": "点缀优雅的派对会场的书架。陈列着格黑娜学员推荐的名作。",
+    "Desc": "点缀优雅的派对会场的书架。陈列着歌赫娜学员推荐的名作。",
     "Icon": "My_Gehennaparty_01_Bookshelf_01"
   },
   {
@@ -3938,7 +3938,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "三一教室黑板",
-    "Desc": "满是学生涂鸦的黑板。粉笔和麦克笔皆可随意挑选使用！",
+    "Desc": "满是学员涂鸦的黑板。粉笔和麦克笔皆可随意挑选使用！",
     "Icon": "My_Trinityclassroom_01_Blackboard_01"
   },
   {
@@ -4082,7 +4082,7 @@
     "Category": "Furnitures",
     "SubCategory": "Closet",
     "Name": "三一大型书柜",
-    "Desc": "摆放着历史悠久的三一古书的大型书柜。大部分的学生连一页都看不下去。",
+    "Desc": "摆放着历史悠久的三一古书的大型书柜。大部分的学员连一页都看不下去。",
     "Icon": "My_Trinityclassroom_01_Bookshelf_01"
   },
   {
@@ -4118,7 +4118,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "三一枪械架",
-    "Desc": "三一学生保管枪械的木制枪械架。与暗沉的木材形成对比的五颜六色的枪令人印象深刻。",
+    "Desc": "圣三一学员保管枪械的木制枪械架。与暗沉的木材形成对比的五颜六色的枪令人印象深刻。",
     "Icon": "My_Trinityclassroom_01_Weaponstand_01"
   },
   {
@@ -4199,7 +4199,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "太阳灯饰",
-    "Desc": "可澈底将四周照亮的太阳造型灯饰。",
+    "Desc": "可彻底将四周照亮的太阳造型灯饰。",
     "Icon": "My_Ariussummer_01_Wallacc_01"
   },
   {
@@ -4478,7 +4478,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "观叶植物花盆",
-    "Desc": "可种植观赏用植物的花盆。只要有了它，就瞬间改变周围的氛围。",
+    "Desc": "可种植观赏用植物的花盆。只要有了它，就能瞬间改变周围的氛围。",
     "Icon": "My_Hyakkiyako_01_Plantpot_01"
   },
   {
@@ -4486,7 +4486,7 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "单层木制层架。",
+    "Name": "单层木制层架",
     "Desc": "单层层架。以坚固的木材制成。",
     "Icon": "My_Hyakkiyako_01_Shelf_01"
   },
@@ -4703,7 +4703,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "迎宾茶几",
-    "Desc": "主要用来招待客人的茶几。桌面很宽，可以摆上满满的零食和茶杯。",
+    "Desc": "主要用来招待顾客的茶几。桌面很宽，可以摆上满满的零食和茶杯。",
     "Icon": "My_Hyakkiyako_01_Cusiontable_01"
   },
   {
@@ -4720,7 +4720,7 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "摆鱼缸的层架",
+    "Name": "摆着鱼缸的层架",
     "Desc": "某个人在层架上摆上了鱼缸和收纳盒。",
     "Icon": "My_Hyakkiyako_01_Shelf_02"
   },
@@ -4747,8 +4747,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "时尚的休息室长椅",
-    "Desc": "这款长椅以其独特的曲线为特色，是来休息室的学生们稍作休息的绝佳选择。",
+    "Name": "圆角交谊厅长椅",
+    "Desc": "曲线华丽，引人注目的长椅。适合让前来交谊厅拜访的学员们休息。",
     "Icon": "My_Millenniumlounge_01_Bench_01"
   },
   {
@@ -4756,8 +4756,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "大型休息室长椅",
-    "Desc": "这是能容纳很多人就座的长椅，看似质地坚硬，实则意外地柔软。",
+    "Name": "多人用交谊厅长椅",
+    "Desc": "可以让几个人同时坐上去的休憩长椅。虽然看起来硬邦邦，但实际坐起来比想像中舒适。",
     "Icon": "My_Millenniumlounge_01_Bench_02"
   },
   {
@@ -4765,8 +4765,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "八角形地毯·蓝色",
-    "Desc": "这是一款柔软的蓝色八角形地毯，是为房间营造和谐氛围的理想内饰。",
+    "Name": "蓝色八角形地毯",
+    "Desc": "柔软的蓝色八角形地毯。能稳定地铺在较大的空间上。",
     "Icon": "My_Millenniumlounge_01_Carpet_01"
   },
   {
@@ -4774,8 +4774,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "八角形地毯·深蓝色",
-    "Desc": "这是一款深绀色的八角形地毯，是为房间营造和谐氛围的理想内饰。",
+    "Name": "藏青色八角形地毯",
+    "Desc": "藏青色的八角形地毯。能稳定地铺在较大的空间上。",
     "Icon": "My_Millenniumlounge_01_Carpet_02"
   },
   {
@@ -4783,8 +4783,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "几何图案地毯",
-    "Desc": "这款地毯带有几何图案，似乎许多千禧年学院的学生都从这图案中获得过灵感。",
+    "Name": "几何学图案地毯",
+    "Desc": "刻有几何图案的地毯。据说能为无数的千禧年学员带来灵感。",
     "Icon": "My_Millenniumlounge_01_Carpet_03"
   },
   {
@@ -4792,8 +4792,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "蜂巢地毯",
-    "Desc": "这款地毯由紧密排列的六角形组成，看起来比其他地毯更为耐用。",
+    "Name": "六角形图案地毯",
+    "Desc": "由连续相接的六角形组成的地毯。看上去总感觉比其他地毯还要更坚固。",
     "Icon": "My_Millenniumlounge_01_Carpet_04"
   },
   {
@@ -4801,8 +4801,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "绿色镶边地毯",
-    "Desc": "这款地毯带有绿色镶边，或许能让在这里度过时光的人感到放松？",
+    "Name": "绿色边框地毯",
+    "Desc": "边缘以绿色装饰的地毯。或许能带来稳定心理的效果？",
     "Icon": "My_Millenniumlounge_01_Carpet_05"
   },
   {
@@ -4810,8 +4810,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "大理石图案地毯",
-    "Desc": "这款地毯刻有高级的大理石图案，乍看之下感觉冰冷，实则温暖柔软。",
+    "Name": "四边形大理石图案地毯",
+    "Desc": "印有高级大理石图案的地毯。虽然看上去冰冷，但摸起来很柔软。",
     "Icon": "My_Millenniumlounge_01_Carpet_06"
   },
   {
@@ -4820,7 +4820,7 @@
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
     "Name": "圆角大理石图案地毯",
-    "Desc": "这款地毯刻有高级的大理石图案，若想为房间增添现代氛围，它是不错的选择。",
+    "Desc": "印有高级大理石图案的地毯。相当适合其现代简洁的氛围。",
     "Icon": "My_Millenniumlounge_01_Carpet_07"
   },
   {
@@ -4828,8 +4828,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "壁挂式数字时钟",
-    "Desc": "这是一款可挂在墙上的数字时钟，还能查看室内的温度和湿度，功能十分出色。",
+    "Name": "壁挂式电子时钟",
+    "Desc": "可挂在墙上的电子时钟。能显示湿度和温度，相当实用。",
     "Icon": "My_Millenniumlounge_01_Clock_01"
   },
   {
@@ -4837,8 +4837,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "设施导览显示屏",
-    "Desc": "这是一款展示设施导览信息的立式显示屏，看了它就不会迷路了。",
+    "Name": "设施说明显示器",
+    "Desc": "显示内部设施说明的直立式显示器。能一目了然地了解各设施的所在位置。",
     "Icon": "My_Millenniumlounge_01_Display_01"
   },
   {
@@ -4846,8 +4846,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "活动宣传显示屏",
-    "Desc": "这款显示屏会展示千禧年学院内部的活动信息，社团活动报名，直到研讨会开始前都可以进行！",
+    "Name": "活动宣传显示器",
+    "Desc": "宣传千禧年内活动的显示器。申请社团活动请到研讨会！",
     "Icon": "My_Millenniumlounge_01_Display_02"
   },
   {
@@ -4855,8 +4855,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "休息室显示屏",
-    "Desc": "这是为来访休息室的学生提供信息的显示屏，可通过触摸屏操作。",
+    "Name": "访客体验型显示器",
+    "Desc": "为前来交谊厅拜访的学员们提供各种资讯的显示器。使用触控萤幕操作。",
     "Icon": "My_Millenniumlounge_01_Display_03"
   },
   {
@@ -4864,8 +4864,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "禁止进入栏杆",
-    "Desc": "这是设置在禁止进入区域的安全栏杆，即使想抄近道，也别翻越它。",
+    "Name": "管制用安全栏杆",
+    "Desc": "设置于出入管制区域的安全栏杆。虽然容易翻越，但为了安全起见还是绕道而行吧。",
     "Icon": "My_Millenniumlounge_01_Fence_01"
   },
   {
@@ -4874,7 +4874,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "玻璃围栏",
-    "Desc": "这是玻璃材质的围栏，外观美观，但不小心触摸的话会留下痕迹。",
+    "Desc": "玻璃制成的围栏。视野开阔，美观大方。小心别留下指纹！",
     "Icon": "My_Millenniumlounge_01_Fence_02"
   },
   {
@@ -4882,8 +4882,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "壁挂式台灯",
-    "Desc": "这是安装在墙上的台灯，青绿色的灯光营造出千禧年学院的氛围。",
+    "Name": "壁挂式灯具",
+    "Desc": "可设置于墙面的灯具。千禧年特有的青绿色灯光，带有简洁感。",
     "Icon": "My_Millenniumlounge_01_Lamp_01"
   },
   {
@@ -4891,8 +4891,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "落地台灯",
-    "Desc": "这是一款圆形落地台灯，青绿色的灯光为房间带来澄澈的空气感。",
+    "Name": "立式灯具",
+    "Desc": "可直立的圆柱形照明灯。照亮四面的青绿色灯光，营造出简洁的氛围。",
     "Icon": "My_Millenniumlounge_01_Lightstick_01"
   },
   {
@@ -4900,8 +4900,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "方形休息室隔断",
-    "Desc": "这是玻璃材质的隔断，即便安装了也不会给人空间变狭小的感觉。",
+    "Name": "方形交谊厅隔板",
+    "Desc": "由窗框和玻璃组成的方形隔板。以简洁的感觉区隔出空间。",
     "Icon": "My_Millenniumlounge_01_Partition_01"
   },
   {
@@ -4909,8 +4909,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三角形休息室隔断",
-    "Desc": "这是玻璃材质的隔断，能为房间布局增添个性。",
+    "Name": "三角形交谊厅隔板",
+    "Desc": "由窗框和玻璃组成的三角形隔板。想在分隔空间时增添特色，可说是效果十足！",
     "Icon": "My_Millenniumlounge_01_Partition_02"
   },
   {
@@ -4918,8 +4918,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "观叶植物花盆·A",
-    "Desc": "这是种有中等大小观叶植物的盆栽，能为室内带来清爽之感。",
+    "Name": "观赏植物花盆A型",
+    "Desc": "种植中型观赏植物的花盆。能为室内增添一丝清新。",
     "Icon": "My_Millenniumlounge_01_Plantpot_02"
   },
   {
@@ -4927,8 +4927,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "观叶植物花盆·B",
-    "Desc": "这是种有圆形观叶植物的盆栽，推荐作为房间里可爱的点缀。",
+    "Name": "观赏植物花盆B型",
+    "Desc": "以圆形观赏植物作为亮点的花盆。给人一种松软可爱的感觉。",
     "Icon": "My_Millenniumlounge_01_Plantpot_03"
   },
   {
@@ -4936,8 +4936,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "观叶植物花盆·C",
-    "Desc": "这是种有大型观叶植物的盆栽，在房间里颇具街树般的存在感。",
+    "Name": "观赏植物花盆C型",
+    "Desc": "种植大型观赏植物的花盆。即使在室内也能营造出行道树的感觉。",
     "Icon": "My_Millenniumlounge_01_Plantpot_04"
   },
   {
@@ -4945,8 +4945,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "带花盆的六角形桌子",
-    "Desc": "这是一张放置着小花盆的六角形桌子，总感觉它能让房间空气变好。",
+    "Name": "放置花盆的六角形桌子",
+    "Desc": "放置小花盆的实用六角形桌子。不知为何能让人感觉空气更加清新。",
     "Icon": "My_Millenniumlounge_01_Table_01"
   },
   {
@@ -4955,7 +4955,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "放置平板的圆形桌子",
-    "Desc": "这是一张放置着平板电脑的圆形桌子，不知为何，感觉在这里工作效率会很高。",
+    "Desc": "放置着触控萤幕平板的圆形桌子。总觉得在这里工作会很顺利。",
     "Icon": "My_Millenniumlounge_01_Table_02"
   },
   {
@@ -4963,8 +4963,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "带台灯的圆形桌子",
-    "Desc": "这是一张放置着小台灯的圆形桌子，小台灯能营造出温馨的氛围。",
+    "Name": "放置灯光的圆形桌子",
+    "Desc": "放置小型灯光的圆形桌子。感觉随着夜晚到来，氛围会更加迷人。",
     "Icon": "My_Millenniumlounge_01_Table_03"
   },
   {
@@ -4972,8 +4972,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年学院柱子·A",
-    "Desc": "这是千禧年学院的柱子，其亮点在于顶部的照明。",
+    "Name": "千禧年A型突出型柱子",
+    "Desc": "能展现出千禧年氛围的柱子。顶部的照明是其特色。",
     "Icon": "My_Millenniumlounge_01_Wallacc_01"
   },
   {
@@ -4981,8 +4981,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年学院柱子·B",
-    "Desc": "这是千禧年学院的柱子，设计简洁明快。",
+    "Name": "千禧年B型突出型柱子",
+    "Desc": "能展现出千禧年氛围的柱子。简洁的感觉令人印象深刻。",
     "Icon": "My_Millenniumlounge_01_Wallacc_02"
   },
   {
@@ -4990,8 +4990,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年学院柱子·C",
-    "Desc": "这是千禧年学院的柱子，纵向的长形照明照亮周围。",
+    "Name": "千禧年C型突出型柱子",
+    "Desc": "能展现出千禧年氛围的柱子。纵向延伸的长条灯光是其亮点。",
     "Icon": "My_Millenniumlounge_01_Wallacc_03"
   },
   {
@@ -4999,8 +4999,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "刻有千禧年学院标志的柱子",
-    "Desc": "这是刻有千禧年学院标志的柱子，其工学设计颇具千禧年学院的风格。",
+    "Name": "刻有千禧年标志的柱子",
+    "Desc": "大面积覆盖墙面的柱子。在千禧年的工程设计下，能有效分散负重。",
     "Icon": "My_Millenniumlounge_01_Wallacc_04"
   },
   {
@@ -5008,8 +5008,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年学院的半透明窗户",
-    "Desc": "这是刻有千禧年学院标志的半透明窗户，紫外线阻隔率很高。",
+    "Name": "千禧年半透明窗户",
+    "Desc": "刻有千禧年标志的半透明窗户。能有效阻挡紫外线。",
     "Icon": "My_Millenniumlounge_01_Window_01"
   },
   {
@@ -5017,8 +5017,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "千禧年学院椅·青绿色",
-    "Desc": "这是一把带有圆润感的椅子，青绿色给人清爽的印象。",
+    "Name": "青绿色千禧年椅子",
+    "Desc": "圆形棱角的椅子。青绿色带给人一种清新感。",
     "Icon": "My_Millenniumlounge_01_Chair_01"
   },
   {
@@ -5026,8 +5026,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "千禧年学院椅·蓝色",
-    "Desc": "这是一把带有圆润感的椅子，其特点是通透的蓝色。",
+    "Name": "蓝色千禧年椅子",
+    "Desc": "圆形棱角的椅子。深蓝色带给人一种舒爽感。",
     "Icon": "My_Millenniumlounge_01_Chair_02"
   },
   {
@@ -5035,8 +5035,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "千禧年学院椅·深蓝色",
-    "Desc": "这是一把带有圆润感的椅子，深蓝色使其能营造出房间沉稳的氛围。",
+    "Name": "藏青色千禧年椅子",
+    "Desc": "圆形棱角的椅子。使用能给人留下深刻印象的藏青色。",
     "Icon": "My_Millenniumlounge_01_Chair_03"
   },
   {
@@ -5044,8 +5044,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "休息室长椅·A型",
-    "Desc": "这是一把呈A字形的长椅，配备了松软的坐垫，坐着十分舒适。",
+    "Name": "A型交谊厅长椅",
+    "Desc": "两侧弯曲造型的长椅。配备柔软坐垫，能让人舒适休息。",
     "Icon": "My_Millenniumlounge_01_Bench_04"
   },
   {
@@ -5054,7 +5054,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "八角形大型长椅",
-    "Desc": "这是一个种有树木的八角形长椅，可供很多人悠闲地休憩。",
+    "Desc": "种有树木的八角形大型长椅。可供多人围坐。",
     "Icon": "My_Millenniumlounge_01_Bench_05"
   },
   {
@@ -5062,8 +5062,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "圆形展示长椅",
-    "Desc": "这是一把在顶部设有圆形显示屏的长椅，休息时可以观看宣传影像。",
+    "Name": "圆形显示器长椅",
+    "Desc": "上方安装了圆形显示器的长椅。这样的构造能同时提供休息与宣传的空间。",
     "Icon": "My_Millenniumlounge_01_Bench_06"
   },
   {
@@ -5071,8 +5071,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "千禧年学院宽桌",
-    "Desc": "这是一张宽敞的办公用桌子，让你日常办公能从容不迫。",
+    "Name": "千禧年宽型办公桌",
+    "Desc": "宽阔的办公用书桌。即使放上各种物品，也仍有充足的空间。",
     "Icon": "My_Millenniumlounge_01_Desk_01"
   },
   {
@@ -5080,8 +5080,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "休息室地图显示屏",
-    "Desc": "这是一个能显示千禧年学院塔楼休息室地图的显示屏，有感兴趣的地方可以在这里查看！",
+    "Name": "交谊厅地图显示器",
+    "Desc": "显示千禧年巨塔交谊厅地图的显示器。若有想去的地方，就来这里参考地图吧！",
     "Icon": "My_Millenniumlounge_01_Display_04"
   },
   {
@@ -5089,8 +5089,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "玻璃材质的电梯",
-    "Desc": "这是一部极具开放感的电梯，上面刻有千禧年学院的标志。",
+    "Name": "千禧年开放式电梯",
+    "Desc": "视野开阔的电梯。随着高度变化，视角也随之改变。",
     "Icon": "My_Millenniumlounge_01_Elevator_01"
   },
   {
@@ -5098,8 +5098,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "千禧年学院塔楼休息室的大门",
-    "Desc": "这是设置在千禧年学院塔楼休息室的大门，据说偶尔会遭受黑客攻击，每当有人通过时就会播放奇怪的歌曲。",
+    "Name": "千禧年巨塔交谊厅大门",
+    "Desc": "可进出千禧年巨塔交谊厅的大门。偶尔会被骇客入侵，导致每次有人经过时都播放嘈杂的音乐。",
     "Icon": "My_Millenniumlounge_01_Gate_01"
   },
   {
@@ -5107,8 +5107,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
-    "Name": "千禧年学院制按摩椅",
-    "Desc": "这是一款能放松全身的按摩椅，疲惫时选它准没错。",
+    "Name": "休憩用按摩椅",
+    "Desc": "能让全身彻底放松的按摩椅。疲劳时躺在上面，即可体验到极乐世界般的舒适感。",
     "Icon": "My_Millenniumlounge_01_Massagechair_01"
   },
   {
@@ -5116,8 +5116,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "格子风格的隔断",
-    "Desc": "这是一款纵向格子的隔断，兼具现代感与艺术性。",
+    "Name": "纵向柱子隔板",
+    "Desc": "以纵向柱子连接的曲线型隔板。能在分隔空间的同时，增添现代感与艺术感。",
     "Icon": "My_Millenniumlounge_01_Partition_03"
   },
   {
@@ -5125,8 +5125,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "长方形花盆",
-    "Desc": "这是一个种有观赏植物的长方形花盆，为室内增添一抹色彩吧。",
+    "Name": "方形观赏植物花盆",
+    "Desc": "种植着观赏用植物的方形花盆。能为室内增添盎然绿意。",
     "Icon": "My_Millenniumlounge_01_Plantpot_01"
   },
   {
@@ -5134,8 +5134,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "壁挂式千禧年学院标志",
-    "Desc": "这是千禧年学院的标志，挂在墙上，让你的房间也充满千禧年学院的氛围。",
+    "Name": "壁挂式千禧年标志",
+    "Desc": "随处可见的千禧年标志挂在显眼的墙上，说不定不知不觉就会产生爱校精神？",
     "Icon": "My_Millenniumlounge_01_Symbol_01"
   },
   {
@@ -5143,8 +5143,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
-    "Name": "千禧年学院塔楼休息室的自动贩卖机",
-    "Desc": "这是设置在休息室的大型自动贩卖机，当然，冷藏和温热系统也一应俱全。",
+    "Name": "千禧年巨塔交谊厅自动贩卖机",
+    "Desc": "设置于交谊厅的大型自动贩卖机。冷藏和保温系统俱全！",
     "Icon": "My_Millenniumlounge_01_Vendingmachine_01"
   },
   {
@@ -5152,8 +5152,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年学院的格子窗",
-    "Desc": "这是带有格子的窗户，不妨看看窗外景色，转换一下心情。",
+    "Name": "千禧年格子型窗户",
+    "Desc": "格子状设计的窗户。偶尔也来眺望一下窗外，享受风景吧。",
     "Icon": "My_Millenniumlounge_01_Window_02"
   },
   {
@@ -5161,8 +5161,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Wallpaper",
-    "Name": "千禧年学院塔楼休息室的墙壁",
-    "Desc": "这是由坚固材料打造的墙壁，具有千禧年学院特色的配色是其亮点。",
+    "Name": "千禧年巨塔交谊厅墙壁",
+    "Desc": "由整洁材质构成的墙面。象征千禧年的配色是其亮点。",
     "Icon": "My_Millenniumlounge_01_Wall"
   },
   {
@@ -5170,8 +5170,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Floor",
-    "Name": "千禧年学院塔楼休息室的地板",
-    "Desc": "这是由光滑材料制成的地板，近未来风格的设计独具特色。",
+    "Name": "千禧年巨塔交谊厅地板",
+    "Desc": "由光滑材质制成的地板。富有未来感的设计和氛围，特别引人注目。",
     "Icon": "My_Millenniumlounge_01_Tile_20X20"
   },
   {
@@ -5179,8 +5179,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Background",
-    "Name": "千禧年学院塔楼休息室的背景",
-    "Desc": "这是一个以象征千禧年学院、让人联想到未来的蓝色为主色调的背景，十分引人注目。",
+    "Name": "千禧年巨塔交谊厅背景",
+    "Desc": "以面向未来的蓝色色调构成的背景。是千禧年的象征性配色。",
     "Icon": "Millenniumloungebg"
   },
   {
@@ -5188,8 +5188,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "三位一体长椅",
-    "Desc": "这是由三把长椅相对摆放组成的长椅造型，据说偶尔会有人在这里遗失物品。",
+    "Name": "三面开放式长椅",
+    "Desc": "三面彼此相接的开放式长椅。据说中间的空间常发现遗失物。",
     "Icon": "My_Millenniumlounge_01_Bench_03"
   },
   {
@@ -5197,8 +5197,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "千禧年学院全息地图",
-    "Desc": "这是一个能以全息投影展示千禧年科学学院全貌的装置，可以实时掌握交通状况。",
+    "Name": "千禧年全息投影地图",
+    "Desc": "显示千禧年学院全景的全息投影装置。由于画面是即时更新的，对掌握交通状况也很有用！",
     "Icon": "My_Millenniumlounge_01_Diorama_01"
   },
   {
@@ -5206,8 +5206,8 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年学院塔楼休息室的自动扶梯",
-    "Desc": "这是一部可以通往其他楼层的自动扶梯，因为危险，千万不要在上面行走或奔跑。",
+    "Name": "千禧年巨塔交谊厅电梯",
+    "Desc": "可前往其他楼层的电梯。在里头随意走跳会有危险，请小心！",
     "Icon": "My_Millenniumlounge_01_Escalator_01"
   },
   {
@@ -5215,8 +5215,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "信息咨询台",
-    "Desc": "这是休息室的信息咨询台，没有接待人员，有事请在平板电脑上输入。",
+    "Name": "交谊厅服务台",
+    "Desc": "可咨询问题的服务台。即使没有人也不必惊慌，请使用自助机台吧！",
     "Icon": "My_Millenniumlounge_01_Informationdesk_01"
   },
   {
@@ -5224,8 +5224,8 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
-    "Name": "休息室引导无人机",
-    "Desc": "这是一款用于引导游客参观休息室的飞行无人机，当电池电量降低时，它会飞行不稳。",
+    "Name": "交谊厅导览用无人机",
+    "Desc": "在交谊厅各处提供引导的无人机。平时飞行在空中，但电力不足时会摇晃行走。",
     "Icon": "My_Millenniumlounge_01_Robot_01"
   },
   {
@@ -5233,8 +5233,8 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
-    "Name": "休息室引导机器人",
-    "Desc": "这是一款用于引导游客参观休息室的机器人，因其面板能映出丰富的表情，深受学生们喜爱。",
+    "Name": "交谊厅导览用机器人",
+    "Desc": "在交谊厅各处提供引导的机器人。勤奋的形象和丰富的表情受到学员们的喜爱。",
     "Icon": "My_Millenniumlounge_01_Robot_02"
   },
   {
@@ -5242,8 +5242,8 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年学院的广角窗户",
-    "Desc": "透过这扇窗户向外眺望，千禧年学院的全景便可尽收眼底。",
+    "Name": "千禧年宽型窗户",
+    "Desc": "从窗外望去，千禧年的全景一览无遗。",
     "Icon": "My_Millenniumlounge_01_Window_03"
   },
   {
@@ -5251,8 +5251,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "千禧年学院双人办公桌",
-    "Desc": "这是供两人使用的桌子。但可别指望它能让你的专注力提升两倍……实际上并不会。",
+    "Name": "双人用千禧年书桌",
+    "Desc": "可以两人一起坐的书桌。学习专注度也会加倍…或许吧。",
     "Icon": "My_Millenniumlounge_01_Desk_02"
   },
   {
@@ -5377,8 +5377,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德广告面板",
-    "Desc": "车站内设置的广告面板。据说每个车站的广告申请方式都不同。",
+    "Name": "海兰德电视广告面板",
+    "Desc": "车站内设置的电视广告面板。据说每个车站的电视广告申请方式都不同。",
     "Icon": "My_Highlander_01_Signboard_01"
   },
   {
@@ -5405,7 +5405,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "海兰德铁道学院标志墙饰",
-    "Desc": "以校名设计的墙面装饰。常被不良学生破坏导致文字缺损。",
+    "Desc": "以校名设计的墙面装饰。常被不良学员破坏导致文字缺损。",
     "Icon": "My_Highlander_01_Word_01"
   },
   {
@@ -5549,7 +5549,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "等身大吉祥物·修普（站务员）",
-    "Desc": "海兰德吉祥物玩偶「修普」。常被用作拍照景点。",
+    "Desc": "海兰德吉祥物玩偶“修普”。常被用作拍照景点。",
     "Icon": "My_Highlander_01_Mascot_01"
   },
   {
@@ -5558,7 +5558,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "等身大吉祥物·修普（CCC）",
-    "Desc": "海兰德吉祥物玩偶「修普」。偶尔被不良学生当作射击靶子……",
+    "Desc": "海兰德吉祥物玩偶“修普”。偶尔被不良学员当作射击靶子……",
     "Icon": "My_Highlander_01_Mascot_02"
   },
   {
@@ -5603,8 +5603,404 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "海兰德自动检票机",
-    "Desc": "因有人翻越逃票，车内检票成为必须。还常被不良学生踢坏，故障率高。",
+    "Desc": "因有人翻越逃票，车内检票成为必须。还常被不良学员踢坏，故障率高。",
     "Icon": "My_Event079_Ticketbarrier"
+  },
+  {
+    "Id": 21100,
+    "Rarity": "R",
+    "Category": "Decorations",
+    "SubCategory": "FloorDecoration",
+    "Name": "方形纹章图案地毯",
+    "Desc": "刻有复杂花纹的地毯。或许具有历史价值……？",
+    "Icon": "My_Teaparty_01_Carpet_01"
+  },
+  {
+    "Id": 21101,
+    "Rarity": "R",
+    "Category": "Decorations",
+    "SubCategory": "FloorDecoration",
+    "Name": "几何图案地毯",
+    "Desc": "几何纹样重复构成对称性的地毯。营造经典雅致的氛围。",
+    "Icon": "My_Teaparty_01_Carpet_02"
+  },
+  {
+    "Id": 21102,
+    "Rarity": "R",
+    "Category": "Decorations",
+    "SubCategory": "FloorDecoration",
+    "Name": "斯塔图阿里奥大理石纹地毯",
+    "Desc": "仿高档大理石纹路的地毯。做工精巧到难辨真伪。",
+    "Icon": "My_Teaparty_01_Carpet_03"
+  },
+  {
+    "Id": 21103,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "多边形花盆",
+    "Desc": "精心培育的玫瑰盆栽。尽管养护困难，茶话会始终坚持使用鲜花。",
+    "Icon": "My_Teaparty_01_Flowerpot_01"
+  },
+  {
+    "Id": 21104,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "长方形花坛",
+    "Desc": "白玫瑰盛放的花坛。其花语是\"纯洁\"\"纯真\"。",
+    "Icon": "My_Teaparty_01_Flowerpot_02"
+  },
+  {
+    "Id": 21105,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "铺着白色桌布的长方形餐桌",
+    "Desc": "铺着洁净桌布的餐桌。即使弄洒也无妨，但污渍显眼需小心……",
+    "Icon": "My_Teaparty_01_Table_06"
+  },
+  {
+    "Id": 21106,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "小型茶几",
+    "Desc": "单人用简约茶桌。偶尔悠闲独处也不错。",
+    "Icon": "My_Teaparty_01_Table_09"
+  },
+  {
+    "Id": 21107,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "下午茶专用推车",
+    "Desc": "配备茶具与点心的茶推车。随时随地享受优雅下午茶。",
+    "Icon": "My_Teaparty_01_Tablevolante_01"
+  },
+  {
+    "Id": 21108,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "落地灯",
+    "Desc": "散发温暖光芒的古典台灯。光线柔和，适宜阅读。",
+    "Icon": "My_Teaparty_01_Lightingstand_01"
+  },
+  {
+    "Id": 21109,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "书记用站立桌",
+    "Desc": "带阅读架的立式书桌。常见于正式场合使用。",
+    "Icon": "My_Teaparty_01_Bookstand_01"
+  },
+  {
+    "Id": 21110,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "古典书车",
+    "Desc": "运书用手推车。偏爱纸质书胜过电子书的崔尼蒂，图书委员们常推着它匆忙奔走。",
+    "Icon": "My_Teaparty_01_Bookstand_02"
+  },
+  {
+    "Id": 21111,
+    "Rarity": "R",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "鸢尾花壁挂钟",
+    "Desc": "鸢尾花纹样的挂钟。需定期上发条。",
+    "Icon": "My_Teaparty_01_Clock_01"
+  },
+  {
+    "Id": 21112,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "三一学院式木栅栏",
+    "Desc": "整齐优美的木制围栏。含蓄设计流露的美学反而更显华贵。",
+    "Icon": "My_Teaparty_01_Fence_01"
+  },
+  {
+    "Id": 21113,
+    "Rarity": "R",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "茶话会大型壁挂画框",
+    "Desc": "收藏印象派画作的画框。难以揣测作者意图的艺术品。",
+    "Icon": "My_Teaparty_01_Picture_01"
+  },
+  {
+    "Id": 21114,
+    "Rarity": "R",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "茶话会小型壁挂画框",
+    "Desc": "装饰审美艺术画的壁挂画框。大胆构思与狂放笔触令人印象深刻。",
+    "Icon": "My_Teaparty_01_Picture_02"
+  },
+  {
+    "Id": 21115,
+    "Rarity": "R",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "超现实主义石膏像",
+    "Desc": "超越常识的装置艺术。大胆创意为现代艺术投下震撼弹。",
+    "Icon": "My_Teaparty_01_Statue_01"
+  },
+  {
+    "Id": 21116,
+    "Rarity": "R",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "黄铜花纹台灯",
+    "Desc": "经典花卉纹样的台灯。在崔尼蒂连灯具都毫不马虎。",
+    "Icon": "My_Teaparty_01_Lamp_01"
+  },
+  {
+    "Id": 21201,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "三一学院多人沙发",
+    "Desc": "高档面料制成的多人沙发。注重造型完成度，坐感稍硬。",
+    "Icon": "My_Teaparty_01_Sofatable_02"
+  },
+  {
+    "Id": 21202,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "客用茶几",
+    "Desc": "简约而不失格调的茶桌。红茶香气为谈话增添雅致。",
+    "Icon": "My_Teaparty_01_Table_01"
+  },
+  {
+    "Id": 21203,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "箱型桌",
+    "Desc": "配备国际象棋盘的桌子。光是坐着就能显得很聪明。",
+    "Icon": "My_Teaparty_01_Table_02"
+  },
+  {
+    "Id": 21204,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "翻倒的箱型桌\n\n（注：部分家具名称根据游戏内常用译法进行了调整，如\"トリニティ\"统一译为\"三一学院\"）",
+    "Desc": "翻倒后棋子散落一地的桌子。必须有人来收拾。",
+    "Icon": "My_Teaparty_01_Table_03"
+  },
+  {
+    "Id": 21205,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "摆放完整蛋糕的晚宴桌",
+    "Desc": "摆放豪华多层蛋糕的桌子。为特别的日子，或想要变得特别的日子而准备。",
+    "Icon": "My_Teaparty_01_Table_04"
+  },
+  {
+    "Id": 21206,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "金色午后的茶桌",
+    "Desc": "摆放各式点心和红茶的茶几。稍事休息，享受愉快交谈时光。",
+    "Icon": "My_Teaparty_01_Table_05"
+  },
+  {
+    "Id": 21207,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "傍晚的茶桌",
+    "Desc": "摆满甜点的茶几。疲惫一天结束时，糖分和红茶最为治愈。",
+    "Icon": "My_Teaparty_01_Table_07"
+  },
+  {
+    "Id": 21208,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "简约的早餐茶桌",
+    "Desc": "摆放三明治和轻食点心的早餐茶几。再忙碌的早晨也请享用一杯红茶。",
+    "Icon": "My_Teaparty_01_Table_08"
+  },
+  {
+    "Id": 21209,
+    "Rarity": "SR",
+    "Category": "Decorations",
+    "SubCategory": "HomeAppliance",
+    "Name": "留声机",
+    "Desc": "播放黑胶唱片的留声机。有着现代音响设备无法复制的怀旧韵味。",
+    "Icon": "My_Teaparty_01_Gramophone_01"
+  },
+  {
+    "Id": 21210,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "三一学院式围墙",
+    "Desc": "灵感源自古代建筑风格的精致围墙。拱形结构营造出稳重感。",
+    "Icon": "My_Teaparty_01_Partition_01"
+  },
+  {
+    "Id": 21211,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "三一学院式拱形门廊",
+    "Desc": "灵感源自古代建筑风格的典雅拱门。每次穿过都令人心生庄严。",
+    "Icon": "My_Teaparty_01_Partition_02"
+  },
+  {
+    "Id": 21212,
+    "Rarity": "SR",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "三一学院式曲线立柱",
+    "Desc": "矗立于崔尼蒂校园各处的立柱。白底金饰，典雅而华丽。",
+    "Icon": "My_Teaparty_01_Pillar_01"
+  },
+  {
+    "Id": 21213,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Closet",
+    "Name": "红木玻璃展示柜",
+    "Desc": "古典风格的高级储物柜。带锁设计，并非人人都能开启。",
+    "Icon": "My_Teaparty_01_Shelf_02"
+  },
+  {
+    "Id": 21214,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Closet",
+    "Name": "红木三层书架",
+    "Desc": "匠人打造的高级书柜。其本身已是珍品，而其中藏书价值更甚。",
+    "Icon": "My_Teaparty_01_Shelf_03"
+  },
+  {
+    "Id": 21215,
+    "Rarity": "SR",
+    "Category": "Furnitures",
+    "SubCategory": "Closet",
+    "Name": "茶话会陈列架",
+    "Desc": "盛放茶用砂糖、奶精、果酱和奶油的全套器皿。",
+    "Icon": "My_Teaparty_01_Shelf_04"
+  },
+  {
+    "Id": 21216,
+    "Rarity": "SR",
+    "Category": "Interiors",
+    "SubCategory": "Wallpaper",
+    "Name": "茶话会贵宾室墙面",
+    "Desc": "饰有金箔的古典壁纸。适合打造彰显品格的威严空间。",
+    "Icon": "My_Teaparty_01_Wall_1X20"
+  },
+  {
+    "Id": 21217,
+    "Rarity": "SR",
+    "Category": "Interiors",
+    "SubCategory": "Floor",
+    "Name": "凡尔赛花纹瓷砖",
+    "Desc": "造型复杂的拼花地砖。大小各异的瓷片组合出精美几何图案。",
+    "Icon": "My_Teaparty_01_Tile_2X2"
+  },
+  {
+    "Id": 21218,
+    "Rarity": "SR",
+    "Category": "Interiors",
+    "SubCategory": "Background",
+    "Name": "三一学院茶话会背景",
+    "Desc": "色彩和谐优美的背景墙。绝妙的配色平衡令人叹服。",
+    "Icon": "Teapartybg"
+  },
+  {
+    "Id": 21301,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Table",
+    "Name": "茶话会对谈包厢",
+    "Desc": "半包间的双人座位。厚重窗帘吸音效果绝佳，适合私密交谈。",
+    "Icon": "My_Teaparty_01_Sofatable_01"
+  },
+  {
+    "Id": 21302,
+    "Rarity": "SSR",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "三一学院式开合壁炉",
+    "Desc": "装饰性开合式壁炉。虽无实用价值，但其美学设计吸引众多目光。",
+    "Icon": "My_Teaparty_01_Fireplace_01"
+  },
+  {
+    "Id": 21303,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "茶话会庭院喷泉",
+    "Desc": "石雕喷泉环绕着各色植物。偶尔会有银喉长尾山雀来此饮水。",
+    "Icon": "My_Teaparty_01_Fountain_01"
+  },
+  {
+    "Id": 21304,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "三一学院式水晶长廊",
+    "Desc": "玻璃装饰的华丽走廊。仅是穿行其间便是视觉享受。",
+    "Icon": "My_Teaparty_01_Pillar_02"
+  },
+  {
+    "Id": 21305,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Closet",
+    "Name": "茶话会茶叶展示架",
+    "Desc": "陈列基沃托斯各地名茶的展架。为防变质采取严格密封保存。",
+    "Icon": "My_Teaparty_01_Shelf_01"
+  },
+  {
+    "Id": 21306,
+    "Rarity": "SSR",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "茶话会夹层空间",
+    "Desc": "可俯瞰全景的跃层结构。前卫艺术品与精致装潢形成鲜明对比。",
+    "Icon": "My_Teaparty_01_Wallcc_01"
+  },
+  {
+    "Id": 21307,
+    "Rarity": "SSR",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "三一学院竖长窗",
+    "Desc": "美学优先于功能性的窗户。易积灰结构需每日清洁维护。",
+    "Icon": "My_Teaparty_01_Window_01"
+  },
+  {
+    "Id": 21308,
+    "Rarity": "SSR",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "茶话会大型展示厅",
+    "Desc": "饱览崔尼蒂全景的观景廊。能欣赏此景本身便是种特权。",
+    "Icon": "My_Teaparty_01_Window_02"
+  },
+  {
+    "Id": 21309,
+    "Rarity": "SSR",
+    "Category": "Decorations",
+    "SubCategory": "WallDecoration",
+    "Name": "茶话会小型展示厅",
+    "Desc": "映照崔尼蒂风光的画廊。眺望时总让人心旷神怡。",
+    "Icon": "My_Teaparty_01_Window_03"
   },
   {
     "Id": 100000,
@@ -6403,8 +6799,8 @@
     "Rarity": "N",
     "Category": "Furnitures",
     "SubCategory": "FurnitureEtc",
-    "Name": "盖布拉（野外战）的青铜奖杯",
-    "Desc": "这是用以赞颂盖布拉（野外战）荣誉的青铜奖杯。",
+    "Name": "葛夫拉（野战）铜奖杯",
+    "Desc": "葛夫拉（野战）的荣誉铜奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Bronze"
   },
   {
@@ -6412,8 +6808,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "FurnitureEtc",
-    "Name": "盖布拉（野外战）的银质奖杯",
-    "Desc": "这是用以赞颂盖布拉（野外战）荣誉的银质奖杯。",
+    "Name": "葛夫拉（野战）银奖杯",
+    "Desc": "葛夫拉（野战）的荣誉银奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Silver"
   },
   {
@@ -6421,8 +6817,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "FurnitureEtc",
-    "Name": "盖布拉（野外战）的金质奖杯",
-    "Desc": "这是用以赞颂盖布拉（野外战）荣誉的金质奖杯。",
+    "Name": "葛夫拉（野战）黄金奖杯",
+    "Desc": "葛夫拉（野战）的荣誉黄金奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Gold"
   },
   {
@@ -6430,8 +6826,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "FurnitureEtc",
-    "Name": "盖布拉（野外战）的白金奖杯",
-    "Desc": "这是用以赞颂盖布拉（野外战）荣誉的白金奖杯",
+    "Name": "葛夫拉（野战）白金奖杯",
+    "Desc": "葛夫拉（野战）的荣誉白金奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Platinum"
   },
   {
@@ -6439,8 +6835,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "圣三一西式喷泉",
-    "Desc": "圣三一风格的白色喷泉。看着那晶莹的水流，便会勾起曾经美好的回忆。",
+    "Name": "崔尼蒂西式喷泉",
+    "Desc": "崔尼蒂风格的白色喷泉。看着那晶莹的水流，便会勾起曾经美好的回忆。",
     "Icon": "My_Event02_Trinityfountain"
   },
   {
@@ -6466,7 +6862,7 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "227号温泉乡导游图",
+    "Name": "227号温泉乡向导图",
     "Desc": "画着227号温泉乡地图的引路牌。可以在这里查看温泉乡的内部构造和信息。",
     "Icon": "My_Event04_Hotspringwhiteboard"
   },
@@ -6619,8 +7015,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "圣三一风琴",
-    "Desc": "凸显圣三一美感的风琴。静静凝视就感到一股神圣感。",
+    "Name": "崔尼蒂风琴",
+    "Desc": "凸显崔尼蒂美感的风琴。静静凝视就感到一股神圣感。",
     "Icon": "My_Event11_Turntable"
   },
   {
@@ -6781,8 +7177,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "便利屋68乐队舞台",
-    "Desc": "Rock & Bad！便利屋68！使法外之徒们更加耀眼的便利屋68乐队舞台。",
+    "Name": "便利屋68乐团舞台",
+    "Desc": "Rock & Bad！便利屋68！使法外之徒们更加耀眼的便利屋68乐团舞台。",
     "Icon": "My_Event058_Rockbandset"
   },
   {
@@ -6926,7 +7322,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "露营隔板",
-    "Desc": "简洁设计，可爱图案的折迭椅令人印象深刻的露营隔板！",
+    "Desc": "简洁设计，可爱图案的折叠椅令人印象深刻的露营隔板！",
     "Icon": "My_Event063_Partition"
   },
   {
@@ -6971,7 +7367,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "高级要员用书桌",
-    "Desc": "能从现代的设计中感受到震慑感的要员书桌。展现出力量与权威！",
+    "Desc": "在现代的设计中蕴含着威严的要员书桌。能从中感受到力量与权威！",
     "Icon": "My_Event065_Chairmandesk"
   },
   {
@@ -7025,7 +7421,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "拍贴机",
-    "Desc": "吸引正值青春的学生目光的拍贴机。上面有许多装饰。",
+    "Desc": "吸引正值青春的学员目光的拍贴机。上面有许多装饰。",
     "Icon": "My_Event067_Selfphotobooth"
   },
   {
@@ -7141,8 +7537,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "讲台",
-    "Desc": "放着漫才所需的扇子和麦克风等道具的小桌子。由于设计风格高雅，因此也有很多人拿来它来布置房屋。",
+    "Name": "演讲桌",
+    "Desc": "放着演讲所需的扇子和麦克风等等道具的小桌子。由于设计风格高雅，因此也有很多人拿来布置房屋。",
     "Icon": "My_Event071_Comictable"
   },
   {
@@ -7160,7 +7556,7 @@
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
     "Name": "现场表演舞台",
-    "Desc": "专为三一的偶像团体「Antique Seraphim」打造的特别舞台。这个舞台的珍贵之处在于能让粉丝见到他们三人不同的一面。",
+    "Desc": "专为三一的偶像团体“Antique Seraphim”打造的特别舞台。这个舞台的珍贵之处在于能让粉丝见到他们三人不同的一面。",
     "Icon": "My_Event073_Idolstage"
   },
   {
@@ -7168,8 +7564,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "万魔殿的办公桌",
-    "Desc": "万魔殿议员五月的专用办公桌。伟大的「NK超极计划」，就从这里开启。",
+    "Name": "万魔殿书桌",
+    "Desc": "万魔殿干部皋月的专用书桌。伟大的NK-ULTRA计划就是从这里开始的。",
     "Icon": "My_Event074_Table"
   },
   {
@@ -7177,8 +7573,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "万魔殿的公告板",
-    "Desc": "可以确认万魔殿活动情况的公告板。由书记员千秋负责管理。",
+    "Name": "万魔殿公告板",
+    "Desc": "可了解万魔殿活动的公告板。由书记千秋管理。",
     "Icon": "My_Event074_Noticeboard"
   },
   {
@@ -7186,8 +7582,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "让人沦陷的沙发·白色款",
-    "Desc": "传说只要一躺上去，就很难再起身的沙发。\n上面套着白色棉布质地的沙发套。",
+    "Name": "白色懒人沙发",
+    "Desc": "用白色棉布制成的蓬松懒人沙发。\n全身都将被柔软的触感包围，一旦躺下就很难再起来。",
     "Icon": "My_Event075_Beanbagwhite"
   },
   {
@@ -7195,8 +7591,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "让人沦陷的沙发·蓝色款",
-    "Desc": "传说只要一躺上去，就很难再起身的沙发。\n上面套着蓝色棉布质地的沙发套。",
+    "Name": "蓝色懒人沙发",
+    "Desc": "用蓝色棉布制成的蓬松懒人沙发。\n全身都将被柔软的触感包围，一旦躺下就很难再起来。",
     "Icon": "My_Event075_Beanbagblue"
   },
   {
@@ -7204,8 +7600,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "军事露营板装饰品",
-    "Desc": "一块巨大的板子。如今上面绘制着时尚的涂鸦。",
+    "Name": "军事露营展板装置",
+    "Desc": "为表演艺术设置的巨大展板。目前上面绘有率性的涂鸦。",
     "Icon": "My_Event076_Board"
   },
   {
@@ -7214,7 +7610,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "最初的前卫",
-    "Desc": "这是莉音制作的第一个模型。其设计中蕴含着她独特的哲学理念。",
+    "Desc": "莉音为创作出自己的杰作而制作的初版模型。里头融入了莉音独特的哲学。",
     "Icon": "My_Event076_Avantgardekun"
   },
   {
@@ -7286,7 +7682,7 @@
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
     "Name": "电视录像机",
-    "Desc": "适合观看经典电影的复古电视。不支持现代广播制式，但能完美播放录像带。",
+    "Desc": "适合观看经典电影的复古电视。不支持现代大楼广播制式，但能完美播放录像带。",
     "Icon": "My_Event078_Videotelevision"
   },
   {
@@ -7312,8 +7708,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "夏色の水鉄砲スタンド",
-    "Desc": "夏をたっぷり感じられる水鉄砲スタンド。狙われた相手はビショビショだ！",
+    "Name": "夏日水枪摊位",
+    "Desc": "能充分感受夏日气息的水枪摊位。被瞄准的目标会湿透！",
     "Icon": "My_Event081_Watergunstand"
   },
   {
@@ -7321,9 +7717,63 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "どこでもばしゃばしゃプール",
-    "Desc": "海に行かずとも夏を楽しめる空気注入式のプール。「こども用」とタグに書いてある。",
+    "Name": "随处可用的戏水池",
+    "Desc": "无需去海边也能享受夏日的充气式泳池。标签上写着“孩子用”。",
     "Icon": "My_Event081_Pool"
+  },
+  {
+    "Id": 210373,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "圣娅的敞篷车",
+    "Desc": "圣娅的敞篷跑车。光是外观就知道很挑驾驶者的座驾。",
+    "Icon": "My_Event082_Opencar"
+  },
+  {
+    "Id": 210374,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Chair",
+    "Name": "秋千椅",
+    "Desc": "渚钟爱的摇椅。自然摆动带来独特舒适感。",
+    "Icon": "My_Event082_Swingchair"
+  },
+  {
+    "Id": 210375,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "海滩秋千",
+    "Desc": "海滩秋千。当需要整理思绪时，随风摇晃也不错。",
+    "Icon": "My_Event082_Beachswing"
+  },
+  {
+    "Id": 210376,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "劈西瓜套装",
+    "Desc": "普通西瓜的简单玩法。但越是简单的游戏越有趣。",
+    "Icon": "My_Event082_Breakingwatermelon"
+  },
+  {
+    "Id": 210377,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Bed",
+    "Name": "豪华海滩躺床",
+    "Desc": "海滩豪华躺床。柔软蓬松，堪称极致奢华。",
+    "Icon": "My_Event082_Luxurybeachbed"
+  },
+  {
+    "Id": 210378,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "茶话会相册收纳架",
+    "Desc": "相册收纳架。每个隔层不仅存放相册，更满载私人海滩的回忆。",
+    "Icon": "My_Event082_Albumcloset"
   },
   {
     "Id": 301001,
@@ -7459,5 +7909,14 @@
     "Name": "纪念播放器 -ive aLIVE!",
     "Desc": "-ive aLIVE!可播放影片的机器",
     "Icon": "My_Videopanel_Event067"
+  },
+  {
+    "Id": 302308,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "FurnitureEtc",
+    "Name": "回忆收藏·第六辑",
+    "Desc": "可播放6周年PV的放映机",
+    "Icon": "My_Videopanel_Pv06"
   }
 ]

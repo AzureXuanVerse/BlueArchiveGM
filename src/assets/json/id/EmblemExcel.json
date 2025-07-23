@@ -10,7 +10,7 @@
     "Id": 2,
     "Category": "Default",
     "Rarity": "N",
-    "Name": "夏莱的老师",
+    "Name": "沙勒的老师",
     "Icon": "Emblem_BG_Default"
   },
   {
@@ -395,7 +395,7 @@
     "Id": 190001210,
     "Category": "MainStory",
     "Rarity": "SR",
-    "Name": "侍女的职责",
+    "Name": "最后的职责",
     "Icon": "Emblem_BG_SpecialOperation_1_2_1"
   },
   {
@@ -409,7 +409,7 @@
     "Id": 3000829,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "漫画同人物语",
+    "Name": "学漫同人物语",
     "Icon": "Emblem_BG_Event_829_Jp"
   },
   {
@@ -430,14 +430,14 @@
     "Id": 3000701,
     "Category": "MainStory",
     "Rarity": "SR",
-    "Name": "特殊作战・十字神名篇",
+    "Name": "特殊作战・神名十文字篇",
     "Icon": "Emblem_BG_Event_701_Jp"
   },
   {
     "Id": 3000832,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "计算机新春行进曲",
+    "Name": "电脑新春进行曲",
     "Icon": "Emblem_BG_Event_832_Jp"
   },
   {
@@ -486,14 +486,14 @@
     "Id": 3000839,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "月华梦騒",
+    "Name": "月华梦骚",
     "Icon": "Emblem_BG_Event_839_Jp"
   },
   {
     "Id": 3000840,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "五尘来降",
+    "Name": "五尘降临",
     "Icon": "Emblem_BG_Event_840_Jp"
   },
   {
@@ -514,7 +514,7 @@
     "Id": 3000843,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "Code:BOX 逼近千禧年学院的阴影",
+    "Name": "Code:BOX 逼近千禧年的黑影",
     "Icon": "Emblem_BG_Event_843_Jp"
   },
   {
@@ -542,8 +542,15 @@
     "Id": 3000847,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "百ヨリ出ズル一輪ノ",
+    "Name": "百里挑一",
     "Icon": "Emblem_BG_Event_847_Jp"
+  },
+  {
+    "Id": 3000848,
+    "Category": "Event",
+    "Rarity": "SR",
+    "Name": "夏日晴空的约定",
+    "Icon": "Emblem_BG_Event_848_Jp"
   },
   {
     "Id": 5100001,
@@ -3087,6 +3094,69 @@
     "Icon": "Emblem_BG_Favor_100"
   },
   {
+    "Id": 5101221,
+    "Category": "Favor",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_20"
+  },
+  {
+    "Id": 5101222,
+    "Category": "Favor",
+    "Rarity": "SR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_50"
+  },
+  {
+    "Id": 5101223,
+    "Category": "Favor",
+    "Rarity": "SSR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_100"
+  },
+  {
+    "Id": 5101231,
+    "Category": "Favor",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_20"
+  },
+  {
+    "Id": 5101232,
+    "Category": "Favor",
+    "Rarity": "SR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_50"
+  },
+  {
+    "Id": 5101233,
+    "Category": "Favor",
+    "Rarity": "SSR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_100"
+  },
+  {
+    "Id": 5101241,
+    "Category": "Favor",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_20"
+  },
+  {
+    "Id": 5101242,
+    "Category": "Favor",
+    "Rarity": "SR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_50"
+  },
+  {
+    "Id": 5101243,
+    "Category": "Favor",
+    "Rarity": "SSR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_100"
+  },
+  {
     "Id": 5130001,
     "Category": "Favor",
     "Rarity": "R",
@@ -4788,6 +4858,27 @@
     "Icon": "Emblem_BG_Favor_100"
   },
   {
+    "Id": 5200481,
+    "Category": "Favor",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_20"
+  },
+  {
+    "Id": 5200482,
+    "Category": "Favor",
+    "Rarity": "SR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_50"
+  },
+  {
+    "Id": 5200483,
+    "Category": "Favor",
+    "Rarity": "SSR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_100"
+  },
+  {
     "Id": 5230001,
     "Category": "Favor",
     "Rarity": "R",
@@ -5292,87 +5383,108 @@
     "Icon": "Emblem_BG_Favor_100"
   },
   {
+    "Id": 5260151,
+    "Category": "Favor",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_20"
+  },
+  {
+    "Id": 5260152,
+    "Category": "Favor",
+    "Rarity": "SR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_50"
+  },
+  {
+    "Id": 5260153,
+    "Category": "Favor",
+    "Rarity": "SSR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_100"
+  },
+  {
     "Id": 6020231,
     "Category": "Boss",
     "Rarity": "N",
-    "Name": "击败白&黑（室内战）！2024",
+    "Name": "击败白&黑（室内战）！2025",
     "Icon": "Emblem_BG_Boss_N"
   },
   {
     "Id": 6020232,
     "Category": "Boss",
     "Rarity": "R",
-    "Name": "击败白&黑（室内战）！2024",
+    "Name": "击败白&黑（室内战）！2025",
     "Icon": "Emblem_BG_Boss_R"
   },
   {
     "Id": 6020233,
     "Category": "Boss",
     "Rarity": "SR",
-    "Name": "击败白&黑（室内战）！2024",
+    "Name": "击败白&黑（室内战）！2025",
     "Icon": "Emblem_BG_Boss_SR"
   },
   {
     "Id": 6020234,
     "Category": "Boss",
     "Rarity": "SSR",
-    "Name": "击败白&黑（室内战）！2024",
+    "Name": "击败白&黑（室内战）！2025",
     "Icon": "Emblem_BG_Boss_SSR"
   },
   {
     "Id": 6020821,
     "Category": "Boss",
     "Rarity": "N",
-    "Name": "击败格兹（野外战）！2024",
+    "Name": "击败格兹（野外战）！2025",
     "Icon": "Emblem_BG_Boss_N"
   },
   {
     "Id": 6020822,
     "Category": "Boss",
     "Rarity": "R",
-    "Name": "击败格兹（野外战）！2024",
+    "Name": "击败格兹（野外战）！2025",
     "Icon": "Emblem_BG_Boss_R"
   },
   {
     "Id": 6020823,
     "Category": "Boss",
     "Rarity": "SR",
-    "Name": "击败格兹（野外战）！2024",
+    "Name": "击败格兹（野外战）！2025",
     "Icon": "Emblem_BG_Boss_SR"
   },
   {
     "Id": 6020824,
     "Category": "Boss",
     "Rarity": "SSR",
-    "Name": "击败格兹（野外战）！2024",
+    "Name": "击败格兹（野外战）！2025",
     "Icon": "Emblem_BG_Boss_SSR"
   },
   {
     "Id": 6020111,
     "Category": "Boss",
     "Rarity": "N",
-    "Name": "击败比纳（街区战）！2024",
+    "Name": "击败比纳（街区战）！2025",
     "Icon": "Emblem_BG_Boss_N"
   },
   {
     "Id": 6020112,
     "Category": "Boss",
     "Rarity": "R",
-    "Name": "击败比纳（街区战）！2024",
+    "Name": "击败比纳（街区战）！2025",
     "Icon": "Emblem_BG_Boss_R"
   },
   {
     "Id": 6020113,
     "Category": "Boss",
     "Rarity": "SR",
-    "Name": "击败比纳（街区战）！2024",
+    "Name": "击败比纳（街区战）！2025",
     "Icon": "Emblem_BG_Boss_SR"
   },
   {
     "Id": 6020114,
     "Category": "Boss",
     "Rarity": "SSR",
-    "Name": "击败比纳（街区战）！2024",
+    "Name": "击败比纳（街区战）！2025",
     "Icon": "Emblem_BG_Boss_SSR"
   },
   {
@@ -5435,28 +5547,28 @@
     "Id": 6020511,
     "Category": "Boss",
     "Rarity": "N",
-    "Name": "打倒回转者（市区战）！2025",
+    "Name": "回转者城镇战击破！2025",
     "Icon": "Emblem_BG_Boss_N"
   },
   {
     "Id": 6020512,
     "Category": "Boss",
     "Rarity": "R",
-    "Name": "打倒回转者（市区战）！2025",
+    "Name": "回转者城镇战击破！2025",
     "Icon": "Emblem_BG_Boss_R"
   },
   {
     "Id": 6020513,
     "Category": "Boss",
     "Rarity": "SR",
-    "Name": "打倒回转者（市区战）！2025",
+    "Name": "回转者城镇战击破！2025",
     "Icon": "Emblem_BG_Boss_SR"
   },
   {
     "Id": 6020514,
     "Category": "Boss",
     "Rarity": "SSR",
-    "Name": "打倒回转者（市区战）！2025",
+    "Name": "回转者城镇战击破！2025",
     "Icon": "Emblem_BG_Boss_SSR"
   },
   {
@@ -5547,28 +5659,28 @@
     "Id": 7000005,
     "Category": "MultiFloorRaid",
     "Rarity": "SR",
-    "Name": "霍刻玛",
+    "Name": "CHOKMAH",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0009"
   },
   {
     "Id": 7000006,
     "Category": "MultiFloorRaid",
     "Rarity": "SSR",
-    "Name": "霍刻玛",
+    "Name": "CHOKMAH",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0009"
   },
   {
     "Id": 7000007,
     "Category": "MultiFloorRaid",
     "Rarity": "SR",
-    "Name": "霍刻玛",
+    "Name": "CHOKMAH",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0009"
   },
   {
     "Id": 7000008,
     "Category": "MultiFloorRaid",
     "Rarity": "SSR",
-    "Name": "霍刻玛",
+    "Name": "CHOKMAH",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0009"
   },
   {
@@ -5583,6 +5695,20 @@
     "Category": "MultiFloorRaid",
     "Rarity": "SSR",
     "Name": "提法瑞斯",
+    "Icon": "Emblem_BG_MultiFloorRaid_EN0011"
+  },
+  {
+    "Id": 7000011,
+    "Category": "MultiFloorRaid",
+    "Rarity": "SR",
+    "Name": "TIPHARETH",
+    "Icon": "Emblem_BG_MultiFloorRaid_EN0011"
+  },
+  {
+    "Id": 7000012,
+    "Category": "MultiFloorRaid",
+    "Rarity": "SSR",
+    "Name": "TIPHARETH",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0011"
   },
   {
@@ -6433,6 +6559,27 @@
     "Icon": "Emblem_BG_Potential_25"
   },
   {
+    "Id": 8101221,
+    "Category": "Potential",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Potential_25"
+  },
+  {
+    "Id": 8101231,
+    "Category": "Potential",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Potential_25"
+  },
+  {
+    "Id": 8101241,
+    "Category": "Potential",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Potential_25"
+  },
+  {
     "Id": 8130001,
     "Category": "Potential",
     "Rarity": "R",
@@ -7000,6 +7147,13 @@
     "Icon": "Emblem_BG_Potential_25"
   },
   {
+    "Id": 8200481,
+    "Category": "Potential",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Potential_25"
+  },
+  {
     "Id": 8230001,
     "Category": "Potential",
     "Rarity": "R",
@@ -7168,6 +7322,13 @@
     "Icon": "Emblem_BG_Potential_25"
   },
   {
+    "Id": 8260151,
+    "Category": "Potential",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Potential_25"
+  },
+  {
     "Id": 9000000,
     "Category": "Etc_Anniversary",
     "Rarity": "SSR",
@@ -7180,5 +7341,12 @@
     "Rarity": "SSR",
     "Name": "4th ANNIVERSARY",
     "Icon": "Emblem_BG_Etc_002"
+  },
+  {
+    "Id": 9100000,
+    "Category": "BattlePass",
+    "Rarity": "SSR",
+    "Name": "Starry Night",
+    "Icon": "Emblem_BG_BattlePass_1"
   }
 ]
