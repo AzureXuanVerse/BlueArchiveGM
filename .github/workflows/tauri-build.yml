@@ -186,6 +186,8 @@ jobs:
     needs: [build-windows, build-linux, build-android]
     runs-on: ubuntu-latest
     if: github.event_name == 'workflow_dispatch'
+    permissions:
+      contents: write
     steps:
       - name: 下载 Windows 构建产物
         uses: actions/download-artifact@v4
