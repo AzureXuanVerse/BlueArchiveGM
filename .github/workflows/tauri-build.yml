@@ -212,7 +212,7 @@ jobs:
         with:
           tag_name: "v1.0.8"
           name: "v1.0.8"
-          body: "支持 Linux & Android"
+          body: "同步更新资源至1.59"
           draft: false
           prerelease: false
           files: |

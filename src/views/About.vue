@@ -68,6 +68,18 @@
           <div class="timeline-content">
             <h4>2025-07-11</h4>
             <p>
+              1.0.8
+              同步更新资源至1.59
+              支持 Linux & Android
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon"></div>
+          <div class="timeline-content">
+            <h4>2025-07-11</h4>
+            <p>
               1.0.7
               同步更新资源至1.58
             </p>
