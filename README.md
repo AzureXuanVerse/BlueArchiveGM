@@ -41,7 +41,7 @@
 **GM更新一般是最快更新，但是有的时候可能会不及时，若需要在本地使用请使用本地版**  
 **GM在线版支持本地使用哦~**
 
-[BlueArchiveGM](https://gm.bluearchive.cc)
+[BlueArchiveGM](https://azurexuanverse.github.io/BlueArchiveGM/#/)
 
 # 🪄 **运行环境**
 
