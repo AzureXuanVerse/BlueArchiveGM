@@ -215,9 +215,9 @@ jobs:
       - name: 创建 GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: "v1.0.8"
-          name: "v1.0.8"
-          body: "同步更新资源至1.59"
+          tag_name: "v1.0.9"
+          name: "v1.0.9"
+          body: "同步更新资源至1.60"
           draft: false
           prerelease: false
           files: |
