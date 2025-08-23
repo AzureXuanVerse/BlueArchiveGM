@@ -5,7 +5,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // 设置公共路径为 './'
+  base: process.env.GITHUB_ACTIONS ? '/BlueArchiveGM/' : './',
   plugins: [vue(), vueDevTools()],
   resolve: {
     alias: {

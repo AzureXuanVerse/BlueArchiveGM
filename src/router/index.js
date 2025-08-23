@@ -25,8 +25,10 @@ const routes = [
   { path: '/Account', name: 'Account', component: Account },
 ]
 
+// 根据环境选择路由模式和基础路径
+const isGitHubPages = import.meta.env.PROD && window.location.hostname.includes('github.io')
 const router = createRouter({
-  history: createWebHistory(),
+  history: isGitHubPages ? createWebHashHistory('/BlueArchiveGM/') : createWebHistory(),
   routes,
 })
 
