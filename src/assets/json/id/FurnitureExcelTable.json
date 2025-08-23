@@ -32,7 +32,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "白板",
-    "Desc": "贴着便利贴的白板。仔细看便利贴的内容，还可以了解到学员们琐碎的日常。",
+    "Desc": "贴着便利贴的白板。仔细看便利贴的内容，还可以了解到学生们琐碎的日常。",
     "Icon": "My_Defaultroom_Board"
   },
   {
@@ -185,7 +185,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "桃桃朋友照片柱",
-    "Desc": "展示与桃桃朋友咖啡厅相关照片的柱子。可以看到季节限定的标志性照片。",
+    "Desc": "展示与桃桃朋友咖啡厅相关照片的柱子。可以看到时节限定的标志性照片。",
     "Icon": "My_Cafe_01_B_Wall_03"
   },
   {
@@ -320,7 +320,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "白色简洁沙发",
-    "Desc": "放着抱枕的沙发。弹性好的填充物让学员们的身体更加舒适。",
+    "Desc": "放着抱枕的沙发。弹性好的填充物让学生们的身体更加舒适。",
     "Icon": "My_Gamecenter_01_P_Sofa_01"
   },
   {
@@ -1796,7 +1796,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "大运动会的天蓝色旗帜",
-    "Desc": "天蓝色的大运动会旗帜。学员们从远方就能清楚看见的凉爽颜色。",
+    "Desc": "天蓝色的大运动会旗帜。学生们从远方就能清楚看见的凉爽颜色。",
     "Icon": "My_Autumnsports_01_Flag_01"
   },
   {
@@ -1814,7 +1814,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "大运动会的黄色旗帜",
-    "Desc": "黄色的大运动会旗帜。在激烈的比赛结束后，引导学员们去休息处。",
+    "Desc": "黄色的大运动会旗帜。在激烈的比赛结束后，引导学生们去休息处。",
     "Icon": "My_Autumnsports_01_Flag_03"
   },
   {
@@ -1868,7 +1868,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "大运动会的窗户",
-    "Desc": "能将大运动会尽收眼底的窗户。学员们正在进行比赛。",
+    "Desc": "能将大运动会尽收眼底的窗户。学生们正在进行比赛。",
     "Icon": "My_Autumnsports_01_Window"
   },
   {
@@ -2003,7 +2003,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "大运动会立式广告牌",
-    "Desc": "引人注目的大运动会立式广告牌。连原本没兴趣的学员也会不知不觉被吸引。",
+    "Desc": "引人注目的大运动会立式广告牌。连原本没兴趣的学生也会不知不觉被吸引。",
     "Icon": "My_Autumnsports_01_Signboard_02"
   },
   {
@@ -2030,7 +2030,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "大运动会吃甜甜圈赛跑用支架",
-    "Desc": "吊着美味甜甜圈的大运动会甜甜圈支架。爱吃美食的学员应该会想参加比赛吧？",
+    "Desc": "吊着美味甜甜圈的大运动会甜甜圈支架。爱吃美食的学生应该会想参加比赛吧？",
     "Icon": "My_Autumnsports_01_Doughnuts"
   },
   {
@@ -2048,7 +2048,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "大运动会助威台",
-    "Desc": "很适合助威的大运动会助威台。充满了为努力比赛的学员加油的热情。",
+    "Desc": "很适合助威的大运动会助威台。充满了为努力比赛的学生加油的热情。",
     "Icon": "My_Autumnsports_01_Stand"
   },
   {
@@ -2075,7 +2075,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "大运动会奖杯展示台",
-    "Desc": "排列着荣耀奖杯的大运动会奖杯展示台。这是参加大运动会的学员的目标及梦想。",
+    "Desc": "排列着荣耀奖杯的大运动会奖杯展示台。这是参加大运动会的学生的目标及梦想。",
     "Icon": "My_Autumnsports_01_Trophy"
   },
   {
@@ -2101,8 +2101,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "阿拜多斯讲堂学员置物柜",
-    "Desc": "阿拜多斯学员的置物柜。内部的装饰是个人的自由。",
+    "Name": "阿拜多斯讲堂学生置物柜",
+    "Desc": "阿拜多斯学生的置物柜。内部的装饰是个人的自由。",
     "Icon": "My_Abydosclassroom_01_Cabinet_02"
   },
   {
@@ -2129,7 +2129,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "阿拜多斯讲堂挂钟",
-    "Desc": "设计简洁的讲堂挂钟。对午餐时间分秒必争的学员来说，这是相当重要的物品。",
+    "Desc": "设计简洁的讲堂挂钟。对午餐时间分秒必争的学生来说，这是相当重要的物品。",
     "Icon": "My_Abydosclassroom_01_Clock"
   },
   {
@@ -2192,7 +2192,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "阿拜多斯讲堂活动黑板",
-    "Desc": "可浏览讲堂活动的黑板。可看出学员们积极的一面。",
+    "Desc": "可浏览讲堂活动的黑板。可看出学生们积极的一面。",
     "Icon": "My_Abydosclassroom_01_Blackboard_03"
   },
   {
@@ -2201,7 +2201,7 @@
     "Category": "Furnitures",
     "SubCategory": "Closet",
     "Name": "阿拜多斯讲堂清洁工具箱",
-    "Desc": "清洁是学员的美德。阿拜多斯讲堂清洁工具箱里，需要的东西应有尽有。",
+    "Desc": "清洁是学生的美德。阿拜多斯讲堂清洁工具箱里，需要的东西应有尽有。",
     "Icon": "My_Abydosclassroom_01_Cabinet_01"
   },
   {
@@ -2273,7 +2273,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "阿拜多斯讲堂枪械架",
-    "Desc": "放有学员们最珍贵的宝物 - 枪械的架子。班上最耀眼的存在。",
+    "Desc": "放有学生们最珍贵的宝物 - 枪械的架子。班上最耀眼的存在。",
     "Icon": "My_Abydosclassroom_01_Gunstand"
   },
   {
@@ -2291,7 +2291,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "阿拜多斯讲堂老师的书桌",
-    "Desc": "指导学员的老师的桌子。摆满了学员们送的充满香气的花与信件。",
+    "Desc": "指导学生的老师的桌子。摆满了学生们送的充满香气的花与信件。",
     "Icon": "My_Abydosclassroom_01_Table_01"
   },
   {
@@ -2336,7 +2336,7 @@
     "Category": "Interiors",
     "SubCategory": "Background",
     "Name": "阿拜多斯讲堂背景",
-    "Desc": "充满学员时期浪漫与激情的讲堂背景。",
+    "Desc": "充满学生时期浪漫与激情的讲堂背景。",
     "Icon": "Abydosclassroombg"
   },
   {
@@ -2363,7 +2363,7 @@
     "Category": "Furnitures",
     "SubCategory": "Closet",
     "Name": "阿拜多斯讲堂书柜",
-    "Desc": "摆满可加强实战能力的秘籍的讲堂书柜。还有学员们的回忆。",
+    "Desc": "摆满可加强实战能力的秘籍的讲堂书柜。还有学生们的回忆。",
     "Icon": "My_Abydosclassroom_01_Bookshelf"
   },
   {
@@ -2390,7 +2390,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "阿拜多斯讲堂讲台",
-    "Desc": "受学员注目的讲台。虽然注视的目光相当多，但位子上的主人只有一个。",
+    "Desc": "受学生注目的讲台。虽然注视的目光相当多，但位子上的主人只有一个。",
     "Icon": "My_Abydosclassroom_01_Table_02"
   },
   {
@@ -2399,7 +2399,7 @@
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
     "Name": "阿拜多斯讲堂贩卖机",
-    "Desc": "满满装着吸引学员的饮料的贩卖机。老师偶尔也会使用。",
+    "Desc": "满满装着吸引学生的饮料的贩卖机。老师偶尔也会使用。",
     "Icon": "My_Abydosclassroom_01_Vendingmachine"
   },
   {
@@ -3362,7 +3362,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "购物中心简约水果展示架",
-    "Desc": "摆放着当季水果的水果展示架。只要靠近就能闻到甜甜的香味。",
+    "Desc": "摆放着当时水果的水果展示架。只要靠近就能闻到甜甜的香味。",
     "Icon": "My_Shoppingmall_01_Fruitstand_01"
   },
   {
@@ -3451,8 +3451,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Floor",
-    "Name": "购物中心高级大理石磁砖",
-    "Desc": "营造购物中心氛围的大理石磁砖。简洁却不失雅致。",
+    "Name": "购物中心高级大理石瓷砖",
+    "Desc": "营造购物中心氛围的大理石瓷砖。简洁却不失雅致。",
     "Icon": "My_Shoppingmall_01_Tile"
   },
   {
@@ -3577,7 +3577,7 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "歌赫娜式石造围栏",
+    "Name": "格黑娜式石造围栏",
     "Desc": "展现大胆的美感和细致浮雕的石造围栏。设置的瞬间就能感受到壮丽的气势。",
     "Icon": "My_Gehennaparty_01_Fence_01"
   },
@@ -3586,8 +3586,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "歌赫娜式旗帜",
-    "Desc": "令人感受到歌赫娜威严的旗帜。能让众人齐聚的场合更添光彩。",
+    "Name": "格黑娜式旗帜",
+    "Desc": "令人感受到格黑娜威严的旗帜。能让众人齐聚的场合更添光彩。",
     "Icon": "My_Gehennaparty_01_Flag_01"
   },
   {
@@ -3595,8 +3595,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "歌赫娜式豪华旗帜",
-    "Desc": "展现歌赫娜壮丽气魄的豪华旗帜。是需要凸显格调的场合不可或缺的物品。",
+    "Name": "格黑娜式豪华旗帜",
+    "Desc": "展现格黑娜壮丽气魄的豪华旗帜。是需要凸显格调的场合不可或缺的物品。",
     "Icon": "My_Gehennaparty_01_Flag_02"
   },
   {
@@ -3604,7 +3604,7 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "歌赫娜式木造隔板",
+    "Name": "格黑娜式木造隔板",
     "Desc": "凸显细腻雕刻的木造隔板。是华丽的派对会场用来区隔空间不可或缺的家具！",
     "Icon": "My_Gehennaparty_01_Partition_01"
   },
@@ -3640,7 +3640,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "歌赫娜式相框",
+    "Name": "格黑娜式相框",
     "Desc": "以华丽外框装饰的相框。优雅的派对上不可或缺的重要道具。",
     "Icon": "My_Gehennaparty_01_Wallacc_03"
   },
@@ -3650,7 +3650,7 @@
     "Category": "Furnitures",
     "SubCategory": "Closet",
     "Name": "名作书架",
-    "Desc": "点缀优雅的派对会场的书架。陈列着歌赫娜学员推荐的名作。",
+    "Desc": "点缀优雅的派对会场的书架。陈列着格黑娜学生推荐的名作。",
     "Icon": "My_Gehennaparty_01_Bookshelf_01"
   },
   {
@@ -3757,8 +3757,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Floor",
-    "Name": "豪华磁砖",
-    "Desc": "装点派对会场美丽地面的磁砖。",
+    "Name": "豪华瓷砖",
+    "Desc": "装点派对会场美丽地面的瓷砖。",
     "Icon": "My_Gehennaparty_01_Tile_20X20"
   },
   {
@@ -3847,7 +3847,7 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "三一原木收纳柜",
+    "Name": "圣三一原木收纳柜",
     "Desc": "突显高级原木材质的收纳柜。",
     "Icon": "My_Trinityclassroom_01_Cabinet_01"
   },
@@ -3856,8 +3856,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "做了修饰的三一原木收纳柜",
-    "Desc": "摆着花瓶和书籍的收纳柜。芳香、读书与聪明的收纳是三一的基本。",
+    "Name": "做了修饰的圣三一原木收纳柜",
+    "Desc": "摆着花瓶和书籍的收纳柜。芳香、读书与聪明的收纳是圣三一的基础。",
     "Icon": "My_Trinityclassroom_01_Cabinet_02"
   },
   {
@@ -3883,7 +3883,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "三一六角地毯",
+    "Name": "圣三一六角地毯",
     "Desc": "具有柔和感的六角形地毯。",
     "Icon": "My_Trinityclassroom_01_Carpet_03"
   },
@@ -3901,8 +3901,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "三一教室书桌",
-    "Desc": "三一教室的经典书桌组合。虽然在三一很常见，但从材料到收尾都很高级。",
+    "Name": "圣三一教室书桌",
+    "Desc": "圣三一教室的经典书桌组合。虽然在圣三一很常见，但从材料到收尾都很高级。",
     "Icon": "My_Trinityclassroom_01_Deskset_01"
   },
   {
@@ -3910,7 +3910,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "三一教室柱子",
+    "Name": "圣三一教室柱子",
     "Desc": "柱子上的高级垂直花纹营造出时尚的感觉。",
     "Icon": "My_Trinityclassroom_01_Pillar_01"
   },
@@ -3919,7 +3919,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "三一教室印花柱子",
+    "Name": "圣三一教室印花柱子",
     "Desc": "柱子上的细腻花纹很引人注目。感觉得到高级感。",
     "Icon": "My_Trinityclassroom_01_Pillar_02"
   },
@@ -3928,7 +3928,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "三一教室灯柱",
+    "Name": "圣三一教室灯柱",
     "Desc": "装有小灯的柱子。能以温暖的光照亮教室。",
     "Icon": "My_Trinityclassroom_01_Pillar_03"
   },
@@ -3937,8 +3937,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一教室黑板",
-    "Desc": "满是学员涂鸦的黑板。粉笔和麦克笔皆可随意挑选使用！",
+    "Name": "圣三一教室黑板",
+    "Desc": "满是成员涂鸦的黑板。粉笔和麦克笔皆可随意挑选使用！",
     "Icon": "My_Trinityclassroom_01_Blackboard_01"
   },
   {
@@ -3946,7 +3946,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "三一教室讲桌",
+    "Name": "圣三一教室讲桌",
     "Desc": "摆着教科书和教具的讲桌。适合高品位课程的高品位讲桌。",
     "Icon": "My_Trinityclassroom_01_Desk_02"
   },
@@ -3965,7 +3965,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "挂着背包的书桌",
-    "Desc": "挂着镶有三一校徽的皮革背包的书桌。感觉就算是恶作剧也不能打开。",
+    "Desc": "挂着镶有圣三一校徽的皮革背包的书桌。感觉就算是恶作剧也不能打开。",
     "Icon": "My_Trinityclassroom_01_Deskset_03"
   },
   {
@@ -3991,7 +3991,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一窗户隔板（单排）",
+    "Name": "圣三一窗户隔板（单排）",
     "Desc": "以细腻的木框为特征的扩张型隔板。让分隔的空间具有开放感。",
     "Icon": "My_Trinityclassroom_01_Partition_01"
   },
@@ -4000,7 +4000,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一窗户隔板（双排）",
+    "Name": "圣三一窗户隔板（双排）",
     "Desc": "以细腻的木框为特征的扩张型隔板。为分隔的空间增添开放感。",
     "Icon": "My_Trinityclassroom_01_Partition_02"
   },
@@ -4009,7 +4009,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一教室隔板（单排）",
+    "Name": "圣三一教室隔板（单排）",
     "Desc": "突显古色古香花纹的隔板。兼具实用性与优雅。",
     "Icon": "My_Trinityclassroom_01_Partition_03"
   },
@@ -4018,7 +4018,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一教室隔板（双排）",
+    "Name": "圣三一教室隔板（双排）",
     "Desc": "突显古色古香花纹的扩张型隔板。实用性与优雅倍增。",
     "Icon": "My_Trinityclassroom_01_Partition_04"
   },
@@ -4045,7 +4045,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "三一长椅",
+    "Name": "圣三一长椅",
     "Desc": "突显靠背设计的多人椅。椅垫非常柔软。",
     "Icon": "My_Trinityclassroom_01_Sofa_01"
   },
@@ -4054,8 +4054,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Background",
-    "Name": "三一教室背景",
-    "Desc": "能感受到兼具优雅及品味的三一氛围教室背景。",
+    "Name": "圣三一教室背景",
+    "Desc": "能感受到兼具优雅及品味的圣三一氛围教室背景。",
     "Icon": "Trinityclassroombg"
   },
   {
@@ -4063,8 +4063,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Wallpaper",
-    "Name": "三一教室墙壁",
-    "Desc": "以青绿色与古意盎然的花纹为特色三一壁纸。",
+    "Name": "圣三一教室墙壁",
+    "Desc": "以青绿色与古意盎然的花纹为特色圣三一壁纸。",
     "Icon": "My_Trinityclassroom_01_Wall_Right"
   },
   {
@@ -4072,7 +4072,7 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Floor",
-    "Name": "三一教室地板",
+    "Name": "圣三一教室地板",
     "Desc": "具有沉稳的色调与印花的地板。使用了高级材料。",
     "Icon": "My_Trinityclassroom_01_Tile"
   },
@@ -4081,8 +4081,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "三一大型书柜",
-    "Desc": "摆放着历史悠久的三一古书的大型书柜。大部分的学员连一页都看不下去。",
+    "Name": "圣三一大型书柜",
+    "Desc": "摆放着历史悠久的圣三一古书的大型书柜。大部分的成员连一页都看不下去。",
     "Icon": "My_Trinityclassroom_01_Bookshelf_01"
   },
   {
@@ -4099,7 +4099,7 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "三一中型书柜",
+    "Name": "圣三一中型书柜",
     "Desc": "收纳着经典烛台与各种书籍的中型书柜。可以点上蜡烛专心读书。",
     "Icon": "My_Trinityclassroom_01_Desk_01"
   },
@@ -4108,8 +4108,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一教室门",
-    "Desc": "三一教室的门。华丽的金箔装饰和清爽的青绿色搭配令人印象深刻。",
+    "Name": "圣三一教室门",
+    "Desc": "圣三一教室的门。华丽的金箔装饰和清爽的青绿色搭配令人印象深刻。",
     "Icon": "My_Trinityclassroom_01_Door_01"
   },
   {
@@ -4117,8 +4117,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一枪械架",
-    "Desc": "圣三一学员保管枪械的木制枪械架。与暗沉的木材形成对比的五颜六色的枪令人印象深刻。",
+    "Name": "圣三一枪械架",
+    "Desc": "圣三一成员保管枪械的木制枪械架。与暗沉的木材形成对比的五颜六色的枪令人印象深刻。",
     "Icon": "My_Trinityclassroom_01_Weaponstand_01"
   },
   {
@@ -4126,7 +4126,7 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "三一教室窗户",
+    "Name": "圣三一教室窗户",
     "Desc": "挂着优雅青绿色窗帘的窗户。总是维护得干干净净。",
     "Icon": "My_Trinityclassroom_01_Window_01"
   },
@@ -4145,7 +4145,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "宽叶椰子树",
-    "Desc": "两株叶面宽阔的椰子树。让人仿佛置身于海边。",
+    "Desc": "两株叶面宽阔的椰子树。让人彷彿置身于海边。",
     "Icon": "My_Ariussummer_01_Garden_01"
   },
   {
@@ -4199,7 +4199,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "太阳灯饰",
-    "Desc": "可彻底将四周照亮的太阳造型灯饰。",
+    "Desc": "可澈底将四周照亮的太阳造型灯饰。",
     "Icon": "My_Ariussummer_01_Wallacc_01"
   },
   {
@@ -4225,8 +4225,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "夏日庆典看板",
-    "Desc": "夏日庆典宣传看板。以萤幕和气球装饰而成。",
+    "Name": "夏日庆典广告牌",
+    "Desc": "夏日庆典宣传广告牌。以荧幕和气球装饰而成。",
     "Icon": "My_Ariussummer_01_Banner_01"
   },
   {
@@ -4307,7 +4307,7 @@
     "Category": "Interiors",
     "SubCategory": "Wallpaper",
     "Name": "夜海装饰墙壁",
-    "Desc": "以被海浪轻拂的夜海为主题的墙壁。看着这面墙壁，就仿佛在看着一座神秘的海岸。",
+    "Desc": "以被海浪轻拂的夜海为主题的墙壁。看着这面墙壁，就彷彿在看着一座神祕的海岸。",
     "Icon": "My_Ariussummer_01_Wall_Right_1X2"
   },
   {
@@ -4316,7 +4316,7 @@
     "Category": "Interiors",
     "SubCategory": "Floor",
     "Name": "海边的沙滩地板",
-    "Desc": "以细沙构成的地板。让人有种仿佛走在海边的错觉。",
+    "Desc": "以细沙构成的地板。让人有种彷彿走在海边的错觉。",
     "Icon": "My_Ariussummer_01_Tile_2X2"
   },
   {
@@ -4343,7 +4343,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "冰淇淋车",
-    "Desc": "经典的海边餐车。据说淋上巧克力酱的霜淇淋最为热销。",
+    "Desc": "经典的海边餐车。据说淋上巧克力酱的冰淇淋最为热销。",
     "Icon": "My_Ariussummer_01_Icecreamcar_01"
   },
   {
@@ -4703,7 +4703,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "迎宾茶几",
-    "Desc": "主要用来招待顾客的茶几。桌面很宽，可以摆上满满的零食和茶杯。",
+    "Desc": "主要用来招待客人的茶几。桌面很宽，可以摆上满满的零食和茶杯。",
     "Icon": "My_Hyakkiyako_01_Cusiontable_01"
   },
   {
@@ -4748,7 +4748,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "圆角交谊厅长椅",
-    "Desc": "曲线华丽，引人注目的长椅。适合让前来交谊厅拜访的学员们休息。",
+    "Desc": "曲线华丽，引人注目的长椅。适合让前来交谊厅拜访的成员们休息。",
     "Icon": "My_Millenniumlounge_01_Bench_01"
   },
   {
@@ -4757,7 +4757,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "多人用交谊厅长椅",
-    "Desc": "可以让几个人同时坐上去的休憩长椅。虽然看起来硬邦邦，但实际坐起来比想像中舒适。",
+    "Desc": "可以让几个人同时坐上去的休憩长椅。虽然看起来硬邦邦，但实际坐起来比想象中舒适。",
     "Icon": "My_Millenniumlounge_01_Bench_02"
   },
   {
@@ -4784,7 +4784,7 @@
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
     "Name": "几何学图案地毯",
-    "Desc": "刻有几何图案的地毯。据说能为无数的千禧年学员带来灵感。",
+    "Desc": "刻有几何图案的地毯。据说能为无数的千禧年成员带来灵感。",
     "Icon": "My_Millenniumlounge_01_Carpet_03"
   },
   {
@@ -4856,7 +4856,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "访客体验型显示器",
-    "Desc": "为前来交谊厅拜访的学员们提供各种资讯的显示器。使用触控萤幕操作。",
+    "Desc": "为前来交谊厅拜访的成员们提供各种信息的显示器。使用触控荧幕操作。",
     "Icon": "My_Millenniumlounge_01_Display_03"
   },
   {
@@ -4955,7 +4955,7 @@
     "Category": "Furnitures",
     "SubCategory": "Table",
     "Name": "放置平板的圆形桌子",
-    "Desc": "放置着触控萤幕平板的圆形桌子。总觉得在这里工作会很顺利。",
+    "Desc": "放置着触控荧幕平板的圆形桌子。总觉得在这里工作会很顺利。",
     "Icon": "My_Millenniumlounge_01_Table_02"
   },
   {
@@ -4972,7 +4972,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年A型突出型柱子",
+    "Name": "千禧年A型突出柱",
     "Desc": "能展现出千禧年氛围的柱子。顶部的照明是其特色。",
     "Icon": "My_Millenniumlounge_01_Wallacc_01"
   },
@@ -4981,7 +4981,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年B型突出型柱子",
+    "Name": "千禧年B型突出柱",
     "Desc": "能展现出千禧年氛围的柱子。简洁的感觉令人印象深刻。",
     "Icon": "My_Millenniumlounge_01_Wallacc_02"
   },
@@ -4990,7 +4990,7 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "千禧年C型突出型柱子",
+    "Name": "千禧年C型突出柱",
     "Desc": "能展现出千禧年氛围的柱子。纵向延伸的长条灯光是其亮点。",
     "Icon": "My_Millenniumlounge_01_Wallacc_03"
   },
@@ -5018,7 +5018,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "青绿色千禧年椅子",
-    "Desc": "圆形棱角的椅子。青绿色带给人一种清新感。",
+    "Desc": "圆形稜角的椅子。青绿色带给人一种清新感。",
     "Icon": "My_Millenniumlounge_01_Chair_01"
   },
   {
@@ -5027,7 +5027,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "蓝色千禧年椅子",
-    "Desc": "圆形棱角的椅子。深蓝色带给人一种舒爽感。",
+    "Desc": "圆形稜角的椅子。深蓝色带给人一种舒爽感。",
     "Icon": "My_Millenniumlounge_01_Chair_02"
   },
   {
@@ -5036,7 +5036,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "藏青色千禧年椅子",
-    "Desc": "圆形棱角的椅子。使用能给人留下深刻印象的藏青色。",
+    "Desc": "圆形稜角的椅子。使用能给人留下深刻印象的藏青色。",
     "Icon": "My_Millenniumlounge_01_Chair_03"
   },
   {
@@ -5099,7 +5099,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "千禧年巨塔交谊厅大门",
-    "Desc": "可进出千禧年巨塔交谊厅的大门。偶尔会被骇客入侵，导致每次有人经过时都播放嘈杂的音乐。",
+    "Desc": "可进出千禧年巨塔交谊厅的大门。偶尔会被黑客入侵，导致每次有人经过时都播放嘈杂的音乐。",
     "Icon": "My_Millenniumlounge_01_Gate_01"
   },
   {
@@ -5198,7 +5198,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "千禧年全息投影地图",
-    "Desc": "显示千禧年学院全景的全息投影装置。由于画面是即时更新的，对掌握交通状况也很有用！",
+    "Desc": "显示千禧年学园全景的全息投影装置。由于画面是实时更新的，对掌握交通状况也很有用！",
     "Icon": "My_Millenniumlounge_01_Diorama_01"
   },
   {
@@ -5234,7 +5234,7 @@
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
     "Name": "交谊厅导览用机器人",
-    "Desc": "在交谊厅各处提供引导的机器人。勤奋的形象和丰富的表情受到学员们的喜爱。",
+    "Desc": "在交谊厅各处提供引导的机器人。勤奋的形象和丰富的表情受到成员们的喜爱。",
     "Icon": "My_Millenniumlounge_01_Robot_02"
   },
   {
@@ -5260,8 +5260,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "海兰德发车信息板",
-    "Desc": "显示下一班列车目的地和发车时间的信息板。由于容易损坏，必须定期检修。",
+    "Name": "海兰德列车导览牌",
+    "Desc": "指示下一站的列车内导览牌。经常故障，因此定期检修是必须的。",
     "Icon": "My_Highlander_01_Ad_01"
   },
   {
@@ -5270,7 +5270,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "海兰德候车室长椅",
-    "Desc": "可供多人就座的长椅。躺卧或岔开腿坐都是违反礼仪的行为！",
+    "Desc": "可供多人同时坐下的长椅。虽然偶尔有人会躺下，但请注意公共礼仪！",
     "Icon": "My_Highlander_01_Bench_01"
   },
   {
@@ -5278,8 +5278,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "海兰德盲道砖",
-    "Desc": "通过脚感就能知道行走路线的铺设物。根据海兰德规定必须设置。",
+    "Name": "海兰德导盲砖",
+    "Desc": "为交通弱势族群设置的便利设施。依高地规定，必须安装。",
     "Icon": "My_Highlander_01_Brailleblock_01"
   },
   {
@@ -5287,8 +5287,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "海兰德普通储物柜",
-    "Desc": "支付信用点后可暂时存放物品的储物柜。使用方便。",
+    "Name": "海兰德一般置物柜",
+    "Desc": "可支付信用货币后暂时寄放物品的置物柜，使用方便。",
     "Icon": "My_Highlander_01_Cabinet_01"
   },
   {
@@ -5296,8 +5296,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Closet",
-    "Name": "海兰德高级储物柜",
-    "Desc": "比普通储物柜价格更高，区别仅在于涂装不同。但奇怪的是使用率反而更高……",
+    "Name": "海兰德高级置物柜",
+    "Desc": "虽然比一般置物柜贵，但唯一的差别是涂装。不知为何，使用率却更高。",
     "Icon": "My_Highlander_01_Cabinet_02"
   },
   {
@@ -5305,8 +5305,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "海兰德普通地毯",
-    "Desc": "沉稳的棕色地毯。常见于普通车厢。",
+    "Name": "高地基本型地毯",
+    "Desc": "带有柔和棕色调的地毯，常见于一般车厢。",
     "Icon": "My_Highlander_01_Carpet_01"
   },
   {
@@ -5314,8 +5314,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "FloorDecoration",
-    "Name": "海兰德高级地毯",
-    "Desc": "带有精美刺绣的高档地毯。多用于高级车厢。",
+    "Name": "海兰德高级型地毯",
+    "Desc": "缀有精致刺绣的蓝色地毯，使用于高级车厢。",
     "Icon": "My_Highlander_01_Carpet_02"
   },
   {
@@ -5323,8 +5323,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德绳索隔离带",
-    "Desc": "用于维持排队秩序和乘客安全的绳索隔离带。但似乎很多人会无视并跨过去……",
+    "Name": "高地安全栅栏",
+    "Desc": "为防止乘客拥挤而设置的安全栅栏，但仍有人会无视直接跳过……",
     "Icon": "My_Highlander_01_Fence_02"
   },
   {
@@ -5332,8 +5332,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德玻璃围栏",
-    "Desc": "以玻璃幕墙为特色的精致设计。主要设置在高楼层，提升美观度。",
+    "Name": "海兰德全玻璃围栏",
+    "Desc": "由整面玻璃构成，视野良好，常设于高楼层。",
     "Icon": "My_Highlander_01_Fence_03"
   },
   {
@@ -5341,8 +5341,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德车站平面图",
-    "Desc": "标注车站设施和轨道布局的地图。不知何时被人砸出了裂纹。",
+    "Name": "海兰德车站导览图",
+    "Desc": "为乘客提供位置指引的设施，也是最常故障的设备之一。",
     "Icon": "My_Highlander_01_Informationboard_01"
   },
   {
@@ -5351,7 +5351,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "海兰德壁挂灯",
-    "Desc": "车站内使用的壁挂式灯具。柔和灯光营造良好氛围。",
+    "Desc": "挂在车站墙上的壁灯，柔和的光线营造出不错的氛围。",
     "Icon": "My_Highlander_01_Light_01"
   },
   {
@@ -5359,8 +5359,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德列车墙面隔断A型",
-    "Desc": "以列车车厢为主题制作的隔断墙。窗户不能开关，但别有一番趣味。",
+    "Name": "海兰德列车壁面隔板A",
+    "Desc": "以列车车体为主题制作的隔板。虽然窗户无法开关，但别有一番风味。",
     "Icon": "My_Highlander_01_Partition_01"
   },
   {
@@ -5369,7 +5369,7 @@
     "Category": "Furnitures",
     "SubCategory": "Chair",
     "Name": "海兰德乘客座椅",
-    "Desc": "高速列车的座椅。但因为是廉价品，久坐会腰疼。",
+    "Desc": "高速列车的乘客座椅。因为是基本款，久坐会腰酸。",
     "Icon": "My_Highlander_01_Seat_01"
   },
   {
@@ -5377,8 +5377,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德电视广告面板",
-    "Desc": "车站内设置的电视广告面板。据说每个车站的电视广告申请方式都不同。",
+    "Name": "海兰德广告看板",
+    "Desc": "设置于车站内的户外广告看板。申请方式依各站不同。",
     "Icon": "My_Highlander_01_Signboard_01"
   },
   {
@@ -5386,8 +5386,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "海兰德铁道学院标志",
-    "Desc": "以海兰德铁道学院标志设计的墙面装饰。仅在海兰德管辖的车站展示。",
+    "Name": "海兰德铁道学园标志",
+    "Desc": "海兰德的象征性墙面装饰物，仅设于海兰德所属车站。",
     "Icon": "My_Highlander_01_Symbol_01"
   },
   {
@@ -5395,8 +5395,8 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "海兰德餐车餐桌",
-    "Desc": "餐车用餐桌。非常适合享用便当等餐食。",
+    "Name": "海兰德餐车桌",
+    "Desc": "设置于列车餐车的桌子，可与伙伴共享便当等美食。",
     "Icon": "My_Highlander_01_Table_02"
   },
   {
@@ -5404,8 +5404,8 @@
     "Rarity": "R",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "海兰德铁道学院标志墙饰",
-    "Desc": "以校名设计的墙面装饰。常被不良学员破坏导致文字缺损。",
+    "Name": "海兰德铁道学园文字标志",
+    "Desc": "以文字形式呈现“海兰德”的墙面装饰。有时会被不良学生恶搞，导致字母缺失或重排。",
     "Icon": "My_Highlander_01_Word_01"
   },
   {
@@ -5413,8 +5413,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "海兰德餐车销售柜台",
-    "Desc": "可购买便当和饮料的柜台。总是很受欢迎。",
+    "Name": "海兰德餐车点餐桌",
+    "Desc": "可在此点选便当与饮料等，是人气满点的设施。",
     "Icon": "My_Highlander_01_Bar_01"
   },
   {
@@ -5422,8 +5422,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德高级绳索隔离带",
-    "Desc": "为保障乘客安全设置的高档绳索隔离带。但常被用来练习跳高或跳杆舞……",
+    "Name": "海兰德高级安全栅栏",
+    "Desc": "为防止乘客靠近而设置的安全栅栏，但常被当作跳高或凌波舞的道具。",
     "Icon": "My_Highlander_01_Fence_01"
   },
   {
@@ -5431,8 +5431,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德列车墙面隔断B型",
-    "Desc": "以列车车厢为主题制作的隔断墙。比A型窗户更厚。",
+    "Name": "海兰德列车壁面隔板B",
+    "Desc": "同样以列车车体为主题制作的隔板，窗户比A型更厚。",
     "Icon": "My_Highlander_01_Partition_02"
   },
   {
@@ -5440,8 +5440,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德拱形立柱",
-    "Desc": "海兰德车站内的立柱。优美的拱形造型彰显传统。",
+    "Name": "海兰德车站柱子",
+    "Desc": "海兰德车站常见的柱子，拱形设计十分美观。",
     "Icon": "My_Highlander_01_Pillar_01"
   },
   {
@@ -5449,8 +5449,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Chair",
-    "Name": "海兰德特等席座椅",
-    "Desc": "特等席专用座椅。设计出色，舒适度也广受好评。",
+    "Name": "海兰德头等舱座椅",
+    "Desc": "高速列车的头等舱座椅，舒适度广受好评。",
     "Icon": "My_Highlander_01_Seat_02"
   },
   {
@@ -5458,8 +5458,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德车站指示牌",
-    "Desc": "车站内的方向指示牌。经典设计深受乘客喜爱。",
+    "Name": "海兰德方向指示牌",
+    "Desc": "指引各方向的标示牌，设计复古，广受好评。",
     "Icon": "My_Highlander_01_Signboard_02"
   },
   {
@@ -5467,8 +5467,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德行李箱样品",
-    "Desc": "海兰德制作销售的行李箱。主打轻便耐用，但实际如何……",
+    "Name": "海兰德旅行箱样品",
+    "Desc": "海兰德自产自销的旅行箱。据说轻巧又坚固，但真的是如此吗？",
     "Icon": "My_Highlander_01_Suitcase_01"
   },
   {
@@ -5476,8 +5476,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "海兰德高级餐车餐桌",
-    "Desc": "特等席专用餐车餐桌。甚至能点套餐！",
+    "Name": "海兰德高级餐车桌",
+    "Desc": "专为头等舱乘客设置的餐车桌，甚至可点选套餐料理！",
     "Icon": "My_Highlander_01_Table_01"
   },
   {
@@ -5485,8 +5485,8 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德车内销售推车",
-    "Desc": "列车内销售用的推车。为乘客带来愉快时光。",
+    "Name": "海兰德列车零食车",
+    "Desc": "在列车内巡回贩售各种零食的小车，总是受到欢迎。",
     "Icon": "My_Highlander_01_Trolley_01"
   },
   {
@@ -5494,8 +5494,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
-    "Name": "海兰德车内自动售货机",
-    "Desc": "列车内使用的自动售货机。价格略高。",
+    "Name": "海兰德列车贩卖机",
+    "Desc": "可在列车内轻松购买饮料的自动贩卖机。价格可能稍高？",
     "Icon": "My_Highlander_01_Vendingmachine_01"
   },
   {
@@ -5503,8 +5503,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "海兰德主题窗",
-    "Desc": "透过窗户欣赏风景。随时随地感受列车旅行氛围。",
+    "Name": "海兰德主题窗户",
+    "Desc": "欣赏窗外飞快掠过的风景，感受搭乘列车的氛围。",
     "Icon": "My_Highlander_01_Window_01"
   },
   {
@@ -5512,8 +5512,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Wallpaper",
-    "Name": "海兰德墙面",
-    "Desc": "醒目海兰德配色的墙面。古典与现代感并存的特色配色。",
+    "Name": "海兰德车站墙柱",
+    "Desc": "海兰德特有色调的墙面柱子，兼具古典与清新感。",
     "Icon": "My_Highlander_01_Wall"
   },
   {
@@ -5521,8 +5521,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Floor",
-    "Name": "海兰德地板",
-    "Desc": "方格图案的地板。非常适合摆放物品。",
+    "Name": "海兰德车站地砖",
+    "Desc": "方格状的整齐地砖，方便对齐与铺设。",
     "Icon": "My_Highlander_01_Tile_20X20"
   },
   {
@@ -5530,8 +5530,8 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Background",
-    "Name": "海兰德背景",
-    "Desc": "让人仿佛置身优雅列车旅行的舒缓背景。",
+    "Name": "海兰德风格背景",
+    "Desc": "给人稳定感的背景，仿佛置身列车之中，令人感到安心。",
     "Icon": "Highlanderbg"
   },
   {
@@ -5539,8 +5539,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德钟楼",
-    "Desc": "海兰德中央车站的标志性建筑。着名的约会集合地点。",
+    "Name": "海兰德车站钟塔",
+    "Desc": "海兰德中央车站的象征，常被用作会面点。",
     "Icon": "My_Highlander_01_Clocktower_01"
   },
   {
@@ -5548,8 +5548,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "等身大吉祥物·修普（站务员）",
-    "Desc": "海兰德吉祥物玩偶“修普”。常被用作拍照景点。",
+    "Name": "看家吉祥物“咻啵”人形立牌（站务员）",
+    "Desc": "穿着站务员服装的“咻啵”人偶。站在他旁边可能就是个不错的拍照景点……",
     "Icon": "My_Highlander_01_Mascot_01"
   },
   {
@@ -5557,8 +5557,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "等身大吉祥物·修普（CCC）",
-    "Desc": "海兰德吉祥物玩偶“修普”。偶尔被不良学员当作射击靶子……",
+    "Name": "看家吉祥物“咻啵”人形立牌（CCC）",
+    "Desc": "穿着CCC制服的“咻啵”人偶。偶尔会成为不良学生恶作剧的目标。加油吧，咻啵！",
     "Icon": "My_Highlander_01_Mascot_02"
   },
   {
@@ -5566,8 +5566,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德问讯台",
-    "Desc": "无人服务台。放有宣传册等资料。",
+    "Name": "海兰德资讯台",
+    "Desc": "据说能提供各种导览资讯，但大多数时间是无人运作。从摆放的小册子中找寻意义吧。",
     "Icon": "My_Highlander_01_Newsstand_01"
   },
   {
@@ -5575,8 +5575,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德车站便利店",
-    "Desc": "海兰德车站内的便利店。最受欢迎的还是零食。",
+    "Name": "海兰德车站便利商店",
+    "Desc": "在海兰德车站内营运的便利商店。各种零食一向是人气商品。",
     "Icon": "My_Highlander_01_Newsstand_02"
   },
   {
@@ -5585,7 +5585,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "海兰德车辆基地",
-    "Desc": "用于停放列车的车辆基地。因危险禁止入内。",
+    "Desc": "用来停放列车的车库。内部危险，请勿进入。",
     "Icon": "My_Highlander_01_Platform_01"
   },
   {
@@ -5593,8 +5593,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "哔哔噗噗！迷你列车套装",
-    "Desc": "细节精致的轨道和列车模型。只要有空间就能当室内游乐设施。",
+    "Name": "咻咻迷你列车模型",
+    "Desc": "精致打造的迷你轨道与列车。只要空间足够，也能作为室内游乐设施使用。",
     "Icon": "My_Highlander_01_Toytrain"
   },
   {
@@ -5602,8 +5602,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "海兰德自动检票机",
-    "Desc": "因有人翻越逃票，车内检票成为必须。还常被不良学员踢坏，故障率高。",
+    "Name": "海兰德列车自动验票口",
+    "Desc": "自动验票机。不付费的乘客会跳过这里，因此车内补票是必要的。有时会被不良学生踢坏。",
     "Icon": "My_Event079_Ticketbarrier"
   },
   {
@@ -5702,7 +5702,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "古典书车",
-    "Desc": "运书用手推车。偏爱纸质书胜过电子书的崔尼蒂，图书委员们常推着它匆忙奔走。",
+    "Desc": "运书用手推车。偏爱纸质书胜过电子书的圣三一，图书委员们常推着它匆忙奔走。",
     "Icon": "My_Teaparty_01_Bookstand_02"
   },
   {
@@ -5719,7 +5719,7 @@
     "Rarity": "R",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一学院式木栅栏",
+    "Name": "圣三一学院式木栅栏",
     "Desc": "整齐优美的木制围栏。含蓄设计流露的美学反而更显华贵。",
     "Icon": "My_Teaparty_01_Fence_01"
   },
@@ -5756,7 +5756,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "黄铜花纹台灯",
-    "Desc": "经典花卉纹样的台灯。在崔尼蒂连灯具都毫不马虎。",
+    "Desc": "经典花卉纹样的台灯。在圣三一连灯具都毫不马虎。",
     "Icon": "My_Teaparty_01_Lamp_01"
   },
   {
@@ -5764,7 +5764,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "三一学院多人沙发",
+    "Name": "圣三一学院多人沙发",
     "Desc": "高档面料制成的多人沙发。注重造型完成度，坐感稍硬。",
     "Icon": "My_Teaparty_01_Sofatable_02"
   },
@@ -5791,7 +5791,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "翻倒的箱型桌\n\n（注：部分家具名称根据游戏内常用译法进行了调整，如\"トリニティ\"统一译为\"三一学院\"）",
+    "Name": "翻倒的箱型桌",
     "Desc": "翻倒后棋子散落一地的桌子。必须有人来收拾。",
     "Icon": "My_Teaparty_01_Table_03"
   },
@@ -5845,7 +5845,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一学院式围墙",
+    "Name": "圣三一学院式围墙",
     "Desc": "灵感源自古代建筑风格的精致围墙。拱形结构营造出稳重感。",
     "Icon": "My_Teaparty_01_Partition_01"
   },
@@ -5854,7 +5854,7 @@
     "Rarity": "SR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一学院式拱形门廊",
+    "Name": "圣三一学院式拱形门廊",
     "Desc": "灵感源自古代建筑风格的典雅拱门。每次穿过都令人心生庄严。",
     "Icon": "My_Teaparty_01_Partition_02"
   },
@@ -5863,8 +5863,8 @@
     "Rarity": "SR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "三一学院式曲线立柱",
-    "Desc": "矗立于崔尼蒂校园各处的立柱。白底金饰，典雅而华丽。",
+    "Name": "圣三一学院式曲线立柱",
+    "Desc": "矗立于圣三一校园各处的立柱。白底金饰，典雅而华丽。",
     "Icon": "My_Teaparty_01_Pillar_01"
   },
   {
@@ -5917,7 +5917,7 @@
     "Rarity": "SR",
     "Category": "Interiors",
     "SubCategory": "Background",
-    "Name": "三一学院茶话会背景",
+    "Name": "圣三一学院茶话会背景",
     "Desc": "色彩和谐优美的背景墙。绝妙的配色平衡令人叹服。",
     "Icon": "Teapartybg"
   },
@@ -5935,7 +5935,7 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "三一学院式开合壁炉",
+    "Name": "圣三一学院式开合壁炉",
     "Desc": "装饰性开合式壁炉。虽无实用价值，但其美学设计吸引众多目光。",
     "Icon": "My_Teaparty_01_Fireplace_01"
   },
@@ -5953,7 +5953,7 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "三一学院式水晶长廊",
+    "Name": "圣三一学院式水晶长廊",
     "Desc": "玻璃装饰的华丽走廊。仅是穿行其间便是视觉享受。",
     "Icon": "My_Teaparty_01_Pillar_02"
   },
@@ -5980,7 +5980,7 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
-    "Name": "三一学院竖长窗",
+    "Name": "圣三一学院竖长窗",
     "Desc": "美学优先于功能性的窗户。易积灰结构需每日清洁维护。",
     "Icon": "My_Teaparty_01_Window_01"
   },
@@ -5990,7 +5990,7 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "茶话会大型展示厅",
-    "Desc": "饱览崔尼蒂全景的观景廊。能欣赏此景本身便是种特权。",
+    "Desc": "饱览圣三一全景的观景廊。能欣赏此景本身便是种特权。",
     "Icon": "My_Teaparty_01_Window_02"
   },
   {
@@ -5999,14 +5999,14 @@
     "Category": "Decorations",
     "SubCategory": "WallDecoration",
     "Name": "茶话会小型展示厅",
-    "Desc": "映照崔尼蒂风光的画廊。眺望时总让人心旷神怡。",
+    "Desc": "映照圣三一风光的画廊。眺望时总让人心旷神怡。",
     "Icon": "My_Teaparty_01_Window_03"
   },
   {
     "Id": 100000,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（野外战）青铜奖杯",
     "Desc": "比纳（野外战）的青铜奖杯",
     "Icon": "My_Trophy_Binah_Outdoor_Bronze"
@@ -6014,8 +6014,8 @@
   {
     "Id": 100001,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（野外战）白银奖杯",
     "Desc": "比纳（野外战）的白银奖杯",
     "Icon": "My_Trophy_Binah_Outdoor_Silver"
@@ -6023,8 +6023,8 @@
   {
     "Id": 100002,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（野外战）黄金奖杯",
     "Desc": "比纳（野外战）的黄金奖杯",
     "Icon": "My_Trophy_Binah_Outdoor_Gold"
@@ -6032,8 +6032,8 @@
   {
     "Id": 100003,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（野外战）铂金奖杯",
     "Desc": "比纳（野外战）的铂金奖杯",
     "Icon": "My_Trophy_Binah_Outdoor_Platinum"
@@ -6041,8 +6041,8 @@
   {
     "Id": 100010,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（室内战）青铜奖杯",
     "Desc": "比纳（室内战）的青铜奖杯",
     "Icon": "My_Trophy_Binah_Indoor_Bronze"
@@ -6050,8 +6050,8 @@
   {
     "Id": 100011,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（室内战）白银奖杯",
     "Desc": "比纳（室内战）的白银奖杯",
     "Icon": "My_Trophy_Binah_Indoor_Silver"
@@ -6059,8 +6059,8 @@
   {
     "Id": 100012,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（室内战）黄金奖杯",
     "Desc": "比纳（室内战）的黄金奖杯",
     "Icon": "My_Trophy_Binah_Indoor_Gold"
@@ -6068,8 +6068,8 @@
   {
     "Id": 100013,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（室内战）铂金奖杯",
     "Desc": "比纳（室内战）的铂金奖杯",
     "Icon": "My_Trophy_Binah_Indoor_Platinum"
@@ -6077,8 +6077,8 @@
   {
     "Id": 100020,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（街区战）青铜奖杯",
     "Desc": "比纳（街区战）的青铜奖杯",
     "Icon": "My_Trophy_Binah_City_Bronze"
@@ -6086,8 +6086,8 @@
   {
     "Id": 100021,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（街区战）白银奖杯",
     "Desc": "比纳（街区战）的白银奖杯",
     "Icon": "My_Trophy_Binah_City_Silver"
@@ -6095,8 +6095,8 @@
   {
     "Id": 100022,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（街区战）黄金奖杯",
     "Desc": "比纳（街区战）的黄金奖杯",
     "Icon": "My_Trophy_Binah_City_Gold"
@@ -6104,8 +6104,8 @@
   {
     "Id": 100023,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "比纳（街区战）铂金奖杯",
     "Desc": "比纳（街区战）的铂金奖杯",
     "Icon": "My_Trophy_Binah_City_Platinum"
@@ -6113,8 +6113,8 @@
   {
     "Id": 100100,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（野外战）青铜奖杯",
     "Desc": "切赛德（野外战）的青铜奖杯",
     "Icon": "My_Trophy_Chesed_Outdoor_Bronze"
@@ -6122,8 +6122,8 @@
   {
     "Id": 100101,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（野外战）白银奖杯",
     "Desc": "切赛德（野外战）的白银奖杯",
     "Icon": "My_Trophy_Chesed_Outdoor_Silver"
@@ -6131,8 +6131,8 @@
   {
     "Id": 100102,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（野外战）黄金奖杯",
     "Desc": "切赛德（野外战）的黄金奖杯",
     "Icon": "My_Trophy_Chesed_Outdoor_Gold"
@@ -6140,8 +6140,8 @@
   {
     "Id": 100103,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（野外战）铂金奖杯",
     "Desc": "切赛德（野外战）的铂金奖杯",
     "Icon": "My_Trophy_Chesed_Outdoor_Platinum"
@@ -6149,8 +6149,8 @@
   {
     "Id": 100110,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（室内战）青铜奖杯",
     "Desc": "切赛德（室内战）的青铜奖杯",
     "Icon": "My_Trophy_Chesed_Indoor_Bronze"
@@ -6158,8 +6158,8 @@
   {
     "Id": 100111,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（室内战）白银奖杯",
     "Desc": "切赛德（室内战）的白银奖杯",
     "Icon": "My_Trophy_Chesed_Indoor_Silver"
@@ -6167,8 +6167,8 @@
   {
     "Id": 100112,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（室内战）黄金奖杯",
     "Desc": "切赛德（室内战）的黄金奖杯",
     "Icon": "My_Trophy_Chesed_Indoor_Gold"
@@ -6176,8 +6176,8 @@
   {
     "Id": 100113,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（室内战）铂金奖杯",
     "Desc": "切赛德（室内战）的铂金奖杯",
     "Icon": "My_Trophy_Chesed_Indoor_Platinum"
@@ -6185,8 +6185,8 @@
   {
     "Id": 100120,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（街区战）青铜奖杯",
     "Desc": "切赛德（街区战）的青铜奖杯",
     "Icon": "My_Trophy_Chesed_City_Bronze"
@@ -6194,8 +6194,8 @@
   {
     "Id": 100121,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（街区战）白银奖杯",
     "Desc": "切赛德（街区战）的白银奖杯",
     "Icon": "My_Trophy_Chesed_City_Silver"
@@ -6203,8 +6203,8 @@
   {
     "Id": 100122,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（街区战）黄金奖杯",
     "Desc": "切赛德（街区战）的黄金奖杯",
     "Icon": "My_Trophy_Chesed_City_Gold"
@@ -6212,8 +6212,8 @@
   {
     "Id": 100123,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "切赛德（街区战）铂金奖杯",
     "Desc": "切赛德（街区战）的铂金奖杯",
     "Icon": "My_Trophy_Chesed_City_Platinum"
@@ -6221,8 +6221,8 @@
   {
     "Id": 100200,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（野外战）青铜奖杯",
     "Desc": "白&黑（野外战）的青铜奖杯",
     "Icon": "My_Trophy_Shirokuro_Outdoor_Bronze"
@@ -6230,8 +6230,8 @@
   {
     "Id": 100201,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（野外战）白银奖杯",
     "Desc": "白&黑（野外战）的白银奖杯",
     "Icon": "My_Trophy_Shirokuro_Outdoor_Silver"
@@ -6239,8 +6239,8 @@
   {
     "Id": 100202,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（野外战）黄金奖杯",
     "Desc": "白&黑（野外战）的黄金奖杯",
     "Icon": "My_Trophy_Shirokuro_Outdoor_Gold"
@@ -6248,8 +6248,8 @@
   {
     "Id": 100203,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（野外战）铂金奖杯",
     "Desc": "白&黑（野外战）的铂金奖杯",
     "Icon": "My_Trophy_Shirokuro_Outdoor_Platinum"
@@ -6257,8 +6257,8 @@
   {
     "Id": 100210,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（室内战）青铜奖杯",
     "Desc": "白&黑（室内战）的青铜奖杯",
     "Icon": "My_Trophy_Shirokuro_Indoor_Bronze"
@@ -6266,8 +6266,8 @@
   {
     "Id": 100211,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（室内战）白银奖杯",
     "Desc": "白&黑（室内战）的白银奖杯",
     "Icon": "My_Trophy_Shirokuro_Indoor_Silver"
@@ -6275,8 +6275,8 @@
   {
     "Id": 100212,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（室内战）黄金奖杯",
     "Desc": "白&黑（室内战）的黄金奖杯",
     "Icon": "My_Trophy_Shirokuro_Indoor_Gold"
@@ -6284,8 +6284,8 @@
   {
     "Id": 100213,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（室内战）铂金奖杯",
     "Desc": "白&黑（室内战）的铂金奖杯",
     "Icon": "My_Trophy_Shirokuro_Indoor_Platinum"
@@ -6293,8 +6293,8 @@
   {
     "Id": 100220,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（街区战）青铜奖杯",
     "Desc": "白&黑（街区战）的青铜奖杯",
     "Icon": "My_Trophy_Shirokuro_City_Bronze"
@@ -6302,8 +6302,8 @@
   {
     "Id": 100221,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（街区战）白银奖杯",
     "Desc": "白&黑（街区战）的白银奖杯",
     "Icon": "My_Trophy_Shirokuro_City_Silver"
@@ -6311,8 +6311,8 @@
   {
     "Id": 100222,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（街区战）黄金奖杯",
     "Desc": "白&黑（街区战）的黄金奖杯",
     "Icon": "My_Trophy_Shirokuro_City_Gold"
@@ -6320,8 +6320,8 @@
   {
     "Id": 100223,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "白&黑（街区战）铂金奖杯",
     "Desc": "白&黑（街区战）的铂金奖杯",
     "Icon": "My_Trophy_Shirokuro_City_Platinum"
@@ -6329,8 +6329,8 @@
   {
     "Id": 100310,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（室内战）青铜奖杯",
     "Desc": "希罗尼穆斯（室内战）的青铜奖杯",
     "Icon": "My_Trophy_Hieronymus_Indoor_Bronze"
@@ -6338,8 +6338,8 @@
   {
     "Id": 100311,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（室内战）白银奖杯",
     "Desc": "希罗尼穆斯（室内战）的白银奖杯",
     "Icon": "My_Trophy_Hieronymus_Indoor_Silver"
@@ -6347,8 +6347,8 @@
   {
     "Id": 100312,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（室内战）黄金奖杯",
     "Desc": "希罗尼穆斯（室内战）的黄金奖杯",
     "Icon": "My_Trophy_Hieronymus_Indoor_Gold"
@@ -6356,8 +6356,8 @@
   {
     "Id": 100313,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（室内战）铂金奖杯",
     "Desc": "希罗尼穆斯（室内战）的铂金奖杯",
     "Icon": "My_Trophy_Hieronymus_Indoor_Platinum"
@@ -6365,8 +6365,8 @@
   {
     "Id": 100320,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（街区战）青铜奖杯",
     "Desc": "希罗尼穆斯（街区战）的青铜奖杯",
     "Icon": "My_Trophy_Hieronymus_City_Bronze"
@@ -6374,8 +6374,8 @@
   {
     "Id": 100321,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（街区战）白银奖杯",
     "Desc": "希罗尼穆斯（街区战）的白银奖杯",
     "Icon": "My_Trophy_Hieronymus_City_Silver"
@@ -6383,8 +6383,8 @@
   {
     "Id": 100322,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（街区战）黄金奖杯",
     "Desc": "希罗尼穆斯（街区战）的黄金奖杯",
     "Icon": "My_Trophy_Hieronymus_City_Gold"
@@ -6392,8 +6392,8 @@
   {
     "Id": 100323,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "希罗尼穆斯（街区战）铂金奖杯",
     "Desc": "希罗尼穆斯（街区战）的铂金奖杯",
     "Icon": "My_Trophy_Hieronymus_City_Platinum"
@@ -6401,8 +6401,8 @@
   {
     "Id": 100400,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（野外战）青铜奖杯",
     "Desc": "回转 FX Mk.0（野外战）的青铜奖杯",
     "Icon": "My_Trophy_Kaiten_Outdoor_Bronze"
@@ -6410,8 +6410,8 @@
   {
     "Id": 100401,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（野外战）白银奖杯",
     "Desc": "回转 FX Mk.0（野外战）的白银奖杯",
     "Icon": "My_Trophy_Kaiten_Outdoor_Silver"
@@ -6419,8 +6419,8 @@
   {
     "Id": 100402,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（野外战）黄金奖杯",
     "Desc": "回转 FX Mk.0（野外战）的黄金奖杯",
     "Icon": "My_Trophy_Kaiten_Outdoor_Gold"
@@ -6428,8 +6428,8 @@
   {
     "Id": 100403,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（野外战）铂金奖杯",
     "Desc": "回转 FX Mk.0（野外战）的铂金奖杯",
     "Icon": "My_Trophy_Kaiten_Outdoor_Platinum"
@@ -6437,8 +6437,8 @@
   {
     "Id": 100420,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（街区战）青铜奖杯",
     "Desc": "回转 FX Mk.0（街区战）的青铜奖杯",
     "Icon": "My_Trophy_Kaiten_City_Bronze"
@@ -6446,8 +6446,8 @@
   {
     "Id": 100421,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（街区战）白银奖杯",
     "Desc": "回转 FX Mk.0（街区战）的白银奖杯",
     "Icon": "My_Trophy_Kaiten_City_Silver"
@@ -6455,8 +6455,8 @@
   {
     "Id": 100422,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（街区战）黄金奖杯",
     "Desc": "回转 FX Mk.0（街区战）的黄金奖杯",
     "Icon": "My_Trophy_Kaiten_City_Gold"
@@ -6464,8 +6464,8 @@
   {
     "Id": 100423,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "回转 FX Mk.0（街区战）铂金奖杯",
     "Desc": "回转 FX Mk.0（街区战）的铂金奖杯",
     "Icon": "My_Trophy_Kaiten_City_Platinum"
@@ -6473,8 +6473,8 @@
   {
     "Id": 100510,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（室内战）青铜奖杯",
     "Desc": "佩洛洛斯拉（室内战）的青铜奖杯",
     "Icon": "My_Trophy_Perorozilla_Indoor_Bronze"
@@ -6482,8 +6482,8 @@
   {
     "Id": 100511,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（室内战）白银奖杯",
     "Desc": "佩洛洛斯拉（室内战）的白银奖杯",
     "Icon": "My_Trophy_Perorozilla_Indoor_Silver"
@@ -6491,8 +6491,8 @@
   {
     "Id": 100512,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（室内战）黄金奖杯",
     "Desc": "佩洛洛斯拉（室内战）的黄金奖杯",
     "Icon": "My_Trophy_Perorozilla_Indoor_Gold"
@@ -6500,8 +6500,8 @@
   {
     "Id": 100513,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（室内战）铂金奖杯",
     "Desc": "佩洛洛斯拉（室内战）的铂金奖杯",
     "Icon": "My_Trophy_Perorozilla_Indoor_Platinum"
@@ -6509,8 +6509,8 @@
   {
     "Id": 100500,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（野外战）青铜奖杯",
     "Desc": "佩洛洛斯拉（野外战）的青铜奖杯",
     "Icon": "My_Trophy_Perorozilla_Outdoor_Bronze"
@@ -6518,8 +6518,8 @@
   {
     "Id": 100501,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（野外战）白银奖杯",
     "Desc": "佩洛洛斯拉（野外战）的白银奖杯",
     "Icon": "My_Trophy_Perorozilla_Outdoor_Silver"
@@ -6527,8 +6527,8 @@
   {
     "Id": 100502,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（野外战）黄金奖杯",
     "Desc": "佩洛洛斯拉（野外战）的黄金奖杯",
     "Icon": "My_Trophy_Perorozilla_Outdoor_Gold"
@@ -6536,8 +6536,8 @@
   {
     "Id": 100503,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "佩洛洛斯拉（野外战）铂金奖杯",
     "Desc": "佩洛洛斯拉（野外战）的铂金奖杯",
     "Icon": "My_Trophy_Perorozilla_Outdoor_Platinum"
@@ -6545,8 +6545,8 @@
   {
     "Id": 100620,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（街区战）青铜奖杯",
     "Desc": "霍德（街区战）的青铜奖杯",
     "Icon": "My_Trophy_Hod_City_Bronze"
@@ -6554,8 +6554,8 @@
   {
     "Id": 100621,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（街区战）白银奖杯",
     "Desc": "霍德（街区战）的白银奖杯",
     "Icon": "My_Trophy_Hod_City_Silver"
@@ -6563,8 +6563,8 @@
   {
     "Id": 100622,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（街区战）黄金奖杯",
     "Desc": "霍德（街区战）的黄金奖杯",
     "Icon": "My_Trophy_Hod_City_Gold"
@@ -6572,8 +6572,8 @@
   {
     "Id": 100623,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（街区战）铂金奖杯",
     "Desc": "霍德（街区战）的铂金奖杯",
     "Icon": "My_Trophy_Hod_City_Platinum"
@@ -6581,8 +6581,8 @@
   {
     "Id": 100710,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（室内战）青铜奖杯",
     "Desc": "格兹（室内战）的青铜奖杯",
     "Icon": "My_Trophy_Goz_Indoor_Bronze"
@@ -6590,8 +6590,8 @@
   {
     "Id": 100711,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（室内战）白银奖杯",
     "Desc": "格兹（室内战）的白银奖杯",
     "Icon": "My_Trophy_Goz_Indoor_Silver"
@@ -6599,8 +6599,8 @@
   {
     "Id": 100712,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（室内战）黄金奖杯",
     "Desc": "格兹（室内战）的黄金奖杯",
     "Icon": "My_Trophy_Goz_Indoor_Gold"
@@ -6608,8 +6608,8 @@
   {
     "Id": 100713,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（室内战）铂金奖杯",
     "Desc": "格兹（室内战）的铂金奖杯",
     "Icon": "My_Trophy_Goz_Indoor_Platinum"
@@ -6617,8 +6617,8 @@
   {
     "Id": 100610,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（室内战）青铜奖杯",
     "Desc": "霍德（室内战）的青铜奖杯",
     "Icon": "My_Trophy_Hod_Indoor_Bronze"
@@ -6626,8 +6626,8 @@
   {
     "Id": 100611,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（室内战）白银奖杯",
     "Desc": "霍德（室内战）的白银奖杯",
     "Icon": "My_Trophy_Hod_Indoor_Silver"
@@ -6635,8 +6635,8 @@
   {
     "Id": 100612,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（室内战）黄金奖杯",
     "Desc": "霍德（室内战）的黄金奖杯",
     "Icon": "My_Trophy_Hod_Indoor_Gold"
@@ -6644,8 +6644,8 @@
   {
     "Id": 100613,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "霍德（室内战）铂金奖杯",
     "Desc": "霍德（室内战）的铂金奖杯",
     "Icon": "My_Trophy_Hod_Indoor_Platinum"
@@ -6653,8 +6653,8 @@
   {
     "Id": 100810,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格里高利（室内战）青铜奖杯",
     "Desc": "格里高利（室内战）的青铜奖杯",
     "Icon": "My_Trophy_En0005_Indoor_Bronze"
@@ -6662,8 +6662,8 @@
   {
     "Id": 100811,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格里高利（室内战）白银奖杯",
     "Desc": "格里高利（室内战）的白银奖杯",
     "Icon": "My_Trophy_En0005_Indoor_Silver"
@@ -6671,8 +6671,8 @@
   {
     "Id": 100812,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格里高利（室内战）黄金奖杯",
     "Desc": "格里高利（室内战）的黄金奖杯",
     "Icon": "My_Trophy_En0005_Indoor_Gold"
@@ -6680,8 +6680,8 @@
   {
     "Id": 100813,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格里高利（室内战）铂金奖杯",
     "Desc": "格里高利（室内战）的铂金奖杯",
     "Icon": "My_Trophy_En0005_Indoor_Platinum"
@@ -6689,8 +6689,8 @@
   {
     "Id": 100700,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（野外战）青铜奖杯",
     "Desc": "格兹（野外战）的青铜奖杯",
     "Icon": "My_Trophy_Goz_Outdoor_Bronze"
@@ -6698,8 +6698,8 @@
   {
     "Id": 100701,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（野外战）白银奖杯",
     "Desc": "格兹（野外战）的白银奖杯",
     "Icon": "My_Trophy_Goz_Outdoor_Silver"
@@ -6707,8 +6707,8 @@
   {
     "Id": 100702,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（野外战）黄金奖杯",
     "Desc": "格兹（野外战）的黄金奖杯",
     "Icon": "My_Trophy_Goz_Outdoor_Gold"
@@ -6716,8 +6716,8 @@
   {
     "Id": 100703,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "格兹（野外战）铂金奖杯",
     "Desc": "格兹（野外战）的铂金奖杯",
     "Icon": "My_Trophy_Goz_Outdoor_Platinum"
@@ -6725,8 +6725,8 @@
   {
     "Id": 100900,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "气垫船（野外战）青铜奖杯",
     "Desc": "气垫船（野外战）的青铜奖杯",
     "Icon": "My_Trophy_Wakamo_Swimsuit_Outdoor_Bronze"
@@ -6734,8 +6734,8 @@
   {
     "Id": 100901,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "气垫船（野外战）白银奖杯",
     "Desc": "气垫船（野外战）的白银奖杯",
     "Icon": "My_Trophy_Wakamo_Swimsuit_Outdoor_Silver"
@@ -6743,8 +6743,8 @@
   {
     "Id": 100902,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "气垫船（野外战）黄金奖杯",
     "Desc": "气垫船（野外战）的黄金奖杯",
     "Icon": "My_Trophy_Wakamo_Swimsuit_Outdoor_Gold"
@@ -6752,8 +6752,8 @@
   {
     "Id": 100903,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "气垫船（野外战）铂金奖杯",
     "Desc": "气垫船（野外战）的铂金奖杯",
     "Icon": "My_Trophy_Wakamo_Swimsuit_Outdoor_Platinum"
@@ -6761,8 +6761,8 @@
   {
     "Id": 101020,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "黑影（街区战）青铜奖杯",
     "Desc": "黑影（街区战）的青铜奖杯",
     "Icon": "My_Trophy_EN0006_City_Bronze"
@@ -6770,8 +6770,8 @@
   {
     "Id": 101021,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "黑影（街区战）白银奖杯",
     "Desc": "黑影（街区战）的白银奖杯",
     "Icon": "My_Trophy_EN0006_City_Silver"
@@ -6779,8 +6779,8 @@
   {
     "Id": 101022,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "黑影（街区战）黄金奖杯",
     "Desc": "黑影（街区战）的黄金奖杯",
     "Icon": "My_Trophy_EN0006_City_Gold"
@@ -6788,8 +6788,8 @@
   {
     "Id": 101023,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "黑影（街区战）铂金奖杯",
     "Desc": "黑影（街区战）的铂金奖杯",
     "Icon": "My_Trophy_EN0006_City_Platinum"
@@ -6797,37 +6797,37 @@
   {
     "Id": 101100,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
-    "Name": "葛夫拉（野战）铜奖杯",
-    "Desc": "葛夫拉（野战）的荣誉铜奖杯",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
+    "Name": "格武拉（野外战）青铜奖杯",
+    "Desc": "格武拉（野外战）的青铜奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Bronze"
   },
   {
     "Id": 101101,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
-    "Name": "葛夫拉（野战）银奖杯",
-    "Desc": "葛夫拉（野战）的荣誉银奖杯",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
+    "Name": "格武拉（野外战）白银奖杯",
+    "Desc": "格武拉（野外战）的白银奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Silver"
   },
   {
     "Id": 101102,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
-    "Name": "葛夫拉（野战）黄金奖杯",
-    "Desc": "葛夫拉（野战）的荣誉黄金奖杯",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
+    "Name": "格武拉（野外战）黄金奖杯",
+    "Desc": "格武拉（野外战）的黄金奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Gold"
   },
   {
     "Id": 101103,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
-    "Name": "葛夫拉（野战）白金奖杯",
-    "Desc": "葛夫拉（野战）的荣誉白金奖杯",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
+    "Name": "格武拉（野外战）铂金奖杯",
+    "Desc": "格武拉（野外战）的铂金奖杯",
     "Icon": "My_Trophy_EN0007_Outdoor_Platinum"
   },
   {
@@ -6835,8 +6835,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "崔尼蒂西式喷泉",
-    "Desc": "崔尼蒂风格的白色喷泉。看着那晶莹的水流，便会勾起曾经美好的回忆。",
+    "Name": "圣三一西式喷泉",
+    "Desc": "圣三一风格的白色喷泉。看着那晶莹的水流，便会勾起曾经美好的回忆。",
     "Icon": "My_Event02_Trinityfountain"
   },
   {
@@ -7015,8 +7015,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "崔尼蒂风琴",
-    "Desc": "凸显崔尼蒂美感的风琴。静静凝视就感到一股神圣感。",
+    "Name": "圣三一风琴",
+    "Desc": "凸显圣三一美感的风琴。静静凝视就感到一股神圣感。",
     "Icon": "My_Event11_Turntable"
   },
   {
@@ -7394,7 +7394,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "深蓝电贝斯",
-    "Desc": "深蓝色电贝斯。虽然是支撑乐队的贝斯手，却也能为同伴身先士卒。",
+    "Desc": "深蓝色电贝斯。虽然是支撑乐团的贝斯手，却也能为同伴身先士卒。",
     "Icon": "My_Event067_Bandbaseguitarset"
   },
   {
@@ -7421,7 +7421,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "拍贴机",
-    "Desc": "吸引正值青春的学员目光的拍贴机。上面有许多装饰。",
+    "Desc": "吸引正值青春的成员目光的拍贴机。上面有许多装饰。",
     "Icon": "My_Event067_Selfphotobooth"
   },
   {
@@ -7430,7 +7430,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "传说的记录板",
-    "Desc": "记载着某传说乐队记录的白板。比名声或甜点更珍贵的是一起走过的回忆。",
+    "Desc": "记载着某传说乐团记录的白板。比名声或甜点更珍贵的是一起走过的回忆。",
     "Icon": "My_Event067_Whiteboard"
   },
   {
@@ -7556,7 +7556,7 @@
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
     "Name": "现场表演舞台",
-    "Desc": "专为三一的偶像团体“Antique Seraphim”打造的特别舞台。这个舞台的珍贵之处在于能让粉丝见到他们三人不同的一面。",
+    "Desc": "专为圣三一的偶像团体「Antique Ser行动点him」打造的特别舞台。这个舞台的珍贵之处在于能让粉丝见到他们三人不同的一面。",
     "Icon": "My_Event073_Idolstage"
   },
   {
@@ -7618,8 +7618,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "御节料理套装餐桌",
-    "Desc": "迎接新年的特别餐桌，上面摆放着豪华的御节料理。这是某位美食探索者倾注了真心的成果。",
+    "Name": "新年料理组合桌子",
+    "Desc": "为迎接新年而准备的特别餐桌，上面摆满了各式年节料理，充满心意。",
     "Icon": "My_Event077_Table_01"
   },
   {
@@ -7627,8 +7627,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "松饼下午茶餐桌",
-    "Desc": "朱莉的下午茶餐桌。时尚优雅，但偶尔可能会发生一些可怕的事情……？",
+    "Name": "松饼茶桌",
+    "Desc": "朱莉的下午茶专用桌。虽然是优雅的下午茶组，但偶尔会发生意想不到的事……",
     "Icon": "My_Event077_Table_02"
   },
   {
@@ -7636,8 +7636,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Table",
-    "Name": "急救箱白色餐桌",
-    "Desc": "濑名的餐桌，随时随地都能展开。注意不要受伤，尽量不要麻烦它。",
+    "Name": "急救箱白色桌子",
+    "Desc": "濑名的桌子，可在海滩或任何地方使用，非常实用。随时留意紧急状况。",
     "Icon": "My_Event077_Table_03"
   },
   {
@@ -7645,8 +7645,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "千禧年科技制投球机",
-    "Desc": "以直球为主，能完美投出8种以上变化球的最新机型。但它的性能与千禧年学院的棒球部的实力，似乎并不太成正比……",
+    "Name": "千禧年制投球机",
+    "Desc": "可投出直球与8种变化球的投球机。虽然性能不错，但和千禧年学园棒球部的实力似乎不太成正比……",
     "Icon": "My_Event078_Battingmachine"
   },
   {
@@ -7655,7 +7655,7 @@
     "Category": "Furnitures",
     "SubCategory": "Prop",
     "Name": "辅助引体向上机",
-    "Desc": "辅助引体向上的训练器材。当然，不用辅助直接使用也是一种锻炼方式。",
+    "Desc": "可辅助进行引体向上的健身器材。当然，不使用辅助也是一种选择。",
     "Icon": "My_Event078_Pullupmachine"
   },
   {
@@ -7663,8 +7663,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "豪华穿衣镜",
-    "Desc": "能照出全身的大镜子。平时为了防止积灰，都用白色窗帘盖着。",
+    "Name": "白色窗帘镜子",
+    "Desc": "可照出全身的大型镜子。平时会用窗帘遮盖以防灰尘。",
     "Icon": "My_Event078_Mirror"
   },
   {
@@ -7672,8 +7672,8 @@
     "Rarity": "SSR",
     "Category": "Furnitures",
     "SubCategory": "Prop",
-    "Name": "划船用人工池",
-    "Desc": "可以放小船游玩的室内人工池。静静望着平静的水面，心情自然就会平静下来。",
+    "Name": "划船用人工池塘",
+    "Desc": "可放小船游玩的室内人工池塘。望着平静水面，心情也会不自觉地平静下来。",
     "Icon": "My_Event078_Indoorpond"
   },
   {
@@ -7681,8 +7681,8 @@
     "Rarity": "SSR",
     "Category": "Decorations",
     "SubCategory": "HomeAppliance",
-    "Name": "电视录像机",
-    "Desc": "适合观看经典电影的复古电视。不支持现代大楼广播制式，但能完美播放录像带。",
+    "Name": "复古电视机",
+    "Desc": "适合观看老电影的复古电视。虽然无法收看节目，但录像带还能勉强播放。",
     "Icon": "My_Event078_Videotelevision"
   },
   {
@@ -7776,10 +7776,28 @@
     "Icon": "My_Event082_Albumcloset"
   },
   {
+    "Id": 210379,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "可疑的大釜",
+    "Desc": "煮着可疑液体的沸腾大釜。尝一口的话……说不定意外地美味？",
+    "Icon": "My_Event083_Weirdcauldron"
+  },
+  {
+    "Id": 210380,
+    "Rarity": "SSR",
+    "Category": "Furnitures",
+    "SubCategory": "Prop",
+    "Name": "魔法地毯&循环扇",
+    "Desc": "精美魔法地毯与循环扇的套装。只需静静站立就能感受到魔法效果。",
+    "Icon": "My_Event083_Magiccarpet"
+  },
+  {
     "Id": 301001,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战青铜奖杯展示柜01",
     "Desc": "可看到3种总力战首领奖杯的青铜奖杯展示柜——比纳、切赛德、白＆黑",
     "Icon": "My_Trophycabinet_Set101_Bronze"
@@ -7787,8 +7805,8 @@
   {
     "Id": 301101,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战白银奖杯展示柜01",
     "Desc": "可看到3种总力战首领奖杯的白银奖杯展示柜——比纳、切赛德、白＆黑",
     "Icon": "My_Trophycabinet_Set101_Silver"
@@ -7796,8 +7814,8 @@
   {
     "Id": 301201,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战黄金奖杯展示柜01",
     "Desc": "可看到3种总力战首领奖杯的黄金奖杯展示柜——比纳、切赛德、白＆黑",
     "Icon": "My_Trophycabinet_Set101_Gold"
@@ -7805,8 +7823,8 @@
   {
     "Id": 301301,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战铂金奖杯展示柜01",
     "Desc": "可看到3种总力战首领奖杯的铂金奖杯展示柜——比纳、切赛德、白＆黑",
     "Icon": "My_Trophycabinet_Set101_Platinum"
@@ -7814,8 +7832,8 @@
   {
     "Id": 301002,
     "Rarity": "N",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战青铜奖杯展示柜02",
     "Desc": "可看到3种总力战首领奖杯的青铜奖杯展示柜——希罗尼穆斯、回转 Fx Mk.0、佩洛洛斯拉",
     "Icon": "My_Trophycabinet_Set102_Bronze"
@@ -7823,8 +7841,8 @@
   {
     "Id": 301102,
     "Rarity": "R",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战白银奖杯展示柜02",
     "Desc": "可看到3种总力战首领奖杯的白银奖杯展示柜——希罗尼穆斯、回转 Fx Mk.0、佩洛洛斯拉",
     "Icon": "My_Trophycabinet_Set102_Silver"
@@ -7832,8 +7850,8 @@
   {
     "Id": 301202,
     "Rarity": "SR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战黄金奖杯展示柜02",
     "Desc": "可看到3种总力战首领奖杯的黄金奖杯展示柜——希罗尼穆斯、回转 Fx Mk.0、佩洛洛斯拉",
     "Icon": "My_Trophycabinet_Set102_Gold"
@@ -7841,8 +7859,8 @@
   {
     "Id": 301302,
     "Rarity": "SSR",
-    "Category": "Furnitures",
-    "SubCategory": "FurnitureEtc",
+    "Category": "Decorations",
+    "SubCategory": "Trophy",
     "Name": "总力战铂金奖杯展示柜02",
     "Desc": "可看到3种总力战首领奖杯的铂金奖杯展示柜——希罗尼穆斯、回转 Fx Mk.0、佩洛洛斯拉",
     "Icon": "My_Trophycabinet_Set102_Platinum"

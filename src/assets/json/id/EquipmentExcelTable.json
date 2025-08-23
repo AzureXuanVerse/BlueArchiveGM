@@ -188,7 +188,7 @@
     "Category": "Hat",
     "Rarity": "N",
     "Name": "蝴蝶结贝雷帽",
-    "Desc": "白色蝴蝶结贝雷帽是崔尼蒂的女生最喜欢戴的帽子。据戴过这顶帽子的人说，想让这顶贝雷帽呈现出完美的弧度比想象中要难很多。",
+    "Desc": "白色蝴蝶结贝雷帽是圣三一的女生最喜欢戴的帽子。据戴过这顶帽子的人说，想让这顶贝雷帽呈现出完美的弧度比想象中要难很多。",
     "Icon": "Equipment_Icon_Hat_Tier4"
   },
   {
@@ -292,7 +292,7 @@
     "Category": "Gloves",
     "Rarity": "N",
     "Name": "袖套",
-    "Desc": "专为同时追求手臂保护和时尚的学员设计的袖套。在换季时使用特别有效果。",
+    "Desc": "专为同时追求手臂保护和时尚的学生设计的袖套。在换时时使用特别有效果。",
     "Icon": "Equipment_Icon_Gloves_Tier7"
   },
   {
@@ -348,7 +348,7 @@
     "Category": "Shoes",
     "Rarity": "N",
     "Name": "复古漆皮豆豆鞋",
-    "Desc": "崔尼蒂的女生们喜欢穿的高级平底鞋。因涂上了瓷漆，在光线的照射下鞋尖会闪闪发光。",
+    "Desc": "圣三一的女生们喜欢穿的高级平底鞋。因涂上了瓷漆，在光线的照射下鞋尖会闪闪发光。",
     "Icon": "Equipment_Icon_Shoes_Tier4"
   },
   {
@@ -372,7 +372,7 @@
     "Category": "Shoes",
     "Rarity": "N",
     "Name": "休闲运动鞋",
-    "Desc": "设计简洁的运动鞋。重量轻巧，是活动量多的学员的最爱。",
+    "Desc": "设计简洁的运动鞋。重量轻巧，是活动量多的学生的最爱。",
     "Icon": "Equipment_Icon_Shoes_Tier7"
   },
   {
@@ -428,7 +428,7 @@
     "Category": "Bag",
     "Rarity": "N",
     "Name": "藏蓝书包",
-    "Desc": "根据崔尼蒂的规定制作的藏蓝书包。因其简洁且高级的设计，在其他地区人气也很高。",
+    "Desc": "根据圣三一的规定制作的藏蓝书包。因其简洁且高级的设计，在其他地区人气也很高。",
     "Icon": "Equipment_Icon_Bag_Tier4"
   },
   {
@@ -452,7 +452,7 @@
     "Category": "Bag",
     "Rarity": "N",
     "Name": "街头包",
-    "Desc": "休闲款设计，更加强调实用性的街头包。收纳空间大，很受学员们欢迎。",
+    "Desc": "休闲款设计，更加强调实用性的街头包。收纳空间大，很受学生们欢迎。",
     "Icon": "Equipment_Icon_Bag_Tier7"
   },
   {
@@ -484,7 +484,7 @@
     "Category": "Badge",
     "Rarity": "N",
     "Name": "薮猫金属徽章",
-    "Desc": "印有著名运动品牌“薮猫”标识的金属徽章。使用结实的金属制成，因此不用担心会被刮花。",
+    "Desc": "印有着名运动品牌“薮猫”标识的金属徽章。使用结实的金属制成，因此不用担心会被刮花。",
     "Icon": "Equipment_Icon_Badge_Tier1"
   },
   {
@@ -579,8 +579,8 @@
     "Id": 6002,
     "Category": "Hairpin",
     "Rarity": "N",
-    "Name": "桃信发夹",
-    "Desc": "带有桃信图标的桃子形状发夹。摸一摸桃子，就会散发出淡淡的桃香。",
+    "Name": "Momotalk发夹",
+    "Desc": "带有Momotalk图标的桃子形状发夹。摸一摸桃子，就会散发出淡淡的桃可。",
     "Icon": "Equipment_Icon_Hairpin_Tier3"
   },
   {
@@ -588,7 +588,7 @@
     "Category": "Hairpin",
     "Rarity": "N",
     "Name": "翅膀发夹",
-    "Desc": "奢侈品牌“维罗妮卡”以天使的翅膀为原型制作的发夹。但实际上，并不太受崔尼蒂女生们的欢迎。",
+    "Desc": "奢侈品牌“维罗妮卡”以天使的翅膀为原型制作的发夹。但实际上，并不太受圣三一女生们的欢迎。",
     "Icon": "Equipment_Icon_Hairpin_Tier4"
   },
   {
@@ -668,7 +668,7 @@
     "Category": "Charm",
     "Rarity": "N",
     "Name": "十字架",
-    "Desc": "崔尼蒂的女生们喜欢的十字架形状护身符。也适合挂在包上当装饰品。",
+    "Desc": "圣三一的女生们喜欢的十字架形状护身符。也适合挂在包上当装饰品。",
     "Icon": "Equipment_Icon_Charm_Tier4"
   },
   {
@@ -692,7 +692,7 @@
     "Category": "Charm",
     "Rarity": "N",
     "Name": "便携式除臭剂",
-    "Desc": "与功能性化妆品制造商“Seaside”联名生产的便携式除臭剂。因为设计时尚，很多学员会把它挂在钥匙圈上，当成装饰品。",
+    "Desc": "与功能性化妆品制造商“Seaside”联名生产的便携式除臭剂。因为设计时尚，很多学生会把它挂在钥匙圈上，当成装饰品。",
     "Icon": "Equipment_Icon_Charm_Tier7"
   },
   {
@@ -796,7 +796,7 @@
     "Category": "Watch",
     "Rarity": "N",
     "Name": "触控手表",
-    "Desc": "搭载触控萤幕的手表。虽然可以移植并运行各种游戏，但性能也只能达到勉强运行的水平。",
+    "Desc": "搭载触控荧幕的手表。虽然可以移植并运行各种游戏，但性能也只能达到勉强运行的水平。",
     "Icon": "Equipment_Icon_Watch_Tier10"
   },
   {
@@ -836,7 +836,7 @@
     "Category": "Necklace",
     "Rarity": "N",
     "Name": "身份牌",
-    "Desc": "刻有学员编号和名字的身份牌。是可以展现出个性的新款饰品，非常受女生欢迎。",
+    "Desc": "刻有学生编号和名字的身份牌。是可以展现出个性的新款饰品，非常受女生欢迎。",
     "Icon": "Equipment_Icon_Necklace_Tier5"
   },
   {
@@ -875,7 +875,7 @@
     "Id": 9009,
     "Category": "Necklace",
     "Rarity": "N",
-    "Name": "内存项链",
+    "Name": "存储器项链",
     "Desc": "伪装成装饰品的储存装置项链。外表看起来华丽，但内部可能藏有某些机密的东西。",
     "Icon": "Equipment_Icon_Necklace_Tier10"
   },
@@ -1251,7 +1251,7 @@
     "Id": 106002,
     "Category": "Hairpin",
     "Rarity": "N",
-    "Name": "桃信发夹设计图",
+    "Name": "Momotalk发夹设计图",
     "Desc": "可制造装备的设计图。",
     "Icon": "Equipment_Icon_Hairpin_Tier3_Piece"
   },
@@ -1523,7 +1523,7 @@
     "Id": 109009,
     "Category": "Necklace",
     "Rarity": "N",
-    "Name": "内存项链设计图",
+    "Name": "存储器项链设计图",
     "Desc": "可制作装备的设计图。",
     "Icon": "Equipment_Icon_Necklace_Tier10_Piece"
   }

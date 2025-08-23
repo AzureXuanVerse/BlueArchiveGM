@@ -36,9 +36,75 @@
     "Icon": "IdCardBg_Icon_6"
   },
   {
+    "Id": 7,
+    "Rarity": "N",
+    "Name": "阿罗娜的房间",
+    "Icon": "IdCardBg_Icon_7"
+  },
+  {
+    "Id": 8,
+    "Rarity": "N",
+    "Name": "千禧年塔屋顶",
+    "Icon": "IdCardBg_Icon_8"
+  },
+  {
+    "Id": 9,
+    "Rarity": "N",
+    "Name": "对策委员会的教室",
+    "Icon": "IdCardBg_Icon_9"
+  },
+  {
+    "Id": 10,
+    "Rarity": "N",
+    "Name": "圣三一教室",
+    "Icon": "IdCardBg_Icon_10"
+  },
+  {
+    "Id": 11,
+    "Rarity": "N",
+    "Name": "游戏开发部室",
+    "Icon": "IdCardBg_Icon_11"
+  },
+  {
+    "Id": 12,
+    "Rarity": "N",
+    "Name": "联邦学生会总部",
+    "Icon": "IdCardBg_Icon_12"
+  },
+  {
+    "Id": 13,
+    "Rarity": "N",
+    "Name": "柴关拉面店内",
+    "Icon": "IdCardBg_Icon_13"
+  },
+  {
+    "Id": 14,
+    "Rarity": "N",
+    "Name": "SRT营地",
+    "Icon": "IdCardBg_Icon_14"
+  },
+  {
+    "Id": 15,
+    "Rarity": "N",
+    "Name": "圣三一露台",
+    "Icon": "IdCardBg_Icon_15"
+  },
+  {
     "Id": 9000,
     "Rarity": "N",
     "Name": "乌特纳比斯汀主舰",
     "Icon": "IdCardBg_Icon_9000"
+  },
+  {
+    "Id": 9001,
+    "Rarity": "N",
+    "Name": "飞行器驾驶舱内部",
+    "Icon": "IdCardBg_Icon_9001"
+  },
+  {
+    "Id": 9002,
+    "Rarity": "N",
+    "Name": "命运与选择的十字路口",
+    "Icon": "IdCardBg_Icon_9002"
   }
 ]

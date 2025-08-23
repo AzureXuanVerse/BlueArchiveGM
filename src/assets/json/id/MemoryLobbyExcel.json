@@ -1,7 +1,7 @@
 [
   {
     "Id": 10000,
-    "Name": "爱露的记忆大厅",
+    "Name": "阿露的记忆大厅",
     "Icon": "Lobbyillust_Icon_Aru_01"
   },
   {
@@ -191,7 +191,7 @@
   },
   {
     "Id": 23001,
-    "Name": "风香的记忆大厅",
+    "Name": "枫香的记忆大厅",
     "Icon": "Lobbyillust_Icon_Fuuka_01"
   },
   {
@@ -381,7 +381,7 @@
   },
   {
     "Id": 10031,
-    "Name": "爱露（新年）的记忆大厅",
+    "Name": "阿露（新年）的记忆大厅",
     "Icon": "Lobbyillust_Icon_Aru_Newyear_01"
   },
   {
@@ -646,7 +646,7 @@
   },
   {
     "Id": 20022,
-    "Name": "风香（新年）的记忆大厅",
+    "Name": "枫香（新年）的记忆大厅",
     "Icon": "Lobbyillust_Icon_CH0177_01"
   },
   {
@@ -891,7 +891,7 @@
   },
   {
     "Id": 10089,
-    "Name": "爱露（礼服）的记忆大厅",
+    "Name": "阿露（礼服）的记忆大厅",
     "Icon": "Lobbyillust_Icon_CH0240_01"
   },
   {
@@ -911,17 +911,17 @@
   },
   {
     "Id": 10091,
-    "Name": "和纱（乐队）的纪念大厅",
+    "Name": "和纱（乐团）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0250_01"
   },
   {
     "Id": 16015,
-    "Name": "爱理（乐队）的纪念大厅",
+    "Name": "爱莉（乐团）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0251_01"
   },
   {
     "Id": 10092,
-    "Name": "好美（乐队）的纪念大厅",
+    "Name": "好美（乐团）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0220_01"
   },
   {
@@ -931,7 +931,7 @@
   },
   {
     "Id": 10094,
-    "Name": "桃（女仆）的纪念大厅",
+    "Name": "桃井（女仆）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0201_01"
   },
   {
@@ -976,7 +976,7 @@
   },
   {
     "Id": 10101,
-    "Name": "纱织（泳装）的纪念大厅",
+    "Name": "沙织（泳装）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0266_01"
   },
   {
@@ -1076,12 +1076,12 @@
   },
   {
     "Id": 10113,
-    "Name": "濑名（私服）的记忆大厅",
+    "Name": "濑名（私服）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0082_01"
   },
   {
     "Id": 10114,
-    "Name": "朱莉（打工）的记忆大厅",
+    "Name": "朱莉（打工）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0286_01"
   },
   {
@@ -1091,37 +1091,37 @@
   },
   {
     "Id": 20044,
-    "Name": "董（打工）的记忆大厅",
+    "Name": "堇（打工）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0287_01"
   },
   {
     "Id": 10115,
-    "Name": "丽的记忆大厅",
+    "Name": "莉的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0245_01"
   },
   {
     "Id": 10116,
-    "Name": "纱织（礼服）的记忆大厅",
+    "Name": "沙织（礼服）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0259_01"
   },
   {
     "Id": 10117,
-    "Name": "光的记忆大厅",
+    "Name": "光的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0242_01"
   },
   {
     "Id": 10118,
-    "Name": "望的记忆大厅",
+    "Name": "希望的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0243_01"
   },
   {
     "Id": 16017,
-    "Name": "青叶的记忆大厅",
+    "Name": "青叶的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0288_01"
   },
   {
     "Id": 20045,
-    "Name": "菲娜（导游）的记忆大厅",
+    "Name": "菲娜（导览员）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0257_01"
   },
   {
@@ -1178,5 +1178,15 @@
     "Id": 10122,
     "Name": "未花（泳装）的纪念大厅",
     "Icon": "Lobbyillust_Icon_CH0294_01"
+  },
+  {
+    "Id": 10125,
+    "Name": "绘里的纪念大厅",
+    "Icon": "Lobbyillust_Icon_CH0304_01"
+  },
+  {
+    "Id": 10126,
+    "Name": "鹿江的纪念大厅",
+    "Icon": "Lobbyillust_Icon_CH0306_01"
   }
 ]

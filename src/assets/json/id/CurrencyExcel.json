@@ -63,6 +63,20 @@
     "Rarity": "N"
   },
   {
+    "ID": 10,
+    "Name": "信用回收挑战券",
+    "Desc": "可以进行特别委托的挑战券。",
+    "Icon": "",
+    "Rarity": "N"
+  },
+  {
+    "ID": 11,
+    "Name": "据点防御挑战券",
+    "Desc": "可以进行特别委托的挑战券。",
+    "Icon": "",
+    "Rarity": "N"
+  },
+  {
     "ID": 12,
     "Name": "悬赏通缉\n（野外战）挑战券",
     "Desc": "可以挑战悬赏通缉的挑战券。",
@@ -78,14 +92,14 @@
   },
   {
     "ID": 14,
-    "Name": "学院交流会\n（崔尼蒂）挑战券",
+    "Name": "学院交流会\n（圣三一）挑战券",
     "Desc": "可以参加学院交流会的挑战券。",
     "Icon": "Currency_Icon_SchoolATicket",
     "Rarity": "N"
   },
   {
     "ID": 15,
-    "Name": "学院交流会\n（歌赫娜）挑战券",
+    "Name": "学院交流会\n（格黑娜）挑战券",
     "Desc": "可以参加学院交流会的挑战券。",
     "Icon": "Currency_Icon_SchoolBTicket",
     "Rarity": "N"
@@ -169,9 +183,23 @@
   },
   {
     "ID": 27,
-    "Name": "大决战（弹力装甲）入场券",
-    "Desc": "可挑战大决战（弹力装甲）的票券",
+    "Name": "大决战（弹力装甲）挑战券",
+    "Desc": "可挑战大决战（弹力装甲）的挑战券。",
     "Icon": "Currency_Icon_EliminateRaidTicketD",
+    "Rarity": "N"
+  },
+  {
+    "ID": 28,
+    "Name": "1号店招待券",
+    "Desc": "可额外邀请学生到咖啡厅1号店的票券。",
+    "Icon": "Currency_Icon_CafeStudentInvite_1",
+    "Rarity": "N"
+  },
+  {
+    "ID": 29,
+    "Name": "2号店招待券",
+    "Desc": "可额外邀请学生到咖啡厅2号店的票券。",
+    "Icon": "Currency_Icon_CafeStudentInvite_2",
     "Rarity": "N"
   }
 ]

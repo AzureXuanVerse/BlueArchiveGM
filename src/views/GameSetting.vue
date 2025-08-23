@@ -13,11 +13,12 @@
           <el-option label="设置玩家等级" value="AccountLevel"></el-option>
           <el-option label="设置玩家通知" value="Toast"></el-option>
           <el-option label="获取玩家配置" value="GetConfig"></el-option>
+          <el-option label="一键通关走格子" value="Campaign"></el-option>
         </el-select>
       </el-form-item>
 
       <!-- sub1 输入框 -->
-      <el-form-item :label="sub1Label">
+      <el-form-item v-if="showSub1" :label="sub1Label">
         <el-input
           v-model="form.sub1"
           :placeholder="sub1Placeholder"
@@ -121,6 +122,10 @@ export default {
       }
       return labelMap[this.form.type] || '参数'
     },
+    // 是否显示 sub1 输入框
+    showSub1() {
+      return this.form.type !== 'Campaign' && this.form.type !== ''
+    },
     // sub1 的占位符
     sub1Placeholder() {
       if (!this.form.type) {
@@ -167,7 +172,7 @@ export default {
         this.$message.error('请填写UID和类型')
         return
       }
-      if (this.form.type !== 'GetConfig' && !this.form.sub1) {
+      if (this.showSub1 && !this.form.sub1) {
         this.$message.error('请填写完整信息')
         return
       }
@@ -177,8 +182,10 @@ export default {
         const params = {
           cmd: 'set',
           uid: this.form.uid,
-          type: this.form.type,
-          sub1: this.form.sub1
+          type: this.form.type
+        }
+        if (this.showSub1) {
+          params.sub1 = this.form.sub1
         }
         
         const config = { params }

@@ -13,9 +13,9 @@
         <h2>关于 BlueArchiveGM</h2>
       </div>
       <div class="about-content">
-        <p><strong>版本：</strong> 1.0.6</p>
+        <p><strong>版本：</strong> 1.0.9</p>
         <p><strong>开发者：</strong> 
-          <a href="https://github.com/KitanoSakurana" target="_blank">KitanoSakura（北野桜奈）</a> 
+          <a href="https://github.com/KitanoSakurana" target="_blank">KitanoSakura（北野桜奈）呜呜~ 北野罢工了啦</a>
           <a href="https://github.com/AzureXuanVerse" target="_blank">AzureXuanVerse</a>
         </p>
         <p>
@@ -66,7 +66,18 @@
         <div class="timeline-item">
           <div class="timeline-icon"></div>
           <div class="timeline-content">
-            <h4>2025-07-11</h4>
+            <h4>2025-08-23</h4>
+            <p>
+              1.0.9
+              同步更新资源至1.60
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon"></div>
+          <div class="timeline-content">
+            <h4>2025-07-23</h4>
             <p>
               1.0.8
               同步更新资源至1.59

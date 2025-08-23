@@ -10,7 +10,7 @@
     "Id": 2,
     "Category": "Default",
     "Rarity": "N",
-    "Name": "沙勒的老师",
+    "Name": "夏莱的老师",
     "Icon": "Emblem_BG_Default"
   },
   {
@@ -259,6 +259,13 @@
     "Icon": "Emblem_BG_Group"
   },
   {
+    "Id": 1003601,
+    "Category": "GroupStory",
+    "Rarity": "R",
+    "Name": "茶话会顾问",
+    "Icon": "Emblem_BG_Group"
+  },
+  {
     "Id": 1011020,
     "Category": "MainStory",
     "Rarity": "SR",
@@ -388,14 +395,14 @@
     "Id": 190000160,
     "Category": "MainStory",
     "Rarity": "SR",
-    "Name": "第5名预言者",
+    "Name": "第5位先知",
     "Icon": "Emblem_BG_SpecialOperation_1_1_1"
   },
   {
     "Id": 190001210,
     "Category": "MainStory",
     "Rarity": "SR",
-    "Name": "最后的职责",
+    "Name": "最后的义务",
     "Icon": "Emblem_BG_SpecialOperation_1_2_1"
   },
   {
@@ -430,7 +437,7 @@
     "Id": 3000701,
     "Category": "MainStory",
     "Rarity": "SR",
-    "Name": "特殊作战・神名十文字篇",
+    "Name": "特殊作战・十字神名篇",
     "Icon": "Emblem_BG_Event_701_Jp"
   },
   {
@@ -444,14 +451,14 @@
     "Id": 3000833,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "向阳前行 她们的小夜曲",
+    "Name": "阳光绽放 她们的小夜曲",
     "Icon": "Emblem_BG_Event_833_Jp"
   },
   {
     "Id": 3000834,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "来自歌剧 0068 的满腔爱意！",
+    "Name": "0068 来自歌剧的爱情！",
     "Icon": "Emblem_BG_Event_834_Jp"
   },
   {
@@ -521,21 +528,21 @@
     "Id": 3000844,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "疫饼危机",
+    "Name": "异饼危机",
     "Icon": "Emblem_BG_Event_844_Jp"
   },
   {
     "Id": 3000845,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "开球！",
+    "Name": "Pray-Ball!",
     "Icon": "Emblem_BG_Event_845_Jp"
   },
   {
     "Id": 3000846,
     "Category": "Event",
     "Rarity": "SR",
-    "Name": "海兰德铁道暴走事件",
+    "Name": "海兰德铁道爆走事件",
     "Icon": "Emblem_BG_Event_846_Jp"
   },
   {
@@ -551,6 +558,13 @@
     "Rarity": "SR",
     "Name": "夏日晴空的约定",
     "Icon": "Emblem_BG_Event_848_Jp"
+  },
+  {
+    "Id": 3000849,
+    "Category": "Event",
+    "Rarity": "SR",
+    "Name": "我们是超自然研究会！",
+    "Icon": "Emblem_BG_Event_849_Jp"
   },
   {
     "Id": 5100001,
@@ -3157,6 +3171,48 @@
     "Icon": "Emblem_BG_Favor_100"
   },
   {
+    "Id": 5101251,
+    "Category": "Favor",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_20"
+  },
+  {
+    "Id": 5101252,
+    "Category": "Favor",
+    "Rarity": "SR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_50"
+  },
+  {
+    "Id": 5101253,
+    "Category": "Favor",
+    "Rarity": "SSR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_100"
+  },
+  {
+    "Id": 5101261,
+    "Category": "Favor",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_20"
+  },
+  {
+    "Id": 5101262,
+    "Category": "Favor",
+    "Rarity": "SR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_50"
+  },
+  {
+    "Id": 5101263,
+    "Category": "Favor",
+    "Rarity": "SSR",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Favor_100"
+  },
+  {
     "Id": 5130001,
     "Category": "Favor",
     "Rarity": "R",
@@ -5491,84 +5547,84 @@
     "Id": 6021021,
     "Category": "Boss",
     "Rarity": "N",
-    "Name": "击破气垫船（野战）！2024",
+    "Name": "击败气垫船（野外战）！2025",
     "Icon": "Emblem_BG_Boss_N"
   },
   {
     "Id": 6021022,
     "Category": "Boss",
     "Rarity": "R",
-    "Name": "击破气垫船（野战）！2024",
+    "Name": "击败气垫船（野外战）！2025",
     "Icon": "Emblem_BG_Boss_R"
   },
   {
     "Id": 6021023,
     "Category": "Boss",
     "Rarity": "SR",
-    "Name": "击破气垫船（野战）！2024",
+    "Name": "击败气垫船（野外战）！2025",
     "Icon": "Emblem_BG_Boss_SR"
   },
   {
     "Id": 6021024,
     "Category": "Boss",
     "Rarity": "SSR",
-    "Name": "击破气垫船（野战）！2024",
+    "Name": "击败气垫船（野外战）！2025",
     "Icon": "Emblem_BG_Boss_SSR"
   },
   {
     "Id": 6020621,
     "Category": "Boss",
     "Rarity": "N",
-    "Name": "击破佩洛洛斯拉（野战）！2025",
+    "Name": "击败佩洛洛斯拉（野外战）！2025",
     "Icon": "Emblem_BG_Boss_N"
   },
   {
     "Id": 6020622,
     "Category": "Boss",
     "Rarity": "R",
-    "Name": "击破佩洛洛斯拉（野战）！2025",
+    "Name": "击败佩洛洛斯拉（野外战）！2025",
     "Icon": "Emblem_BG_Boss_R"
   },
   {
     "Id": 6020623,
     "Category": "Boss",
     "Rarity": "SR",
-    "Name": "击破佩洛洛斯拉（野战）！2025",
+    "Name": "击败佩洛洛斯拉（野外战）！2025",
     "Icon": "Emblem_BG_Boss_SR"
   },
   {
     "Id": 6020624,
     "Category": "Boss",
     "Rarity": "SSR",
-    "Name": "击破佩洛洛斯拉（野战）！2025",
+    "Name": "击败佩洛洛斯拉（野外战）！2025",
     "Icon": "Emblem_BG_Boss_SSR"
   },
   {
     "Id": 6020511,
     "Category": "Boss",
     "Rarity": "N",
-    "Name": "回转者城镇战击破！2025",
+    "Name": "击败回转者（街区战）！2025",
     "Icon": "Emblem_BG_Boss_N"
   },
   {
     "Id": 6020512,
     "Category": "Boss",
     "Rarity": "R",
-    "Name": "回转者城镇战击破！2025",
+    "Name": "击败回转者（街区战）！2025",
     "Icon": "Emblem_BG_Boss_R"
   },
   {
     "Id": 6020513,
     "Category": "Boss",
     "Rarity": "SR",
-    "Name": "回转者城镇战击破！2025",
+    "Name": "击败回转者（街区战）！2025",
     "Icon": "Emblem_BG_Boss_SR"
   },
   {
     "Id": 6020514,
     "Category": "Boss",
     "Rarity": "SSR",
-    "Name": "回转者城镇战击破！2025",
+    "Name": "击败回转者（街区战）！2025",
     "Icon": "Emblem_BG_Boss_SSR"
   },
   {
@@ -5687,28 +5743,28 @@
     "Id": 7000009,
     "Category": "MultiFloorRaid",
     "Rarity": "SR",
-    "Name": "提法瑞斯",
+    "Name": "TIPHARETH",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0011"
   },
   {
     "Id": 7000010,
     "Category": "MultiFloorRaid",
     "Rarity": "SSR",
-    "Name": "提法瑞斯",
+    "Name": "TIPHARETH",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0011"
   },
   {
     "Id": 7000011,
     "Category": "MultiFloorRaid",
     "Rarity": "SR",
-    "Name": "TIPHARETH",
+    "Name": "提法瑞斯",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0011"
   },
   {
     "Id": 7000012,
     "Category": "MultiFloorRaid",
     "Rarity": "SSR",
-    "Name": "TIPHARETH",
+    "Name": "提法瑞斯",
     "Icon": "Emblem_BG_MultiFloorRaid_EN0011"
   },
   {
@@ -6580,6 +6636,20 @@
     "Icon": "Emblem_BG_Potential_25"
   },
   {
+    "Id": 8101251,
+    "Category": "Potential",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Potential_25"
+  },
+  {
+    "Id": 8101261,
+    "Category": "Potential",
+    "Rarity": "R",
+    "Name": "{0}",
+    "Icon": "Emblem_BG_Potential_25"
+  },
+  {
     "Id": 8130001,
     "Category": "Potential",
     "Rarity": "R",
@@ -7332,7 +7402,7 @@
     "Id": 9000000,
     "Category": "Etc_Anniversary",
     "Rarity": "SSR",
-    "Name": "3rd ANNIVERSARY",
+    "Name": "3nd ANNIVERSARY",
     "Icon": "Emblem_BG_Etc_001"
   },
   {
