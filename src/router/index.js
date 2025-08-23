@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHistory, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import GiveAll from '../views/GiveAll.vue'
 import GetPlayer from '../views/GetPlayer.vue'
